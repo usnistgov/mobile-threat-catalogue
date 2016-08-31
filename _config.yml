@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MDS Threat Catalogue
+title: Mobile Threat Catalogue
 email: akeller@mitre.org
 description: > # Mobile devices pose a unique set of threats to the enterprise, but typical enterprise protections fail to address the larger picture.
     In order to fully address the threats mobile devices bring, a wider view of the mobile ecosystem is necessary.
     This document contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.
     An associated report describing this document is available at NIST's Computer Security Resource Center at http://csrc.nist.gov
-baseurl: "/mds-threat-catalogue" # the subpath of your site, e.g. /blog
+baseurl: "/mobile-threat-catalogue" # the subpath of your site, e.g. /blog
 url: "http://mrdrewkeller.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  mrdrewkeller
