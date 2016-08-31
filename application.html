@@ -1,0 +1,73 @@
+---
+layout: page
+title: Application
+permalink: /application/
+---
+
+<div class="home">
+
+    <h1 class="page-heading">Application</h1>
+    <div class="table-responsive-vertical shadow-z-1">
+    <table id="table" class="table table-hover table-mc-light-blue">
+        <tr>
+            <th>Threat Category</th>
+            <th>Threat</th>
+            <th>Threat Origin</th>
+            <th>Exploit Example</th>
+            <th>CVE Example</th>
+            <th>Tactic Category</th>
+            <th>Possible Countermeasures</th>
+            <th>Modify Exisiting Threat</th>
+            <th>Additional Notes</th>
+        </tr>
+        {% for application in site.data.applications %}
+            <tr>
+                <td data-title="ThreatCategory">{{ application.ThreatCategory }}</td>
+                <td data-title="Threat">{{ application.Threat }}</td>
+
+                <td data-title="ThreatOrigin">
+                    <ul>
+                    {% for ThreatOrigin in application.ThreatOrigin %}
+                            <li>{{ ThreatOrigin }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+
+                <td data-title="ExploitExample">
+                    <ul>
+                    {% for ExploitExample in application.ExploitExample %}
+                            <li>{{ ExploitExample }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+
+                <td data-title="CVEExample">
+                    <ul>
+                    {% for CVEExample in application.CVEExample %}
+                            <li>{{ CVEExample }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+
+                <td data-title="TacticCategory">
+                    <ul>
+                    {% for TacticCategory in application.TacticCategory %}
+                            <li>{{ TacticCategory }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+
+                <td data-title="PossibleCountermeasures">
+                    <ul>
+                    {% for PossibleCountermeasures in application.PossibleCountermeasures %}
+                            <li>{{ PossibleCountermeasures }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+
+            </tr>
+        {% endfor %}
+</table>
+</div>
+
+</div>
