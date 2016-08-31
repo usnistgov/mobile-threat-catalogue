@@ -6,3 +6,13 @@
 @import "hyde";
 @import "poole";
 @import "syntax";
+
+.threat-list {
+    li {
+        margin: 1em;
+        font-size: 1.5em;
+        list-style: none;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #b4cfda;
+    }
+}
