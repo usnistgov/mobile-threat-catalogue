@@ -1,0 +1,506 @@
+---
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Network eavesdropping on cleartext application or device traffic
+    ThreatOrigin:
+        - "https://www.nowsecure.com/blog/2015/06/16/remote-code-execution-as-system-user-on-Samsung-phones/"
+        - "https://www.nowsecure.com/blog/2016/01/06/insecurity-cameras-and-mobile-apps-surveillance-or-exposure/"
+        - "https://jon.oberheide.org/files/shmoo11-teamjoch.pdf#54"
+        - "https://www.wandera.com/resources/dl/TA_The_Fork.pdf"
+        - "https://www.wandera.com/resources/dl/TA_CardCrypt.pdf"
+        - "https://www.wandera.com/resources/dl/TA_CBS.pdf"
+    ExploitExample:
+    CVEExample: CVE-2015-4640
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "iOS App Transport Security feature, Android uses Cleartext Traffic or Network Security Policy features."
+        - "App vetting tools/services that can detect these vulnerabilities in apps."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Man-in-the-middle eavesdropping on an application improperly authenticating server when connecting
+    ThreatOrigin: "Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices (Skycure)"
+    ExploitExample:
+        - "Fahl et al. (October 2012). Why Eve and Mallory Love Android: An Analysis of Android\nSSL (In)Security. ACM CCS '12."
+        - "Sounthiraraj et al. (February 2014). Large Scale, Automated Detection of SSL/TLS Manin-\nthe-Middle Vulnerabilities in Android Apps. NDSS '14."
+        - "(August 2014). SSL Vulnerabilities: Who listens when Android applications talk?\nFireEye. Available: https://www.fireeye.com/blog/threat-research/2014/08/sslvulnerabilities-\nwho-listens-when-android-applications-talk.html"
+        - "Montelibano and Dormann. How We Discovered Thousands of Vulnerable Android Apps\nin One Day. RSA Conference USA 2015. Available:\nhttps://www.rsaconference.com/writable/presentations/file_upload/hta-t08-how-wediscovered-\nthousands-of-vulnerable-android-apps-in-1-day_final.pdf"
+        - "https://www.ftc.gov/news-events/press-releases/2014/03/fandango-credit-karma-settle-ftc-charges-they-deceived-consumers"
+    CVEExample: "iOS Example: CVE-2016-3664 Android Example: CVE-2014-5618"
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Android Network Security Policy feature, certificate pinning."
+        - "App vetting tools/services or pen testing to detect these vulnerabilities in apps."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Storing files with insecure file permissions or in an unprotected location on the device
+    ThreatOrigin:
+    ExploitExample:
+        - "http://www.androidpolice.com/2011/04/14/exclusive-vulnerability-in-skype-for-android-is-exposing-your-name-phone-number-chat-logs-and-a-lot-more/"
+        - "J. Van Dyke. (10 August 2015). World Writable Code Is Bad, MMMMKAY. NowSecure.\nAvailable: https://www.nowsecure.com/blog/2015/08/10/world-writable-code-is-badmmmmkay/"
+        - "https://blog.lookout.com/look-11-001/"
+    CVEExample: CVE-2011-1717
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "App vetting tools/services or pen testing to detect these vulnerabilities in apps."
+        - "Android N has new behavior to improve the protections given to the internal storage directories of applications."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: "Developer unintentionally writing sensitive information (e.g. passwords) to system logs"
+    ThreatOrigin:
+    ExploitExample:
+    CVEExample:
+        - "Android example: CVE-2012-2630"
+        - "iOS example: CVE-2014-0647"
+    TacticCategory: "Execution Credential Access"
+    PossibleCountermeasures:
+        - "Avoid logging sensitive data."
+        - "Starting in Android 4.1, this requires privilege escalation, as apps can no longer access the system log (other than reading log entries added by the app itself)."
+        - "CTS includes tests that check for the presence of potentially sensitive information in the system logs."
+        - "https://source.android.com/security/overview/implement.html"
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Business or personal need to use a vulnerable app or device for which a patch is not yet available or had not yet been installed
+    ThreatOrigin: "Quadroot"
+    ExploitExample: "Quadroot https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Adam-Donenfeld-Stumping-The-Mobile-Chipset.pdf"
+    CVEExample:
+        - CVE-2016-5340
+        - CVE-2016-2059
+        - CVE-2016-2503
+        - CVE-2016-2504
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Monitor devices for apps that are no longer present in the app stores and hence are no longer supported by the developer."
+        - "Use iOS and Android runtime permission features to remove risky permissions (e.g. GPS access, contact list access, etc.) from unsupported apps or apps with known vulnerabilities."
+        - "Monitor devices for apps with known vulnerabilities and require enterprise users remove the app (blacklist the app)."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Malicious code or exploit accidentally downloaded by visiting a URL (i.e., Drive by download)
+    ThreatOrigin:
+        - "https://www.bluecoat.com/security-blog/2016-04-25/android-exploit-delivers-dogspectus-ransomware"
+        - "https://jailbreakme.qoid.us/"
+    ExploitExample: "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/commit/?id=11d65e8a1f1f14e56148fd991965424d9bd1cdbc"
+    CVEExample:
+        - CVE-2010-1797
+        - CVE-2010-2973
+    TacticCategory:
+    PossibleCountermeasures:
+        - "Ensure security updates are installed promptly in response to discovered vulnerabilities."
+        - "Use built-in browser features or third-party products to identify and avoid known malicious web pages."
+        - "Use a proxy or VPN for all web traffic and identify and block connections to known malicious web pages."
+        - "User education"
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Use of insecure third-party library (e.g. advertisement library, library with known vulnerabilities)
+    ThreatOrigin:
+        - "https://www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/"
+        - "Grace, et al. Unsafe Exposure Analysis of Mobile In-App Advertisements. WiSec '12. http://www4.ncsu.edu/~mcgrace/WISEC12_ADRISK.pdf"
+    ExploitExample:
+    CVEExample: CVE-2014-9333
+    TacticCategory:
+    PossibleCountermeasures:
+        - "App vetting or threat intelligence services that detect use of libraries with known vulnerabilities"
+        - "Automated app store checks for use of libraries with known vulnerabilities (e.g. the Google Play App Security Improvement Program)"
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: Insecurely exposed application components (e.g. exported Android broadcast receivers, services, activities, or content providers)
+    ThreatOrigin:
+        - "https://www.nowsecure.com/blog/2013/10/04/ebay-for-android-content-provider-injection-vulnerability/"
+        - "https://github.com/thomascannon/android-sms-spoof and https://www.csc.ncsu.edu/faculty/jiang/smishing.html"
+    ExploitExample: "https://www.mozilla.org/en-US/security/advisories/mfsa2016-41/"
+    CVEExample: "Android example: CVE-2016-2810"
+    TacticCategory:
+    PossibleCountermeasures:
+        - "App vetting tools that detect these vulnerabilities"
+        - "Use personal/enterprise app separation features (e.g. Android for Work or Samsung KNOX Workspace) so that vulnerabilities in an enterprise app cannot be exploited by a personal app or vice versa."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: "Android: Remote code execution by injecting JavaScript into a web page retrieved using WebView, particularly if cleartext http is used instead of https, or if https certificate validation or hostname verification was disabled."
+    ThreatOrigin:
+        - "https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/"
+        - "https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=129859614"
+        - "https://labs.bromium.com/2014/07/31/remote-code-execution-on-android-devices/comment-page-1/"
+    ExploitExample:
+        - "https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/"
+        - "https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=129859614"
+        - "https://labs.bromium.com/2014/07/31/remote-code-execution-on-android-devices/comment-page-1/"
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures:
+        - "App vetting tools that detect these vulnerabilities."
+        - "Use of https URLs for WebView content."
+        - "Avoid enabling the WebView JavaScript bridge (with addJavascriptInterface) unless explicitly needed."
+        - "Use a proxy or VPN for connections to decrease the chance of success of a man-in-the-middle attack."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: "Insecure backend web servers relied upon by mobile apps"
+    ThreatOrigin:
+    ExploitExample: "https://packetstormsecurity.com/files/130316/WordPress-Mobile-Domain-1.5.2-Cross-Site-Request-Forgery-Cross-Site-Scripting.html"
+    CVEExample: CVE-2015-1581
+    TacticCategory:
+    PossibleCountermeasures: "Follow best practices for server security, for example as described in https://www.owasp.org/index.php/Mobile_Top_10_2014-M1"
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: "Poorly implemented cryptography in mobile apps (e.g., hardcoded cryptographic keys, use of insecure cryptographic algorithms)"
+    ThreatOrigin: "OWASP Top 10 Mobile - M5 Insufficient Cryptography (2016)"
+    ExploitExample:
+        - "https://blog.appknox.com/major-bug-in-ola-app-can-make-you-either-rich-or-poor/"
+        - "http://www.security-assessment.com/files/documents/advisory/Fortinet_FortiClient_Multiple_Vulnerabilities.pdf"
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures: "Follow best practices for implementing cryptography in mobile apps."
+-
+    ThreatCategory: Vulnerable Applications
+    Threat: "Having an application rely on untrusted data for security decisions"
+    ThreatOrigin: "OWASP Top 10 Mobile -M8 (2014)"
+    ExploitExample: "Pages 59-65 of https://jon.oberheide.org/files/shmoo11-teamjoch.pdf#59"
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures:
+-
+    ThreatCategory:
+    Threat: "Gathering device information that could be used to target further attacks or determine appropriate methods of privilege escalation, such as persistent identifiers (phone number, IMEI, IMSI, MAC addresses), operating system and device hardware information, or list of installed applications (i.e., data collection)"
+    ThreatOrigin: "https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_PHA_classifications.pdf"
+    ExploitExample: "https://www.fireeye.com/blog/threat-research/2015/12/slembunk_an_evolvin.html"
+    CVEExample:
+    TacticCategory:
+        - "Host Enumeration"
+        - "Defense Evasion"
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Gathering sensitive personal or enterprise information such as contact list, call log, calendar information by invoking standard operating system (e.g. Android or iOS) APIs."
+    ThreatOrigin: "https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_PHA_classifications.pdf"
+    ExploitExample:
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors."
+-
+    ThreatCategory:
+    Threat: "Repackaging or impersonating a benign app, such as an online banking app, to contain malicious functionality (i.e., trojan)"
+    ThreatOrigin: "https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_PHA_classifications.pdf Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices\nY. Zhou and X. Jiang. Dissecting Android Malware: Characterization and Evolution. IEEE Symposium on Security and Privacy 2012."
+    ExploitExample:
+        - "http://researchcenter.paloaltonetworks.com/2015/07/new-android-malware-family-evades-antivirus-detection-by-using-popular-ad-libraries/"
+        - "https://www.fireeye.com/blog/threat-research/2015/12/slembunk_an_evolvin.html"
+        - "https://www.nowsecure.com/resources/mobile-incident-response/en/case-studies/unauthorized-app-discovered.html"
+        - "https://www.lookout.com/resources/top-threats/bankmirage"
+    CVEExample:
+    TacticCategory:
+        - Delivery
+        - Defense Evasion
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors."
+-
+    ThreatCategory:
+    Threat: "Distribution of malicious apps outside of a controlled app store"
+    ThreatOrigin:
+        - "Mobile Security Threats and Countermeasures (MobileIron)"
+        - "https://blog.lookout.com/blog/2015/09/10/ios-9-sideloading/"
+    ExploitExample:
+        - "Abusing Apple iOS enterprise distribution certificate to sign and distribute malicious apps"
+        - "https://blog.lookout.com/blog/2015/07/10/hacking-team/"
+        - "http://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-update-ios-espionage-app-found/"
+        - "http://researchcenter.paloaltonetworks.com/2014/11/wirelurker-new-era-os-x-ios-malware/"
+    CVEExample:
+    TacticCategory: Deliver
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores, including use of the Android device setting that prevents installation of apps from non-Google Play Store sources and use of the iOS allowEnterpriseAppTrust and allowEnterpriseAppTrustModification configuration profile restrictions"
+        - "Ensure iOS devices are running the latest version of iOS, as iOS 9 introduces improvements to make it more difficult for users to inadvertently install non-Apple App Store apps (e.g. apps distributed using illicitly obtained enterprise certificates)"
+        - "Use Android Verify Apps feature to identify harmful apps"
+-
+    ThreatCategory:
+    Threat: "Sending premium SMS messages without user authorization (i.e., SMS fraud)"
+    ThreatOrigin: "Y. Zhou and X. Jiang. Dissecting Android Malware: Characterization and Evolution. IEEE Symposium on Security and Privacy 2012."
+    ExploitExample:
+        - "zSone, RogueSPPush, GGTracker malware described in Zhou paper"
+        - "http://www.theinquirer.net/inquirer/news/2425201/mkero-android-malware-secretly-subscribes-victims-to-premium-sms-services"
+        - "http://www.zdnet.com/article/Chinese-android-botnet-netting-millions-says-symantec/"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Ensure Android devices are running a recent version of Android, as starting in Android 4.2, user confirmation is needed before apps can send premium SMSs (source: https://source.android.com/security/enhancements/enhancements42.html)"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Capturing received SMS messages without user authorization, for example to obtain authentication codes sent as part of multi-factor authentication"
+    ThreatOrigin: "Y. Zhou and X. Jiang. Dissecting Android Malware: Characterization and Evolution. IEEE Symposium on Security and Privacy 2012."
+    ExploitExample:
+        - "Zitmo malware as described in Zhou paper"
+        - "http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/"
+        - "http://www.vvdveen.com/publications/BAndroid.pdf"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Malicious app that subscribes to mobile carrier-provided premium services without user authorization (i.e., WAP Fraud)"
+    ThreatOrigin: "Google - Android Security 2015 Year In Review"
+    ExploitExample:
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Surreptitiously recording via camera and/or microphone. This can be done using standard operating system APIs."
+    ThreatOrigin:
+    ExploitExample: "http://arstechnica.com/security/2014/03/malware-designed-to-take-over-cameras-and-record-audio-enters-google-play/"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Downloading and executing dynamic code after installation to evade app vetting / app store review."
+    ThreatOrigin: "On Android, dynamic code could include native code, Dalvik code, or JavaScript code using the Android WebView JavascriptInterface capability. On iOS, techniques for introducing dynamic code include JSPatch and method swizzling, as well as the method described by Wang et al. to construct malicious logic at app runtime."
+    ExploitExample:
+        - "J. Oberheide. (June 2010). Android Hax. Summercon 10. Available: https://jon.oberheide.org/files/summercon10-androidhax-jonoberheide.pdf"
+        - "Poeplau et al. (February 2014). Execute This! Analyzing Unsafe and Malicious Dynamic\nCode Loading in Android Applications. NDSS '14."
+        - "Alleged Hacking Team Android source code. (Accessed 9 November 2015). Available:"
+        - "https://github.com/hackedteam/core-android-market"
+        - "https://github.com/hackedteam/core-android/tree/master/RCSAndroid/jni"
+        - "JSPatch: https://www.fireeye.com/blog/threat-research/2016/01/hot_or_not_the_bene.html"
+        - "method swizzling: http://nshipster.com/method-swizzling/"
+        - "https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_wang-updated-8-23-13.pdf"
+    CVEExample:
+    TacticCategory: Defense Evasion
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify potentially inappropriate behaviors by apps including dynamic code execution practices"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Embedding malicious code within app in encrypted or obfuscated form, then decrypting or deobfuscating and executing at runtime to evade app vetting"
+    ThreatOrigin: "Y. Zhou and X. Jiang. Dissecting Android Malware: Characterization and Evolution. IEEE Symposium on Security and Privacy 2012."
+    ExploitExample: "DroidKungFu malware as described in Zhou paper"
+    CVEExample:
+    TacticCategory: Defense Evasion
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify potentially inappropriate behaviors by apps including dynamic code execution or reflection practices"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Android : An application can request Device Administrator access and use it to make it more difficult for the user to remove the application."
+    ThreatOrigin:
+    ExploitExample:
+    CVEExample:
+    TacticCategory: Persistence
+    PossibleCountermeasures:
+        - "Ensure Android devices are running a recent version of the operating system. As described at 44:20 in the Google I/O 2016 - What\'s new in Android security (https://www.youtube.com/watch?v=XZzLjllizYs)"
+        - "enhancements were made in Android M or N to ensure that all device admin apps can be uninstalled."
+-
+    ThreatCategory:
+    Threat: "Android: Abuse of device administrator access, for example to lock the user out of his or her own device or wipe the device contents (Ransomware technique)"
+    ThreatOrigin:
+    ExploitExample: "Android:\nhttp://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify potentially inappropriate behaviors by apps including requests for device administrator access"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        - "Ensure Android devices are running a recent version of the operating system, and ensure that devices have their screen locks enabled with a PIN/password already set, because starting in Android N, device administrator apps can no longer change the device PIN/password when one is already set, as described in https://developer.android.com/preview/behavior-changes.html and at 44:20 of https://www.youtube.com/watch?v=XZzLjllizYs "
+-
+    ThreatCategory:
+    Threat: "Surreptitiously reporting the physical location (e.g. using GPS or other means) of the device through programmatic means by invoking standard APIs."
+    ThreatOrigin:
+    ExploitExample:
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps for access to the device's physical location"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Taking advantage of already rooted/jailbroken device''s degraded security state to perform malicious action or obtain a persistent presence"
+    ThreatOrigin:
+    ExploitExample: "https://nakedsecurity.sophos.com/2009/11/24/clean-up-iPhone-worm/"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including abuse of a device's rooted/jailbroken state"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        - "Perform device integrity checking within enterprise applications, such as use of Android's SafetyNet device integrity attestation API"
+-
+    ThreatCategory:
+    Threat: "Escalating privileges on device using OS or other lower-level vulnerability to perform a malicious action or obtain a persistent presence"
+    ThreatOrigin: "Y. Zhou and X. Jiang. Dissecting Android Malware: Characterization and Evolution. IEEE Symposium on Security and Privacy 2012."
+    ExploitExample: "Numerous examples in Dissecting Android Malware: Characterization and Evolution"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inclusion of exploit code or inappropriate behaviors by apps including privilege escalation attempts"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Maintaining persistence of malicious code or unauthorized privileged access across device resets by using escalated privileges to write to system partitions, Trusted Execution Environment, bootloader, or other lower-level component that is typically not erased during a device reset"
+    ThreatOrigin:
+    ExploitExample: "https://blog.lookout.com/blog/2016/01/06/brain-test-re-emerges/"
+    CVEExample:
+    TacticCategory: Persistence
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inclusion of exploit code or inappropriate behaviors by apps including privilege escalation attempts"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        - "Perform device integrity checking within enterprise applications, such as use of Android's SafetyNet device integrity attestation API"
+        - "Ensure that enterprise mobile devices include and utilize secure boot capabilities that verify the integrity of the device"
+-
+    ThreatCategory:
+    Threat: "Encrypting, or preventing access to, user data (e.g. photos and similar files that are accessible to all installed apps) until a payment is made, or some other condition met (i.e., Ransomware)"
+    ThreatOrigin:
+    ExploitExample: "Android: http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/"
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inclusion of exploit code or inappropriate behaviors by apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat:
+        - "Command-and-control using built-in encrypted channels such as Google Cloud Messaging or Apple Push Notification Service that will not stand out as unusual traffic."
+        - "On Android, GCM can be used for two-way communication. On iOS, APNS can be used for one-way communication (server to device)."
+    ThreatOrigin:
+    ExploitExample:
+        - "https://securelist.com/analysis/kaspersky-security-bulletin/58335/mobile-malware-evolution-2013/"
+        - "https://iseclab.org/media/uploads/zotero/DroydSeuss_Coletta_et_al_2016.pdf"
+    CVEExample:
+    TacticCategory: Command and Control
+    PossibleCountermeasures:
+-
+    ThreatCategory:
+    Threat: "Data exfiltration or command-and-control through non-enterprise controlled network or other out-of-band channel (e.g. cellular data, SMS) to avoid enterprise network monitoring"
+    ThreatOrigin: "Y. Zhou and X. Jiang. Dissecting Android Malware: Characterization and Evolution. IEEE Symposium on Security and Privacy 2012."
+    ExploitExample: "zSone malware as described in Zhou paper"
+    CVEExample:
+    TacticCategory:
+        - "Exfiltration"
+        - "Command and Control"
+    PossibleCountermeasures:
+-
+    ThreatCategory:
+    Threat: "Impersonating a legitimate credential entry prompt in order to trick the user into entering credentials into an app controlled by an attacker."
+    ThreatOrigin:
+        - "Android: Adrienne Porter Felt and David Wagner in \"Phishing on Mobile Devices\", Web 2.0 Security and Privacy 2011 (May 2011)"
+        - "http://conference.hitb.org/hitbsecconf2011kul/materials/D1T1%20-%20Riley%20Hassell%20-%20Exploiting%20Androids%20for%20Fun%20and%20Profit.pdf#14"
+        - "https://www.fireeye.com/blog/threat-research/2016/06/latest-android-overlay-malware-spreading-in-europe.html"
+        - "iOS Examples: http://www.macrumors.com/2016/03/22/password-stealing-instaagent-app-reappears/"
+        - "http://www.forbes.com/sites/thomasbrewster/2015/09/18/xcodeghost-malware-wants-your-icloud/#680c60e2e3c5"
+    ExploitExample:
+        - "Android: One technique is to repackage or impersonate a legitimate app (e.g. an online banking app or a healthcare app) but with extra functionality to send login credentials to an attacker. The attacker could attempt to place the fake app in the Google Play Store or distribute it through some other mechanism. Another technique is for a malicious app to silently wait in the background, repeatedly invoking Android's ActivityManager.getRunningTasks() method to check the current foreground activity being displayed to the user and waiting until a targeted UI element (e.g. username/password prompt of an online banking app, healthcare app, or enterprise app) is in the foreground. Then, the malicious app places its own, identical UI in the foreground and steals credentials.\nXbot (and maybe others) circumvents a need to use ActivityManager.getRunningTasks() by sending an official-looking push notification to the user prompting them to link a credit card to Google Pay."
+        - "iOS, there have been examples of malicious apps found in the iOS App Store that steal login credentials."
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Ensure Android devices are running a recent version of the operating system, as starting in Android 5.0, ActivityManager.getRunningTasks() has been modified to stop leaking information about the current foreground activity, increasing the difficulty of malicious apps being able to perform a user interface spoofing attack"
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inclusion of exploit code or inappropriate behaviors by apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Malicious app taking advantage of the device''s access to an internal enterprise network (e.g. via device-wide VPN connection or connection to corporate Wi-Fi) to access enterprise resources."
+    ThreatOrigin:
+    ExploitExample:
+    CVEExample:
+    TacticCategory: "Lateral Movement"
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors, including use of per-app/per-user VPN features so that only enterprise-approved apps can traverse the VPN and access enterprise resources, not personal use apps"
+-
+    ThreatCategory:
+    Threat: "Malicious apps abusing operating system private APIs (typically on iOS) to gather sensitive data or perform unauthorized actions."
+    ThreatOrigin: "Symantec Internet Security Threat Report 2016"
+    ExploitExample: "YiSpecter https://www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_wang_2.pdf"
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Perform application vetting to identify inappropriate behaviors by apps including use of private APIs"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Remote Access Trojans (RAT) that enable remote access to mobile device capabilities by an attacker."
+    ThreatOrigin: SANS Diary
+    ExploitExample:
+        - "https://www.lookout.com/resources/top-threats/dendroid"
+        - "http://blogs.computerworld.com/19803/mobile_rat_attack_makes_android_the_ultimate_spy_tool"
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Malicious app retrieving sensitive data from the clipboard (e.g., passwords)"
+    ThreatOrigin:
+    ExploitExample:
+    CVEExample:
+    TacticCategory: Execution
+    PossibleCountermeasures:
+        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
+        - "Use Android Verify Apps feature to identify harmful apps"
+        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
+        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+-
+    ThreatCategory:
+    Threat: "Privacy invasive behaviors in applications pre-installed on mobile device by carrier or device manufacturer (that a user may be unable to remove)."
+    ThreatOrigin:
+    ExploitExample:
+        - "CarrierIQ - privacy issues in pre-installed apps : https://www.ftc.gov/news-events/blogs/business-blog/2013/02/device-squad-story-behind-ftcs-first-case-against-mobile"
+        - "Certifi-gate vulnerability in remote support tools pre-installed on many Android devices : http://blog.checkpoint.com/2015/08/06/certifigate/"
+        - "Remote code execution vulnerability in SwiftKey app pre-installed on Samsung Android devices : https://www.nowsecure.com/keyboard-vulnerability/"
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures:
+        - "Ensure that devices have the latest security updates installed."
+        - "Either remove pre-installed apps that are not needed, or if removal is not an option, disable the apps so that they do not run."
+-
+    ThreatCategory:
+    Threat: "Malicious app exfiltrating data from other apps by using legitimate data sharing capabilities or by exploiting implementation flaws in the other app."
+    ThreatOrigin: "Data Theorem Mobile App Threat Model"
+    ExploitExample:
+    CVEExample:
+    TacticCategory:
+    PossibleCountermeasures:
