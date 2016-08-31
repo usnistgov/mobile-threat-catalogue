@@ -4,20 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading">Home</h1>
+    <p>
+        Mobile devices pose a unique set of threats to the enterprise, but typical enterprise protections fail to address the larger picture.
+        In order to fully address the threats mobile devices bring, a wider view of the mobile ecosystem is necessary.
+        This document contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.
+    </p>
+    <p>An associated report describing this document is available at NIST's Computer Security Resource Center at <a href="http://csrc.nist.gov">csrc.nist.gov</a></p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
