@@ -27,8 +27,3 @@ github_username:  mrdrewkeller
 # Build settings
 markdown: kramdown
 theme: minima
-
-collections:
-    Application:
-        output: true
-        permalink: /Application/:path/
