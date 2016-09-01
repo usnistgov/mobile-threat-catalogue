@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Application Threats
+layout: threat-list
+title: Mobile Applications
 ---
 
 <p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
@@ -11,7 +11,7 @@ title: Application Threats
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for application-threat in site.application-threats %}
+        <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
     {% endfor %}
 </ul>
