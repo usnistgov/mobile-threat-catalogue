@@ -30,5 +30,27 @@ sass:
     sass_dir: _sass
 
 collections:
-    applications:
+    application-threats:
         output: true
+    stack-threats:
+        output: true
+    cellular-threats:
+        output: true
+    gps-threats:
+        output: true
+    lan-pan-threats:
+        output: true
+    authentication-threats:
+        output: true
+    physical-threats:
+        output: true
+    ecosystem-threats:
+        output: true
+    emm-threats:
+        output: true
+    payment-threats:
+        output: true
+    glossary-terms:
+        output: true
+    references:
+        output: true    
