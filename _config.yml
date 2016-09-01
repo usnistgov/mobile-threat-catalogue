@@ -28,3 +28,7 @@ github_username:  mrdrewkeller
 markdown: kramdown
 sass:
     sass_dir: _sass
+
+collections:
+    applications:
+        output: true
