@@ -72,8 +72,12 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a {
+.sidebar a, .sidebar h4 {
   color: #fff;
+}
+
+.sidebar li {
+    list-style-type: none;
 }
 
 /* About section */
