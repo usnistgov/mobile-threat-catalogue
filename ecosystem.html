@@ -3,15 +3,19 @@ layout: threat-list
 title: Ecosystem
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
+<p>This category includes general threats when device owners use added services offered by the operating system vendor or device manufacturer such as data backups.</p>
 
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p><b>Mobile OS &amp; Vendor Infrastructure:</b> Infrastructure designed to provide services to mobile devices such as data backup, push notifications, and software updates.</p>
+
+<p><b>Native Public Stores:</b> Major mobile operating system vendors own and operate their own native mobile application stores, which host mobile applications alongside music, movies, games, etc. for users to download and install.</p>
+
+<p><b>Private Enterprise Stores:</b> App stores may be owned and operated by private enterprises to host applications not meant for public distribution, such as apps developed and used solely within the organization.</p>
+
+<p><b>Third-Party Stores:</b> Other legitimate, and illegitimate, app stores may be owned and operated by organizations external to the major mobile operating system vendors.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for ecosystem-threat in site.ecosystem-threats %}
+        <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

@@ -3,15 +3,23 @@ layout: threat-list
 title: Mobile Device Technology Stack
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
+<p><b>Mobile Operating System:</b> Operating system specifically designed for a mobile device and running mobile applications.</p>
 
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p><b>Device Drivers:</b> Firmware running on a mobile device often used to interact with device hardware and other peripherals (e.g., camera)</p>
+
+<p><b>Isolated Execution Environments:</b> Hardware- or Firmware-based environment built into the mobile device that may provide many capabilities such as trusted key storage, code verification, code integrity, and trusted execution for security relevant
+    processes.</p>
+
+<p><b>Boot Firmware:</b> The firmware necessary to boot the mobile OS (i.e., bootloader), and may verify additional device initialization code, device drivers used for peripherals, and portions of the mobile OS – all before a user can use the device.</p>
+
+<p><b>Baseband Subsystem:</b> The collection of hardware and firmware used to access the cellular network, and may run a real-time operating system (RTOS).</p>
+
+<p><b>SIM Card:</b> This removable hardware token is a System on a Chip (SoC) housing the subscriber identity (i.e., International Mobile Subscriber Identity), pre-shared cryptographic keys, and configuration information needed to obtain access to cellular
+    networks.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for stack-threat in site.stack-threats %}
+        <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

@@ -3,15 +3,17 @@ layout: threat-list
 title: Authentication
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
+<p>Authentication mechanisms are grouped within the three subcategories listed below. Note that individual credential and token types are note broken into their own categories and are instead included within one of these three categories.</p>
 
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p><b>User to Device:</b> Mechanisms used by a user to authenticate with a mobile device, such as use of passwords, fingerprints, or voice recognition. This is most often local authentication to a device’s lockscreen.</p>
+
+<p><b>User or Device to Remote Service:</b> Mechanisms used by a user, or a distinct non-person entity (NPE), to remotely authenticate to an external process, service, or device.</p>
+
+<p><b>User or Device to Network:</b> Mechanisms used by a user, mobile device, or peripheral to authenticate to a network (e.g., WiFi, Cellular). This commonly includes proving possession of a cryptographic token.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for authentication-threat in site.authentication-threats %}
+        <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

@@ -3,15 +3,25 @@ layout: threat-list
 title: Cellular
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
+<p><b>Air Interface:</b> The cellular air interface is the radio connection between a handset and a base station. There are many cellular network types each with its own air interface standards which as a total set are extremely flexible and primarily communicate
+    with base stations. Note: A number of general threats to the cellular air interface are listed, yet when there’s a threat that is specific to a particular cellular protocol (e.g., GSM, CDMA, LTE) that is explicitly listed.</p>
 
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p><b>Consumer grade small cell:</b> Small cells are often used to extend cellular network coverage into homes, offices, and other locations lacking service.</p>
+
+<p><b>Carrier-grade Messaging Services:</b> Messaging services (i.e., SMS, MMS, RCS) allow text, photos, and more to be sent from one device to another. Although third-party messaging services exist, carrier-grade messaging services are pre-installed with
+    nearly ubiquitous supported “out of the box” on nearly every mobile phone, and interoperable with most MNO’s networks.</p>
+
+<p><b>USSD:</b> A method for establishing a real-time session with a service or application to quickly share short messages. Although USSD messages may travel over SMS, the protocol itself is distinct.</p>
+
+<p><b>Carrier Infrastructure:</b> This category includes threats to the base stations, backhaul and core cellular network.</p>
+
+<p><b>Carrier Interoperability:</b> This subcategory is primarily reserved for signaling threats associated with the Signaling System No. 7 (SS7) network.</p>
+
+<p><b>VoLTE:</b> The packet switched network application used for making voice calls within LTE. Although not supported in every MNO’s network, large-scale rollouts are underway throughout the world.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for cellular-threat in site.cellular-threats %}
+        <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

@@ -3,15 +3,11 @@ layout: threat-list
 title: Supply Chain
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
-
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p>This category includes threats related to the device and component supply chain. To the extent that they are included, software supply chain related threats are noted within the Vulnerable Applications category.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for supply-chain-threat in site.supply-chain-threats %}
+        <li><a href="{{ site.baseurl }}{{ supply-chain-threat.url }}">{{ supply-chain-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

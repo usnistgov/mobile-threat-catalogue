@@ -3,15 +3,15 @@ layout: threat-list
 title: LANs and PANs
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
+<p><b>WiFi:</b> WiFi is a wireless local area networking (WLAN) technology based on the IEEE 802.11 series of standards.</p>
 
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p><b>Bluetooth:</b> Bluetooth is a medium-range, lower power, wireless communication technology.</p>
+
+<p><b>FC:</b> NFC is a short range wireless communication technology that is commonly used for mobile wallet technologies and peripheral configuration, although a number of other applications exist.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for lan-pan in site.lan-pan-threats %}
+        <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}">{{ lan-pan-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

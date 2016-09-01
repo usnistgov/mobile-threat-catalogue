@@ -3,15 +3,11 @@ layout: threat-list
 title: Physical Access
 ---
 
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
-    while others may be generally applicable.</p>
-
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
-    within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
+<p>This category includes general threats originating from outside of the device, such as device loss and malicious charging stations.</p>
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for application in site.applications %}
-        <li><a href="{{ site.baseurl }}{{ application.url }}">{{ application.Threat }}</a></li>
+    {% for physical-access-threat in site.physical-access-threats %}
+        <li><a href="{{ site.baseurl }}{{ physical-access-threat.url }}">{{ physical-access-threat.Threat }}</a></li>
     {% endfor %}
 </ul>
