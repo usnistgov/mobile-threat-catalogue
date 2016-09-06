@@ -1,74 +1,17 @@
 ---
-layout: page
+layout: threat-list
 title: Mobile Applications
-permalink: /application/
 ---
 
-<div class="page">
-    
-    <p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
+<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
     while others may be generally applicable.</p>
 
-    <p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
+<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
     within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
 
-    <table>
-        <tr>
-            <th>Threat Category</th>
-            <th>Threat</th>
-            <th>Threat Origin</th>
-            <th>Exploit Example</th>
-            <th>CVE Example</th>
-            <th>Tactic Category</th>
-            <th>Possible Countermeasures</th>
-        </tr>
-        {% for application in site.data.applications %}
-            <tr>
-                <td data-title="ThreatCategory">{{ application.ThreatCategory }}</td>
-                <td data-title="Threat">{{ application.Threat }}</td>
-
-                <td data-title="ThreatOrigin">
-                    <ul>
-                    {% for ThreatOrigin in application.ThreatOrigin %}
-                            <li>{{ ThreatOrigin }}</li>
-                    {% endfor %}
-                    </ul>
-                </td>
-
-                <td data-title="ExploitExample">
-                    <ul>
-                    {% for ExploitExample in application.ExploitExample %}
-                            <li>{{ ExploitExample }}</li>
-                    {% endfor %}
-                    </ul>
-                </td>
-
-                <td data-title="CVEExample">
-                    <ul>
-                    {% for CVEExample in application.CVEExample %}
-                            <li>{{ CVEExample }}</li>
-                    {% endfor %}
-                    </ul>
-                </td>
-
-                <td data-title="TacticCategory">
-                    <ul>
-                    {% for TacticCategory in application.TacticCategory %}
-                            <li>{{ TacticCategory }}</li>
-                    {% endfor %}
-                    </ul>
-                </td>
-
-                <td data-title="PossibleCountermeasures">
-                    <ul>
-                    {% for PossibleCountermeasures in application.PossibleCountermeasures %}
-                            <li>{{ PossibleCountermeasures }}</li>
-                    {% endfor %}
-                    </ul>
-                </td>
-
-            </tr>
-        {% endfor %}
-    </table>
-
-</div>
+<h2>Threat List</h2>
+<ul class="threat-list">
+    {% for application-threat in site.application-threats %}
+        <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
+    {% endfor %}
+</ul>

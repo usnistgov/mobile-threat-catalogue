@@ -1,0 +1,56 @@
+---
+layout: page
+---
+<h1>{{page.Threat}}</h1>
+
+<ul>
+    <li>
+        <b>Threat Category: </b>{{page.ThreatCategory}}
+    </li>
+
+    <li>
+        <b>Threat Origin:</b>
+        <ul>
+            {% for ThreatOrigin in page.ThreatOrigin %}
+                <li>{{ ThreatOrigin }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+
+    <li>
+        <b>Exploit Examples:</b>
+        <ul>
+            {% for ExploitExample in page.ExploitExample %}
+                <li>{{ ExploitExample }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+
+    <li>
+        <b>CVE Examples:</b>
+        <ul>
+            {% for CVEExample in page.CVEExample %}
+                <li>{{ CVEExample }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+
+    <li>
+        <b>Tactic Categories:</b>
+        <ul>
+            {% for TacticCategory in page.TacticCategory %}
+                <li>{{ TacticCategory }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+
+    <li>
+        <b>Possible Countermeasures:</b>
+        <ul>
+            {% for PossibleCountermeasures in page.PossibleCountermeasures %}
+                <li>{{ PossibleCountermeasures }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+
+</ul>

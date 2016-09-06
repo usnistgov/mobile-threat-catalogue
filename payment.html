@@ -1,0 +1,13 @@
+---
+layout: threat-list
+title: Payment
+---
+
+<p>Threats related to mobile payments are included within this category, including a variety of mobile payment technologies such as USSD, NFC-based payments, and credit card tokenization.</p>
+
+<h2>Threat List</h2>
+<ul class="threat-list">
+    {% for payment-threat in site.payment-threats %}
+        <li><a href="{{ site.baseurl }}{{ payment-threat.url }}">{{ payment-threat.Threat }}</a></li>
+    {% endfor %}
+</ul>

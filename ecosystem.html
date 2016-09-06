@@ -1,0 +1,21 @@
+---
+layout: threat-list
+title: Ecosystem
+---
+
+<p>This category includes general threats when device owners use added services offered by the operating system vendor or device manufacturer such as data backups.</p>
+
+<p><b>Mobile OS &amp; Vendor Infrastructure:</b> Infrastructure designed to provide services to mobile devices such as data backup, push notifications, and software updates.</p>
+
+<p><b>Native Public Stores:</b> Major mobile operating system vendors own and operate their own native mobile application stores, which host mobile applications alongside music, movies, games, etc. for users to download and install.</p>
+
+<p><b>Private Enterprise Stores:</b> App stores may be owned and operated by private enterprises to host applications not meant for public distribution, such as apps developed and used solely within the organization.</p>
+
+<p><b>Third-Party Stores:</b> Other legitimate, and illegitimate, app stores may be owned and operated by organizations external to the major mobile operating system vendors.</p>
+
+<h2>Threat List</h2>
+<ul class="threat-list">
+    {% for ecosystem-threat in site.ecosystem-threats %}
+        <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,17 @@
+---
+layout: threat-list
+title: LANs and PANs
+---
+
+<p><b>WiFi:</b> WiFi is a wireless local area networking (WLAN) technology based on the IEEE 802.11 series of standards.</p>
+
+<p><b>Bluetooth:</b> Bluetooth is a medium-range, lower power, wireless communication technology.</p>
+
+<p><b>FC:</b> NFC is a short range wireless communication technology that is commonly used for mobile wallet technologies and peripheral configuration, although a number of other applications exist.</p>
+
+<h2>Threat List</h2>
+<ul class="threat-list">
+    {% for lan-pan in site.lan-pan-threats %}
+        <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}">{{ lan-pan-threat.Threat }}</a></li>
+    {% endfor %}
+</ul>

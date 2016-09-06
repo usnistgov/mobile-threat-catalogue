@@ -1,0 +1,13 @@
+---
+layout: threat-list
+title: GPS
+---
+
+<p>A network of orbiting satellites used to help a device determine its location.</p>
+
+<h2>Threat List</h2>
+<ul class="threat-list">
+    {% for gps-threat in site.gps-threats %}
+        <li><a href="{{ site.baseurl }}{{ gps-threat.url }}">{{ gps-threat.Threat }}</a></li>
+    {% endfor %}
+</ul>

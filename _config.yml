@@ -28,3 +28,31 @@ github_username:  mrdrewkeller
 markdown: kramdown
 sass:
     sass_dir: _sass
+
+collections:
+    application-threats:
+        output: true
+    authentication-threats:
+        output: true
+    stack-threats:
+        output: true
+    cellular-threats:
+        output: true
+    ecosystem-threats:
+        output: true
+    emm-threats:
+        output: true
+    gps-threats:
+        output: true
+    lan-pan-threats:
+        output: true
+    payment-threats:
+        output: true
+    physical-access-threats:
+        output: true
+    supply-chain-threats:
+        output: true
+    glossary-terms:
+        output: true
+    references:
+        output: true

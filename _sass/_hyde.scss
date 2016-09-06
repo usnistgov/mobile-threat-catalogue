@@ -58,6 +58,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  overflow: scroll;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -71,8 +72,12 @@ html {
 }
 
 /* Sidebar links */
-.sidebar a {
+.sidebar a, .sidebar h4 {
   color: #fff;
+}
+
+.sidebar li {
+    list-style-type: none;
 }
 
 /* About section */
@@ -224,11 +229,11 @@ a.sidebar-nav-item:focus {
 
 /* Blue */
 .theme-base-0d .sidebar {
-  background-color: #6a9fb5;
+  background-color: #4f8cbd;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+  color: #4f8cbd;
 }
 
 /* Magenta */

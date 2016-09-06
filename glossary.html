@@ -1,0 +1,10 @@
+---
+layout: threat-list
+title: Glossary
+---
+
+<ul class="threat-list">
+    {% for glossary-term in site.glossary-terms %}
+        <li><a href="{{ site.baseurl }}{{ glossary-term.url }}">{{ glossary-term.title }}</a></li>
+    {% endfor %}
+</ul>
