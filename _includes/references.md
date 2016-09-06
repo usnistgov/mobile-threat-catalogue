@@ -1,192 +1,192 @@
-[^001]: N.O. Tippenhauer et al., "On the requirements for successful GPS spoofing attacks", in Proceedings of the 18th ACM conference on Computer and communications security,2011, pp. 75-86; www.cs.ox.ac.uk/files/6489/gps.pdf [accessed 8/23/2016]
+[^1]: N.O. Tippenhauer et al., "On the requirements for successful GPS spoofing attacks", in Proceedings of the 18th ACM conference on Computer and communications security,2011, pp. 75-86; www.cs.ox.ac.uk/files/6489/gps.pdf [accessed 8/23/2016]
 
-[^002]: T.E. Humpreys et al. "Assessing the spoofing threat: Development of a portable GPS civilian spoofer." in Proceedings of the 21st International Technical Meeting of the Satellite Division of The Institute of Navigation, 2008, pp. 2314-2325; https://gps.mae.cornell.edu/humphreys_etal_iongnss2008.pdf�[accessed 8/23/2016]
+[^2]: T.E. Humpreys et al. "Assessing the spoofing threat: Development of a portable GPS civilian spoofer." in Proceedings of the 21st International Technical Meeting of the Satellite Division of The Institute of Navigation, 2008, pp. 2314-2325; https://gps.mae.cornell.edu/humphreys_etal_iongnss2008.pdf�[accessed 8/23/2016]
 
-[^003]: S. Andrivet, The Security of MDM systems, presented at Hack In Paris, 20 June 2013; https://hackinparis.com/data/slides/2013/MDM-HIP_2013.pdf [accessed 8/23/2016]
+[^3]: S. Andrivet, The Security of MDM systems, presented at Hack In Paris, 20 June 2013; https://hackinparis.com/data/slides/2013/MDM-HIP_2013.pdf [accessed 8/23/2016]
 
-[^004]: S. Breen, Mobile Device Mismanagement, presented at Blackhat, Aug. 2014; www.blackhat.com/docs/us-14/materials/us-14-Breen-Mobile-Device-Mismanagement.pdf [accessed 8/23/2016]
+[^4]: S. Breen, Mobile Device Mismanagement, presented at Blackhat, Aug. 2014; www.blackhat.com/docs/us-14/materials/us-14-Breen-Mobile-Device-Mismanagement.pdf [accessed 8/23/2016]
 
-[^005]: N.S. Evans, A. Benameur, and Y. Shen, �All Your Root Checks Are Belong to Us: The Sad State of Root Detection�, in Proceedings of the 13th ACM International Symposium on Mobility Management and Wireless Access, 2015, pp. 81_88; http://dx.doi.org/10.1145/2810362.2810364 [accessed 8/23/2016]
+[^5]: N.S. Evans, A. Benameur, and Y. Shen, �All Your Root Checks Are Belong to Us: The Sad State of Root Detection�, in Proceedings of the 13th ACM International Symposium on Mobility Management and Wireless Access, 2015, pp. 81_88; http://dx.doi.org/10.1145/2810362.2810364 [accessed 8/23/2016]
 
-[^006]: D. Kravets, "Worker fired for disabling GPS app that track her 24 hours a day [Updated]", Ars Technica, 11 May 2015; http://arstechnica.com/tech-policy/2015/05/worker-fired-for-disabling-gps-app-that-tracked-her-24-hours-a-day/ [accessed 8/23/2016]
+[^6]: D. Kravets, "Worker fired for disabling GPS app that track her 24 hours a day [Updated]", Ars Technica, 11 May 2015; http://arstechnica.com/tech-policy/2015/05/worker-fired-for-disabling-gps-app-that-tracked-her-24-hours-a-day/ [accessed 8/23/2016]
 
-[^007]: D. Denslow, "Personal Data Security and the "BYOD" Problem: Who is Truly at Risk?", blog, 19 Nov. 2014; http://jolt.richmond.edu/index.php/blog-personal-data-security-and-the-byod-problem-who-is-truly-at-risk/ [accessed 8/24/2016]
+[^7]: D. Denslow, "Personal Data Security and the "BYOD" Problem: Who is Truly at Risk?", blog, 19 Nov. 2014; http://jolt.richmond.edu/index.php/blog-personal-data-security-and-the-byod-problem-who-is-truly-at-risk/ [accessed 8/24/2016]
 
-[^008]: S. Raghuram, "Man in the Cloud: Threat, Impact, Resolution and the Bigger Picture", blog, 2015; www.skyhighnetworks.com/cloud-security-blog/man-in-the-cloud-threat-impact-resolution-and-the-bigger-picture/ [accessed 8/23/2016]
+[^8]: S. Raghuram, "Man in the Cloud: Threat, Impact, Resolution and the Bigger Picture", blog, 2015; www.skyhighnetworks.com/cloud-security-blog/man-in-the-cloud-threat-impact-resolution-and-the-bigger-picture/ [accessed 8/23/2016]
 
-[^009]: Mobile Top 10 2016, Mar. 2016; www.owasp.org/index.php/Mobile_Top_10_2016-Top_10 [accessed 8/23/2016]
+[^9]: Mobile Top 10 2016, Mar. 2016; www.owasp.org/index.php/Mobile_Top_10_2016-Top_10 [accessed 8/23/2016]
 
-[^011]: 'L. Francis et al., "Practical NFC peer-to-peer relay attack using mobile phones", in Proceedings of the 6th international conference on Radio frequency identification: security and privacy issues (RFIDSec''10), 2010, pp. 35-49; https://eprint.iacr.org/2010/228.pdf [accessed 8/24/2016]'
+[^11]: 'L. Francis et al., "Practical NFC peer-to-peer relay attack using mobile phones", in Proceedings of the 6th international conference on Radio frequency identification: security and privacy issues (RFIDSec''10), 2010, pp. 35-49; https://eprint.iacr.org/2010/228.pdf [accessed 8/24/2016]'
 
-[^012]: O. Cox, "Demystifying Point of Sale Malware and Attacks", blog, 25 Nov. 2015; www.symantec.com/connect/blogs/demystifying-point-sale-malware-and-attacks [accessed 8/24/2016]
+[^12]: O. Cox, "Demystifying Point of Sale Malware and Attacks", blog, 25 Nov. 2015; www.symantec.com/connect/blogs/demystifying-point-sale-malware-and-attacks [accessed 8/24/2016]
 
-[^013]: Home Depot Hit By Same Malware as Target, 14 Sept. 2014; http://krebsonsecurity.com/2014/09/home-depot-hit-by-same-malware-as-target/ [accessed 8/24/2016]
+[^13]: Home Depot Hit By Same Malware as Target, 14 Sept. 2014; http://krebsonsecurity.com/2014/09/home-depot-hit-by-same-malware-as-target/ [accessed 8/24/2016]
 
-[^014]: 'M. Geuss, "The weak link in Apple Pay''s strong chain is bank verification. Who''s to blame?", Ars Technica, 3 Mar. 2015; http://arstechnica.com/apple/2015/03/the-weak-link-in-apple-pays-strong-chain-is-bank-verification-whos-to-blame/ [accessed 8/24/2016]'
+[^14]: 'M. Geuss, "The weak link in Apple Pay''s strong chain is bank verification. Who''s to blame?", Ars Technica, 3 Mar. 2015; http://arstechnica.com/apple/2015/03/the-weak-link-in-apple-pays-strong-chain-is-bank-verification-whos-to-blame/ [accessed 8/24/2016]'
 
-[^015]: 'M. Georgiev et al., "The most dangerous code in the world: validating SSL certificates in non-browser software", in Proceedings of the 2012 ACM conference on Computer and communications security�(CCS ''12), 2012, pp. 38-49; http://dx.doi.org/10.1145/2382196.2382204 [accessed 8/24/2016]'
+[^15]: 'M. Georgiev et al., "The most dangerous code in the world: validating SSL certificates in non-browser software", in Proceedings of the 2012 ACM conference on Computer and communications security�(CCS ''12), 2012, pp. 38-49; http://dx.doi.org/10.1145/2382196.2382204 [accessed 8/24/2016]'
 
-[^016]: M. Souppaya and K. Scarfone, Guidelines for Securing Wireless Local Area Networks (WLANs), SP 800-163, National Institute of Standards and Technology, 2016; http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-153.pdf [accessed 8/24/2016]
+[^16]: M. Souppaya and K. Scarfone, Guidelines for Securing Wireless Local Area Networks (WLANs), SP 800-163, National Institute of Standards and Technology, 2016; http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-153.pdf [accessed 8/24/2016]
 
-[^017]: K. Zetter, "Darkhotel: A Sophisticated New Hacking Attack Targets High-Profile Hotel Guests", Wired, 10 Nov. 2014; www.wired.com/2014/11/darkhotel-malware/ [accessed 8/24/2016]
+[^17]: K. Zetter, "Darkhotel: A Sophisticated New Hacking Attack Targets High-Profile Hotel Guests", Wired, 10 Nov. 2014; www.wired.com/2014/11/darkhotel-malware/ [accessed 8/24/2016]
 
-[^018]: CAPEC-613: WiFi SSID Tracking (Version 2.8), MITRE, 7 Dec. 2015; http://capec.mitre.org/data/definitions/613.html [accessed 8/24/2016]
+[^18]: CAPEC-613: WiFi SSID Tracking (Version 2.8), MITRE, 7 Dec. 2015; http://capec.mitre.org/data/definitions/613.html [accessed 8/24/2016]
 
-[^019]: A. Stubblefield, J. Ioannidis and A.D. Rubin, Using the Fluhrer, Mantin, and Shamir Attack to Break WEP, tech. report TD-4ZCPZZ, AT&T Labs, 2001; www.isoc.org/isoc/conferences/ndss/02/papers/stubbl.pdf [accessed 8/24/2016]
+[^19]: A. Stubblefield, J. Ioannidis and A.D. Rubin, Using the Fluhrer, Mantin, and Shamir Attack to Break WEP, tech. report TD-4ZCPZZ, AT&T Labs, 2001; www.isoc.org/isoc/conferences/ndss/02/papers/stubbl.pdf [accessed 8/24/2016]
 
-[^020]: D. Richardson, "Using spoofed Wi-Fi to attack mobile devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/24/2016]
+[^20]: D. Richardson, "Using spoofed Wi-Fi to attack mobile devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/24/2016]
 
-[^021]: G. Fleishman, "FCC fines Marriott $600,000 for jamming hotel Wi-Fi", blog, 3 Oct. 2014; http://boingboing.net/2014/10/03/fcc-fines-marriott-for-jamming.html [accessed 8/24/2016]
+[^21]: G. Fleishman, "FCC fines Marriott $600,000 for jamming hotel Wi-Fi", blog, 3 Oct. 2014; http://boingboing.net/2014/10/03/fcc-fines-marriott-for-jamming.html [accessed 8/24/2016]
 
-[^022]: B. Weis, IEEE 802 Privacy Threat Analysis, Cisco Systems, 2016; www.ieee802.org/1/files/public/docs2016/802E-weis-privacy-threat-analysis-0718-v01.pdf [accessed 8/24/2016]
+[^22]: B. Weis, IEEE 802 Privacy Threat Analysis, Cisco Systems, 2016; www.ieee802.org/1/files/public/docs2016/802E-weis-privacy-threat-analysis-0718-v01.pdf [accessed 8/24/2016]
 
-[^023]: 'B. Fung, "How stores use your phone''s WiFi to track your shopping habits", The Washington Post, 19 Oct. 2013; www.washingtonpost.com/blogs/the-switch/wp/2013/10/19/how-stores-use-your-phones-wifi-to-track-your-shopping-habits [accessed 8/24/2016]'
+[^23]: 'B. Fung, "How stores use your phone''s WiFi to track your shopping habits", The Washington Post, 19 Oct. 2013; www.washingtonpost.com/blogs/the-switch/wp/2013/10/19/how-stores-use-your-phones-wifi-to-track-your-shopping-habits [accessed 8/24/2016]'
 
-[^024]: S. Clifford and Q. Hardy, "Attention, Shoppers: Store Is Tracking Your Cell", The New York Times, 14 July 2013; www.nytimes.com/2013/07/15/business/attention-shopper-stores-are-tracking-your-cell.html [accessed 8/24/2016]
+[^24]: S. Clifford and Q. Hardy, "Attention, Shoppers: Store Is Tracking Your Cell", The New York Times, 14 July 2013; www.nytimes.com/2013/07/15/business/attention-shopper-stores-are-tracking-your-cell.html [accessed 8/24/2016]
 
-[^025]: 'S. Mlot, "FTC Goes After Firm for Tracking Shoppers'' Cell Phones", PCMag, 24 Apr. 2015; www.pcmag.com/article2/0,2817,2482985,00.asp [accessed 8/24/2016]'
+[^25]: 'S. Mlot, "FTC Goes After Firm for Tracking Shoppers'' Cell Phones", PCMag, 24 Apr. 2015; www.pcmag.com/article2/0,2817,2482985,00.asp [accessed 8/24/2016]'
 
-[^026]: How Retailers Use Smartphones To Track Shoppers In The Store, All Things Considered, National Public Radio, 16 June 2014, transcript; www.npr.org/2014/06/16/322597862/how-retailers-use-smartphones-to-track-shoppers-in-the-store [accessed 8/24/2016]
+[^26]: How Retailers Use Smartphones To Track Shoppers In The Store, All Things Considered, National Public Radio, 16 June 2014, transcript; www.npr.org/2014/06/16/322597862/how-retailers-use-smartphones-to-track-shoppers-in-the-store [accessed 8/24/2016]
 
-[^027]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://transition.fcc.gov/eb/jammerenforcement/jamfaq.pdf [accessed 8/24/2016]
+[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://transition.fcc.gov/eb/jammerenforcement/jamfaq.pdf [accessed 8/24/2016]
 
-[^028]: J. Padgette, K. Scarfone and L. Chen, Guide to Bluetooth Security, SP 800-121 rev. 1, National Institute of Standards and Technology, 2012; http://csrc.nist.gov/publications/nistpubs/800-121-rev1/sp800-121_rev1.pdf [accessed 8/24/2016]
+[^28]: J. Padgette, K. Scarfone and L. Chen, Guide to Bluetooth Security, SP 800-121 rev. 1, National Institute of Standards and Technology, 2012; http://csrc.nist.gov/publications/nistpubs/800-121-rev1/sp800-121_rev1.pdf [accessed 8/24/2016]
 
-[^029]: C. Mulliner and M. Herfurt, "Blueprinting", 2013; http://trifinite.org/trifinite_stuff_blueprinting.html [accessed 8/24/2016]
+[^29]: C. Mulliner and M. Herfurt, "Blueprinting", 2013; http://trifinite.org/trifinite_stuff_blueprinting.html [accessed 8/24/2016]
 
-[^030]: L. Carettoni, C. Merloni and S. Zanero, "Studying Bluetooth Malware Propagation: The BlueBag Project", Proceedings of the 2007 IEEE Symposium on Security and Privacy, pp. 17-25, 2007; http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4140986 [accessed 8/24/2016]
+[^30]: L. Carettoni, C. Merloni and S. Zanero, "Studying Bluetooth Malware Propagation: The BlueBag Project", Proceedings of the 2007 IEEE Symposium on Security and Privacy, pp. 17-25, 2007; http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4140986 [accessed 8/24/2016]
 
-[^031]: Z. Wang et al., "Implementation and Analysis of a Practical NFC Relay Attack Example", in Proceedings of the 2012 Second International Conference on Instrumentation, Measurement, Computer, Communication, and Control, 2012, pp 143-146.
+[^31]: Z. Wang et al., "Implementation and Analysis of a Practical NFC Relay Attack Example", in Proceedings of the 2012 Second International Conference on Instrumentation, Measurement, Computer, Communication, and Control, 2012, pp 143-146.
 
-[^032]: M. Maass et al., Demo: NFCGate - An NFC Relay Application for Android [Extended Abstract], presented at 8th ACM Conference on Security and Privacy in Wireless and Mobile Networks, 26 June 2015; https://github.com/nfcgate/nfcgate [accessed 8/24/2016]
+[^32]: M. Maass et al., Demo: NFCGate - An NFC Relay Application for Android [Extended Abstract], presented at 8th ACM Conference on Security and Privacy in Wireless and Mobile Networks, 26 June 2015; https://github.com/nfcgate/nfcgate [accessed 8/24/2016]
 
-[^033]: G. Vaughan, NFC Threat Landscape, OWASP Toronto chapter meeting, 31 Mar. 2013; www.owasp.org/images/3/38/NFC_Threat_Landscape_OWASP_Toronto_March_2013.pdf [accessed 8/24/2016]
+[^33]: G. Vaughan, NFC Threat Landscape, OWASP Toronto chapter meeting, 31 Mar. 2013; www.owasp.org/images/3/38/NFC_Threat_Landscape_OWASP_Toronto_March_2013.pdf [accessed 8/24/2016]
 
-[^034]: C. Miller, Exploring the NFC Attack Surface, presented at Blackhat, 5 July 2012; https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf [accessed 8/24/2016]
+[^34]: C. Miller, Exploring the NFC Attack Surface, presented at Blackhat, 5 July 2012; https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf [accessed 8/24/2016]
 
-[^035]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
+[^35]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
 
-[^036]: D. Stites and K. Skinner, User Privacy on iOS and OS X, presented at Apple Worldwide Developer Conference, June 2014; http://devstreaming.apple.com/videos/wwdc/2014/715xx4loqo5can9/715/715_user_privacy_in_ios_and_os_x.pdf [accessed 8/24/2016]
+[^36]: D. Stites and K. Skinner, User Privacy on iOS and OS X, presented at Apple Worldwide Developer Conference, June 2014; http://devstreaming.apple.com/videos/wwdc/2014/715xx4loqo5can9/715/715_user_privacy_in_ios_and_os_x.pdf [accessed 8/24/2016]
 
-[^037]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; http://grouper.ieee.org/groups/802/15/Bluetooth/profile_10_b.pdf [accessed 8/24/2016]
+[^37]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; http://grouper.ieee.org/groups/802/15/Bluetooth/profile_10_b.pdf [accessed 8/24/2016]
 
-[^038]: Security, Bluetooth Smart (Low Energy), 2016; https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Security.aspx [accessed 8/24/2016]
+[^38]: Security, Bluetooth Smart (Low Energy), 2016; https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Security.aspx [accessed 8/24/2016]
 
-[^039]: S. Cobb, "QR Codes and NFC Chips: Preview-and-authorize should be default", blog, 23 Apr. 2012; www.welivesecurity.com/2012/04/23/qr-codes-and-nfc-chips-preview-and-authorize-should-be-default/ [accessed 8/24/2016]
+[^39]: S. Cobb, "QR Codes and NFC Chips: Preview-and-authorize should be default", blog, 23 Apr. 2012; www.welivesecurity.com/2012/04/23/qr-codes-and-nfc-chips-preview-and-authorize-should-be-default/ [accessed 8/24/2016]
 
-[^040]: S. Lawson, "Ten Ways Your Smartphone Knows Where you Are", PCWorld, 6 Apr. 2012; www.pcworld.com/article/253354/ten_ways_your_smartphone_knows_where_you_are.html [accessed 8/25/2016]
+[^40]: S. Lawson, "Ten Ways Your Smartphone Knows Where you Are", PCWorld, 6 Apr. 2012; www.pcworld.com/article/253354/ten_ways_your_smartphone_knows_where_you_are.html [accessed 8/25/2016]
 
-[^041]: J.S. Warner and R.G. Johnston, GPS Spoofing Countermeasures, tech. report LAUR-03-6163, Los Alamos National Laboratory, 2003; http://lewisperdue.com/DieByWire/GPS-Vulnerability-LosAlamos.pdf [accessed 8/25/2016]
+[^41]: J.S. Warner and R.G. Johnston, GPS Spoofing Countermeasures, tech. report LAUR-03-6163, Los Alamos National Laboratory, 2003; http://lewisperdue.com/DieByWire/GPS-Vulnerability-LosAlamos.pdf [accessed 8/25/2016]
 
-[^042]: Malware Targeting Point of Sale Systems, US-CERT alert TA14-002A, US-CERT, 5 Feb. 2014; www.us-cert.gov/ncas/alerts/TA14-002A [accessed 8/25/2016]
+[^42]: Malware Targeting Point of Sale Systems, US-CERT alert TA14-002A, US-CERT, 5 Feb. 2014; www.us-cert.gov/ncas/alerts/TA14-002A [accessed 8/25/2016]
 
-[^043]: C. Xiao, �YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs,� blog, 25 Oct. 2015; http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/
+[^43]: C. Xiao, �YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs,� blog, 25 Oct. 2015; http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/
 
-[^044]: T. Claburn, �iOS SideStepper Vulnerability Undermines MDM Services: Check Point,� InformationWeek ,31 Mar. 2016; www.informationweek.com/mobile/mobile-devices/ios-sidestepper-vulnerability-undermines-mdm-services-check-point/d/d-id/1324920
+[^44]: T. Claburn, �iOS SideStepper Vulnerability Undermines MDM Services: Check Point,� InformationWeek ,31 Mar. 2016; www.informationweek.com/mobile/mobile-devices/ios-sidestepper-vulnerability-undermines-mdm-services-check-point/d/d-id/1324920
 
-[^045]: L. Tung, �Apple iPhone, iPad iOS 9 security flaw lets malicious apps sneak onto enterprise devices,� ZDNet, 1 Apr. 2016; www.zdnet.com/article/apple-iphone-ipad-ios-9-security-flaw-lets-malicious-apps-sneak-onto-enterprise-devices/
+[^45]: L. Tung, �Apple iPhone, iPad iOS 9 security flaw lets malicious apps sneak onto enterprise devices,� ZDNet, 1 Apr. 2016; www.zdnet.com/article/apple-iphone-ipad-ios-9-security-flaw-lets-malicious-apps-sneak-onto-enterprise-devices/
 
-[^046]: B. Lau et al. ,�MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at�BlackHat, 3-4 Aug. 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
+[^46]: B. Lau et al. ,�MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at�BlackHat, 3-4 Aug. 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
 
-[^047]: 'M. Mendoza, �Xiaomi Locks Mi Devices'' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock,� Tech Times, 20 Jan. 2016; www.techtimes.com/articles/125681/20160120/xiaomi-locks-mi-devices-bootloaders-on-fears-of-malware-and-security-risks-up-to21-days-to-unlock.htm [accessed 8/26/2016]'
+[^47]: 'M. Mendoza, �Xiaomi Locks Mi Devices'' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock,� Tech Times, 20 Jan. 2016; www.techtimes.com/articles/125681/20160120/xiaomi-locks-mi-devices-bootloaders-on-fears-of-malware-and-security-risks-up-to21-days-to-unlock.htm [accessed 8/26/2016]'
 
-[^048]: D. Pauli, �Samsung S6 calls open to man-in-the-middle base station snooping,� The Register, 12 Nov. 2015; www.theregister.co.uk/2015/11/12/mobile_pwn2own1/
+[^48]: D. Pauli, �Samsung S6 calls open to man-in-the-middle base station snooping,� The Register, 12 Nov. 2015; www.theregister.co.uk/2015/11/12/mobile_pwn2own1/
 
-[^049]: D. Goodin, �Software flaw puts mobile phones and networks at risk of complete takeover,� Ars Technica, 19 July 2016; http://arstechnica.com/security/2016/07/software-flaw-puts-mobile-phones-and-networks-at-risk-of-complete-takeover/
+[^49]: D. Goodin, �Software flaw puts mobile phones and networks at risk of complete takeover,� Ars Technica, 19 July 2016; http://arstechnica.com/security/2016/07/software-flaw-puts-mobile-phones-and-networks-at-risk-of-complete-takeover/
 
-[^050]: R. Weinmann, Baseband Attacks: Remote Exploitation of Memory Corruptions in Cellular Protocol Stacks, presented at 6th USENIX Workshop on Offensive Technologies, 6-7 Aug. 2012; www.usenix.org/system/files/conference/woot12/woot12-final24.pdf [accessed 8/23/16].
+[^50]: R. Weinmann, Baseband Attacks: Remote Exploitation of Memory Corruptions in Cellular Protocol Stacks, presented at 6th USENIX Workshop on Offensive Technologies, 6-7 Aug. 2012; www.usenix.org/system/files/conference/woot12/woot12-final24.pdf [accessed 8/23/16].
 
-[^051]: G. Williams, �4 Surprising Ways Your Identity Can Be Stolen,� U.S. News & World Report, 9 June 2015; http://money.usnews.com/money/personal-finance/articles/2015/06/09/4-surprising-ways-your-identity-can-be-stolen
+[^51]: G. Williams, �4 Surprising Ways Your Identity Can Be Stolen,� U.S. News & World Report, 9 June 2015; http://money.usnews.com/money/personal-finance/articles/2015/06/09/4-surprising-ways-your-identity-can-be-stolen
 
-[^052]: AT&T SIM-Card Switch Scam, New York Department of State; www.dos.ny.gov/consumerprotection/scams/att-sim.html [accessed 8/23/16].
+[^52]: AT&T SIM-Card Switch Scam, New York Department of State; www.dos.ny.gov/consumerprotection/scams/att-sim.html [accessed 8/23/16].
 
-[^053]: R. Chirgwin, �This is what a root debug backdoor in a Linux kernel looks like,� The Register, 9 May. 2016; www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/ [accessed 8/26/2016]
+[^53]: R. Chirgwin, �This is what a root debug backdoor in a Linux kernel looks like,� The Register, 9 May. 2016; www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/ [accessed 8/26/2016]
 
-[^054]: iOS Security: iOS 9.3 or later, white paper, Apple, 2016. www.apple.com/business/docs/iOS_Security_Guide.pdf [accessed 8/24/16].
+[^54]: iOS Security: iOS 9.3 or later, white paper, Apple, 2016. www.apple.com/business/docs/iOS_Security_Guide.pdf [accessed 8/24/16].
 
-[^055]: R. Welton, �Remote Code Execution as System User on Samsung Phones�, blog, 16 June 2015; www.nowsecure.com/blog/2015/06/16/remote-code-execution-as-system-user-on-samsung-phones/ [accessed 8/25/2016]
+[^55]: R. Welton, �Remote Code Execution as System User on Samsung Phones�, blog, 16 June 2015; www.nowsecure.com/blog/2015/06/16/remote-code-execution-as-system-user-on-samsung-phones/ [accessed 8/25/2016]
 
-[^056]: J. V. Dyke, �Insecurity Cameras and Mobile Apps: Surveillance or Exposure?�, blog, 6 Jan. 2016; www.nowsecure.com/blog/2016/01/06/insecurity-cameras-and-mobile-apps-surveillance-or-exposure/ [accessed 8/25/2016]
+[^56]: J. V. Dyke, �Insecurity Cameras and Mobile Apps: Surveillance or Exposure?�, blog, 6 Jan. 2016; www.nowsecure.com/blog/2016/01/06/insecurity-cameras-and-mobile-apps-surveillance-or-exposure/ [accessed 8/25/2016]
 
-[^057]: J. Oberheide and Z. Lanier, �Team Joch vs. Android�, presented at ShmooCon 2011, 28-30 Jan. 2011, slide 54; https://jon.oberheide.org/files/shmoo11-teamjoch.pdf [accessed 8/25/2016]
+[^57]: J. Oberheide and Z. Lanier, �Team Joch vs. Android�, presented at ShmooCon 2011, 28-30 Jan. 2011, slide 54; https://jon.oberheide.org/files/shmoo11-teamjoch.pdf [accessed 8/25/2016]
 
-[^061]: L. Neely, Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices, SANS Institute, 2016; www.sans.org/reading-room/whitepapers/analyst/mobile-threat-protection-holistic-approach-securing-mobile-data-devices-36715 [accessed 8/25/2016]
+[^61]: L. Neely, Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices, SANS Institute, 2016; www.sans.org/reading-room/whitepapers/analyst/mobile-threat-protection-holistic-approach-securing-mobile-data-devices-36715 [accessed 8/25/2016]
 
-[^062]: S. Fahl et al, �Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security�, in Proceedings of the 2012 ACM conference on Computer and Communications Security, 2012, pp. 50-61; http://dl.acm.org/citation.cfm?id=2382205 [accessed 8/25/2016]
+[^62]: S. Fahl et al, �Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security�, in Proceedings of the 2012 ACM conference on Computer and Communications Security, 2012, pp. 50-61; http://dl.acm.org/citation.cfm?id=2382205 [accessed 8/25/2016]
 
-[^063]: D. Sounthiraraj et al, �SMV-HUNTER: Large Scale, Automated Detection of SSL/TLS Man-in-the-Middle Vulnerabilities in Android Apps�, in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; www.internetsociety.org/sites/default/files/10_3_1.pdf [accessed 8/25/2016]
+[^63]: D. Sounthiraraj et al, �SMV-HUNTER: Large Scale, Automated Detection of SSL/TLS Man-in-the-Middle Vulnerabilities in Android Apps�, in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; www.internetsociety.org/sites/default/files/10_3_1.pdf [accessed 8/25/2016]
 
-[^064]: A. Mettler et al, �SSL Vulnerabilities: Who Listens When Android Applications Talk?�, 20 Aug. 2014; www.fireeye.com/blog/threat-research/2014/08/ssl-vulnerabilities-who-listens-when-android-applications-talk.html [accessed 8/25/2016]
+[^64]: A. Mettler et al, �SSL Vulnerabilities: Who Listens When Android Applications Talk?�, 20 Aug. 2014; www.fireeye.com/blog/threat-research/2014/08/ssl-vulnerabilities-who-listens-when-android-applications-talk.html [accessed 8/25/2016]
 
-[^065]: J. Montelibano and W. Dormann, How We Discovered Thousands of Vulnerable Android Apps in 1 Day, presented at RSA Conference USA 2015, 19 Apr. 2015;  www.rsaconference.com/writable/presentations/file_upload/hta-t08-how-we-discovered-thousands-of-vulnerable-android-apps-in-1-day_final.pdf [accessed 8/25/2016]
+[^65]: J. Montelibano and W. Dormann, How We Discovered Thousands of Vulnerable Android Apps in 1 Day, presented at RSA Conference USA 2015, 19 Apr. 2015;  www.rsaconference.com/writable/presentations/file_upload/hta-t08-how-we-discovered-thousands-of-vulnerable-android-apps-in-1-day_final.pdf [accessed 8/25/2016]
 
-[^066]: Fandango, Credit Karma Settle FTC Charges that They Deceived Consumers By Failing to Securely Transmit Sensitive Personal Information, Federal Trade Commission, 28 Mar. 2014; www.ftc.gov/news-events/press-releases/2014/03/fandango-credit-karma-settle-ftc-charges-they-deceived-consumers [accessed 8/25/2016]
+[^66]: Fandango, Credit Karma Settle FTC Charges that They Deceived Consumers By Failing to Securely Transmit Sensitive Personal Information, Federal Trade Commission, 28 Mar. 2014; www.ftc.gov/news-events/press-releases/2014/03/fandango-credit-karma-settle-ftc-charges-they-deceived-consumers [accessed 8/25/2016]
 
-[^067]: J. Case, �Exclusive: Vulnerability In Skype For Android Is Exposing Your Name, Phone Number, Chat Logs, And A Lot More�, blog, 14 Apr. 2011; www.androidpolice.com/2011/04/14/exclusive-vulnerability-in-skype-for-android-is-exposing-your-name-phone-number-chat-logs-and-a-lot-more/# [accessed 8/25/2016]
+[^67]: J. Case, �Exclusive: Vulnerability In Skype For Android Is Exposing Your Name, Phone Number, Chat Logs, And A Lot More�, blog, 14 Apr. 2011; www.androidpolice.com/2011/04/14/exclusive-vulnerability-in-skype-for-android-is-exposing-your-name-phone-number-chat-logs-and-a-lot-more/# [accessed 8/25/2016]
 
-[^068]: J. V. Dyke, �World Writable Code Is Bad, MMMMKAY�, blog, �10 Aug. 2015; www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/ [accessed 8/25/2016]
+[^68]: J. V. Dyke, �World Writable Code Is Bad, MMMMKAY�, blog, �10 Aug. 2015; www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/ [accessed 8/25/2016]
 
-[^069]: [Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]
+[^69]: [Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]
 
-[^070]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://media.defcon.org/DEF CON 24/DEF CON 24 presentations/DEFCON-24-Adam-Donenfeld-Stumping-The-Mobile-Chipset.pdf [accessed 8/25/2016]
+[^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://media.defcon.org/DEF CON 24/DEF CON 24 presentations/DEFCON-24-Adam-Donenfeld-Stumping-The-Mobile-Chipset.pdf [accessed 8/25/2016]
 
-[^071]: A. Brandt, �Android Towelroot Exploit Used to Deliver Dogspectus Ransomware�, blog, 25 Apr. 2016; www.bluecoat.com/security-blog/2016-04-25/android-exploit-delivers-dogspectus-ransomware [accessed 8/25/2016]
+[^71]: A. Brandt, �Android Towelroot Exploit Used to Deliver Dogspectus Ransomware�, blog, 25 Apr. 2016; www.bluecoat.com/security-blog/2016-04-25/android-exploit-delivers-dogspectus-ransomware [accessed 8/25/2016]
 
-[^072]: JailbreakMe; https://jailbreakme.qoid.us [accessed 8/25/2016]
+[^72]: JailbreakMe; https://jailbreakme.qoid.us [accessed 8/25/2016]
 
-[^073]: R. Welton, �A Pattern for Remote Code Execution using Arbitrary File Writes and MultiDex Applications�, blog, 15 June 2015; www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/ [accessed 8/25/2016]
+[^73]: R. Welton, �A Pattern for Remote Code Execution using Arbitrary File Writes and MultiDex Applications�, blog, 15 June 2015; www.nowsecure.com/blog/2015/06/15/a-pattern-for-remote-code-execution-using-arbitrary-file-writes-and-multidex-applications/ [accessed 8/25/2016]
 
-[^074]: M. Grace et al, �Unsafe Exposure Analysis of Mobile In-App Advertisements�, in Proceedings of the Fifth ACM Conference on Security and Privacy in Wireless and Mobile Networks,2012, pp. 101-112; http://dl.acm.org/citation.cfm?id=2185464 [accessed 8/25/2016]
+[^74]: M. Grace et al, �Unsafe Exposure Analysis of Mobile In-App Advertisements�, in Proceedings of the Fifth ACM Conference on Security and Privacy in Wireless and Mobile Networks,2012, pp. 101-112; http://dl.acm.org/citation.cfm?id=2185464 [accessed 8/25/2016]
 
-[^075]: S. Guerrero, �eBay for Android Content Provider Injection Vulnerability�, blog, 4 Oct. 2013; www.nowsecure.com/blog/2013/10/04/ebay-for-android-content-provider-injection-vulnerability/ [accessed 8/25/2016]
+[^75]: S. Guerrero, �eBay for Android Content Provider Injection Vulnerability�, blog, 4 Oct. 2013; www.nowsecure.com/blog/2013/10/04/ebay-for-android-content-provider-injection-vulnerability/ [accessed 8/25/2016]
 
-[^076]: X. Jiang, �Smishing Vulnerability in Multiple Android Platforms (including Gingerbread, Ice Cream Sandwich, and Jelly Bean)�, 28 Nov. 2012; www.csc.ncsu.edu/faculty/jiang/smishing.html [accessed 8/25/2016]
+[^76]: X. Jiang, �Smishing Vulnerability in Multiple Android Platforms (including Gingerbread, Ice Cream Sandwich, and Jelly Bean)�, 28 Nov. 2012; www.csc.ncsu.edu/faculty/jiang/smishing.html [accessed 8/25/2016]
 
-[^077]: T. Cannon, �Android SMS Spoofer�, GitHub repository, 14 Dec. 2012; https://github.com/thomascannon/android-sms-spoof [accessed 8/25/2016]
+[^77]: T. Cannon, �Android SMS Spoofer�, GitHub repository, 14 Dec. 2012; https://github.com/thomascannon/android-sms-spoof [accessed 8/25/2016]
 
-[^078]: K. Okuyama, "Content provider permission bypass allows malicious application to access data", Mozilla Foundation Security Advisory 2016-41, Mozilla Foundation, 26 Apr. 2016; www.mozilla.org/en-US/security/advisories/mfsa2016-41/ [accessed 8/25/2016]
+[^78]: K. Okuyama, "Content provider permission bypass allows malicious application to access data", Mozilla Foundation Security Advisory 2016-41, Mozilla Foundation, 26 Apr. 2016; www.mozilla.org/en-US/security/advisories/mfsa2016-41/ [accessed 8/25/2016]
 
-[^079]: �WebView addJavaScriptInterface Remote Code Execution�, 24 Sept. 2013; https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/ [accessed 8/25/2016]
+[^79]: �WebView addJavaScriptInterface Remote Code Execution�, 24 Sept. 2013; https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/ [accessed 8/25/2016]
 
-[^080]: F. Long, �DRD13. Do not provide addJavascriptInterface method access in a WebView which could contain untrusted content. (API level JELLY_BEAN or below)�, 8 Apr. 2015; www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=129859614 [accessed 8/25/2016]
+[^80]: F. Long, �DRD13. Do not provide addJavascriptInterface method access in a WebView which could contain untrusted content. (API level JELLY_BEAN or below)�, 8 Apr. 2015; www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=129859614 [accessed 8/25/2016]
 
-[^081]: T. Sutcliffe, �Remote code execution on Android devices�, blog, 31 July 2014; https://labs.bromium.com/2014/07/31/remote-code-execution-on-android-devices/ [accessed 8/25/2016]
+[^81]: T. Sutcliffe, �Remote code execution on Android devices�, blog, 31 July 2014; https://labs.bromium.com/2014/07/31/remote-code-execution-on-android-devices/ [accessed 8/25/2016]
 
-[^082]: D. Andzakovic, FortiClient Multiple Vulnerabilities, vulnerability disclosure, 29 Jan. 2015; www.security-assessment.com/files/documents/advisory/Fortinet_FortiClient_Multiple_Vulnerabilities.pdf [accessed 8/25/2016]
+[^82]: D. Andzakovic, FortiClient Multiple Vulnerabilities, vulnerability disclosure, 29 Jan. 2015; www.security-assessment.com/files/documents/advisory/Fortinet_FortiClient_Multiple_Vulnerabilities.pdf [accessed 8/25/2016]
 
-[^083]: The Google Android Security Team�s Classifications for Potentially Harmful Applications, Apr. 2016; https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_PHA_classifications.pdf [accessed 8/25/2016]
+[^83]: The Google Android Security Team�s Classifications for Potentially Harmful Applications, Apr. 2016; https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_PHA_classifications.pdf [accessed 8/25/2016]
 
-[^084]: W. Zhou et al., �Slembunk: An Evolving Android Trojan Family Targeting Users of Worldwide Banking Apps�, blog, 17 Dec. 2015; www.fireeye.com/blog/threat-research/2015/12/slembunk_an_evolvin.html [accessed 8/25/2016]
+[^84]: W. Zhou et al., �Slembunk: An Evolving Android Trojan Family Targeting Users of Worldwide Banking Apps�, blog, 17 Dec. 2015; www.fireeye.com/blog/threat-research/2015/12/slembunk_an_evolvin.html [accessed 8/25/2016]
 
-[^085]: Y. Zhou and X. Jiang, �Dissecting Android Malware: Characterization and Evolution�, in Proceedings of the 2012 IEEE Symposium on Security and Privacy, 2012, pp 95-109; http://ieeexplore.ieee.org/document/6234407/?arnumber=6234407 [accessed 8/25/2016]
+[^85]: Y. Zhou and X. Jiang, �Dissecting Android Malware: Characterization and Evolution�, in Proceedings of the 2012 IEEE Symposium on Security and Privacy, 2012, pp 95-109; http://ieeexplore.ieee.org/document/6234407/?arnumber=6234407 [accessed 8/25/2016]
 
-[^086]: C. Zheng and Z. Xu, �New Android Malware Family Evades Antivirus Detection by Using Popular Ad Libraries�, blog, 7 July 2015; http://researchcenter.paloaltonetworks.com/2015/07/new-android-malware-family-evades-antivirus-detection-by-using-popular-ad-libraries/ [accessed 8/25/2016]
+[^86]: C. Zheng and Z. Xu, �New Android Malware Family Evades Antivirus Detection by Using Popular Ad Libraries�, blog, 7 July 2015; http://researchcenter.paloaltonetworks.com/2015/07/new-android-malware-family-evades-antivirus-detection-by-using-popular-ad-libraries/ [accessed 8/25/2016]
 
-[^087]: Unauthorized App Discovered, in Incident Response for Android and iOS, www.nowsecure.com/resources/mobile-incident-response/en/case-studies/unauthorized-app-discovered.html [accessed 8/25/2016]
+[^87]: Unauthorized App Discovered, in Incident Response for Android and iOS, www.nowsecure.com/resources/mobile-incident-response/en/case-studies/unauthorized-app-discovered.html [accessed 8/25/2016]
 
-[^088]: M. Kelly, �Cloned banking app stealing usernames sneaks into Google Play�, blog, 24 June 2014; https://blog.lookout.com/blog/2014/06/24/bankmirage/ [accessed 8/25/2016]
+[^88]: M. Kelly, �Cloned banking app stealing usernames sneaks into Google Play�, blog, 24 June 2014; https://blog.lookout.com/blog/2014/06/24/bankmirage/ [accessed 8/25/2016]
 
-[^089]: D. Richardson, �Change to sideloading apps in iOS 9 is a security win�, blog, 10 Sept. 2015; https://blog.lookout.com/blog/2015/09/10/ios-9-sideloading/ [accessed 8/25/2016]
+[^89]: D. Richardson, �Change to sideloading apps in iOS 9 is a security win�, blog, 10 Sept. 2015; https://blog.lookout.com/blog/2015/09/10/ios-9-sideloading/ [accessed 8/25/2016]
 
-[^090]: Mobile Security: Threats and Countermeasures, white paper, MobileIron; www.mobileiron.com/sites/default/files/security/Mobile-Security-Threats-and-Countermeasures-WP-MKT-6361-V1.pdf [accessed 8/25/2016]
+[^90]: Mobile Security: Threats and Countermeasures, white paper, MobileIron; www.mobileiron.com/sites/default/files/security/Mobile-Security-Threats-and-Countermeasures-WP-MKT-6361-V1.pdf [accessed 8/25/2016]
 
-[^091]: D. Richardson, �Jailbreaking not a requirement for infecting iPhones with Hacking Team spyware�, blog, 10 July 2015; https://blog.lookout.com/blog/2015/07/10/hacking-team/ [accessed 8/25/2016]
+[^91]: D. Richardson, �Jailbreaking not a requirement for infecting iPhones with Hacking Team spyware�, blog, 10 July 2015; https://blog.lookout.com/blog/2015/07/10/hacking-team/ [accessed 8/25/2016]
 
-[^092]: L. Sun, et al, �Pawn Storm Update: iOS Espionage App Found�, blog, 4 Feb. 2015; http://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-update-ios-espionage-app-found/ [accessed 8/25/2016]
+[^92]: L. Sun, et al, �Pawn Storm Update: iOS Espionage App Found�, blog, 4 Feb. 2015; http://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-update-ios-espionage-app-found/ [accessed 8/25/2016]
 
-[^093]: C. Xiao, �WireLurker: A New Era in OS X and iOS Malware�, blog, 5 Nov. 2014; http://researchcenter.paloaltonetworks.com/2014/11/wirelurker-new-era-os-x-ios-malware/ [accessed 8/25/2016]
+[^93]: C. Xiao, �WireLurker: A New Era in OS X and iOS Malware�, blog, 5 Nov. 2014; http://researchcenter.paloaltonetworks.com/2014/11/wirelurker-new-era-os-x-ios-malware/ [accessed 8/25/2016]
 
-[^094]: C. Page, �MKero: Android malware secretly subscribes victims to premium SMS services�, The Inquirer, 9 Sept. 2015; www.theinquirer.net/inquirer/news/2425201/mkero-android-malware-secretly-subscribes-victims-to-premium-sms-services [accessed 8/25/2016]
+[^94]: C. Page, �MKero: Android malware secretly subscribes victims to premium SMS services�, The Inquirer, 9 Sept. 2015; www.theinquirer.net/inquirer/news/2425201/mkero-android-malware-secretly-subscribes-victims-to-premium-sms-services [accessed 8/25/2016]
 
-[^095]: T. Espiner, �Chinese Android botnet �netting millions�, says Symantec�, ZDNet, 10 Feb. 2012; www.zdnet.com/article/chinese-android-botnet-netting-millions-says-symantec/ [accessed 8/25/2016]
+[^95]: T. Espiner, �Chinese Android botnet �netting millions�, says Symantec�, ZDNet, 10 Feb. 2012; www.zdnet.com/article/chinese-android-botnet-netting-millions-says-symantec/ [accessed 8/25/2016]
 
-[^096]: C. Zheng, et al, �New Android Trojan XBot Phishes Credit Cards and Bank Accounts, Encrypts Devices for Ransom�, blog, 18 Feb. 2016; http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/ [accessed 8/25/2016]
+[^96]: C. Zheng, et al, �New Android Trojan XBot Phishes Credit Cards and Bank Accounts, Encrypts Devices for Ransom�, blog, 18 Feb. 2016; http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/ [accessed 8/25/2016]
 
-[^097]: R. K. Konoth, Victor van der Veen, and Herbert Bos, �How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication�, Proceedings of the 20th Conference on Financial Cryptography and Data Security,2016; http://fc16.ifca.ai/preproceedings/24_Konoth.pdf [accessed 8/25/2016]
+[^97]: R. K. Konoth, Victor van der Veen, and Herbert Bos, �How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication�, Proceedings of the 20th Conference on Financial Cryptography and Data Security,2016; http://fc16.ifca.ai/preproceedings/24_Konoth.pdf [accessed 8/25/2016]
 
-[^098]: Android Security 2015 Year In Review, Google, 2016; https://source.android.com/security/reports/Google_Android_Security_2015_Report_Final.pdf [accessed 8/25/2016]
+[^98]: Android Security 2015 Year In Review, Google, 2016; https://source.android.com/security/reports/Google_Android_Security_2015_Report_Final.pdf [accessed 8/25/2016]
 
-[^099]: D. Goodin, �Malware designed to take over cameras and record audio enters Google Play�, Ars Technica, 7 Mar. 2014; http://arstechnica.com/security/2014/03/malware-designed-to-take-over-cameras-and-record-audio-enters-google-play/ [accessed 8/25/2016]
+[^99]: D. Goodin, �Malware designed to take over cameras and record audio enters Google Play�, Ars Technica, 7 Mar. 2014; http://arstechnica.com/security/2014/03/malware-designed-to-take-over-cameras-and-record-audio-enters-google-play/ [accessed 8/25/2016]
 
 [^100]: J. Oberheide, Android Hax, presented at Summercon, 10 June 2010; https://jon.oberheide.org/files/summercon10-androidhax-jonoberheide.pdf [accessed 8/25/2016]
 
