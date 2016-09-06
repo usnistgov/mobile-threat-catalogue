@@ -14,7 +14,7 @@ layout: page
 {% endfor %}
 - __CVE Examples:__
 {% for CVEExample in page.CVEExample %}
-    - {{ CVEExample }}
+    - 	[{{ CVEExample }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEExample }})
 {% endfor %}
 - __Tactic Categories:__
 {% for TacticCategory in page.TacticCategory %}
