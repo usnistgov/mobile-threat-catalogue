@@ -3,5 +3,5 @@ layout: default
 ---
 
 <div class="page">
-  {{ content }}
+  {{ content | markdownify }}
 </div>
