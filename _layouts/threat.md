@@ -25,4 +25,6 @@ layout: page
     - {{ PossibleCountermeasures }}
 {% endfor %}
 
+- __References__
+
 {% include references.md %}
