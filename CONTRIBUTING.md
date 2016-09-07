@@ -17,22 +17,22 @@
 3. Inside the folder create a new markdown file with the next incremental ID for the filename.
 4. Copy the base template below into the file.
     ```yaml
-        ---
-            layout: threat
-            ThreatCategory:
-            ID:
-            Threat:
-            ThreatOrigin:
-            ExploitExample:
-                -
-                -
-            CVEExample:
-                -
-                -
-            PossibleCountermeasures:
-                -
-                -
-        ---
+            ---
+                layout: threat
+                ThreatCategory:
+                ID:
+                Threat:
+                ThreatOrigin:
+                ExploitExample:
+                    -
+                    -
+                CVEExample:
+                    -
+                    -
+                PossibleCountermeasures:
+                    -
+                    -
+            ---
     ```
 5. Fill in each of the fields with the following information. Wrapping any long strings in double quotes:
     - Threat Category: Identify the category you feel the threat falls under.
