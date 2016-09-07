@@ -4,6 +4,7 @@ layout: page
 # {{page.Threat}}
 
 - __Threat Category:__ {{page.ThreatCategory}}
+- __ID:__ {{page.ID}}
 - __Threat Origin:__
 {% for ThreatOrigin in page.ThreatOrigin %}
     - {{ ThreatOrigin }}
