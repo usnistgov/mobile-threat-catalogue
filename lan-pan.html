@@ -11,7 +11,7 @@ title: LANs and PANs
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for lan-pan in site.lan-pan-threats %}
+    {% for lan-pan-threat in site.lan-pan-threats %}
         <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}">{{ lan-pan-threat.Threat }}</a></li>
     {% endfor %}
 </ul>
