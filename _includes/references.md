@@ -126,7 +126,7 @@
 
 [^68]: J. V. Dyke, �World Writable Code Is Bad, MMMMKAY�, blog, �10 Aug. 2015; www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/ [accessed 8/25/2016]
 
-[^69]: [Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]
+[^69]: "[Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]"
 
 [^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://media.defcon.org/DEF CON 24/DEF CON 24 presentations/DEFCON-24-Adam-Donenfeld-Stumping-The-Mobile-Chipset.pdf [accessed 8/25/2016]
 
