@@ -1,0 +1,157 @@
+---
+-
+    term: 2G
+    definition: 2nd Generation
+-
+    term: 3G
+    definition: 3rd Generation
+-
+    term: 4G
+    definition: 4th Generation
+-
+    term: AP
+    definition: Access Point
+-
+    term: API
+    definition: Application Programming Interface
+-
+    term: BYOD
+    definition: Bring Your Own Device
+-
+    term: COPE
+    definition: Corporately Owned Personally Enabled
+-
+    term: COTS
+    definition: Commercially Available off the Shelf
+-
+    term: CSFB
+    definition: Circuit Switched Fallback
+-
+    term: CVE
+    definition: Common Vulnerabilities & Exposures
+-
+    term: CVV
+    definition: Card Verification Value
+-
+    term: DoS
+    definition: Denial of Service
+-
+    term: EMM
+    definition: Enterprise Mobility Management
+-
+    term: GSM
+    definition: Global System for Mobile Communications
+-
+    term: FIPS
+    definition: Federal Information Processing Standard
+-
+    term: HD
+    definition: High Definition
+-
+    term: IEEE
+    definition: Institute of Electrical and Electronics Engineers
+-
+    term: IoT
+    definition: Internet of Things
+-
+    term: IP
+    definition: Internet Protocol
+-
+    term: LTE
+    definition: Long Term Evolution
+-
+    term: MAC
+    definition: Media Access Control
+-
+    term: MAM
+    definition: Mobile Application Management
+-
+    term: MDM
+    definition: Mobile Device Management
+-
+    term: MNO
+    definition: Mobile Network Operator
+-
+    term: MMS
+    definition: Multimedia Messaging Service
+-
+    term: NCCoE
+    definition: National Cybersecurity Center of Excellence
+-
+    term: NFC
+    definition: Near Field Communication
+-
+    term: NIST
+    definition: National Institute of Standards and Technology
+-
+    term: NISTIR
+    definition: NIST Interagency Report
+-
+    term: OAM
+    definition: Operations, administration and maintenance
+-
+    term: OS
+    definition: Operating System
+-
+    term: PAN
+    definition: Personal Area network
+-
+    term: PIN
+    definition: Personal Identification Number
+-
+    term: PSTN
+    definition: Public Switched Telephone Networks
+-
+    term: RAT
+    definition: Remote Access Trojans
+-
+    term: RCS
+    definition: Rich Communication Services
+-
+    term: RFID
+    definition: Radio Frequency Identification
+-
+    term: SD
+    definition: Secure Digital
+-
+    term: SIG
+    definition: Special Interest Group
+-
+    term: SIM
+    definition: Subscriber Identity Module
+-
+    term: SMS
+    definition: Short Message Service
+-
+    term: SoC
+    definition: System on a Chip
+-
+    term: SP
+    definition: Special Publication
+-
+    term: SSID
+    definition: Service Set Identifier
+-
+    term: UICC
+    definition: Universal Integrated Circuit Card
+-
+    term: UMTS
+    definition: Universal Mobile Telecommunications System
+-
+    term: USIM
+    definition: Universal Subscriber Identity Module
+-
+    term: USB
+    definition: Universal Serial Bus
+-
+    term: USSD
+    definition: Unstructured Supplementary Service Data
+-
+    term: WAP
+    definition: Wireless Access Point
+-
+    term: WPAN
+    definition: Wireless Personal Area Network
+-
+    term: VPN
+    definition: Virtual Private Network

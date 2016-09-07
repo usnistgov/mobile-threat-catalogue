@@ -4,7 +4,7 @@ title: Glossary
 ---
 
 <ul class="threat-list">
-    {% for glossary-term in site.glossary-terms %}
-        <li><a href="{{ site.baseurl }}{{ glossary-term.url }}">{{ glossary-term.title }}</a></li>
+    {% for glossary-term in site.data.glossary-terms %}
+        <li><b>{{ glossary-term.term }}</b>: {{ glossary-term.definition }}</li>
     {% endfor %}
 </ul>
