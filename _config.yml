@@ -48,11 +48,9 @@ collections:
         output: true
     payment-threats:
         output: true
-    physical-access-threats:
+    physical-threats:
         output: true
     supply-chain-threats:
         output: true
     glossary-terms:
-        output: true
-    references:
         output: true
