@@ -1,6 +1,7 @@
+
 [^1]: N.O. Tippenhauer et al., "On the requirements for successful GPS spoofing attacks", in Proceedings of the 18th ACM conference on Computer and communications security, 2011, pp. 75-86; www.cs.ox.ac.uk/files/6489/gps.pdf [accessed 8/23/2016]
 
-[^2]: T.E. Humpreys et al. "Assessing the spoofing threat: Development of a portable GPS civilian spoofer." in Proceedings of the 21st International Technical Meeting of the Satellite Division of The Institute of Navigation, 2008, pp. 2314-2325; https://gps.mae.cornell.edu/humphreys_etal_iongnss2008.pdf�[accessed 8/23/2016]
+[^2]: T.E. Humpreys et al. "Assessing the spoofing threat: Development of a portable GPS civilian spoofer." in Proceedings of the 21st International Technical Meeting of the Satellite Division of The Institute of Navigation, 2008, pp. 2314-2325; https://gps.mae.cornell.edu/humphreys_etal_iongnss2008.pdf [accessed 8/23/2016]
 
 [^3]: S. Andrivet, The Security of MDM systems, presented at Hack In Paris, 20 June 2013; https://hackinparis.com/data/slides/2013/MDM-HIP_2013.pdf [accessed 8/23/2016]
 
@@ -24,7 +25,7 @@
 
 [^14]: 'M. Geuss, "The weak link in Apple Pay''s strong chain is bank verification. Who''s to blame?", Ars Technica, 3 Mar. 2015; http://arstechnica.com/apple/2015/03/the-weak-link-in-apple-pays-strong-chain-is-bank-verification-whos-to-blame/ [accessed 8/24/2016]'
 
-[^15]: 'M. Georgiev et al., "The most dangerous code in the world: validating SSL certificates in non-browser software", in Proceedings of the 2012 ACM conference on Computer and communications security�(CCS ''12), 2012, pp. 38-49; http://dx.doi.org/10.1145/2382196.2382204 [accessed 8/24/2016]'
+[^15]: 'M. Georgiev et al., "The most dangerous code in the world: validating SSL certificates in non-browser software", in Proceedings of the 2012 ACM conference on Computer and communications security (CCS ''12), 2012, pp. 38-49; http://dx.doi.org/10.1145/2382196.2382204 [accessed 8/24/2016]'
 
 [^16]: M. Souppaya and K. Scarfone, Guidelines for Securing Wireless Local Area Networks (WLANs), SP 800-163, National Institute of Standards and Technology, 2016; http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-153.pdf [accessed 8/24/2016]
 
@@ -86,7 +87,7 @@
 
 [^45]: L. Tung, "Apple iPhone, iPad iOS 9 security flaw lets malicious apps sneak onto enterprise devices," ZDNet, 1 Apr. 2016; www.zdnet.com/article/apple-iphone-ipad-ios-9-security-flaw-lets-malicious-apps-sneak-onto-enterprise-devices/
 
-[^46]: B. Lau et al. ,�MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at�BlackHat, 3-4 Aug. 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
+[^46]: B. Lau et al. , MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at BlackHat, 3-4 Aug. 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
 
 [^47]: 'M. Mendoza, "Xiaomi Locks Mi Devices'' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock," Tech Times, 20 Jan. 2016; www.techtimes.com/articles/125681/20160120/xiaomi-locks-mi-devices-bootloaders-on-fears-of-malware-and-security-risks-up-to21-days-to-unlock.htm [accessed 8/26/2016]'
 
@@ -124,7 +125,7 @@
 
 [^67]: J. Case, "Exclusive: Vulnerability In Skype For Android Is Exposing Your Name, Phone Number, Chat Logs, And A Lot More", blog, 14 Apr. 2011; www.androidpolice.com/2011/04/14/exclusive-vulnerability-in-skype-for-android-is-exposing-your-name-phone-number-chat-logs-and-a-lot-more/# [accessed 8/25/2016]
 
-[^68]: J. V. Dyke, "World Writable Code Is Bad, MMMMKAY", blog, �10 Aug. 2015; www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/ [accessed 8/25/2016]
+[^68]: J. V. Dyke, "World Writable Code Is Bad, MMMMKAY", blog,  10 Aug. 2015; www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/ [accessed 8/25/2016]
 
 [^69]: "[Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]"
 
@@ -248,15 +249,15 @@
 
 [^130]: D. Goodin, "Serious OS X and iOS Flaws Let Hackers Steal Keychain, 1Password Contents", Ars Technica, 17 June 2015; http://arstechnica.com/security/2015/06/serious-os-x-and-ios-flaws-let-hackers-steal-keychain-1password-contents/  [accessed 8/25/2016]
 
-[^131]: J. Lemonnier, "Which is the most secure Android Smart Lock?", 4 June 2016;�http://now.avg.com/which-is-the-most-secure-android-smart-lock/�[accessed 8/25/2016]
+[^131]: J. Lemonnier, "Which is the most secure Android Smart Lock?", 4 June 2016; http://now.avg.com/which-is-the-most-secure-android-smart-lock/ [accessed 8/25/2016]
 
-[^132]: J. Trader, "Liveness Detection to Fight Biometric Spoofing", blog, 22 July 2014;�http://blog.m2sys.com/scanning-and-efficiency/liveness-detection-fight-biometric-spoofing/�[accessed 8/25/2016]
+[^132]: J. Trader, "Liveness Detection to Fight Biometric Spoofing", blog, 22 July 2014; http://blog.m2sys.com/scanning-and-efficiency/liveness-detection-fight-biometric-spoofing/ [accessed 8/25/2016]
 
 [^133]: 'M. Rogers "Why I hacked TouchID (again) and still think it''s awesome", blog, 23 Sept. 2016; https://blog.lookout.com/blog/2014/09/23/iphone-6-touchid-hack; [accessed 8/25/2016]'
 
 [^134]: D. Richardson, "Using Spoofed Wi-Fi to Attack Mobile Devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/25/2016]
 
-[^135]: SRLabs, "iPhone 5S Touch ID susceptible to fingerprint spoofs", YouTube video, 25 Sept. 2013;�www.youtube.com/watch?v=h1n_tS9zxMc�[accessed 8/25/2016]; Note, URL https://srlabs.de/spoofing-fingerprints/ - not available
+[^135]: SRLabs, "iPhone 5S Touch ID susceptible to fingerprint spoofs", YouTube video, 25 Sept. 2013; www.youtube.com/watch?v=h1n_tS9zxMc [accessed 8/25/2016]; Note, URL https://srlabs.de/spoofing-fingerprints/ - not available
 
 [^136]: "Man-in-the-Middle Attack", 31 Aug. 2015; www.owasp.org/index.php/Man-in-the-middle_attack [accessed 8/25/2016]
 
@@ -270,7 +271,7 @@
 
 [^141]: W. Denniss and J. Bradley, "OAuth 2.0 for Native Apps", IETF Internet Draft, work in progress, July 2016.
 
-[^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013; � www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
+[^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013;   www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
 
 [^143]: "Z. Wang and A. Stavrou, \\"Exploiting Smart-Phone USB Connectivity for Fun and Profit\\", in Proceedings of 26th Annual Computer Security\nApplications Conference, 2010, pp. 357-365"
 
@@ -312,13 +313,13 @@
 
 [^165]: 3G Security; Security Threats and Requirements (Release 4), 3GPP TS 21.133 V4.0.0, 3rd Generation Partnership Project, 2003; www.3gpp.org/ftp/tsg_sa/wg3_security/_specs/Old_Vsns/21133-400.pdf [Accessed 8/23/2016]
 
-[^166]: J. Cichonski, J.M. Franklin, and M. Bartock,�LTE Architecture Overview and Security Analysis, Draft NISTIR 8071, National Institute of Standards and Technology, 2016; http://csrc.nist.gov/publications/drafts/nistir-8071/nistir_8071_draft.pdf [Accessed 8/23/2016]
+[^166]: J. Cichonski, J.M. Franklin, and M. Bartock, LTE Architecture Overview and Security Analysis, Draft NISTIR 8071, National Institute of Standards and Technology, 2016; http://csrc.nist.gov/publications/drafts/nistir-8071/nistir_8071_draft.pdf [Accessed 8/23/2016]
 
-[^167]: R.P. Jover,�LTE Security and Protocol Exploits, presented at ShmooCon, 3 Jan. 2016; www.ee.columbia.edu/~roger/ShmooCon_talk_final_01162016.pdf [accessed 8/23/2016]
+[^167]: R.P. Jover, LTE Security and Protocol Exploits, presented at ShmooCon, 3 Jan. 2016; www.ee.columbia.edu/~roger/ShmooCon_talk_final_01162016.pdf [accessed 8/23/2016]
 
 [^168]: J. Vijayan, "Researchers Exploit Cellular Tech Flaws to Intercept Phone Calls", ComputerWorld, 1 Aug. 2013; http://www.computerworld.com/article/2484538/cybercrime-hacking/researchers-exploit-cellular-tech-flaws-to-intercept-phone-calls.html [accessed 8/23/2016]
 
-[^169]: J. Kakar et al.�"Analysis and Mitigation of Interference to the LTE Physical Control Format Indicator Channel", in�Proceedings of 2014 IEEE Military Communications Conference, 2014, pp. 228-234.
+[^169]: J. Kakar et al. "Analysis and Mitigation of Interference to the LTE Physical Control Format Indicator Channel", in Proceedings of 2014 IEEE Military Communications Conference, 2014, pp. 228-234.
 
 [^170]: 'C.-Y. Li et al. "Insecurity of Voice Solution VoLTE in LTE Mobile Networks", In Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security (CCS ''15), 2015, pp. 316-327; http://dx.doi.org/10.1145/2810103.2813618 [accessed 8/23/2016]'
 
@@ -340,7 +341,7 @@
 
 [^179]: "H. Hu and N. Wei, \\"A Study of GPS Jamming and Anti-Jamming\\", in Proceedings of Power Electronics and Intelligent Transportation System (PEITS), 2009 2nd International Conference on, 2009, pp. 388-391.\n"
 
-[^180]: D. DePerry and T. Ritter,�I Can Hear You Now: Traffic Interception and Remote Mobile Phone Cloning with a Compromised CDMA Femtocell, presented at DEFCON 21, 2 Aug. 2013; www.defcon.org/images/defcon-21/dc-21-presentations/DePerry-Ritter/DEFCON-21-DePerry-Ritter-Femtocell-Updated.pdf [accessed 8/29/2016]
+[^180]: D. DePerry and T. Ritter, I Can Hear You Now: Traffic Interception and Remote Mobile Phone Cloning with a Compromised CDMA Femtocell, presented at DEFCON 21, 2 Aug. 2013; www.defcon.org/images/defcon-21/dc-21-presentations/DePerry-Ritter/DEFCON-21-DePerry-Ritter-Femtocell-Updated.pdf [accessed 8/29/2016]
 
 [^181]: "G.-H. Tu et al., \\"How Voice Call Technology Poses Security Threats in 4G LTE Networks\\", in Proceedings of 2015 IEEE Conference on Communications and Network Security (CNS), 2015.\n"
 
@@ -362,11 +363,11 @@
 
 [^190]: "New VMSA-2014-0014 - AirWatch by VMWare Product Update Addresses Information Disclosure Vulnerabilities", 10 Dec. 2014; http://seclists.org/fulldisclosure/2014/Dec/44 [accessed 8/29/2016]
 
-[^191]: G. Lorenz et al., "Securing SS7 Telecommunications Networks", in�Workshop on Information Assurance and Security vol. 2, 2001.
+[^191]: G. Lorenz et al., "Securing SS7 Telecommunications Networks", in Workshop on Information Assurance and Security vol. 2, 2001.
 
 [^192]: C. Xiao, "BackStab: Mobile Backup Data Under Attack from Malware", paloalto, 7 Dec. 2015; http://researchcenter.paloaltonetworks.com/2015/12/backstab-mobile-backup-data-under-attack-from-malware/ [accessed 8/29/2016]
 
-[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://www.paloaltonetworks.com/resources/research/unit42-backstab-mobile-backup-data-under-attack-from-malware.html �[accessed 8/29/2016]
+[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://www.paloaltonetworks.com/resources/research/unit42-backstab-mobile-backup-data-under-attack-from-malware.html  [accessed 8/29/2016]
 
 [^194]: Elcomsoft Phone Breaker; https://www.elcomsoft.com/eppb.html [accessed 8/29/2016]
 
@@ -400,7 +401,7 @@
 
 [^209]: 'laginimaineb, "Extracting Qualcomm''s KeyMaster Keys - Breaking Android Full Disk Encryption," blog, 30 Jun. 2016; https://bits-please.blogspot.com/2016/06/extracting-qualcomms-keymaster-keys.html'
 
-[^210]: ARM Security Technology Building a Secure System using TrustZone Technology; �http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch01s03s03.html [accessed 8/23/16].
+[^210]: ARM Security Technology Building a Secure System using TrustZone Technology;  http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch01s03s03.html [accessed 8/23/16].
 
 [^211]: K. Nohl, Rooting SIM cards, presented at BlackHat, 2013. https://media.blackhat.com/us-13/us-13-Nohl-Rooting-SIM-cards-Slides.pdf [accessed 8/23/16].
 
@@ -428,7 +429,7 @@
 
 [^223]: B. Krebs, "Beware of Juice-Jacking", 11 Aug. 2011; http://krebsonsecurity.com/2011/08/beware-of-juice-jacking/ [accessed 8/24/2016]
 
-[^224]: P. Paganini, "Hacking Samsung Galaxy via Modem interface exposed via USB", 13 Apr. 2016; http://securityaffairs.co/wordpress/46287/hacking/hacking-samsung-galaxy.html �[accessed 8/24/2016]
+[^224]: P. Paganini, "Hacking Samsung Galaxy via Modem interface exposed via USB", 13 Apr. 2016; http://securityaffairs.co/wordpress/46287/hacking/hacking-samsung-galaxy.html  [accessed 8/24/2016]
 
 [^225]: "\\"Phone Theft in America: What really happens when your phone gets grabbed\\", blog, 7 May 2014; https://blog.lookout.com/blog/2014/05/07/phone-theft-in-america/ [accessed 8/25/2016]\n"
 
@@ -440,28 +441,28 @@
 
 [^229]: D. Genkin et al., ECDSA Key Extraction from Mobile Devices Via Nonintrusive Physical Side Channels, tech. report 2016/230, Cryptology ePrint Archive, 2016; https://www.tau.ac.il/~tromer/mobilesc/mobilesc.pdf [accessed 8/31/2016]
 
-[^230]: FAQ on Lost/Stolen Devices, in�Your Wireless Life, July 2016; http://www.ctia.org/your-wireless-life/consumer-tips/how-to-deter-smartphone-thefts-and-protect-your-data/faq-on-lost-stolen-devices#anti-theft-commitment [accessed 8/31/2016]
+[^230]: FAQ on Lost/Stolen Devices, in Your Wireless Life, July 2016; http://www.ctia.org/your-wireless-life/consumer-tips/how-to-deter-smartphone-thefts-and-protect-your-data/faq-on-lost-stolen-devices#anti-theft-commitment [accessed 8/31/2016]
 
-[^231]: "Eight Ways to Keep Your Smartphone Safe", in�BullGuard Security Centre; www.bullguard.com/bullguard-security-center/mobile-security/mobile-protection-resources/8-ways-to-keep-your-smartphone-safe.aspx [accessed 8/31/2016]
+[^231]: "Eight Ways to Keep Your Smartphone Safe", in BullGuard Security Centre; www.bullguard.com/bullguard-security-center/mobile-security/mobile-protection-resources/8-ways-to-keep-your-smartphone-safe.aspx [accessed 8/31/2016]
 
 [^232]: G. Sims, "New Malware Tries to Infect Android Devices Via USB Cable", 27 Jan. 2014; www.androidauthority.com/new-malware-tries-infect-android-devices-via-usb-cable-339356/ [accessed 8/31/2016]
 
-[^233]: 'P. Warren, "Who''s Got Your Old Phone''s Data?",�The Guardian, 23 Sept. 2008; www.theguardian.com/technology/2008/sep/25/news.mobilephones [accessed 8/31/2016]'
+[^233]: 'P. Warren, "Who''s Got Your Old Phone''s Data?", The Guardian, 23 Sept. 2008; www.theguardian.com/technology/2008/sep/25/news.mobilephones [accessed 8/31/2016]'
 
 [^234]: The Current State of Android Security, infographic, Duo Labs, Jan 2016; https://duo.com/assets/infographics/The State of Android Security 72.png [accessed 8/31/2016]
 
-[^235]: L. Jordaan and B. von Solms, "A Biometrics-Based Solution to Combat SIM Swap Fraud", in�Open Research Problems in Network Security, pp. 70-87, 2011
+[^235]: L. Jordaan and B. von Solms, "A Biometrics-Based Solution to Combat SIM Swap Fraud", in Open Research Problems in Network Security, pp. 70-87, 2011
 
-[^236]: Juniper Networks Third Annual Mobile Threats Report, white paper, Juniper Networks;�http://www.juniper.net/us/en/local/pdf/additional-resources/jnpr-2012-mobile-threats-report.pdf�[accessed 8/31/16]
+[^236]: Juniper Networks Third Annual Mobile Threats Report, white paper, Juniper Networks; http://www.juniper.net/us/en/local/pdf/additional-resources/jnpr-2012-mobile-threats-report.pdf [accessed 8/31/16]
 
-[^237]: M. Rogers, "Dendroid malware can take over your camera, record audio, and sneak into Google Play", blog, 6 Mar. 2014;https://blog.lookout.com/blog/2014/03/06/dendroid/�[accessed 8/31/16]
+[^237]: M. Rogers, "Dendroid malware can take over your camera, record audio, and sneak into Google Play", blog, 6 Mar. 2014;https://blog.lookout.com/blog/2014/03/06/dendroid/ [accessed 8/31/16]
 
-[^238]: X. Zhang and W. Du, "Attacks on Android Clipboard",�Detection of Intrusions and Malware and Vulnerability Assessment: 11th�International Conference, 2014;http://www.cis.syr.edu/~wedu/Research/paper/clipboard_attack_dimva2014.pdf�[accessed 8/31/16]
+[^238]: X. Zhang and W. Du, "Attacks on Android Clipboard", Detection of Intrusions and Malware and Vulnerability Assessment: 11th International Conference, 2014;http://www.cis.syr.edu/~wedu/Research/paper/clipboard_attack_dimva2014.pdf [accessed 8/31/16]
 
-[^239]: C. Xiao, "Update: XcodeGhost Attacker Can Phish Passwords and Open URLs Through Infected Apps", blog, 18 Sep. 2015;http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/�[accessed 8/31/16]
+[^239]: C. Xiao, "Update: XcodeGhost Attacker Can Phish Passwords and Open URLs Through Infected Apps", blog, 18 Sep. 2015;http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/ [accessed 8/31/16]
 
-[^240]: S. Poeplau et al., "Execute This! Analyzing Unsafe and Malicious Dynamic Code Loading in Android Applications", in�Proceedings of the 2014 Network and Distributed System Security Symposium, 2014;�http://www.internetsociety.org/doc/execute-analyzing-unsafe-and-malicious-dynamic-code-loading-android-applications�[accessed 8/31/16]
+[^240]: S. Poeplau et al., "Execute This! Analyzing Unsafe and Malicious Dynamic Code Loading in Android Applications", in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; http://www.internetsociety.org/doc/execute-analyzing-unsafe-and-malicious-dynamic-code-loading-android-applications [accessed 8/31/16]
 
-[^241]: J. Xie et al., "Hot or Not? The Benefits and Risks of iOS Remote Hot Patching", blog, 27 Jan. 2016;�https://www.fireeye.com/blog/threat-research/2016/01/hot_or_not_the_bene.html�[accessed 8/31/16]
+[^241]: J. Xie et al., "Hot or Not? The Benefits and Risks of iOS Remote Hot Patching", blog, 27 Jan. 2016; https://www.fireeye.com/blog/threat-research/2016/01/hot_or_not_the_bene.html [accessed 8/31/16]
 
-[^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014;�http://nshipster.com/method-swizzling/�[accessed 8/31/16]
+[^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014; http://nshipster.com/method-swizzling/ [accessed 8/31/16]
