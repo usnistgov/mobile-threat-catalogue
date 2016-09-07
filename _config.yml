@@ -15,10 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Mobile Threat Catalogue
 email: akeller@mitre.org
-description: > # <p>Mobile devices pose a unique set of threats to the enterprise, but typical enterprise protections fail to address the larger picture.
+description: > # Mobile devices pose a unique set of threats to the enterprise, but typical enterprise protections fail to address the larger picture.
     In order to fully address the threats mobile devices bring, a wider view of the mobile ecosystem is necessary.
-    This document contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.</p>
-    An associated report describing this document is available at NIST's Computer Security Resource Center at <a href="http://csrc.nist.gov">csrc.nist.gov</a></p>
+    This document contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.
+
+    An associated report describing this document is available at NIST's Computer Security Resource Center at <a href="http://csrc.nist.gov">csrc.nist.gov</a>
 baseurl: "/mobile-threat-catalogue" # the subpath of your site, e.g. /blog
 url: "http://mrdrewkeller.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
@@ -51,6 +52,4 @@ collections:
     physical-threats:
         output: true
     supply-chain-threats:
-        output: true
-    glossary-terms:
         output: true
