@@ -5,9 +5,9 @@
     Threat: "Storing files with insecure file permissions or in an unprotected location on the device"
     ThreatOrigin:
     ExploitExample:
-        - "Vulnerability in Skype For Android [^67]"
+        - "Vulnerability in Skype for Android [^67]"
         - "World Writable Code Is Bad, MMMMKAY [^68]"
-        - "LOOK-11-001 [^69]"
+        - "LOOK-11-001 something [^69]"
     CVEExample:
         - CVE-2011-1717
     PossibleCountermeasures:
