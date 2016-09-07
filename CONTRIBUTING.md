@@ -50,6 +50,8 @@
     - ``[^ReferenceID]: Reference Text``
 3. Back in the threat file, make a call to the newly added reference using the following format ``[^ReferenceID]``
 4. Create a pull request
+
+
 ### Adding a Glossary Term
 1. Find the ``glossary-terms.yml`` file located in the ``_data`` folder
 2. Add a new entry to the bottom of the file using the following format:
