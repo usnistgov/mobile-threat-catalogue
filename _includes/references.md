@@ -257,7 +257,7 @@
 
 [^134]: D. Richardson, "Using Spoofed Wi-Fi to Attack Mobile Devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/25/2016]
 
-[^135]: SRLabs, "iPhone 5S Touch ID susceptible to fingerprint spoofs", YouTube video, 25 Sept. 2013; www.youtube.com/watch?v=h1n_tS9zxMc [accessed 8/25/2016]; Note, URL https://srlabs.de/spoofing-fingerprints/ - not available
+[^135]: SRLabs, "iPhone 5S Touch ID susceptible to fingerprint spoofs", YouTube video, 25 Sept. 2013; www.youtube.com/watch?v=h1n_tS9zxMc [accessed 8/25/2016]
 
 [^136]: "Man-in-the-Middle Attack", 31 Aug. 2015; www.owasp.org/index.php/Man-in-the-middle_attack [accessed 8/25/2016]
 
@@ -273,7 +273,7 @@
 
 [^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013;   www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
 
-[^143]: "Z. Wang and A. Stavrou, \\"Exploiting Smart-Phone USB Connectivity for Fun and Profit\\", in Proceedings of 26th Annual Computer Security\nApplications Conference, 2010, pp. 357-365"
+[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365.
 
 [^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-Slides.pdf [accessed 8/25/2016]
 
@@ -283,7 +283,7 @@
 
 [^147]: V. Blue, "Researchers Show How to Hack an iPhone in 60 Seconds", ZDNet, 31 July 2013; www.zdnet.com/article/researchers-reveal-how-to-hack-an-iphone-in-60-seconds/ [accessed 8/25/2016]
 
-[^149]: A. O'Donnell, "How to Protect Yourself From Malicious QR Codes", blog, http://netsecurity.about.com/od/securityadvisorie1/a/How-To-Protect-Yourself-From-Malicious-QR-Codes.htm [accessed 8/25/16].
+[^149]: A. O'Donnell, "How to Protect Yourself From Malicious QR Codes", blog, http://netsecurity.about.com/od/securityadvisorie1/a/How-To-Protect-Yourself-From-Malicious-QR-Codes.htm [accessed 8/25/16]
 
 [^150]: G. Gruman, "Keep out hijackers: Secure your app store dev account," InfoWorld, 5 Dec. 2014; www.infoworld.com/article/2854963/mobile-development/how-to-keep-your-app-store-dev-account-from-being-hijacked.html
 
@@ -291,23 +291,23 @@
 
 [^152]: C. Welch, "Major security hole allows Apple passwords to be reset with only email address, date of birth (update)," The Verge, 22 Mar. 2013; www.theverge.com/2013/3/22/4136242/major-security-hole-allows-apple-id-passwords-reset-with-email-date-of-birth
 
-[^153]: D. Harkness et al., "Google Play Store seems blocked now from China. How can I update my Quora app?", forum thread, 6 Dec. 2014, www.quora.com/Google-Play-Store-seems-blocked-now-from-China-How-can-I-update-my-Quora-app [accessed 8/25/16].
+[^153]: D. Harkness et al., "Google Play Store seems blocked now from China. How can I update my Quora app?", forum thread, 6 Dec. 2014, www.quora.com/Google-Play-Store-seems-blocked-now-from-China-How-can-I-update-my-Quora-app [accessed 8/25/16]
 
 [^154]: J. Cheng, "'Find and Call' app becomes first trojan to appear on iOS App Store," Ars Technica, 5 July 2012; http://arstechnica.com/apple/2012/07/find-and-call-app-becomes-first-trojan-to-appear-on-ios-app-store/
 
-[^155]: J. Miller and C. Oberheide, Dissecting the Android Bouncer, Summercon, June 2012. https://jon.oberheide.org/files/summercon12-bouncer.pdf [accessed 8/25/16].
+[^155]: J. Miller and C. Oberheide, Dissecting the Android Bouncer, Summercon, June 2012. https://jon.oberheide.org/files/summercon12-bouncer.pdf [accessed 8/25/16]
 
-[^156]: N.J. Percoco and S. Schulte, Adventures in BouncerLand, presented at BlackHat, 25 July 2012. https://media.blackhat.com/bh-us-12/Briefings/Percoco/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf [accessed 8/25/16].
+[^156]: N.J. Percoco and S. Schulte, Adventures in BouncerLand, presented at BlackHat, 25 July 2012. https://media.blackhat.com/bh-us-12/Briefings/Percoco/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf [accessed 8/25/16]
 
-[^158]: Setup an FDroid App Repo, wiki entry, 3 May 2016, https://f-droid.org/wiki/page/Setup_an_FDroid_App_Repo [accessed 8/25/16].
+[^158]: Setup an FDroid App Repo, wiki entry, 3 May 2016, https://f-droid.org/wiki/page/Setup_an_FDroid_App_Repo [accessed 8/25/16]
 
-[^159]: Protect your developer account, Google, 2016, https://support.google.com/googleplay/android-developer/answer/2543765?hl=en [accessed 8/25/16].
+[^159]: Protect your developer account, Google, 2016, https://support.google.com/googleplay/android-developer/answer/2543765?hl=en [accessed 8/25/16]
 
-[^160]: Security and your Apple ID, Apple, 2016, https://support.apple.com/en-us/HT201303 [accessed 8/25/16].
+[^160]: Security and your Apple ID, Apple, 2016, https://support.apple.com/en-us/HT201303 [accessed 8/25/16]
 
-[^161]: Maintaining Your Signing Identities and Certificates, Apple, 5 July 2016, https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html [accessed 8/25/16].
+[^161]: Maintaining Your Signing Identities and Certificates, Apple, 5 July 2016, https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html [accessed 8/25/16]
 
-[^162]: Secure Your Private Key, in User Guide, https://developer.android.com/studio/publish/app-signing.html#secure-key [accessed 8/25/16].
+[^162]: Secure Your Private Key, in User Guide, https://developer.android.com/studio/publish/app-signing.html#secure-key [accessed 8/25/16]
 
 [^164]: D. Goodin, "New Attack Steals Secret Crypto Keys from Android and iOS Phones", Ars Technica, 3 Mar. 2016; http://arstechnica.com/security/2016/03/new-attack-steals-secret-crypto-keys-from-android-and-ios-phones/  [accessed 8/25/2016]
 
@@ -339,11 +339,11 @@
 
 [^178]: C. Feest, Protecting Mobile Networks from SS7 Attacks, white paper, Telesoft Technologies Inc., 2015; http://telesoft-technologies.com/document-library/milborne-ss7-firewall-ips/12-telesoft-whitepaper-protecting-mobile-networks-from-ss7-attacks/file [accessed 8/23/2016]
 
-[^179]: "H. Hu and N. Wei, \\"A Study of GPS Jamming and Anti-Jamming\\", in Proceedings of Power Electronics and Intelligent Transportation System (PEITS), 2009 2nd International Conference on, 2009, pp. 388-391.\n"
+[^179]: H. Hu and N. Wei, "A Study of GPS Jamming and Anti-Jamming", in Proceedings of Power Electronics and Intelligent Transportation System (PEITS), 2009 2nd International Conference on, 2009, pp. 388-391.
 
 [^180]: D. DePerry and T. Ritter, I Can Hear You Now: Traffic Interception and Remote Mobile Phone Cloning with a Compromised CDMA Femtocell, presented at DEFCON 21, 2 Aug. 2013; www.defcon.org/images/defcon-21/dc-21-presentations/DePerry-Ritter/DEFCON-21-DePerry-Ritter-Femtocell-Updated.pdf [accessed 8/29/2016]
 
-[^181]: "G.-H. Tu et al., \\"How Voice Call Technology Poses Security Threats in 4G LTE Networks\\", in Proceedings of 2015 IEEE Conference on Communications and Network Security (CNS), 2015.\n"
+[^181]: G.-H. Tu et al., "How Voice Call Technology Poses Security Threats in 4G LTE Networks", in Proceedings of 2015 IEEE Conference on Communications and Network Security (CNS), 2015.
 
 [^182]: Z. Lackey, Attacking SMS, presented at Blackhat, 30 July 2009; www.blackhat.com/presentations/bh-usa-09/LACKEY/BHUSA09-Lackey-AttackingSMS-SLIDES.pdf [accessed 8/29/2016]
 
@@ -401,23 +401,23 @@
 
 [^209]: laginimaineb, "Extracting Qualcomm's KeyMaster Keys - Breaking Android Full Disk Encryption," blog, 30 Jun. 2016; https://bits-please.blogspot.com/2016/06/extracting-qualcomms-keymaster-keys.html
 
-[^210]: ARM Security Technology Building a Secure System using TrustZone Technology;  http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch01s03s03.html [accessed 8/23/16].
+[^210]: ARM Security Technology Building a Secure System using TrustZone Technology;  http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch01s03s03.html [accessed 8/23/16]
 
-[^211]: K. Nohl, Rooting SIM cards, presented at BlackHat, 2013. https://media.blackhat.com/us-13/us-13-Nohl-Rooting-SIM-cards-Slides.pdf [accessed 8/23/16].
+[^211]: K. Nohl, Rooting SIM cards, presented at BlackHat, 2013. https://media.blackhat.com/us-13/us-13-Nohl-Rooting-SIM-cards-Slides.pdf [accessed 8/23/16]
 
-[^212]: H. Ko and R. Caytiles, "A Review of Smartcard Security Issues," Journal of Security Engineering, 8, no. 3 (2011): 6. http://www.sersc.org/journals/JSE/vol8_no3_2011/3.pdf [accessed 8/23/16].
+[^212]: H. Ko and R. Caytiles, "A Review of Smartcard Security Issues," Journal of Security Engineering, 8, no. 3 (2011): 6. http://www.sersc.org/journals/JSE/vol8_no3_2011/3.pdf [accessed 8/23/16]
 
 [^213]: zLabs, "Zimperium Applauds Google's Rapid Response to Unpatched Kernel Exploit," Zimperium, 25 Mar. 2016; https://blog.zimperium.com/zimperium-applauds-googles-rapid-response-to-unpatched-kernel-exploit/
 
-[^214]: W. Xu and Y. Fu, Own your Android! Yet Another Universal Root, presented at BlackHat, 2015. https://www.blackhat.com/docs/us-15/materials/us-15-Xu-Ah-Universal-Android-Rooting-Is-Back-wp.pdf [accessed 8/23/16].
+[^214]: W. Xu and Y. Fu, Own your Android! Yet Another Universal Root, presented at BlackHat, 2015. https://www.blackhat.com/docs/us-15/materials/us-15-Xu-Ah-Universal-Android-Rooting-Is-Back-wp.pdf [accessed 8/23/16]
 
-[^215]: TALOS Vulnerability Report; http://www.talosintelligence.com/reports/TALOS-2016-0186/ [accessed 8/23/16].
+[^215]: TALOS Vulnerability Report; http://www.talosintelligence.com/reports/TALOS-2016-0186/ [accessed 8/23/16]
 
 [^216]: windknown, "iOS 8.4.1 Kernel Vulnerabilities in AppleHDQGasGaugeControl," Pangu, 08 Sept. 2015; http://blog.pangu.io/ios-8-4-1-kernel-vulns/
 
-[^217]: B. Lau et. al. , Injecting Malware into iOS Devices via Maliscious Chargers, presented at BlackHat, 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
+[^217]: B. Lau et. al. , Injecting Malware into iOS Devices via Maliscious Chargers, presented at BlackHat, 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16]
 
-[^218]: Threat Advisory Semi Jailbreak; https://www.wandera.com/resources/dl/TA_SemiJailbreak.pdf [accessed 8/23/16].
+[^218]: Threat Advisory Semi Jailbreak; https://www.wandera.com/resources/dl/TA_SemiJailbreak.pdf [accessed 8/23/16]
 
 [^219]: A. Chaykin, "Spoofing and intercepting SIM commands through STK framework," blog, 26 Aug. 2015; http://blog.0xb.in/2015/08/spoofing-and-intercepting-sim-commands.html
 
