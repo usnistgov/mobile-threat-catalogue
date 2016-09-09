@@ -7,7 +7,7 @@
         - "Internet Security Threat Report 2016 [^110]"
         - "Mobile Security: Threats and Countermeasures [^90]"
     ExploitExample:
-        - "Zimperium Applauds Google�s Rapid Response to Unpatched Kernel Exploit [^213]"
+        - "Zimperium Applauds Google's Rapid Response to Unpatched Kernel Exploit [^213]"
         - "Remote Code Execution as System User on Samsung Phones [^55]"
     CVEExample:
         - CVE-2010-2973
