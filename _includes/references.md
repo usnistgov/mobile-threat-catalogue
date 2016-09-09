@@ -383,7 +383,7 @@
 
 [^200]: J. Oberheide, "How I Almost Won Pwn2Own via XSS", 07 Mar. 2011; https://jon.oberheide.org/blog/2011/03/07/how-i-almost-won-pwn2own-via-xss/ [accessed 8/25/2016]
 
-[^201]: "R. Konoth, V. van der Veen et al., \\"How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication\\", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016\n"
+[^201]: R. Konoth, V. van der Veen et al., "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016.
 
 [^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://media.blackhat.com/us-13/US-13-Forristal-Android-One-Root-to-Own-Them-All-Slides.pdf [accessed 8/24/2016]
 
