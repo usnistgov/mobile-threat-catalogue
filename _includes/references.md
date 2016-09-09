@@ -393,7 +393,7 @@
 
 [^205]: Y. Amit, "Malicious Profiles - The Sleeping Giant of iOS Security", Skycure Blog, 12 Mar. 2013; https://www.skycure.com/blog/malicious-profiles-the-sleeping-giant-of-ios-security/ [accessed 8/23/2016]
 
-[^206]: "Android Security Bulletin�June 2016", 8 Dec. 2016; http://source.android.com/security/bulletin/2016-06-01.html [accessed 8/29/2016]
+[^206]: "Android Security Bulletin June 2016", 8 Dec. 2016; http://source.android.com/security/bulletin/2016-06-01.html [accessed 8/29/2016]
 
 [^207]: R. Chirgwin, "This is what a root debug backdoor in a Linux kernel looks like," The Register, 9 May. 2016; http://www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/
 
