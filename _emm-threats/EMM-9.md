@@ -2,7 +2,7 @@
     layout: threat
     ThreatCategory: Enterprise Mobility
     ID: EMM-9
-    Threat: "Enterprise data synchronized to unmanaged and potentially insecure 3rd party cloud services."
+    Threat: "Enterprise data synchronized to unmanaged and potentially insecure 3rd party cloud services"
     ThreatOrigin: "Man in the Cloud: Threat, Impact, Resolution and the Bigger Picture [^8]"
     ExploitExample:
     CVEExample:

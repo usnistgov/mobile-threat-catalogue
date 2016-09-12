@@ -3,7 +3,7 @@
     ThreatCategory: Physical Access
     ID: PHY-0
     Threat: "Device loss or theft"
-    ThreatOrigin: "FAQ on Lost/Stolen Devices [^229]"
+    ThreatOrigin: "FAQ on Lost/Stolen Devices [^230]"
     ExploitExample:
         - "Phone Theft in America: What really happens when your phone gets grabbed [^225]"
         - "Smartphone thefts drop as kill switch usage grows [^226]"
