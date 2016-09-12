@@ -42,6 +42,8 @@ title: Contributing
             - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
             - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
             - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+            - **References**: Provide any references to supporting sources.
+
 
     6. Hit “Submit New Issue” and you are done!  
     ![Submit issue]({{ site.baseurl }}/img/submit_new_issue.png)

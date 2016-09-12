@@ -35,3 +35,6 @@ Provide a description of the threat.
 
 **Possible Countermeasures**:
     - Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+
+**References**:
+    - Provide any references to supporting sources.
