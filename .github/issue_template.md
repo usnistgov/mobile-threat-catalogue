@@ -1,4 +1,4 @@
-Comment on Threat
+General Comment
 ------------------------------------------
 **Threat ID**:
 If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
