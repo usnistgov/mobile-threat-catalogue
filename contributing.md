@@ -8,17 +8,41 @@ title: Contributing
 ## 	[View on Github](#)
 
 ## Providing Comments
-Have a general comment or want to request a change? Open an issue on [Github](#).
 
-For each comment to the Mobile Threat Catalogue, please provide the following:
+**Review the documentation.** No account is needed to review the updated version of NIST SP 800-63-3. Simply follow [this link](#) and enjoy at your leisure. However, if you wish to comment you must…
 
-- Threat ID: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
-- Type of Comment: Enter the letter that best describes the nature of your comment:
-    - E - Editorial comments (e.g. spelling, grammar, or formatting)
-    - G - General comments on how information has been presented (e.g. format, organization, phrasing, diction, or terminology)
-    - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
-- Proposed Change: With as much detail as possible, what change should be made.
-- Justification: Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
+1. **Establish a GitHub account.** In order to submit a comment through the GitHub “Issues” feature, you will need to create a GitHub account. This can be done by proceeding to https://github.com/join. GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the “Profile” and “Emails” pages of your “Personal Settings”.  We also highly encourage you to turn on two-factor authentication in the “Security” page, also part of “Personal Settings”.  
+  ![How to create account]({{ site.baseurl }}/img/create_github_account.png)
+
+2. **Open an issue.** As you are reading and identify comments you would like to make:
+
+    1. Click on the "Send Feedback" link in the footer of the page.
+
+    2. Review open and closed issues to determine if a similar issue has already been created.
+
+    3. Click on the "New Issue" button in the upper right of the screen.  
+    ![Create issue]({{ site.baseurl }}/img/create_new_issue.png)
+
+    4. Provide a short description in the field labelled "Title" for the feedback being provided.  
+    ![Issue title]({{ site.baseurl }}/img/issue_title.png)
+
+    5. Within the field labelled "Leave a comment", fill out the comment template and provide as much information as possible.
+    - **Threat ID**: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
+    - **Type of Comment**: Enter the letter that best describes the nature of your comment:
+            - E - Editorial comments (e.g. spelling, grammar, or formatting)
+            - G - General comments on how information has been presented (e.g. format, organization, phrasing, diction, or terminology)
+            - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
+    - **Proposed Change**: With as much detail as possible, what change should be made.
+    - **Justification**: Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
+
+    6. Hit “Submit New Issue” and you are done!  
+    ![Submit issue]({{ site.baseurl }}/img/submit_new_issue.png)
+
+    7. If you want to keep up with others comments through email and monitor future changes, make sure you choose to “Watch” the project!  
+    ![Watch project]({{ site.baseurl }}/img/watch_project.png)
+
+If you are familiar with github you are also welcome to provide suggestions to concrete changes as a pull request. Please provide information about organization and a rationale for suggested change.
+
 
 ## Adding New Threats
 1. Fork the repository
