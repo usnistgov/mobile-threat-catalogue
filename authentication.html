@@ -5,15 +5,37 @@ title: Authentication
 
 <p>Authentication mechanisms are grouped within the three subcategories listed below. Note that individual credential and token types are note broken into their own categories and are instead included within one of these three categories.</p>
 
-<p><b>User to Device:</b> Mechanisms used by a user to authenticate with a mobile device, such as use of passwords, fingerprints, or voice recognition. This is most often local authentication to a device’s lockscreen.</p>
+<p><b><a href="#user-device">User to Device</a>:</b> Mechanisms used by a user to authenticate with a mobile device, such as use of passwords, fingerprints, or voice recognition. This is most often local authentication to a device’s lockscreen.</p>
 
-<p><b>User or Device to Remote Service:</b> Mechanisms used by a user, or a distinct non-person entity (NPE), to remotely authenticate to an external process, service, or device.</p>
+<p><b><a href="#user-device-remote">User or Device to Remote Service</a>:</b> Mechanisms used by a user, or a distinct non-person entity (NPE), to remotely authenticate to an external process, service, or device.</p>
 
-<p><b>User or Device to Network:</b> Mechanisms used by a user, mobile device, or peripheral to authenticate to a network (e.g., WiFi, Cellular). This commonly includes proving possession of a cryptographic token.</p>
+<p><b><a href="#user-device-network">User or Device to Network</a>:</b> Mechanisms used by a user, mobile device, or peripheral to authenticate to a network (e.g., WiFi, Cellular). This commonly includes proving possession of a cryptographic token.</p>
 
 <h2>Threat List</h2>
+
+<h3 id="user-device">User to Device</h3>
 <ul class="threat-list">
     {% for authentication-threat in site.authentication-threats %}
-        <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+        {% if authentication-threat.ThreatCategory == 'Authentication: User to Device' %}
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="user-device-remote">User or Device to Remote Service</h3>
+<ul class="threat-list">
+    {% for authentication-threat in site.authentication-threats %}
+        {% if authentication-threat.ThreatCategory == 'Authentication: User or Device to Remote Service' %}
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="user-device-network">User or Device to Network</h3>
+<ul class="threat-list">
+    {% for authentication-threat in site.authentication-threats %}
+        {% if authentication-threat.ThreatCategory == 'Authentication: User or Device to Network' %}
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>
