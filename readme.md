@@ -2,9 +2,9 @@
 
 Mobile devices pose a unique set of threats to the enterprise, but typical enterprise protections fail to address the larger picture.
 In order to fully address the threats mobile devices bring, a wider view of the mobile ecosystem is necessary.
-This document contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.
+This repository contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.
 
-An associated report describing this document is available at NIST's Computer Security Resource Center at [csrc.nist.gov](http://csrc.nist.gov)
+An associated report describing this repository is available at NIST's Computer Security Resource Center at [csrc.nist.gov](http://csrc.nist.gov)
 
 
 The [NCCoE](https://nccoe.nist.gov) is interested in receiving comments on the Mobile Threat Catalogue, ideas for future mobile security projects, and mobile security architectures
