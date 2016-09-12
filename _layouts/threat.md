@@ -2,6 +2,7 @@
 layout: page
 ---
 # {{page.Threat}}
+[Contribute]({{ site.baseurl }}/contributing.html)
 
 - __Threat Category:__ {{page.ThreatCategory}}
 - __ID:__ {{page.ID}}
