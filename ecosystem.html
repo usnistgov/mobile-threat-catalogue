@@ -5,17 +5,48 @@ title: Ecosystem
 
 <p>This category includes general threats when device owners use added services offered by the operating system vendor or device manufacturer such as data backups.</p>
 
-<p><b>Mobile OS &amp; Vendor Infrastructure:</b> Infrastructure designed to provide services to mobile devices such as data backup, push notifications, and software updates.</p>
+<p><b><a href="#mobile-vendor-infra">Mobile OS &amp; Vendor Infrastructure</a>:</b> Infrastructure designed to provide services to mobile devices such as data backup, push notifications, and software updates.</p>
 
-<p><b>Native Public Stores:</b> Major mobile operating system vendors own and operate their own native mobile application stores, which host mobile applications alongside music, movies, games, etc. for users to download and install.</p>
+<p><b><a href="#native-public-stores">Native Public Stores</a>:</b> Major mobile operating system vendors own and operate their own native mobile application stores, which host mobile applications alongside music, movies, games, etc. for users to download and install.</p>
 
-<p><b>Private Enterprise Stores:</b> App stores may be owned and operated by private enterprises to host applications not meant for public distribution, such as apps developed and used solely within the organization.</p>
+<p><b><a href="#private-enterprise-stores">Private Enterprise Stores</a>:</b> App stores may be owned and operated by private enterprises to host applications not meant for public distribution, such as apps developed and used solely within the organization.</p>
 
-<p><b>Third-Party Stores:</b> Other legitimate, and illegitimate, app stores may be owned and operated by organizations external to the major mobile operating system vendors.</p>
+<p><b><a href="#third-party-stores">Third-Party Stores</a>:</b> Other legitimate, and illegitimate, app stores may be owned and operated by organizations external to the major mobile operating system vendors.</p>
 
 <h2>Threat List</h2>
+
+<h3 id="mobile-vendor-infra">Mobile OS &amp; Vendor Infrastructure</h3>
 <ul class="threat-list">
     {% for ecosystem-threat in site.ecosystem-threats %}
-        <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
+        {% if ecosystem-threat.ThreatCategory == 'Mobile OS & Vendor Infrastructure' %}
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="native-public-stores">Native Public Stores</h3>
+<ul class="threat-list">
+    {% for ecosystem-threat in site.ecosystem-threats %}
+        {% if ecosystem-threat.ThreatCategory == 'Native mobile app stores' %}
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="private-enterprise-stores">Private Enterprise Stores</h3>
+<ul class="threat-list">
+    {% for ecosystem-threat in site.ecosystem-threats %}
+        {% if ecosystem-threat.ThreatCategory == 'Enterprise/Private mobile app stores' %}
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="third-party-stores">Third-Party Stores</h3>
+<ul class="threat-list">
+    {% for ecosystem-threat in site.ecosystem-threats %}
+        {% if ecosystem-threat.ThreatCategory == 'Third-Party mobile app stores' %}
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}">{{ ecosystem-threat.Threat }}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>

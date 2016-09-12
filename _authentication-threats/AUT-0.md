@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Authentication
+    ThreatCategory: "Authentication: User or Device to Remote Service"
     ID: AUT-0
     Threat: "Theft (Use of authorized credentials)"
     ThreatOrigin: "Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]"

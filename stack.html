@@ -3,23 +3,72 @@ layout: threat-list
 title: Mobile Device Technology Stack
 ---
 
-<p><b>Mobile Operating System:</b> Operating system specifically designed for a mobile device and running mobile applications.</p>
+<p><b><a href="#mobile-operating-system">Mobile Operating System:</a></b> Operating system specifically designed for a mobile device and running mobile applications.</p>
 
-<p><b>Device Drivers:</b> Firmware running on a mobile device often used to interact with device hardware and other peripherals (e.g., camera)</p>
+<p><b><a href="#device-drivers">Device Drivers:</a></b> Firmware running on a mobile device often used to interact with device hardware and other peripherals (e.g., camera)</p>
 
-<p><b>Isolated Execution Environments:</b> Hardware- or Firmware-based environment built into the mobile device that may provide many capabilities such as trusted key storage, code verification, code integrity, and trusted execution for security relevant
+<p><b><a href="#isolated-exec-environ">Isolated Execution Environments:</a></b> Hardware- or Firmware-based environment built into the mobile device that may provide many capabilities such as trusted key storage, code verification, code integrity, and trusted execution for security relevant
     processes.</p>
 
-<p><b>Boot Firmware:</b> The firmware necessary to boot the mobile OS (i.e., bootloader), and may verify additional device initialization code, device drivers used for peripherals, and portions of the mobile OS – all before a user can use the device.</p>
+<p><b><a href="#boot-firmware">Boot Firmware:</a></b> The firmware necessary to boot the mobile OS (i.e., bootloader), and may verify additional device initialization code, device drivers used for peripherals, and portions of the mobile OS – all before a user can use the device.</p>
 
-<p><b>Baseband Subsystem:</b> The collection of hardware and firmware used to access the cellular network, and may run a real-time operating system (RTOS).</p>
+<p><b><a href="#baseband-subsystem">Baseband Subsystem:</a></b> The collection of hardware and firmware used to access the cellular network, and may run a real-time operating system (RTOS).</p>
 
-<p><b>SIM Card:</b> This removable hardware token is a System on a Chip (SoC) housing the subscriber identity (i.e., International Mobile Subscriber Identity), pre-shared cryptographic keys, and configuration information needed to obtain access to cellular
+<p><b><a href="#sim-card">SIM Card:</a></b> This removable hardware token is a System on a Chip (SoC) housing the subscriber identity (i.e., International Mobile Subscriber Identity), pre-shared cryptographic keys, and configuration information needed to obtain access to cellular
     networks.</p>
 
 <h2>Threat List</h2>
+
+<h3 id="mobile-operating-system">Mobile Operating System</h3>
 <ul class="threat-list">
     {% for stack-threat in site.stack-threats %}
-        <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% if stack-threat.ThreatCategory == 'Mobile Operating System' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="device-drivers">Device Drivers</h3>
+<ul class="threat-list">
+    {% for stack-threat in site.stack-threats %}
+        {% if stack-threat.ThreatCategory == 'Device Drivers' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="isolated-exec-environ">Isolated Execution Environments</h3>
+<ul class="threat-list">
+    {% for stack-threat in site.stack-threats %}
+        {% if stack-threat.ThreatCategory == 'Isolated Execution Environments' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="boot-firmware">Boot Firmware</h3>
+<ul class="threat-list">
+    {% for stack-threat in site.stack-threats %}
+        {% if stack-threat.ThreatCategory == 'Boot firmware' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="baseband-subsystem">Baseband Subsystem</h3>
+<ul class="threat-list">
+    {% for stack-threat in site.stack-threats %}
+        {% if stack-threat.ThreatCategory == 'Baseband Subsystem' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="sim-card">SIM Card</h3>
+<ul class="threat-list">
+    {% for stack-threat in site.stack-threats %}
+        {% if stack-threat.ThreatCategory == 'USIM / SIM / UICC security' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>

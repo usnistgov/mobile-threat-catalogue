@@ -2,16 +2,26 @@
 layout: threat-list
 title: Applications
 ---
-
-<p><b>Vulnerable Application:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
+<p><b><a href="#vulnerable-applications">Vulnerable Application</a>:</b> This subcategory contains threats relating to discrete software vulnerabilities residing within mobile applications running atop the mobile operating system. Note: Some vulnerabilities may be specific to a particular mobile OS,
     while others may be generally applicable.</p>
-
-<p><b>Malicious or privacy-invasive application:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
+<p><b><a href="#malicious-priv-applications">Malicious or privacy-invasive application</a>:</b> This subcategory identifies mobile malware based threats, based in part off of Google’s mobile classification taxonomy. There are no specific software vulnerabilities
     within this subcategory, and accordingly no CVEs are cited. Additional malware categories are included within subcategory.</p>
 
 <h2>Threat List</h2>
+<h3 id="vulnerable-applications" >Vulnerable Applications</h3>
 <ul class="threat-list">
     {% for application-threat in site.application-threats %}
-        <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
+        {% if application-threat.ThreatCategory == 'Vulnerable Applications' %}
+            <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="malicious-priv-applications" >Malicious or privacy-invasive applications</h3>
+<ul class="threat-list">
+    {% for application-threat in site.application-threats %}
+        {% if application-threat.ThreatCategory == 'Malicious or privacy-invasive application' %}
+            <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>
