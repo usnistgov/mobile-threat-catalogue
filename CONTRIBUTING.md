@@ -45,7 +45,7 @@
 6. Submit a pull request.
 
 
-### Adding a Reference
+## Adding a Reference
 1. Find the ``references.md`` file located in the ``_includes`` folder
 2. Make a new entry at the bottom of the file with the following format
     - ``[^ReferenceID]: Reference Text``
@@ -53,7 +53,7 @@
 4. Create a pull request
 
 
-### Adding a Glossary Term
+## Adding a Glossary Term
 1. Find the ``glossary-terms.yml`` file located in the ``_data`` folder
 2. Add a new entry to the bottom of the file using the following format:
 
