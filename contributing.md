@@ -34,7 +34,7 @@ title: Contributing
                     - G - General comments on how information has been presented (e.g. format, organization, phrasing, diction, or terminology)
                     - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
             - **Proposed Change**: With as much detail as possible, what change should be made.
-            - **Justification**: Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
+            - **Justification**: Provide reasoning as to why the proposed change is necessary. For technical comments, providing references to supporting sources is encouraged.
         2. If you are requesting a new threat be added, remove the top half of the template labeled "_General Comment_" and fill out the bottom half labeled "_New Threat_".
             - **Threat Category**: Identify the category you feel the threat falls under.
             - **Threat**: Provide a description of the threat.

@@ -13,7 +13,7 @@ Enter the letter that best describes the nature of your comment
 With as much detail as possible, what change should be made.
 
 **Justification**:
-Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
+Provide reasoning as to why the proposed change is necessary. For technical comments, providing references to supporting sources is encouraged.
 
 
 New Threat
