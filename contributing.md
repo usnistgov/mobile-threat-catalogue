@@ -1,3 +1,8 @@
+---
+layout: page
+title: Contributing
+---
+
 # Contributing
 
 ## Adding New Threats
