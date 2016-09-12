@@ -9,4 +9,4 @@ An associated report describing this document is available at NIST's Computer Se
 
 The [NCCoE](https://nccoe.nist.gov) is interested in receiving comments on the Mobile Threat Catalogue, ideas for future mobile security projects, and mobile security architectures
 operating and/or managing enterprise mobile deployments. The NCCoE is also interested in feedback from mobile technology vendors who may wish to work in
-collaboration to solve mobile security challenges. Go to the ``contributing.md`` file for more information on how to provide feedback.
+collaboration to solve mobile security challenges. Go to the [contributing.md](contributing.md) file for more information on how to provide feedback.
