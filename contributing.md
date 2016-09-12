@@ -5,6 +5,8 @@ title: Contributing
 
 # Contributing
 
+## 	[View on Github](#)
+
 ## Adding New Threats
 1. Fork the repository
 2. Identify the category you feel the threat falls under. Each category has a respective folder in the root of the repository. The folders will all end with ``-threats``. The available categories are as follows:
