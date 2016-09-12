@@ -27,7 +27,7 @@ title: Contributing
     ![Issue title]({{ site.baseurl }}/img/issue_title.png)
 
     5. Within the field labelled "Leave a comment", fill out the comment template and provide as much information as possible.
-        a. If you are adding a general comment fill out the top half labeled "_General Comment_" and remove the bottom half labeled "_New Threat_".
+        1. If you are adding a general comment, fill out the top half labeled "_General Comment_" and remove the bottom half labeled "_New Threat_".
             - **Threat ID**: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
             - **Type of Comment**: Enter the letter that best describes the nature of your comment:
                     - E - Editorial comments (e.g. spelling, grammar, or formatting)
@@ -35,7 +35,7 @@ title: Contributing
                     - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
             - **Proposed Change**: With as much detail as possible, what change should be made.
             - **Justification**: Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
-        b. If you are requesting a new threat be added. Remove the top half of the template labeled "_General Comment_" and fill out the bottom half labeled "_New Threat_".
+        2. If you are requesting a new threat be added, remove the top half of the template labeled "_General Comment_" and fill out the bottom half labeled "_New Threat_".
             - **Threat Category**: Identify the category you feel the threat falls under.
             - **Threat**: Provide a description of the threat.
             - **Threat Origin**: If possible, provide at least one resource that describes the nature of this threat.
