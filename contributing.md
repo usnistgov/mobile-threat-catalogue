@@ -7,6 +7,19 @@ title: Contributing
 
 ## 	[View on Github](#)
 
+## Providing Comments
+Have a general comment or want to request a change? Open an issue on [Github](#).
+
+For each comment to the Mobile Threat Catalogue, please provide the following:
+
+- Threat ID: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
+- Type of Comment: Enter the letter that best describes the nature of your comment:
+    - E - Editorial comments (e.g. spelling, grammar, or formatting)
+    - G - General comments on how information has been presented (e.g. format, organization, phrasing, diction, or terminology)
+    - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
+- Proposed Change: With as much detail as possible, what change should be made.
+- Justification: Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
+
 ## Adding New Threats
 1. Fork the repository
 2. Identify the category you feel the threat falls under. Each category has a respective folder in the root of the repository. The folders will all end with ``-threats``. The available categories are as follows:
@@ -68,16 +81,3 @@ title: Contributing
             definition:
 
 3. Create a pull request.
-
-## Providing Other Comments
-Have a general comment or want to request a change? Open an issue here on Github.
-
-For each comment to the Mobile Threat Catalogue, please provide the following:
-
-- Threat ID: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
-- Type of Comment: Enter the letter that best describes the nature of your comment:
-    - E - Editorial comments (e.g. spelling, grammar, or formatting)
-    - G - General comments on how information has been presented (e.g. format, organization, phrasing, diction, or terminology)
-    - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
-- Proposed Change: With as much detail as possible, what change should be made.
-- Justification: Provide reasoning as to why the proposed change is necessary. For technical comments, references to supporting sources is encouraged.
