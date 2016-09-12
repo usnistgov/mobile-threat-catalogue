@@ -56,15 +56,16 @@
 ### Adding a Glossary Term
 1. Find the ``glossary-terms.yml`` file located in the ``_data`` folder
 2. Add a new entry to the bottom of the file using the following format:
+
     ```yaml
-    -
-        term:
-        definition:
+        -
+            term:
+            definition:
     ```
 3. Create a pull request.
 
 ## Providing Other Comments
-Have a general comment or want to request a change? Open an issue here on Github
+Have a general comment or want to request a change? Open an issue here on Github.
 
 For each comment to the Mobile Threat Catalogue, please provide the following:
 - Threat ID: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
