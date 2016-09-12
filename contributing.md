@@ -39,7 +39,7 @@ title: Contributing
                 -
         ---
 
-5. Fill in each of the fields with the following information. Wrapping any long strings in double quotes:
+5. Fill in each of the fields with the following information. Wrapping any long strings in double quotes and escaping any internal quotes.
     - Threat Category: Identify the category you feel the threat falls under.
     - Threat: Provide a description of the threat.
     - Threat Origin: If possible, provide at least one resource that describes the nature of this threat.
