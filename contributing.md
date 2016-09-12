@@ -22,7 +22,6 @@ title: Contributing
 3. Inside the folder create a new markdown file with the next incremental ID for the filename.
 4. Copy the base template below into the file.
 
-    ```yaml
         ---
             layout: threat
             ThreatCategory:
@@ -39,7 +38,7 @@ title: Contributing
                 -
                 -
         ---
-    ```
+
 5. Fill in each of the fields with the following information. Wrapping any long strings in double quotes:
     - Threat Category: Identify the category you feel the threat falls under.
     - Threat: Provide a description of the threat.
@@ -62,17 +61,17 @@ title: Contributing
 1. Find the ``glossary-terms.yml`` file located in the ``_data`` folder
 2. Add a new entry to the bottom of the file using the following format:
 
-    ```yaml
         -
             term:
             definition:
-    ```
+
 3. Create a pull request.
 
 ## Providing Other Comments
 Have a general comment or want to request a change? Open an issue here on Github.
 
 For each comment to the Mobile Threat Catalogue, please provide the following:
+
 - Threat ID: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
 - Type of Comment: Enter the letter that best describes the nature of your comment:
     - E - Editorial comments (e.g. spelling, grammar, or formatting)
