@@ -7,6 +7,10 @@
 @import "poole";
 @import "syntax";
 
+.page {
+    word-break: break-word;
+}
+
 .threat-list {
     li {
         margin: 1em;
