@@ -7,11 +7,11 @@ title: Contributing
 
 ## 	[View on Github](#)
 
-## Providing Comments
+## Getting Started
 
 **Review the documentation.** No account is needed to review the updated version of the Mobile Threat Catalogue. Simply follow [this link](#) and enjoy at your leisure. However, if you wish to comment you must…
 
-1. **Establish a GitHub account.** In order to submit a comment through the GitHub “Issues” feature, you will need to create a GitHub account. This can be done by proceeding to [github.com/join](https://github.com/join). GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the “Profile” and “Emails” pages of your “Personal Settings”.  We also highly encourage you to turn on two-factor authentication in the “Security” page, also part of “Personal Settings”.  
+1. **Establish a GitHub account.** In order to submit a comment through the GitHub "Issues" feature, you will need to create a GitHub account. This can be done by proceeding to [github.com/join](https://github.com/join). GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the "Profile" and "Emails" pages of your "Personal Settings."  We also highly encourage you to turn on two-factor authentication in the "Security" page, also part of "Personal Settings."  
   ![How to create account]({{ site.baseurl }}/img/create_github_account.png)
 
 2. **Open an issue.** As you are reading and identify comments you would like to make:
@@ -26,17 +26,17 @@ title: Contributing
     4. Provide a short description in the field labelled "Title" for the feedback being provided.  
     ![Issue title]({{ site.baseurl }}/img/issue_title.png)
 
-    5. Within the field labelled "Leave a comment", fill out the comment template and provide as much information as possible.
-        1. If you are adding a general comment, fill out the top half labeled "_General Comment_" and remove the bottom half labeled "_New Threat_".
+    5. Within the field labelled "Leave a comment," fill out the comment template and provide as much information as possible.
+        1. If you are adding a general comment, fill out the top half labeled "_General Comment_" and remove the bottom half labeled "_New Threat_."
             - **Threat ID**: If the comment is specific to a given threat, provide the ID for that threat. Otherwise, leave this blank.
             - **Type of Comment**: Enter the letter that best describes the nature of your comment:
                 - E - Editorial comments (e.g. spelling, grammar, or formatting)
                 - G - General comments on how information has been presented (e.g. format, organization, phrasing, diction, or terminology)
                 - T - Technical comments on what information has been presented (e.g. correctness of facts, validity of any assumptions or conclusions, level of detail, or contextual relevance)
-            - **Proposed Change**: With as much detail as possible, what change should be made.
+            - **Proposed Change**: With as much detail as possible, describe what change should be made.
             - **Justification**: Provide reasoning as to why the proposed change is necessary. For technical comments, providing references to supporting sources is encouraged.
-        2. If you are requesting a new threat be added, remove the top half of the template labeled "_General Comment_" and fill out the bottom half labeled "_New Threat_".
-            - **Threat Category**: Identify the category you feel the threat falls under.
+        2. If you are requesting a new threat be added, remove the top half of the template labeled "_General Comment_" and fill out the bottom half labeled "_New Threat_."
+            - **Threat Category**: Identify the category you feel the threat falls under. Choose from the categories listed at the top of each threat list page.
             - **Threat**: Provide a description of the threat.
             - **Threat Origin**: If possible, provide at least one resource that describes the nature of this threat.
             - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
@@ -46,16 +46,16 @@ title: Contributing
                 - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
 
 
-    6. Hit “Submit New Issue” and you are done!  
+    6. Hit "Submit New Issue" and you are done!  
     ![Submit issue]({{ site.baseurl }}/img/submit_new_issue.png)
 
-    7. If you want to keep up with others comments through email and monitor future changes, make sure you choose to “Watch” the project!  
+    7. If you want to keep up with others comments through email and monitor future changes, make sure you choose to "Watch" the project!  
     ![Watch project]({{ site.baseurl }}/img/watch_project.png)
 
 If you are familiar with Github you are also welcome to provide suggestions to concrete changes as a pull request. Please provide information about organization and a rationale for suggested change.
 
 
-## Adding New Threats
+## Adding New Threats with Pull Requests
 1. Fork the repository
 2. Identify the category you feel the threat falls under. Each category has a respective folder in the root of the repository. The folders will all end with ``-threats``. The available categories are as follows:
     - Application
