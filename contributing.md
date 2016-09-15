@@ -104,15 +104,14 @@ If you are familiar with Github you are also welcome to provide suggestions to c
     - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
     - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
     - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
-    - **References**: Provide any references to supporting sources is the following format. These should be added in the ``references.md`` file as described below.
-        - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
 6. Create a pull request.
 
 
 #### Adding a Reference
+
 1. Find the ``references.md`` file located in the ``_includes`` folder
 2. Make a new entry at the bottom of the file with the following format
-    - ``[^ReferenceID]: Reference Text``
+``[^ReferenceID]: Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)``
 3. Back in the threat file, make a call to the newly added reference using the following format ``[^ReferenceID]``
 4. Create a pull request
 
