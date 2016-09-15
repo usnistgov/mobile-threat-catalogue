@@ -37,4 +37,4 @@ Provide a description of the threat.
     - Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
 
 **References**:
-    - - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
+    - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
