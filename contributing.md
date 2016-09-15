@@ -7,7 +7,16 @@ title: Contributing
 
 ## 	[View on Github](#)
 
-## Getting Started
+## Submitting feedback
+No account is needed to review the updated version of the Mobile Threat Catalogue. Simply follow [this link](#) and enjoy at your leisure. We encourage you to provide feedback. There are several ways to provide feedback, learn more below.
+- [Getting Started](#Getting-Started): instructions for creating a Github account and submitting feedback.
+- [Creating Pull Requests](#Adding-New-Threats-with-Pull-Requests): the pull request mechanism is a primary way in which all content contributions are made.
+- [Adding a Reference](#Adding-a-Reference)
+- [Adding a Glossary Term](#Adding-a-Glossary-Term)
+
+
+
+### Getting Started
 
 **Review the documentation.** No account is needed to review the updated version of the Mobile Threat Catalogue. Simply follow [this link](#) and enjoy at your leisure. However, if you wish to comment you must…
 
@@ -55,7 +64,7 @@ title: Contributing
 If you are familiar with Github you are also welcome to provide suggestions to concrete changes as a pull request. Please provide information about organization and a rationale for suggested change.
 
 
-## Adding New Threats with Pull Requests
+### Adding New Threats with Pull Requests
 1. Fork the repository
 2. Identify the category you feel the threat falls under. Each category has a respective folder in the root of the repository. The folders will all end with ``-threats``. The available categories are as follows:
     - Application
@@ -99,7 +108,7 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 6. Submit a pull request.
 
 
-## Adding a Reference
+### Adding a Reference
 1. Find the ``references.md`` file located in the ``_includes`` folder
 2. Make a new entry at the bottom of the file with the following format
     - ``[^ReferenceID]: Reference Text``
@@ -107,7 +116,7 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 4. Create a pull request
 
 
-## Adding a Glossary Term
+### Adding a Glossary Term
 1. Find the ``glossary-terms.yml`` file located in the ``_data`` folder
 2. Add a new entry to the bottom of the file using the following format:
 
