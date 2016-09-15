@@ -53,13 +53,13 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
             - **References**: Provide any references to supporting sources is the following format.
                 - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
 
-    6. Provide one or more labels for the issue.
+    6. Select one or more labels for the issue.
         - **bug**: A general problem with the site.
         - **comment**: General feedback about a threat.
         - **duplicate**: Used by maintainers to mark an issue that is very similar to an already existing one.
         - **enhancement**: A change to an existing page.
         - **invalid**: Used by maintainers to mark an issue that's been raised in error.
-        - **new threat**: A new threat to be added to the repository.
+        - **newthreat**: A new threat to be added to the repository.
         - **question**: A question directed at the maintainers.
         - **wontfix**: Used by maintainers to mark an issue that will not be resolved.
 
