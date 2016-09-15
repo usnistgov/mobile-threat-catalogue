@@ -9,10 +9,10 @@ title: Contributing
 
 ## Submitting feedback
 No account is needed to review the updated version of the Mobile Threat Catalogue. Simply follow [this link](#) and enjoy at your leisure. We encourage you to provide feedback. There are several ways to provide feedback, learn more below.
-- [Getting Started](#Getting-Started): instructions for creating a Github account and submitting feedback.
-- [Creating Pull Requests](#Adding-New-Threats-with-Pull-Requests): the pull request mechanism is a primary way in which all content contributions are made.
-- [Adding a Reference](#Adding-a-Reference)
-- [Adding a Glossary Term](#Adding-a-Glossary-Term)
+- [Getting Started](#getting-started): instructions for creating a Github account and submitting feedback.
+- [Creating Pull Requests](#adding-new-threats-with-pull-requests): the pull request mechanism is a primary way in which all content contributions are made.
+- [Adding a Reference](#adding-a-reference)
+- [Adding a Glossary Term](#adding-a-glossary-term)
 
 
 
