@@ -33,9 +33,9 @@ description: >
 
 
 baseurl: "/mobile-threat-catalogue" # the subpath of your site, e.g. /blog
-url: "http://mrdrewkeller.github.io" # the base hostname & protocol for your site
+url: "https://pages.nist.gov" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
-github_username:  mrdrewkeller
+#github_username:  mrdrewkeller
 
 # Build settings
 markdown: kramdown
