@@ -12,8 +12,8 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 - [Getting Started](#getting-started): Instructions for creating a Github account
 - [Creating an Issue](#creating-an-issue): Instructions for submitting feedback
-- [Creating a pull request](#creating-a-pull-request): The pull request mechanism is a primary way in which all content contributions are made.
-    - [Adding a new threat](#adding-a-new-threat)
+- [Creating a Pull Request](#creating-a-pull-request): The pull request mechanism is a primary way in which all content contributions are made.
+    - [Adding a New Threat](#adding-a-new-threat)
     - [Adding a Reference](#adding-a-reference)
     - [Adding a Glossary Term](#adding-a-glossary-term)
 
