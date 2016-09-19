@@ -12,10 +12,10 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 - [Getting Started](#getting-started): Instructions for creating a Github account
 - [Creating an Issue](#creating-an-issue): Instructions for submitting feedback
-- [Creating a pull request](#creating-a-pull-request)
-- [Adding a new threat](#adding-a-new-threat): The pull request mechanism is a primary way in which all content contributions are made.
-- [Adding a Reference](#adding-a-reference)
-- [Adding a Glossary Term](#adding-a-glossary-term)
+- [Creating a pull request](#creating-a-pull-request): The pull request mechanism is a primary way in which all content contributions are made.
+    - [Adding a new threat](#adding-a-new-threat)
+    - [Adding a Reference](#adding-a-reference)
+    - [Adding a Glossary Term](#adding-a-glossary-term)
 
 
 ### Getting Started
@@ -81,7 +81,7 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 2. Go to the [Github page](https://github.com/usnistgov/mobile-threat-catalogue/) for the project.
 3. Click on the "Fork" button in the upper right.
 ![Fork button]({{ site.baseurl }}/img/fork.png)
-4. The project will be forked to your personal Github account. Make your changes in this repository, either directly in Github or by cloning the repository on your computer. All commits should be tagged with the issue number that corresponds to your change. ex. ``git commit -m '#4: adds mobile payment threat'`` Use the documentation in the sections below to add a threat.
+4. The project will be forked to your personal Github account. Make your changes in this repository, either directly in Github or by cloning the repository on your computer. All commits should be tagged with the issue number that corresponds to your change. ex. ``git commit -m '#4: adds mobile payment threat'`` Use the documentation in the [sections below](#adding-a-new-threat) to add a threat.
 5. Once you have pushed all of your changes to the forked repository, click on the "Pull Request" button at the top of your repository page.
 ![Start Pull Request]({{ site.baseurl }}/img/pull_request_button.png)
 6. Compare the changes that you've made and click the "Create pull request" button
@@ -92,8 +92,8 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 
 10. Your requested change will now be reviewed by a project maintainer.
 
-### Adding a New Threat
-1. Identify the category you feel the threat falls under. Each category has a respective folder in the root of the repository. The folders will all end with ``-threats``. The available categories are as follows:
+#### Adding a New Threat
+1. After forking the repository, Identify the category you feel the threat falls under. Each category has a respective folder in the root of the repository. The folders will all end with ``-threats``. The available categories are as follows:
     - Application
     - Authentication
     - Cellular
@@ -132,24 +132,24 @@ If you are familiar with Github you are also welcome to provide suggestions to c
     - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
     - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
     - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
-5. Create a pull request.
+5. [Create a pull request](#creating-a-pull-request).
 
 
 #### Adding a Reference
 
-1. Find the ``references.md`` file located in the ``_includes`` folder
+1. After forking the repository, Find the ``references.md`` file located in the ``_includes`` folder
 2. Make a new entry at the bottom of the file with the following format
 ``[^ReferenceID]: Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)``
 3. Back in the threat file, make a call to the newly added reference using the following format ``[^ReferenceID]``
-4. Create a pull request
+4. [Create a pull request](#creating-a-pull-request).
 
 
 #### Adding a Glossary Term
-1. Find the ``glossary-terms.yml`` file located in the ``_data`` folder
+1. After forking the repository, Find the ``glossary-terms.yml`` file located in the ``_data`` folder
 2. Add a new entry to the bottom of the file using the following format:
 
         -
             term:
             definition:
 
-3. Create a pull request.
+3. [Create a pull request](#creating-a-pull-request).
