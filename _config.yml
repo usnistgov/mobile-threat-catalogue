@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mobile Threat Catalogue
-email: akeller@mitre.org
 description: >
     <p> In order to fully address the inherent threats of mobile devices, a wider view of the mobile ecosystem is necessary.
         This repository contains the Mobile Threat Catalogue, which describes, identifies, and structures the threats posed to mobile information systems.
@@ -35,7 +34,6 @@ description: >
 baseurl: "/mobile-threat-catalogue" # the subpath of your site, e.g. /blog
 url: "https://pages.nist.gov" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
-#github_username:  mrdrewkeller
 
 # Build settings
 markdown: kramdown
