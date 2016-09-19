@@ -12,7 +12,7 @@ title: Applications
 <ul class="threat-list">
     {% for application-threat in site.application-threats %}
         {% if application-threat.ThreatCategory == 'Vulnerable Applications' %}
-            <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ application-threat.url }}#page">{{ application-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -21,7 +21,7 @@ title: Applications
 <ul class="threat-list">
     {% for application-threat in site.application-threats %}
         {% if application-threat.ThreatCategory == 'Malicious or privacy-invasive application' %}
-            <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ application-threat.url }}#page">{{ application-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

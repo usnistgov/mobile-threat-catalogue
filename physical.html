@@ -8,6 +8,6 @@ title: Physical
 <h2>Threat List</h2>
 <ul class="threat-list">
     {% for physical-threat in site.physical-threats %}
-        <li><a href="{{ site.baseurl }}{{ physical-threat.url }}">{{ physical-threat.Threat }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ physical-threat.url }}#page">{{ physical-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

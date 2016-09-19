@@ -8,6 +8,6 @@ title: Supply Chain
 <h2>Threat List</h2>
 <ul class="threat-list">
     {% for supply-chain-threat in site.supply-chain-threats %}
-        <li><a href="{{ site.baseurl }}{{ supply-chain-threat.url }}">{{ supply-chain-threat.Threat }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ supply-chain-threat.url }}#page">{{ supply-chain-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

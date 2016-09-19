@@ -8,6 +8,6 @@ title: EMM
 <h2>Threat List</h2>
 <ul class="threat-list">
     {% for emm-threat in site.emm-threats %}
-        <li><a href="{{ site.baseurl }}{{ emm-threat.url }}">{{ emm-threat.Threat }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ emm-threat.url }}#page">{{ emm-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

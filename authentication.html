@@ -17,7 +17,7 @@ title: Authentication
 <ul class="threat-list">
     {% for authentication-threat in site.authentication-threats %}
         {% if authentication-threat.ThreatCategory == 'Authentication: User to Device' %}
-            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}#page">{{ authentication-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -26,7 +26,7 @@ title: Authentication
 <ul class="threat-list">
     {% for authentication-threat in site.authentication-threats %}
         {% if authentication-threat.ThreatCategory == 'Authentication: User or Device to Remote Service' %}
-            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}#page">{{ authentication-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -35,7 +35,7 @@ title: Authentication
 <ul class="threat-list">
     {% for authentication-threat in site.authentication-threats %}
         {% if authentication-threat.ThreatCategory == 'Authentication: User or Device to Network' %}
-            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}#page">{{ authentication-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

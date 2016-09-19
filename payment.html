@@ -8,6 +8,6 @@ title: Payment
 <h2>Threat List</h2>
 <ul class="threat-list">
     {% for payment-threat in site.payment-threats %}
-        <li><a href="{{ site.baseurl }}{{ payment-threat.url }}">{{ payment-threat.Threat }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ payment-threat.url }}#page">{{ payment-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

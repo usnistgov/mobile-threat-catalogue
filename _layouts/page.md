@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<div class="page">
+<div class="page" id="page">
   {{ content | markdownify }}
 </div>
