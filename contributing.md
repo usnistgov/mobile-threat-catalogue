@@ -5,10 +5,10 @@ title: Contributing
 
 # Contributing
 
-## 	[View on Github](#)
+## 	[View on Github](https://github.com/usnistgov/mobile-threat-catalogue/)
 
 ## Submitting feedback
-No account is needed to review the updated version of the Mobile Threat Catalogue. Simply follow [this link](#) and enjoy at your leisure. We encourage you to provide feedback. There are several ways to provide feedback, learn more below.
+No account is needed to review the updated version of the Mobile Threat Catalogue. Simply follow [this link](https://github.com/usnistgov/mobile-threat-catalogue/) and enjoy at your leisure. We encourage you to provide feedback. There are several ways to provide feedback, learn more below.
 
 - [Getting Started](#getting-started): Instructions for creating a Github account
 - [Creating an Issue](#creating-an-issue): Instructions for submitting feedback
@@ -27,7 +27,7 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 **Open an issue.** As you are reading and identify comments or changes you would like to make:
 
-1. Click [here](#) to go to the issues page on Github.
+1. Click [here](https://github.com/usnistgov/mobile-threat-catalogue/issues) to go to the issues page on Github.
 
 2. Review open and closed issues to determine if a similar issue has already been created.
 
@@ -78,7 +78,7 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 
 ### Creating a Pull Request
 1. Before proceeding, start by creating an issue using the [steps above](#creating-an-issue).
-2. Go to the [Github page](#) for the project.
+2. Go to the [Github page](https://github.com/usnistgov/mobile-threat-catalogue/) for the project.
 3. Click on the "Fork" button in the upper right.
 ![Fork button]({{ site.baseurl }}/img/fork.png)
 4. The project will be forked to your personal Github account. Make your changes in this repository, either directly in Github or by cloning the repository on your computer. All commits should be tagged with the issue number that corresponds to your change. ex. ``git commit -m '#4: adds mobile payment threat'`` Use the documentation in the sections below to add a threat.
