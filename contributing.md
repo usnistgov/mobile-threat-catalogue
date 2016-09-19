@@ -79,14 +79,17 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 ### Creating a Pull Request
 1. Before proceeding, start by creating an issue using the [steps above](#creating-an-issue).
 2. Go to the [Github page](#) for the project.
-3. Click on the "Fork" button in the upper left.
-
+3. Click on the "Fork" button in the upper right.
+![Fork button]({{ site.baseurl }}/img/fork.png)
 4. The project will be forked to your personal Github account. Make your changes in this repository, either directly in Github or by cloning the repository on your computer. All commits should be tagged with the issue number that corresponds to your change. ex. ``git commit -m '#4: adds mobile payment threat'`` Use the documentation in the sections below to add a threat.
 5. Once you have pushed all of your changes to the forked repository, click on the "Pull Request" button at the top of your repository page.
+![Start Pull Request]({{ site.baseurl }}/img/pull_request_button.png)
 6. Compare the changes that you've made and click the "Create pull request" button
-7. On the "Open a Pull Request" page, set the title to "#_corresponding issue number_: _title of corresponding issue_"
-8. In the body field, enter "Resolves #_corresponding issue number_"
+7. On the "Open a Pull Request" page, set the title to "#_(corresponding issue number)_: _(title of corresponding issue)_"
+8. In the body field, enter "Resolves #_(corresponding issue number)_"
 9. Click "Create Pull Request"
+![Create Pull Request]({{ site.baseurl }}/img/create_pull_request.png)
+
 10. Your requested change will now be reviewed by a project maintainer.
 
 ### Adding a New Threat
