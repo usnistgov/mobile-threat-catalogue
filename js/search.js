@@ -48,6 +48,7 @@
         'id': key,
         'title': window.store[key].title,
         'category': window.store[key].category,
+        'threatid': window.store[key].threatid,
         'cve': window.store[key].cve
       });
 
