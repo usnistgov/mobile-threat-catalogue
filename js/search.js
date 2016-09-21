@@ -7,7 +7,7 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '">' + item.title + '</a></li>';
+        appendString += '<li><a href="' + item.url + '">' + item.Threat + '</a></li>';
       }
 
       searchResults.innerHTML = appendString;
@@ -37,19 +37,25 @@
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
-      this.field('id');
-      this.field('title', { boost: 10 });
-      this.field('category');
-      this.field('cve');
+      this.field('ThreatID', { boost: 11 });
+      this.field('ThreatCategory');
+      this.field('Threat', { boost: 10 });
+      this.field('ThreatOrigin');
+      this.field('ExploitExample');
+      this.field('CVEExample', { boost: 10 });
+      this.field('PossibleCountermeasures');
     });
 
     for (var key in window.store) { // Add the data to lunr
       idx.add({
         'id': key,
-        'title': window.store[key].title,
-        'category': window.store[key].category,
-        'threatid': window.store[key].threatid,
-        'cve': window.store[key].cve
+        'ThreatID': window.store[key].ThreatID,
+        'ThreatCategory': window.store[key].ThreatCategory,
+        'Threat': window.store[key].Threat,
+        'ThreatOrigin': window.store[key].ThreatOrigin,
+        'ExploitExample': window.store[key].ExploitExample,
+        'CVEExample': window.store[key].CVEExample,
+        'PossibleCountermeasures': window.store[key].PossibleCountermeasures,
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
