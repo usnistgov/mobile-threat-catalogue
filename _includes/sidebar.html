@@ -9,6 +9,14 @@
             <!--  <p class="lead">{{ site.description }}</p> -->
         </div>
 
+        <form class="search" action="search.html" method="get">
+            <input class="text-field" type="text" id="search-box" name="query" placeholder="Search">
+            <!-- <input class="button" type="submit" value="Search"> -->
+            <button type="submit" class="button">
+                <img src="{{ site.baseurl }}/img/search.svg" alt="Search" />
+            </button>
+        </form>
+
         <nav class="sidebar-nav">
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 

@@ -59,3 +59,49 @@ collections:
         output: true
     supply-chain-threats:
         output: true
+
+defaults:
+  - scope:
+      type: application-threats
+    values:
+      merged: true
+  - scope:
+      type: authentication-threats
+    values:
+      merged: true
+  - scope:
+      type: stack-threats
+    values:
+      merged: true
+  - scope:
+      type: cellular-threats
+    values:
+      merged: true
+  - scope:
+      type: ecosystem-threats
+    values:
+      merged: true
+  - scope:
+      type: emm-threats
+    values:
+      merged: true
+  - scope:
+      type: gps-threats
+    values:
+      merged: true
+  - scope:
+      type: lan-pan-threats
+    values:
+      merged: true
+  - scope:
+      type: payment-threats
+    values:
+      merged: true
+  - scope:
+      type: physical-threats
+    values:
+      merged: true
+  - scope:
+      type: supply-chain-threats
+    values:
+      merged: true

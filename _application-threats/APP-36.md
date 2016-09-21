@@ -9,6 +9,8 @@
         - "Certifi-gate: Hundreds of Millions of Android Devices Could Be Pwned [^114]"
         - "Samsung Keyboard Security Risk Disclosed [^115]"
     CVEExample:
+        - CVE-2015-4640
+        - CVE-2015-4641
     PossibleCountermeasures:
         - "Ensure that devices have the latest security updates installed."
         - "Either remove pre-installed apps that are not needed, or if removal is not an option, disable the apps so that they do not run."
