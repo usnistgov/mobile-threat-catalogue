@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-22
     Threat: "Android : An application can request Device Administrator access and use it to make it more difficult for the user to remove the application."
     ThreatOrigin: "Android Security 2015 Year In Review [^98]"

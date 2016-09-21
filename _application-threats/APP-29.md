@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-29
     Threat:
         - "Command-and-control using built-in encrypted channels such as Google Cloud Messaging or Apple Push Notification Service that will not stand out as unusual traffic."

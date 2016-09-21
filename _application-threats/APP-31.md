@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-31
     Threat: "Impersonating a legitimate credential entry prompt in order to trick the user into entering credentials into an app controlled by an attacker."
     ThreatOrigin:

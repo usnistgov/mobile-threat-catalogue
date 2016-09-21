@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-20
     Threat: "Downloading and executing dynamic code after installation to evade app vetting / app store review."
     ThreatOrigin:

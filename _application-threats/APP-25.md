@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-25
     Threat: "Taking advantage of already rooted/jailbroken device''s degraded security state to perform malicious action or obtain a persistent presence"
     ThreatOrigin:

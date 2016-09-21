@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-17
     Threat: "Captured text messages received without user authorization, for example to obtain authentication codes sent as part of multi-factor authentication"
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"

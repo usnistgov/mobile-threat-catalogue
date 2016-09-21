@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-14
     Threat: "Repackaging or impersonating a benign app, such as an online banking app, to contain malicious functionality (i.e., trojan)"
     ThreatOrigin:
