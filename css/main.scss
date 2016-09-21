@@ -55,6 +55,52 @@
     }
 }
 
+nav label {
+    color: white;
+}
+
+.search {
+    display: inline-block;
+    margin: 1em 0;
+    input {
+        font-size: 1.5em;
+        color: #515151;
+    }
+    .text-field {
+        width: 90%;
+        float: left;
+        border: 1px 0 1px 1px;
+        border: 1px solid #ccc;
+        border-right: 0px;
+    }
+
+    .button {
+        float: right;
+        width: 10%;
+        background-color: white;
+        border: 0;
+        height: 1.95rem;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.sidebar .search {
+    input{
+        font-size: 26px;
+    }
+    .button {
+        height: 3.1em;
+    }
+    img {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nist-header {
         padding-left: 0;
