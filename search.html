@@ -7,7 +7,7 @@ layout: page
     <input type="submit" value="search">
 </form>
 
-<ul id="search-results"></ul>
+<ul id="search-results" class="threat-list"></ul>
 
 <script>
     window.store = {
@@ -18,7 +18,7 @@ layout: page
             "CVE": "{{ document.CVEExample | xml_escape }}",
             "category": "{{ document.ThreatCategory | xml_escape }}",
             "threatid": "{{ document.ID | xml_escape }}",
-            "url": "{{ document.url | xml_escape }}"
+            "url": "{{ site.baseurl }}{{ document.url | xml_escape }}#page"
         }
         {% unless forloop.last %},{% endunless %}
         {% endfor %}
