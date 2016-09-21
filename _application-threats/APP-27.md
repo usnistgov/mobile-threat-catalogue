@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-27
     Threat: "Maintaining persistence of malicious code or unauthorized privileged access across device resets by using escalated privileges to write to system partitions, Trusted Execution Environment, bootloader, or other lower-level component that is typically not erased during a device reset"
     ThreatOrigin:

@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-24
     Threat: "Surreptitiously reporting the physical location (e.g. using GPS or other means) of the device through programmatic means by invoking standard APIs."
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"

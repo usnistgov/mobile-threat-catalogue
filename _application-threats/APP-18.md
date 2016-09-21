@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-18
     Threat: "Malicious app that subscribes to mobile carrier-provided premium services without user authorization (i.e., WAP Fraud)"
     ThreatOrigin: "Android Security 2015 Year In Review [^98]"

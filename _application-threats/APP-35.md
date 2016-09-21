@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-35
     Threat: "Malicious app retrieving sensitive data from the clipboard (e.g., passwords)"
     ThreatOrigin: "Attacks on Android Clipboard [^238]"

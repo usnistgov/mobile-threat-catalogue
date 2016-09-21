@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-16
     Threat: "Sending premium SMS messages without user authorization (i.e., SMS fraud)"
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"

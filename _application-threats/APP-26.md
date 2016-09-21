@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-26
     Threat: "Escalating privileges on device using OS or other lower-level vulnerability to perform a malicious action or obtain a persistent presence"
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"

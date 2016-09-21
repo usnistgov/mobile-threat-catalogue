@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Vulnerable Applications
+    ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-21
     Threat: "Embedding malicious code within app in encrypted or obfuscated form, then decrypting or deobfuscating and executing at runtime to evade app vetting"
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"
