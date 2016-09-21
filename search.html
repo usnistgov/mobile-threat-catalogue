@@ -1,10 +1,13 @@
 ---
 layout: page
+title: Search
 ---
-<form action="search.html" method="get">
-     <label for="search-box">Search</label>
-    <input type="text" id="search-box" name="query">
-    <input type="submit" value="search">
+<h1>Search</h1>
+<form class="search" action="search.html" method="get">
+    <input class="text-field" type="text" id="search-box" name="query" placeholder="CVE, man in the middle, GPS">
+    <button type="submit" class="button">
+        <img src="{{ site.baseurl }}/img/search.svg" alt="Search" />
+    </button>
 </form>
 
 <ul id="search-results" class="threat-list"></ul>
