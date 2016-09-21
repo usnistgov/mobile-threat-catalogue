@@ -14,11 +14,14 @@ layout: page
         {% assign documents = site.documents | where: 'merged', true %}
         {% for document in documents %}
             "{{ document.url | slugify }}": {
-            "title": "{{ document.Threat | xml_escape }}",
-            "CVE": "{{ document.CVEExample | xml_escape }}",
-            "category": "{{ document.ThreatCategory | xml_escape }}",
-            "threatid": "{{ document.ID | xml_escape }}",
-            "url": "{{ site.baseurl }}{{ document.url | xml_escape }}#page"
+                "ThreatID": "{{ document.ID | xml_escape }}",
+                "ThreatCategory": "{{ document.ThreatCategory | xml_escape }}",
+                "Threat": "{{ document.Threat | xml_escape }}",
+                "ThreatOrigin": "{{ document.ThreatOrigin | jsonify | smartify | xml_escape }}",
+                "ExploitExample": "{{ document.ExploitExample | jsonify | smartify | xml_escape }}",
+                "CVEExample": "{{ document.CVEExample | jsonify | smartify | xml_escape }}",
+                "PossibleCountermeasures": "{{ document.PossibleCountermeasures | jsonify | smartify | xml_escape }}",
+                "url": "{{ site.baseurl }}{{ document.url | xml_escape }}#page"
         }
         {% unless forloop.last %},{% endunless %}
         {% endfor %}
