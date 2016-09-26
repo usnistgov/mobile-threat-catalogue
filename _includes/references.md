@@ -466,3 +466,5 @@
 [^241]: J. Xie et al., "Hot or Not? The Benefits and Risks of iOS Remote Hot Patching", blog, 27 Jan. 2016; https://www.fireeye.com/blog/threat-research/2016/01/hot_or_not_the_bene.html [accessed 8/31/16]
 
 [^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014; http://nshipster.com/method-swizzling/ [accessed 8/31/16]
+
+[^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
