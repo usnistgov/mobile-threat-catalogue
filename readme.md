@@ -10,4 +10,4 @@ mobile threats addressed in the Catalogue as well as ideas for additional threat
 An associated report provide context and describing this repository is available here:
 [NISTIR 8144: Assessing Threats to Mobile Devices & Infrastructure](https://nccoe.nist.gov/sites/default/files/library/mtc-nistir-8144-draft.pdf).
 
-The comment period closes on Friday, November 7, 2016.
+The comment period closes on Friday, November 10, 2016.
