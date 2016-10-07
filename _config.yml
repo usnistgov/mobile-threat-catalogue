@@ -24,7 +24,7 @@ description: >
     <p>An associated report provide context and describing this repository is available here:
         <a href="https://nccoe.nist.gov/sites/default/files/library/mtc-nistir-8144-draft.pdf">NISTIR 8144: Assessing Threats to Mobile Devices & Infrastructure.</a>
     </p>
-    <p>The comment period closes on Friday, October 7, 2016.</p>
+    <p>The comment period closes on Monday, November 10, 2016.</p>
 
 
 baseurl: "/mobile-threat-catalogue" # the subpath of your site, e.g. /blog
