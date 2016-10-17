@@ -19,8 +19,12 @@ layout: page
     - 	[{{ CVEExample }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEExample }})
 {% endfor %}
 - __Possible Countermeasures:__
-{% for PossibleCountermeasures in page.PossibleCountermeasures %}
-    - {{ PossibleCountermeasures }}
+{% for PossibleCountermeasure in page.PossibleCountermeasures %}
+    {% if PossibleCountermeasure[1] %}
+    - __{{ PossibleCountermeasure[0] }}__: {{ PossibleCountermeasure[1] }}
+    {% else %}
+    - {{ PossibleCountermeasure }}
+    {% endif %}
 {% endfor %}
 
 - __References__
