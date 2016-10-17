@@ -63,15 +63,16 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
     - **enhancement**: A change to an existing page.
     - **invalid**: Used by maintainers to mark an issue that's been raised in error.
     - **newthreat**: A new threat to be added to the repository.
+    - **pending**: A valid issue that will be addressed long term or in the NISTIR itself.
     - **question**: A question directed at the maintainers.
     - **wontfix**: Used by maintainers to mark an issue that will not be resolved.
 
 7. If you plan on resolving the issue yourself, click the "assign yourself" link in the "Assignees section." Otherwise, leave this blank.
 
-8. Hit "Submit New Issue" and you are done!  
+8. Hit "Submit New Issue" and you are done!
 ![Submit issue]({{ site.baseurl }}/img/submit_new_issue.png)
 
-9. If you want to keep up with others comments through email and monitor future changes, make sure you choose to "Watch" the project!  
+9. If you want to keep up with others comments through email and monitor future changes, make sure you choose to "Watch" the project!
 ![Watch project]({{ site.baseurl }}/img/watch_project.png)
 
 If you are familiar with Github you are also welcome to provide suggestions to concrete changes as a pull request. Please provide information about organization and a rationale for suggested change.
