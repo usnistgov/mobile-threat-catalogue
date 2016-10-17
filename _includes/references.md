@@ -471,7 +471,7 @@
 
 [^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
 
-[^245] "Android Keystore System", https://developer.android.com/training/articles/keystore.html [accessed 10/14/2016]
+[^245]: "Android Keystore System", https://developer.android.com/training/articles/keystore.html [accessed 10/14/2016]
 
-[^246] E. Barker, Recommendation for Key Management: Part 1: General, NIST SP 800-574 pt. 1 rev. 4, National Institute of Standards and Technology, 2016; http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4 [accessed 10/17/2016]
+[^246]: E. Barker, Recommendation for Key Management: Part 1: General, NIST SP 800-574 pt. 1 rev. 4, National Institute of Standards and Technology, 2016; http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4 [accessed 10/17/2016]
 
