@@ -135,7 +135,8 @@ If you are familiar with Github you are also welcome to provide suggestions to c
     - **Threat Origin**: If possible, provide at least one resource that describes the nature of this threat.
     - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
     - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
-    - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+    - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.:
+        - Provide the actors for which the countermeasure applies.
 5. [Create a pull request](#creating-a-pull-request).
 
 
