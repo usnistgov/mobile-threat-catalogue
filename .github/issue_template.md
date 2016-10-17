@@ -34,7 +34,8 @@ Provide a description of the threat.
     - If this threat is related to a published CVE, provide one or more CVE numbers.
 
 **Possible Countermeasures**:
-    - Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+    - Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.:
+        - Provide the actors for which the countermeasure applies.
 
 **References**:
     - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
