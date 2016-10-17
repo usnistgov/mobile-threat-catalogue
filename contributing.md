@@ -123,8 +123,10 @@ If you are familiar with Github you are also welcome to provide suggestions to c
                 -
                 -
             PossibleCountermeasures:
-                -
-                -
+                Countermeasure one goes here:
+                    - actor 1
+                    - actor 2
+                Countermeasure two goes here:
         ---
 
 4. Fill in each of the fields with the following information. Wrapping any long strings in double quotes and escaping any internal quotes.
