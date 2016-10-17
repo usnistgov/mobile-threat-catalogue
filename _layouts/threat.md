@@ -21,7 +21,7 @@ layout: page
 - __Possible Countermeasures:__
 {% for PossibleCountermeasure in page.PossibleCountermeasures %}
     {% if PossibleCountermeasure[1] %}
-    - __{{ PossibleCountermeasure[0] }}__: {{ PossibleCountermeasure[1] }}
+    - __{{ PossibleCountermeasure[1] | array_to_sentence_string }}__: {{ PossibleCountermeasure[0] }}
     {% else %}
     - {{ PossibleCountermeasure }}
     {% endif %}
