@@ -20,7 +20,7 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 ### Getting Started
 
-1. **Establish a GitHub account.** In order to submit a comment through the GitHub "Issues" feature, you will need to create a GitHub account. This can be done by proceeding to [github.com/join](https://github.com/join). GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the "Profile" and "Emails" pages of your "Personal Settings."  We also highly encourage you to turn on two-factor authentication in the "Security" page, also part of "Personal Settings."  
+1. **Establish a GitHub account.** In order to submit a comment through the GitHub "Issues" feature, you will need to create a GitHub account. This can be done by proceeding to [github.com/join](https://github.com/join). GitHub allows you to remain pseudonymous if you would like, just make sure you select the options that suit you on the "Profile" and "Emails" pages of your "Personal Settings."  We also highly encourage you to turn on two-factor authentication in the "Security" page, also part of "Personal Settings."
   ![How to create account]({{ site.baseurl }}/img/create_github_account.png)
 
 ### Creating an Issue
@@ -31,10 +31,10 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
 
 2. Review open and closed issues to determine if a similar issue has already been created.
 
-3. Click on the "New Issue" button in the upper right of the screen.  
+3. Click on the "New Issue" button in the upper right of the screen.
 ![Create issue]({{ site.baseurl }}/img/create_new_issue.png)
 
-4. Provide a short description in the field labelled "Title" for the feedback being provided.  
+4. Provide a short description in the field labelled "Title" for the feedback being provided.
 ![Issue title]({{ site.baseurl }}/img/issue_title.png)
 
 5. Within the field labelled "Leave a comment," fill out the comment template and provide as much information as possible.
@@ -52,7 +52,8 @@ No account is needed to review the updated version of the Mobile Threat Catalogu
         - **Threat Origin**: If possible, provide at least one resource that describes the nature of this threat.
         - **Exploit Example**: If possible, provide at least one source that evidences the threat has been realized, either in a laboratory setting or in-the-wild.
         - **CVE Example**: If this threat is related to a published CVE, provide one or more CVE numbers.
-        - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.
+        - **Possible Countermeasures**: Provide any measures that hinder the successful realization of, reduce the impact of, or improve recovery following incidents involving this threat.:
+            - Provide the actors for which the countermeasure applies.
         - **References**: Provide any references to supporting sources is the following format.
             - Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)
 
