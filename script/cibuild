@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+# lint yaml
+gem install yaml-lint
+yaml-lint -n _application-threats _authentication-threats _cellular-threats _ecosystem-threats _emm-threats _gps-threats _lan-pan-threats _payment-threats _physical-threats _stack-threats _supply-chain-threats *.yml
+
+# find all non ascii characters
+grep --color='auto' -P -n -r "[\x80-\xFF]" _* *.html && return 1
+
+# build site
+bundle exec jekyll build
