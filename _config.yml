@@ -32,6 +32,7 @@ url: "https://pages.nist.gov" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 
 # Build settings
+exclude: [vendor]
 markdown: kramdown
 sass:
     sass_dir: _sass
