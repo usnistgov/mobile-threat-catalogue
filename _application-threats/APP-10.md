@@ -13,7 +13,7 @@
         - "Use each cryptographic key for a single purpose to limit the impact of key compromise."
         - "Strictly avoid the use of \'broken\', weak, or novel algorithms (those that have not undergone extensive evaluation by the cryptographic community at large) to protect long-term secrets."
         - "Consider the use of cryptographic functions provided by the mobile operating system and where possible, leverage hardware-backed cryptographic and secure storage services."
-        - "Additionally, application developers are strongly encouraged to familiarize themselves with best practices for cryptography and general key management, and to integrate that knowledge early in the application design process. See NIST SP 800-57 Part 1 Revision 4, Recommendation for Key Management, Part 1 General"[^244]
-        - "For Android developers, review guidance on the proper use of the Android Keystore System."[^245]
-        - "For iOS developers, review guidance on the proper use of the iOS Keychain."[^246]
+        - "Additionally, application developers are strongly encouraged to familiarize themselves with best practices for cryptography and general key management, and to integrate that knowledge early in the application design process. See NIST SP 800-57 Part 1 Revision 4, Recommendation for Key Management, Part 1 General[^244]"
+        - "For Android developers, review guidance on the proper use of the Android Keystore System.[^245]"
+        - "For iOS developers, review guidance on the proper use of the iOS Keychain.[^246]"
 ---
