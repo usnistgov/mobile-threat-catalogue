@@ -21,3 +21,4 @@ ThreatCategory: "SD Card"
 ThreatDescription: "If the configuration of the mobile device and computer allow, an attached SD card will automatically be mounted by a USB-connected computer as a mass storage device. If the SD card contains executable files designed to automatically execute (e.g. autoexec.bat), they will automatically execute. A malicious mobile app can exploit this weakness by writing malicious executables to an attached SD card."
 ThreatOrigin: "Exploiting Smart-Phone USB Connectivity for Fun and Profit [^143]"
 layout: threat
+---
