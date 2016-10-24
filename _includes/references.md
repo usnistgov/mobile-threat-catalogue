@@ -468,3 +468,7 @@
 [^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014; http://nshipster.com/method-swizzling/ [accessed 8/31/16]
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
+
+[^247]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+
+[^248]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
