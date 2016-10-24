@@ -395,7 +395,7 @@
 
 [^206]: "Android Security Bulletin June 2016", 8 Dec. 2016; http://source.android.com/security/bulletin/2016-06-01.html [accessed 8/29/2016]
 
-[^207]: R. Chirgwin, "This is what a root debug backdoor in a Linux kernel looks like," The Register, 9 May. 2016; http://www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/
+[^207]: R. Chirgwin, "This is what a root debug backdoor in a Linux kernel looks like," The Register, 9 May 2016; http://www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/
 
 [^208]: S. Gallagher, "Chinese ARM vendor left developer backdoor in kernel for Android, other devices," Ars Technica, 11 May 2016; http://arstechnica.com/security/2016/05/chinese-arm-vendor-left-developer-backdoor-in-kernel-for-android-pi-devices/
 
@@ -433,7 +433,7 @@
 
 [^225]: "Phone Theft in America: What really happens when your phone gets grabbed", blog, 7 May 2014; https://blog.lookout.com/blog/2014/05/07/phone-theft-in-america/ [accessed 8/25/2016]
 
-[^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows", Consumer Reports, 11 Jun 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
+[^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows", Consumer Reports, 11 June 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
 
 [^227]: Security Tips, https://developer.android.com/training/articles/security-tips.html [accessed on 8/24/2016]
 
@@ -471,4 +471,4 @@
 
 [^247]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
 
-[^248]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
+[^248]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
