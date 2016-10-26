@@ -475,3 +475,4 @@
 
 [^246]: E. Barker, Recommendation for Key Management: Part 1: General, NIST SP 800-574 pt. 1 rev. 4, National Institute of Standards and Technology, 2016; http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4 [accessed 10/17/2016]
 
+[^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
