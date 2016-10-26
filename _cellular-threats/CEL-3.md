@@ -9,11 +9,11 @@
         - "LTE Security and Protocol Exploits [^167]"
     ExploitExample:
         - "Researchers exploit cellular tech flaws to intercept phone calls [^168]"
-        - "Every LTE call, text, can be intercepted, blacked out, hacker finds" [^244]
+        - "Every LTE call, text, can be intercepted, blacked out, hacker finds [^244]"
     CVEExample:
     PossibleCountermeasures:
-        - "Ensure baseband firmware prevents the use of insecure cellular encryption algorithms"
-          - Original Equipment Manufacturer
-        - "Use of application layer encryption technologies"
-          - Mobile Network Operator
+        "Ensure baseband firmware prevents the use of insecure cellular encryption algorithms":
+            - Original Equipment Manufacturer
+        "Use of application layer encryption technologies":
+            - Mobile Network Operator
 ---
