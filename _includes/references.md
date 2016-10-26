@@ -468,3 +468,5 @@
 [^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014; http://nshipster.com/method-swizzling/ [accessed 8/31/16]
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
+
+[^244]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", blog, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
