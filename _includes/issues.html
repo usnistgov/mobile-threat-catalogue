@@ -1,0 +1,34 @@
+<div id="github-issues" threatID="{{page.ID}}"></div>
+<script>
+    var github = "https://api.github.com/repos/usnistgov/mobile-threat-catalogue/issues";
+    var div = document.getElementById("github-issues");
+    var threatID = div.getAttribute("threatID")
+
+    request = new XMLHttpRequest();
+    request.open('GET', github, true);
+
+    request.onload = function() {
+        data = JSON.parse(request.responseText);
+        for (var i = 0; i < data.length; i++) {
+
+            if (data.indexOf(threatID)) {
+                issueExists = true;
+            }
+        }
+
+        if (issueExists) {
+            div.innerHTML = "<strong>This entry was flagged for review in the following issues:</strong>  <ul>";
+            for (var i = 0; i < data.length; i++) {
+                if (data[i].title.includes(threatID) || data[i].body.includes(threatID)) {
+                    div.innerHTML += " <li><a href=\"" + data[i].html_url + "\">Issue #" + data[i].number + ": " + data[i].title + "</a></li>";
+                }
+            }
+            div.innerHTML += "</ul><br />";
+        }
+
+
+    };
+
+
+    request.send();
+</script>
