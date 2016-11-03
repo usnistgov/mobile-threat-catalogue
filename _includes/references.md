@@ -469,6 +469,14 @@
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
 
-[^247]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+[^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
 
-[^248]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
+[^245]: "Android Keystore System", https://developer.android.com/training/articles/keystore.html [accessed 10/14/2016]
+
+[^246]: E. Barker, Recommendation for Key Management: Part 1: General, NIST SP 800-574 pt. 1 rev. 4, National Institute of Standards and Technology, 2016; http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4 [accessed 10/17/2016]
+
+[^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
+
+[^248]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+
+[^249]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
