@@ -1,7 +1,9 @@
 <div id="github-issues" threatID="{{page.ID}}"></div>
+<ul id="issue-list"></ul>
 <script>
     var github = "https://api.github.com/repos/usnistgov/mobile-threat-catalogue/issues";
     var div = document.getElementById("github-issues");
+    var ul = document.getElementById("issue-list");
     var threatID = div.getAttribute("threatID")
 
     request = new XMLHttpRequest();
@@ -9,26 +11,14 @@
 
     request.onload = function() {
         data = JSON.parse(request.responseText);
-        for (var i = 0; i < data.length; i++) {
 
-            if (data.indexOf(threatID)) {
-                issueExists = true;
+        data.map(function(data) {
+            if (data.title.includes(threatID) || data.body.includes(threatID)) {
+                div.innerHTML = "<strong>This entry was flagged for review in the following issues:</strong>";
+                ul.innerHTML += " <li><a href=\"" + data.html_url + "\">Issue #" + data.number + ": " + data.title + "</a></li>";
             }
-        }
-
-        if (issueExists) {
-            div.innerHTML = "<strong>This entry was flagged for review in the following issues:</strong>  <ul>";
-            for (var i = 0; i < data.length; i++) {
-                if (data[i].title.includes(threatID) || data[i].body.includes(threatID)) {
-                    div.innerHTML += " <li><a href=\"" + data[i].html_url + "\">Issue #" + data[i].number + ": " + data[i].title + "</a></li>";
-                }
-            }
-            div.innerHTML += "</ul><br />";
-        }
-
-
+        });
     };
-
 
     request.send();
 </script>
