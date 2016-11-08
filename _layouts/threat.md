@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+
+
 # {{page.Threat}}
 [Contribute]({{ site.baseurl }}/contributing.html)
 
@@ -27,6 +29,9 @@ layout: page
     {% endif %}
 {% endfor %}
 
-- __References__
 
+{% include issues.html %}
+
+
+__References__
 {% include references.md %}
