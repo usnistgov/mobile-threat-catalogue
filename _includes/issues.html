@@ -13,7 +13,7 @@
         data = JSON.parse(request.responseText);
 
         data.map(function(data) {
-            if (data.title.includes(threatID) || data.body.includes(threatID)) {
+            if (data.title.includes(threatID+" ") || data.body.includes(threatID+" ")) {
                 div.innerHTML = "<strong>This entry was flagged for review in the following issues:</strong>";
                 ul.innerHTML += " <li><a href=\"" + data.html_url + "\">Issue #" + data.number + ": " + data.title + "</a></li>";
             }
