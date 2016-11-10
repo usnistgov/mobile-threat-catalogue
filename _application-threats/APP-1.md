@@ -12,7 +12,7 @@
         - "CVE-2016-3664"
         - "CVE-2014-5618"
     PossibleCountermeasures:
-        - "Android Network Security Policy feature, certificate pinning."
-        - "Developers should ensure cryptographic protection for data in transit."
-        - "App vetting tools/services or pen testing to detect these vulnerabilities in applications."
+        - "Developer: Android Network Security Policy feature, certificate pinning."
+        - "Developer: Ensure cryptographic protection for data in transit."
+        - "Developer: Use App vetting tools/services or pen testing to detect these vulnerabilities in applications."
 ---
