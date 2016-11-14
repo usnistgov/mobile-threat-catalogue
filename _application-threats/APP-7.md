@@ -12,6 +12,8 @@
     CVEExample:
         - Android example: CVE-2016-2810
     PossibleCountermeasures:
-        - "App vetting tools that detect these vulnerabilities"
-        - "Use personal/enterprise app separation features (e.g. Android for Work or Samsung KNOX Workspace) so that vulnerabilities in an enterprise app cannot be exploited by a personal app or vice versa."
+        "Use app-vetting tools or services to identify apps that expose functionality to untrusted apps.":
+            - Enterprise
+        "Use personal/enterprise app separation features (e.g. Android for Work or Samsung KNOX Workspace) so that vulnerabilities in an enterprise app cannot be exploited by a personal app or vice versa.":
+            - Enterprise
 ---
