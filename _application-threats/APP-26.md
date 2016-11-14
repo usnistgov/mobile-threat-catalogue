@@ -15,5 +15,6 @@
             - Mobile Device User
         "Use application threat intelligence data about apps that may achieve privilege escalation":
             - Enterprise
-
+         "Use app-vetting tools or services to identify apps that exploit the underlying OS to achieve privilege escalation.":
+            - Enterprise
 ---
