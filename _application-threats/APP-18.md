@@ -11,7 +11,7 @@
             - Enterprise
         "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
             - Enterprise
-        "Use Android Verify Apps feature to identify apps that may carrier services.":
+        "Use Android Verify Apps feature to identify apps that may abuse premium carrier services.":
             - Mobile Device User
         "Use application threat intelligence data about potential abuse of carrier services associated with apps installed on COPE or BYOD devices":
             - Enterprise
