@@ -13,8 +13,8 @@
             - Enterprise
         "Use Android Verify Apps feature to identify potentially harmful apps.":
             - Mobile Device User
-        "Use application threat intelligence data about apps that may achieve privilege escalation":
+        "Use application threat intelligence data to identify apps that exploit the OS to achieve privilege escalation.":
             - Enterprise
-         "Use app-vetting tools or services to identify apps that exploit the underlying OS to achieve privilege escalation.":
+        "Use app-vetting tools or services to identify apps that exploit the OS to achieve privilege escalation.":
             - Enterprise
 ---
