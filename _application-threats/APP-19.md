@@ -18,7 +18,7 @@
             - Enterprise
         "Deploy MAM solutions for COPE devices that support selectively enabling device sensors (e.g. camera, microphone) for a whitelist of trusted enterprise applications that require those functionalities.":
             - Enterprise
-        "Use Android Verify Apps feature to identify apps that may abuse sensor data to record nearby activity.":
+        "Use Android Verify Apps feature to identify apps that may abuse access to sensor data to record nearby activity.":
             - Mobile Device User
         "Use application threat intelligence data about potential abuse of access to device sensors associated with apps installed on COPE or BYOD devices":
             - Enterprise
