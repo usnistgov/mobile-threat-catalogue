@@ -8,5 +8,5 @@
     CVEExample:
     PossibleCountermeasures:
         "Implement industry standard physical security mitigations":
-            - 
+            - Mobile Network Operator
 ---
