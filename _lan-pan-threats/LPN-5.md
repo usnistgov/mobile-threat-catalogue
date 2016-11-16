@@ -6,5 +6,7 @@
     ThreatOrigin: "GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs) [^27]"
     ExploitExample: "FCC Fines Marriott $600,000 for Jamming Hotel Wi-Fi [^21]"
     CVEExample:
-    PossibleCountermeasures: "Contingency planning for use of another communication band."
+    PossibleCountermeasures:
+        "Contingency planning for use of another communication band.":
+            - 
 ---

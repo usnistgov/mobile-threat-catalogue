@@ -8,5 +8,7 @@
         - "LTE Security and Protocol Exploits [^167]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Ensure that the behavior of a mobile device''s chipset in these conditions are understood before using the device in critical situations."
+    PossibleCountermeasures:
+        "Ensure that the behavior of a mobile device''s chipset in these conditions are understood before using the device in critical situations.":
+            - 
 ---

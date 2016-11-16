@@ -6,5 +6,7 @@
     ThreatOrigin: "Exploiting Smart-Phone USB Connectivity for Fun and Profit [^143]"
     ExploitExample: "New Malware Tries to Infect Android Devices Via USB Cable [^232]"
     CVEExample:
-    PossibleCountermeasures: "Avoid connecting mobile devices directly to computers."
+    PossibleCountermeasures:
+        "Avoid connecting mobile devices directly to computers.":
+            - 
 ---

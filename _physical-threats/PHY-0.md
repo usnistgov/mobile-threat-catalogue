@@ -9,8 +9,12 @@
         - "Smartphone thefts drop as kill switch usage grows [^226]"
     CVEExample:
     PossibleCountermeasures:
-        - "Data-at-rest encryption"
-        - "Screen lock mechanism"
-        - "Remote lock, locate, wipe capabilities"
-        - "Activation lock to prevent stolen devices from being re-used"
+        "Data-at-rest encryption":
+            - 
+        "Screen lock mechanism":
+            - 
+        "Remote lock, locate, wipe capabilities":
+            - 
+        "Activation lock to prevent stolen devices from being re-used":
+            - 
 ---

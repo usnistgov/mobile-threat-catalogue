@@ -7,7 +7,10 @@
     ExploitExample: "Attacking BaseStations - an Odyssey through a Telco's Network [^177]"
     CVEExample:
     PossibleCountermeasures:
-        - "Use of strong passwords"
-        - "Properly wipe and dispose of old network equipment"
-        - "Ensure that baseline industry recommended practices are implemented and validated"
+        "Use of strong passwords":
+            - 
+        "Properly wipe and dispose of old network equipment":
+            - 
+        "Ensure that baseline industry recommended practices are implemented and validated":
+            - 
 ---

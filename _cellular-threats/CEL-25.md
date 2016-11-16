@@ -9,6 +9,8 @@
         - "Remote USSD Code Execution on Android Devices [^188]"
     CVEExample:
     PossibleCountermeasures:
-        - "Use devices without a USSD software stack"
-        - "OS developers could ask users if they wish to dial the number"
+        "Use devices without a USSD software stack":
+            - 
+        "OS developers could ask users if they wish to dial the number":
+            - 
 ---

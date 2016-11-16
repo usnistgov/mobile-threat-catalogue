@@ -8,5 +8,7 @@
         - "LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Use applications that strongly encrypt data prior to transmission of data over cellular interfaces."
+    PossibleCountermeasures:
+        "Use applications that strongly encrypt data prior to transmission of data over cellular interfaces.":
+            - 
 ---

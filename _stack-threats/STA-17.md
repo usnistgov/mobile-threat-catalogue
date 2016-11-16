@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Bootloader protections against downgrading."
-        - "To prevent devices from being downgraded to older versions that lack the latest security updates, iOS uses a process called System Software Authorization. [^54]"
+        "Bootloader protections against downgrading.":
+            - 
+        "To prevent devices from being downgraded to older versions that lack the latest security updates, iOS uses a process called System Software Authorization. [^54]":
+            - 
 ---

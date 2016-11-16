@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample: CVE-2014-5903
     PossibleCountermeasures:
-        - "Ensure certificate validation occurs."
-        - "Certificate pinning within the mobile application."
+        "Ensure certificate validation occurs.":
+            - 
+        "Certificate pinning within the mobile application.":
+            - 
 ---

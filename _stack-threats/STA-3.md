@@ -7,6 +7,8 @@
     ExploitExample: "TALOS Vulnerability Report [^215]"
     CVEExample: CVE-2016-4637
     PossibleCountermeasures:
-        - "Update software immediately when patches are available."
-        - "Choose devices that regularly receive security patches."
+        "Update software immediately when patches are available.":
+            - 
+        "Choose devices that regularly receive security patches.":
+            - 
 ---

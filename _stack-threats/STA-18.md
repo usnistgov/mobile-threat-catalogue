@@ -8,5 +8,7 @@
         - "Samsung S6 calls open to man-in-the-middle base station snooping [^48]"
         - "Software flaw puts mobile phones and networks at risk of complete takeover [^49]"
     CVEExample:
-    PossibleCountermeasures: Baseband firewall
+    PossibleCountermeasures:
+        "Baseband firewall":
+            - 
 ---

@@ -6,5 +6,7 @@
     ThreatOrigin: "Mobile Device Mismanagement [^4]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Employ application vetting mechanisms on prospective EMM/MDM solutions to reduce the risk that sensitive data processed by the EMM/MDM is handled in an insecure fashion."
+    PossibleCountermeasures:
+        "Employ application vetting mechanisms on prospective EMM/MDM solutions to reduce the risk that sensitive data processed by the EMM/MDM is handled in an insecure fashion.":
+            - 
 ---

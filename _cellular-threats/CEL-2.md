@@ -9,6 +9,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Use of temporary identities"
-        - "Rogue base station detection"
+        "Use of temporary identities":
+            - 
+        "Rogue base station detection":
+            - 
 ---

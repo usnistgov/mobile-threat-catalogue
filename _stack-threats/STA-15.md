@@ -6,5 +6,7 @@
     ThreatOrigin:
     ExploitExample: "Xiaomi Locks Mi Devices\' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock [^47]"
     CVEExample:
-    PossibleCountermeasures: "Educate users of the risks of unlocking the device bootloader Device integrity checking Android SafetyNet API for attestations"
+    PossibleCountermeasures:
+        "Educate users of the risks of unlocking the device bootloader Device integrity checking Android SafetyNet API for attestations":
+            - 
 ---

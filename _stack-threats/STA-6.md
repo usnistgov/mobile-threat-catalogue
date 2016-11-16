@@ -9,7 +9,10 @@
     ExploitExample: "Injecting Malware into iOS Devices via Malicious Chargers [^217]"
     CVEExample:
     PossibleCountermeasures:
-        - "Keep USB debugging disabled on Android devices unless explicitly needed. When USB debugging is enabled, do not trust new computers unless appropriate. On iOS, do not trust new computers connected via USB unless appropriate."
-        - "In Android 4.3, ADB Authentication. Since Android 4.2.2, connections to ADB are authenticated with an RSA keypair. This prevents unauthorized use of ADB where the attacker has physical access to a device. [^220]"
-        - "In Android 6.0, Users must confirm to allow USB access to files, storage, or other functionality on the phone. Default is now charge only with access to storage requiring explicit approval from the user. [^221]"
+        "Keep USB debugging disabled on Android devices unless explicitly needed. When USB debugging is enabled, do not trust new computers unless appropriate. On iOS, do not trust new computers connected via USB unless appropriate.":
+            - 
+        "In Android 4.3, ADB Authentication. Since Android 4.2.2, connections to ADB are authenticated with an RSA keypair. This prevents unauthorized use of ADB where the attacker has physical access to a device. [^220]":
+            - 
+        "In Android 6.0, Users must confirm to allow USB access to files, storage, or other functionality on the phone. Default is now charge only with access to storage requiring explicit approval from the user. [^221]":
+            - 
 ---

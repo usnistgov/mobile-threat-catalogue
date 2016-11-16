@@ -6,5 +6,7 @@
     ThreatOrigin: "The State of the Mobile Ecosystem, Appthority Unveils New Security Research at Black Hat [^199]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Use a mobile app security service or product that can identify unsafe apps installed on devices."
+    PossibleCountermeasures:
+        "Use a mobile app security service or product that can identify unsafe apps installed on devices.":
+            - 
 ---

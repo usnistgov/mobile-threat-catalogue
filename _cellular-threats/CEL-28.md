@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Ensure Confidentiality Protection of S1 Interface"
-        - "Encrypt Exposed Interfaces Between Core Network Components"
+        "Ensure Confidentiality Protection of S1 Interface":
+            - 
+        "Encrypt Exposed Interfaces Between Core Network Components":
+            - 
 ---

@@ -9,6 +9,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Obtain devices from a reputable vendor"
-        - "Engage in software supply chain security best practices"
+        "Obtain devices from a reputable vendor":
+            - 
+        "Engage in software supply chain security best practices":
+            - 
 ---

@@ -7,6 +7,8 @@
     ExploitExample: "Who\'s Got Your Old Phone\'s Data? [^233]"
     CVEExample:
     PossibleCountermeasures:
-        - "Enforce device encryption policies."
-        - "Implement a secure erasure procedure when the device has reached end of life or will be redistributed."
+        "Enforce device encryption policies.":
+            - 
+        "Implement a secure erasure procedure when the device has reached end of life or will be redistributed.":
+            - 
 ---

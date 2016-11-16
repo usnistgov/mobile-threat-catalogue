@@ -6,5 +6,7 @@
     ThreatOrigin: "Security Guidance for Critical Areas of Mobile Computing [^196]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Only allow apps to be installed from authorized app stores."
+    PossibleCountermeasures:
+        "Only allow apps to be installed from authorized app stores.":
+            - 
 ---

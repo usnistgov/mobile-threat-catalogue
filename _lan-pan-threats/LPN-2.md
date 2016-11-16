@@ -6,5 +6,7 @@
     ThreatOrigin: "Guidelines for Securing Wireless Local Area Networks (WLANs) (SP 800-163) [^16]"
     ExploitExample: "Using the Fluhrer, Mantin, and Shamir Attack to Break WEP [^19]"
     CVEExample:
-    PossibleCountermeasures: "Use WPA2 or other appropriate encryption."
+    PossibleCountermeasures:
+        "Use WPA2 or other appropriate encryption.":
+            - 
 ---

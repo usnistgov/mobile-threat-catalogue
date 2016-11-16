@@ -8,5 +8,7 @@
         - "Researchers exploit cellular tech flaws to intercept phone calls [^168]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Locate and turn off the device actively jamming the vicinity"
+    PossibleCountermeasures:
+        "Locate and turn off the device actively jamming the vicinity":
+            -
 ---

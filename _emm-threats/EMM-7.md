@@ -7,7 +7,10 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Ensure that the EMM/MDM console provides privacy controls to limit the ability of administrators to access privacy-sensitive information."
-        - "Ensure that the EMM/MDM console provides the ability to audit access by administrators to privacy-sensitive information."
-        - "Configure EMM/MDM solutions to only audit and log privacy-related data as is minimally required to enforce other policies that require such information to establish user compliance."
+        "Ensure that the EMM/MDM console provides privacy controls to limit the ability of administrators to access privacy-sensitive information.":
+            - 
+        "Ensure that the EMM/MDM console provides the ability to audit access by administrators to privacy-sensitive information.":
+            - 
+        "Configure EMM/MDM solutions to only audit and log privacy-related data as is minimally required to enforce other policies that require such information to establish user compliance.":
+            - 
 ---

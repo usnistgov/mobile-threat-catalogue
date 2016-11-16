@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Consider the use of EMM/MDM solutions that can be configured to require dual authorization (two administrative users) to trigger device wipe functions, or at a minimum, solutions for which wiping functions involve multiple steps to complete."
-        - "Permit encrypted back-ups to the native cloud service (e.g. iCloud Backup & Storage) to enable restoration of personal, and optionally managed enterprise data, which may have been accidentally or maliciously deleted from an enrolled mobile device."
+        "Consider the use of EMM/MDM solutions that can be configured to require dual authorization (two administrative users) to trigger device wipe functions, or at a minimum, solutions for which wiping functions involve multiple steps to complete.":
+            - 
+        "Permit encrypted back-ups to the native cloud service (e.g. iCloud Backup & Storage) to enable restoration of personal, and optionally managed enterprise data, which may have been accidentally or maliciously deleted from an enrolled mobile device.":
+            - 
 ---

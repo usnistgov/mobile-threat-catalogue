@@ -6,5 +6,7 @@
     ThreatOrigin: "I Can Hear You Now: Traffic Interception and Remote Mobile Phone Cloning with a Compromised CDMA Femtocell [^180]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Prefer small cells using secure boot"
+    PossibleCountermeasures:
+        "Prefer small cells using secure boot":
+            - 
 ---

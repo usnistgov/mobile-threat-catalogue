@@ -6,5 +6,7 @@
     ThreatOrigin: "Supply Chain Attack Framework and Attack Patterns [^142]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Require libraries to be digitally signed by a trusted developer and the integrity of included libraries be verified prior to execution"
+    PossibleCountermeasures:
+        "Require libraries to be digitally signed by a trusted developer and the integrity of included libraries be verified prior to execution":
+            - 
 ---

@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Create a locally controlled repository of an application store such as F-Droid [^158]"
+        "Prohibit sideloading of apps and prohibit use of unauthorized app stores":
+            - 
+        "Create a locally controlled repository of an application store such as F-Droid [^158]":
+            - 
 ---

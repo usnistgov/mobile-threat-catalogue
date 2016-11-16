@@ -9,5 +9,7 @@
         - "Toward the HLR: Attacking the SS7 & SIGTRAN Applications [^174]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "SS7 Firewalls may be deployed throughout the network. See Securing SS7 Telecommunications Networks [^191]"
+    PossibleCountermeasures:
+        "SS7 Firewalls may be deployed throughout the network. See Securing SS7 Telecommunications Networks [^191]":
+            - 
 ---

@@ -6,5 +6,7 @@
     ThreatOrigin: "Safe Use of Mobile Devices and the Internet [^171]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Ensure that a new PIN is set on voicemail accounts."
+    PossibleCountermeasures:
+        "Ensure that a new PIN is set on voicemail accounts.":
+            - 
 ---

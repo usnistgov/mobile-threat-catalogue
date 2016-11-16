@@ -12,6 +12,8 @@
         - CVE-2016-2490
         - CVE-2016-2491
     PossibleCountermeasures:
-        - "Update software immediately when patches are available."
-        - "Choose devices that regularly receive security patches."
+        "Update software immediately when patches are available.":
+            - 
+        "Choose devices that regularly receive security patches.":
+            - 
 ---

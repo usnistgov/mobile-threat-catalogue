@@ -9,7 +9,10 @@
         - "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication [^201]"
     CVEExample:
     PossibleCountermeasures:
-        - "Enable two-factor or other strong authentication methods for user accounts on app stores."
-        - "Use features from Google or others to periodically analyze account activity for suspicious logins."
-        - "On enterprise-managed devices, consider imposing policies to restrict what apps can be installed."
+        "Enable two-factor or other strong authentication methods for user accounts on app stores.":
+            - 
+        "Use features from Google or others to periodically analyze account activity for suspicious logins.":
+            - 
+        "On enterprise-managed devices, consider imposing policies to restrict what apps can be installed.":
+            - 
 ---

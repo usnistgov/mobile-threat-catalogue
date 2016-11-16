@@ -10,6 +10,8 @@
         - "Malware designed to take over cameras and record audio enters Google Play [^99]"
     CVEExample:
     PossibleCountermeasures:
-        - "Application threat intelligence data about potential risks associated with apps installed on devices"
-        - "Application vetting to identify inappropriate behaviors"
+        "Application threat intelligence data about potential risks associated with apps installed on devices":
+            - 
+        "Application vetting to identify inappropriate behaviors":
+            - 
 ---

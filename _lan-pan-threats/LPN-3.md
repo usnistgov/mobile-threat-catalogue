@@ -7,6 +7,8 @@
     ExploitExample: "FCC Fines Marriott $600,000 for Jamming Hotel Wi-Fi [^21]"
     CVEExample:
     PossibleCountermeasures:
-        - "Avoid use of public or unencrypted Wi-Fi networks."
-        - "Only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption."
+        "Avoid use of public or unencrypted Wi-Fi networks.":
+            - 
+        "Only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption.":
+            - 
 ---
