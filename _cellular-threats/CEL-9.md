@@ -8,5 +8,5 @@
     CVEExample:
     PossibleCountermeasures:
         "Ensure that baseline industry recommended practices are implemented and validated":
-            - 
+            - Original Equipment Manufacturer
 ---
