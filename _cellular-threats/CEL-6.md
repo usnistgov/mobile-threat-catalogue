@@ -10,5 +10,5 @@
     CVEExample:
     PossibleCountermeasures:
         "Use applications that strongly encrypt data prior to transmission of data over cellular interfaces.":
-            - 
+            - Enterprise
 ---
