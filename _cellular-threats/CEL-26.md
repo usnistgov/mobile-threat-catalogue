@@ -8,5 +8,6 @@
     CVEExample:
     PossibleCountermeasures:
         "Ensure that a new PIN is set on voicemail accounts.":
-            - 
+            - Mobile Device User
+            - Enterprise
 ---
