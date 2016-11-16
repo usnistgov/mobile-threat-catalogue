@@ -7,6 +7,6 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Locate and turn off the device actively jamming the vicinity":
-            - 
+        "Detect, locate, and deactivate the interfering with the base station radio interface.":
+            - Mobile Network Operator
 ---
