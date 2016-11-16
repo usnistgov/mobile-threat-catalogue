@@ -12,8 +12,13 @@
         - "Method Swizzling [^242]"
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Use Android Verify Apps feature to identify harmful apps"
-        - "Perform application vetting to identify potentially inappropriate behaviors by apps including dynamic code execution practices"
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify potentially harmful apps.":
+            - Mobile Device User
+        "Use application threat intelligence data about potential abuse of dynamic code execution associated with apps installed on COPE or BYOD devices":
+            - Enterprise
+
 ---

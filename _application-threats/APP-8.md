@@ -10,8 +10,12 @@
         - "Remote code execution on Android devices [^81]"
     CVEExample:
     PossibleCountermeasures:
-        - "App vetting tools that detect these vulnerabilities."
-        - "Use of https URLs for WebView content."
-        - "Avoid enabling the WebView JavaScript bridge (with addJavascriptInterface) unless explicitly needed."
-        - "Use a proxy or VPN for connections to decrease the chance of success of a man-in-the-middle attack."
+        "Use app-vetting tools or services to identify vulnerable applications":
+            - Enterprise
+        "Always use https URLs for WebView content.":
+            - Mobile App Developer
+        "Avoid enabling the WebView JavaScript bridge (with addJavascriptInterface) unless explicitly needed.":
+            - Mobile App Developer
+        "Use a proxy or VPN for connections to decrease the chance of success of a man-in-the-middle attack.":
+            - Enterprise
 ---
