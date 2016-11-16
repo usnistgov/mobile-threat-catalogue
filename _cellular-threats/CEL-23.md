@@ -7,6 +7,6 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Network level air interface encryption via the MNO":
-            - 
+        "Network level air interface encryption for user-plane traffic.":
+            - Mobile Network Operator
 ---
