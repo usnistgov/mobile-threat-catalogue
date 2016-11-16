@@ -11,5 +11,5 @@
     CVEExample:
     PossibleCountermeasures:
         "SS7 Firewalls may be deployed throughout the network. See Securing SS7 Telecommunications Networks [^191]":
-            - 
+            - Mobile Network Operator
 ---
