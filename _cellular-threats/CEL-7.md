@@ -9,6 +9,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Locate and turn off the device actively jamming the vicinity":
-            -
+        "Detect, locate and deactivate the device interfering with the radio interface.":
+            - Mobile Device User
+            - Enterprise
+            - Mobile Network Operator
 ---
