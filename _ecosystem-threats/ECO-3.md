@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Only allow apps to be installed from authorized app stores.":
-            - 
+        "Prohibit users from installing apps from unofficial and authorized app stores.":
+            - Enterprise
+        "Use app-vetting tools or services to determine that enterprise apps appear free from malicious behaviors or vulnerabilities prior to authorizing their use.":
+            - Enterprise
 ---
