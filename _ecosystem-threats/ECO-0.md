@@ -6,13 +6,15 @@
     ThreatOrigin:
     ExploitExample:
         - "BackStab: Mobile Backup Data Under Attack from Malware [^192]"
-        - "BackStab: Mobile Backup Data Under Attack From Malware [^193]"
     CVEExample:
     PossibleCountermeasures:
         "On iOS devices: Enable encrypted backups. For enterprise-managed devices, enforce the _forceEncryptedBackup_ setting in the configuration profile.":
-            -
-        "Caution users not to click the _Trust_ button in the dialog box that appears when connecting the device to a computer or charger unless it is a trusted computer under the user's control.":
-            -
-        "Ensure that devices have a lock screen set, which makes it more difficult to pair iOS devices with a computer (and thus perform device backups to that computer) without the user's consent.":
-            -
+            - Enterprise
+        "To greatly reduce the difficulty of this attack, do not grant trust to a connected computing device or charger unless it is a trusted device directly under your control.":
+            - Mobile Device User
+            - Enterprise
+        "To increase the difficulty of this attack, ensure a device unlock code has been configured for the device and that the device is left in a locked state when being left unattended.":
+            - Mobile Device User
+        "To decrease the opportunity for an attacker to execute this attack without user presence, use strong physical security measures (e.g., lock the device into a secure container) when leaving the device directly unattended.":
+            - Mobile Device User
 ---
