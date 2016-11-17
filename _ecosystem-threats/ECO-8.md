@@ -7,4 +7,6 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
+        "As part of the app-vetting process, engage with app vendors to determine if data processed by the app may potentially be stored, temporarily or persisently, on systems located in areas that present unacceptible legal or privacy risks to enterprise data.":
+            - Enterprise
 ---
