@@ -11,7 +11,7 @@
             - Enterprise
         "To further reduce the potential impact of unauthorized access to account and device data, configure the EMM solution to capture and store the minimum amount of device, user, and activity data as required to meet your broader mobile device security goals.":
             - Enterprise
-        "To further reduce the potential impact of unauthorized access to account and device data, dissociate or anonymize the data provided to the EMM service as much as possible (e.g., map enterprise or personal identities to alias accounts provisioned within the EMM solution).":
+        "To further reduce the potential impact of unauthorized access to account and device data, dissociate or anonymize the data provided to the EMM service as much as possible (e.g., map enterprise or personal identities to aliases provisioned within the EMM solution).":
             - Enterprise
         "To reduce the time to detection of unauthorized access to EMM administrative accounts, configure the EMM solution to audit system access and administrative actions, and establish procedures to review recent activity for indications of unauthorized access.":
             - Enterprise
