@@ -8,7 +8,11 @@
     CVEExample:
     PossibleCountermeasures:
         "Consider the use of EMM/MDM solutions that can be configured to require dual authorization (two administrative users) to trigger device wipe functions, or at a minimum, solutions for which wiping functions involve multiple steps to complete.":
-            - 
-        "Permit encrypted back-ups to the native cloud service (e.g. iCloud Backup & Storage) to enable restoration of personal, and optionally managed enterprise data, which may have been accidentally or maliciously deleted from an enrolled mobile device.":
-            - 
+            - Enterprise
+        "To enable recovery of personal data wiped from a managed device, provide a mechanism for users to preserve personal data, such as encrypted back-ups to the native cloud service (e.g. iCloud Backup & Storage).":
+            - Enterprise
+        "To limit the potential loss of personal data, encourage users of enrolled devices to use authorized mechanisms for the synchronization or transfer of personal data to external systems not subject to remote wipe by enterprise EMM solutions.":
+            - Enterprise
+        "Educate users regarding the risks to any personal data generated on an enrolled mobile device.":
+            - Enterprise
 ---
