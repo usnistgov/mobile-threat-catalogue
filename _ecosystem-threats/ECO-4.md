@@ -9,10 +9,14 @@
         - "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication [^201]"
     CVEExample:
     PossibleCountermeasures:
-        "Enable two-factor or other strong authentication methods for user accounts on app stores.":
-            - 
-        "Use features from Google or others to periodically analyze account activity for suspicious logins.":
-            - 
-        "On enterprise-managed devices, consider imposing policies to restrict what apps can be installed.":
-            - 
+        "To prevent an attacker from gaining unauthorized access to remote installation functionality, enable two-factor or other strong authentication methods for user accounts on app stores.":
+            - Mobile Device User
+            - Enterprise
+        "To detect unauthorized activity, including remote installation of apps, use features from Google or others to periodically analyze account activity for suspicious logins.":
+            - Mobile Device User
+            - Enterprise
+        "Deploy a combination of MDM, MAM, or container solutions and mobile devices that successfully enforce policies (e.g., whitelisting) that prevent unauthorized applications from being installed to managed areas of the device.":
+            - Enterprise
+        "To reduce the time to detection of malicious applications, use app threat intelligence services to identify malicious apps installed on devices.":
+            - Enterprise
 ---
