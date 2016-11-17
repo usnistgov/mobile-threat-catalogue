@@ -7,8 +7,10 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Periodically changing the iCloud account password should likewise cause a new set of derived keys used by iCloud to be created, which prompts reencryption of any objects protected by those keys, including the iCloud Backup keybag, which would negate any progress an attacker had made towards a brute-force attack on that object.":
-            - 
-        "Creating a strong iCloud password increases the difficulty of brute-force attacks on the iCloud Backup keybag.":
-            - 
+        "To reduce the probability an attacker will successfully launch a brute-force attack against cloud-based cryptographic keys, periodically change authentication credentials, digital certificates, or any cryptographic secret used to derive keys that protect access to the account or data associated with it.":
+            - Mobile Device User
+            - Enterprise
+        "As the strength of cryptographic mechanisms generally increases relative to that of any passwords or cryptographic secrets used, prefer or enforce the use of stronger passwords (increasing length, complexity, and randomness).":
+            - Mobile Device User
+            - Enterprise
 ---
