@@ -7,8 +7,10 @@
     ExploitExample: "Darkhotel: A Sophisticated New Hacking Attack Targets High-Profile Hotel Guests [^17]"
     CVEExample:
     PossibleCountermeasures:
-        "Avoid use of public or unencrypted Wi-Fi networks.":
-            - 
-        "Only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption.":
-            - 
+        "Avoid the use of untrusted and unencrypted Wi-Fi networks, particularly when needing to access sensitive services.":
+            - Mobile Device User
+        "When needing to connect to untrusted and unencrypted Wi-Fi networks, attempt to verify with a representative of the hosting organization (e.g., coffe shop employee) that the detected network is the correct one.":
+            - Mobile Device User
+        "To avoid this threat, only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption.":
+            - Enterprise
 ---
