@@ -7,6 +7,6 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Use Bluetooth applications that strongly encrypt data prior to transmission":
-            - 
+        "Use Bluetooth applications that strongly encrypt data prior to transmission.":
+            - Mobile Device User
 ---
