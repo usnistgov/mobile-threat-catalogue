@@ -9,6 +9,6 @@
         - "Software flaw puts mobile phones and networks at risk of complete takeover [^49]"
     CVEExample:
     PossibleCountermeasures:
-        "Baseband firewall":
-            - 
+        "Implementation of a baseband firewall.":
+            - Original Equipment Manufacturer
 ---
