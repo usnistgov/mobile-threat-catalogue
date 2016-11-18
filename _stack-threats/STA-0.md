@@ -14,14 +14,13 @@
         - CVE-2016-4655
         - CVE-2016-4656
     PossibleCountermeasures:
-        "Monitor the security patch state of devices and block enterprise connectivity from out-of-date devices with known exploitable vulnerabilities.":
-            - 
-        "Purchase devices from vendors/carriers who have committed to providing timely updates or who have known track records for prompt updates.":
-            - 
-        "Ensure devices are kept up-to-date with security patches to decrease the likelihood that they can be rooted/jailbroken.":
-            - 
-        "Use tools or device APIs (e.g. Android SafetyNet) to detect and block enterprise connectivity from known compromised devices.":
-            - 
-        "Use device APIs (e.g. SystemUpdatePolicy) to enforce system update policies.":
-            - 
+        "To reduce the risk to enterprise resources being accessed from vulnerable devices, deploy EMM/MDM solutions that can successfully enforce policies to monitor the OS version of devices and block enterprise connectivity from out-of-date devices or those with known-exploitable privilege escalation vulnerabilities.":
+            - Enterprise
+        "To help reduce the latency between exploit notification and patch availability, purchase devices from vendors/carriers who have committed to providing timely updates or who have known track records for prompt updates.":
+            - Enterprise
+        "To help reduce the opportunity for attack following availability of patches, configure automatic installation of, or, at a minimum, automatic notification of the availability of mobile OS security updates.":
+            - Enterprise
+            - Mobile Device User
+        "Use tools or device APIs (e.g. Android SafetyNet) to detect and block enterprise connectivity from devices that fail attestation or integrity checks.":
+            - Enterprise
 ---
