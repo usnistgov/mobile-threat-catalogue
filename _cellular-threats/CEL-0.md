@@ -13,6 +13,7 @@
     PossibleCountermeasures:
         "Use of a ciphering indicator in the interface of the mobile device to inform the user as to whether or not user data (e.g. voice calls, SMS/MMS messages, data) are being encrypted.":
             - Original Equipment Manufacturer
+            - Mobile OS Developer
         "Network level air interface encryption for user-plane traffic.":
             - Mobile Network Operator
         "To prevent an attacker who intercepts traffic on the unencrypted channel between a mobile device and a base station, use a mobile VPN or another third-party over-the-top encryption solution to encrypt data prior to transmission over the air interface.":
