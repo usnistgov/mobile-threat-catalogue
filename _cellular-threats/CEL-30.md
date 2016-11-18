@@ -11,6 +11,6 @@
             - Mobile Network Operator
         "Properly wipe and dispose of old network equipment":
             - Mobile Network Operator
-        "Ensure that baseline industry recommended practices are implemented and validated":
+        "Ensure that baseline industry recommended practices for information system security are implemented and validated":
             - Mobile Network Operator
 ---
