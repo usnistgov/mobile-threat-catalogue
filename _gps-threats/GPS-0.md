@@ -7,6 +7,7 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Mobile devices can use other signals, such as those from cellular towers, WiFi hotspots, and Bluetooth or NFC beacons in its calculations to determine its location. For short durations, integrated sensors (magnetometer, accelerometer, gyroscope, and barometer) can still update the device location when external location data is unavailable. See __Ten Ways Your Smartphone Knows Where You Are__ [^40]":
-            - 
+        "To prevent loss of GPS signals from preventing location services from operating, select devices that attempts to a variety of location input sources, such as signal strength from cellular towers, Wi-Fi hotspots, and Bluetooth beacons. See __Ten Ways Your Smartphone Knows Where You Are__ [^40]":
+            - Mobile Device User
+            - Enterprise
 ---
