@@ -8,5 +8,5 @@
     CVEExample:
     PossibleCountermeasures:
         "Several countermeasures to be implemented in GPS receiver software have been presented in GPS Spoofing Countermeasures [^41]":
-            - 
+            - Original Equipment Manufacturer
 ---
