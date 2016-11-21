@@ -7,6 +7,6 @@
     ExploitExample: "Baseband Attacks: Remote Exploitation of Memory Corruptions in Cellular Protocol Stacks [^50]"
     CVEExample:
     PossibleCountermeasures:
-        "Baseband firewall":
-            - 
+        "Implementation of a baseband firewall":
+            - Original Equipment Manufacturer
 ---
