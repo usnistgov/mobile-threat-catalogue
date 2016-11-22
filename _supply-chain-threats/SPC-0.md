@@ -7,7 +7,7 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "To increase the complexity of this attack, prefer open source software libraries for which integrity-checking mechanisms are provided (e.g., strong cryptographic hashes of source files, digital signatures) so the authenticity of the open source library can be verified."
+        "To increase the complexity of this attack, prefer open source software libraries for which integrity-checking mechanisms are provided (e.g., strong cryptographic hashes of source files, digital signatures) so the authenticity of the open source library can be verified.":
             - Mobile App Developer
             - Application Developer
             - Enterprise
@@ -23,11 +23,11 @@
             - Mobile App Developer
             - Application Developer
             - Application Developer
-        "To protect open source library used by a product from modification, then if possible, package a verified authentic instance of the open source library and apply cryptographic protections (e.g., strong hashing, digital signatures) to the product to allow customers to verify the authenticity and integrity of all packaged components."
+        "To protect open source library used by a product from modification, then if possible, package a verified authentic instance of the open source library and apply cryptographic protections (e.g., strong hashing, digital signatures) to the product to allow customers to verify the authenticity and integrity of all packaged components.":
             - Mobile App Developer
             - Application Developer
             - Enterprise
-        "To prevent distributing a software package that contains maliciously modified open source libraries, perform sufficient functional testing of the complete system to verify that it exhibits correct and consistent behavior."
+        "To prevent distributing a software package that contains maliciously modified open source libraries, perform sufficient functional testing of the complete system to verify that it exhibits correct and consistent behavior.":
             - Mobile App Developer
             - Application Developer
             - Enterprise
