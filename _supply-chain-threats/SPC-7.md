@@ -8,5 +8,5 @@
     CVEExample:
     PossibleCountermeasures:
         "Test systems that contain newly integrated or updated components to detect incorrect function or anomalous behavior prior to production use":
-            - 
+            - Enterprise
 ---
