@@ -7,6 +7,6 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Same as above, plus performing background checks on supply chain personnel as appropriate to the level of sensitivity of the component being distributed to detect placement or the potential for or actual manipulation by an adversary":
-            - 
+        "Perform background checks on supply chain personnel as appropriate to the level of sensitivity of the component being distributed to detect placement or the potential for or actual manipulation by an adversary":
+            - Enterprise
 ---
