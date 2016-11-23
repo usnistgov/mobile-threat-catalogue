@@ -8,7 +8,7 @@
     CVEExample:
     PossibleCountermeasures:
         "Use fine-grained role-based access control mechanisms and user/service roles that reduce the potential that malicious installation or upgrade packages can introduce malware outside of files and directories allocated to the associated software":
-            - 
+            - Enterprise
         "Scan systems with newly integrated or updated software components for indicators of compromise prior to production use":
-            - 
+            - Enterprise
 ---
