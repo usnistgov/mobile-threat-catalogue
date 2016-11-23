@@ -8,11 +8,11 @@
     CVEExample:
     PossibleCountermeasures:
         "Test systems that contain newly integrated or updated software components to detect incorrect function or anomalous behavior prior to production use":
-            - 
+            - Enterprise        
         "Obtain direct from the software developer a list of files changed by the installation or upgrade process, and if possible, strong cryptographic hashes for file updates that are configuration-independent and should produce known values":
-            - 
+            - Enterprise
         "Use fine-grained role-based access control mechanisms and user/service roles that reduce the potential that malicious installation or upgrade packages can introduce malware outside of files and directories allocated to the associated software":
-            - 
+            - Enterprise
         "Scan systems with newly integrated or updated software components for indicators of compromise prior to production use":
-            - 
+            - Enterprise
 ---
