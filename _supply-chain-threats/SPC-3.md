@@ -10,9 +10,9 @@
     CVEExample:
     PossibleCountermeasures:
         "App developers should ensure that development tools are obtained from a trusted source (e.g. directly from the vendor).":
-            - 
+            - Mobile App Developer
         "Only software digitally signed by a trusted developer should be used, and the integrity of software development installation packages should be verified prior to installation":
-            - 
+            - Enterprise
         "Obtained software should be installed onto target operating systems in a known-good state (fresh install from verified installation media) in a test environment, which is then evaluated for any indicators of compromise prior to authorization of production use":
-            - 
+            - Enterprise
 ---
