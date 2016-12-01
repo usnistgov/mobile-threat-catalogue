@@ -6,5 +6,7 @@
     ThreatOrigin: "Guide to Bluetooth Security (SP 800-121) [^28]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Use Bluetooth applications that strongly encrypt data prior to transmission"
+    PossibleCountermeasures:
+        "Use Bluetooth applications that strongly encrypt data prior to transmission.":
+            - Mobile Device User
 ---

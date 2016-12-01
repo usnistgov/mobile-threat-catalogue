@@ -6,5 +6,7 @@
     ThreatOrigin: "LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Locate and turn off the device actively jamming the vicinity"
+    PossibleCountermeasures:
+        "Detect, locate, and deactivate the device causing interference with the base station radio interface.":
+            - Mobile Network Operator
 ---

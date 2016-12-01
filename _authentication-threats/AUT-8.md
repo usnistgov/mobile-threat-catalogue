@@ -6,5 +6,11 @@
     ThreatOrigin: "Man-in-the-Middle Attack [^136]"
     ExploitExample: "Using spoofed Wi-Fi to attack mobile devices [^20]"
     CVEExample:
-    PossibleCountermeasures: "Use authentication protocols that generate unpredictable one-time cryptographic tokens that are replay-resistant (e.g. public key authentication, FIDO Alliance protocols)"
+    PossibleCountermeasures: 
+        "To prevent captured authentication credentials from enabling persistent access to sensitive services, configure them with authentication methods that use unpredictable one-time cryptographic tokens that are replay-resistant (e.g. public key authentication, FIDO Alliance protocols, pre-shared access codes).":
+            - Enterprise
+        "To limit the usefulness of captured passwords, do not use the same password or derivations thereof to authenticate to multiple services.":
+            - Mobile Device User
+        "To increase the difficulty of establishing a MiTM attack on a given wireless access session in which authentication credentials are exchanged, avoid authenticating to sensitive remote services over untrusted Wi-Fi networks.":
+            - Mobile Device User
 ---

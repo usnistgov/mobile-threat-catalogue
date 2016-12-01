@@ -7,6 +7,8 @@
     ExploitExample: "Major security hole allows Apple passwords to be reset with only email address, date of birth (update) [^152]"
     CVEExample:
     PossibleCountermeasures:
-        - "Follow best practices to protect developer accounts such as using MFA. [^159] [^160]"
-        - "Follow best practices to protect cryptographic signing material for applications [^162]"
+        "Follow best practices to protect developer accounts such as using MFA. [^159] [^160]":
+            - 
+        "Follow best practices to protect cryptographic signing material for applications [^162]":
+            - 
 ---
