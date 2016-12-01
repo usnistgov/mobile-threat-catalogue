@@ -11,20 +11,18 @@
         - "ToughLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion [^250]"
     CVEExample:
     PossibleCountermeasures:
-        "On Android devices, use the Verify Apps feature to detect 3rd party apps that appear to abuse access to device sensors.":
+        "To detect Android apps that may realize this threat, use the Verify Apps feature to detect 3rd party apps that appear to abuse access to device sensors.":
             - Mobile Device User
-        "Deploy MAM or containerization solutions that support policies that can enforce strong encryption on any data stored on the SD card by trusted apps":
+        "To reduce the opporunity for this threat, deploy containerization or MAM solutions in combination with devices that successfully enforce policies that restrict access to device sensors by untrusted apps.":
             - Enterprise
-        "Deploy containerization or MAM solutions that allow administrators to restrict access to device sensors by untrusted apps.":
+        "To reduce the opportunity for this threat, do not authorize (or revoke if granted) access to device sensors by untrusted applications when those applications are not actively in use (e.g., running in the background).":
+            - Mobile Device User
+        "To reduce the opportunity for this threat, use access controls native to the mobile OS to revoke access to device peripherals or services for an app when related application functions are no longer in use.":
+            - Mobile Device User
+        "To prevent this threat, before authenticating to sensitive applications, forcibly close all untrusted applications that have access to device sensors such as an accelerometer or gyroscope.":
+            - Mobile Device User
+        "To detect apps that may realize this threat, use app-vetting services to determine if any apps present in your mobile device deployment appear to use sensor data in an untrusted manner.":
             - Enterprise
-        "Do not authorize access to device sensors to untrusted applications when those applications are not in use.":
-            - Mobile Device User
-        "Use access controls native to the mobile OS to revoke access to device peripherals or services when related application functions are no longer in use.":
-            - Mobile Device User
-        "Before authenticating to sensitive applications, forcibly close untrusted applications with access to device sensors such as an accelerometer or gyroscope.":
-            - Mobile Device User
-        "Use app-vetting services to determine if any apps present in your mobile device deployment appear to use sensor data in an untrusted manner so appropriate policies and controls can be established to mitigate those risks.":
-            - Enterprise
-        "Before authenticating to sensitive applications, use OS configuration settings to revoke global access to device sensors such as an accelerometer or gyroscope.":
+        "To prevent this threat, before authenticating to sensitive applications, use OS configuration settings to revoke global access for all apps to device sensors such as an accelerometer or gyroscope.":
             - Mobile Device User
 ---
