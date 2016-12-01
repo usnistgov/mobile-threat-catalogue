@@ -139,7 +139,7 @@
 
 [^74]: M. Grace et al., "Unsafe Exposure Analysis of Mobile In-App Advertisements", in Proceedings of the Fifth ACM Conference on Security and Privacy in Wireless and Mobile Networks,2012, pp. 101-112; http://dl.acm.org/citation.cfm?id=2185464 [accessed 8/25/2016]
 
-[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013; www.nowsecure.com/blog/2013/10/04/ebay-for-android-content-provider-injection-vulnerability/ [accessed 8/25/2016]
+[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013.
 
 [^76]: X. Jiang, "Smishing Vulnerability in Multiple Android Platforms (including Gingerbread, Ice Cream Sandwich, and Jelly Bean)", 28 Nov. 2012; www.csc.ncsu.edu/faculty/jiang/smishing.html [accessed 8/25/2016]
 
@@ -480,3 +480,8 @@
 [^248]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
 
 [^249]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
+[^248]: M. Humphries, "Touchscreen keylogger created using accelerometer movement during typing", PCMag, 9 Dec. 2011; http://www.geek.com/mobile/touchscreen-keylogger-created-using-accelerometer-movement-during-typing-1420485/ [accessed 11/07/2016]
+
+[^249]: E. Miluzzo et al., "Tapprints: your finger taps have fingerprints", in _Proceedings of the 10th International Conference on Mobile Systems, Applications, and Services_, 2012, pp. 323-336; https://forge.info.unicaen.fr/attachments/download/559/tapprints-final.pdf
+
+[^250]: C. Liang and H. Chen, "TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion", presented at _6th USENIX Workshop on Hot Topics in Security_, 9 Aug. 2011; https://pdfs.semanticscholar.org/8c8c/f6ff0a88a5ae99360cada9afaf5439b61a8d.pdf [accessed 11/07/2016]

@@ -10,6 +10,10 @@
     CVEExample:
         - CVE-2014-9333
     PossibleCountermeasures:
-        - "App vetting or threat intelligence services that detect use of libraries with known vulnerabilities"
-        - "Automated app store checks for use of libraries with known vulnerabilities (e.g. the Google Play App Security Improvement Program)"
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use app-vetting tools or services to identify apps that use vulnerable libraries.":
+            - Enterprise
 ---

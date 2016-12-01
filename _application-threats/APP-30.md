@@ -7,4 +7,14 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify apps that may abuse communication channels to exfiltrate data.":
+            - Mobile Device User
+        "Use application threat intelligence data about potential data exfiltration risks associated with apps installed on COPE or BYOD devices":
+            - Enterprise
+        "Use app-vetting tools or services to identify apps that appear to exfiltrate data.":
+            - Enterprise
 ---
