@@ -8,5 +8,9 @@
         - "Researchers exploit cellular tech flaws to intercept phone calls [^168]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Locate and turn off the device actively jamming the vicinity"
+    PossibleCountermeasures:
+        "Detect, locate and deactivate the device interfering with the radio interface.":
+            - Mobile Device User
+            - Enterprise
+            - Mobile Network Operator
 ---

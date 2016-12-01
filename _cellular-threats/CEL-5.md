@@ -8,5 +8,10 @@
         - "LTE Security and Protocol Exploits [^167]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Ensure that the behavior of a mobile device''s chipset in these conditions are understood before using the device in critical situations."
+    PossibleCountermeasures:
+        "Ensure that the behavior of a mobile device\'s chipset in these conditions is understood before relying on cellular communication in critical situations.":
+            - Enterprise
+            - Baseband Developer
+        "In anticipation of a potential denial-of-service attack on the air interface of devices, establish contingency plans for continued operations, such as use of alternative communication channels.":
+            - Enterprise
 ---
