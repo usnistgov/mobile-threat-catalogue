@@ -6,5 +6,7 @@
     ThreatOrigin: "Supply Chain Attack Framework and Attack Patterns [^142]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Test systems that contain newly integrated or updated components to detect incorrect function or anomalous behavior prior to production use"
+    PossibleCountermeasures:
+        "Test systems that contain newly integrated or updated components to detect incorrect function or anomalous behavior prior to production use":
+            - Enterprise
 ---

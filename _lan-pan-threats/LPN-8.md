@@ -7,6 +7,10 @@
     ExploitExample: "Studying Bluetooth Malware Propagation: The BlueBag Project [^30]"
     CVEExample:
     PossibleCountermeasures:
-        - "Disable Bluetooth when not in use"
-        - "Operate Bluetooth on devices in a secure location away from windows and doors, to which an attacker is unlikely to have physical access"
+        "To limit opportunity for this attack, disable Bluetooth when that feature is not in use":
+            - Mobile Device User
+        "Operate Bluetooth on devices in a secure location away from windows and doors, to which an attacker is unlikely to have physical access":
+            - Mobile Device User
+        "To limit opporunity for this attack, protect devices with a case that blocks Bluetooth signals.":
+            - Mobile Device User
 ---

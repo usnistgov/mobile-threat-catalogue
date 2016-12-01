@@ -6,5 +6,11 @@
     ThreatOrigin: "The State of the Mobile Ecosystem, Appthority Unveils New Security Research at Black Hat [^199]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Use a mobile app security service or product that can identify unsafe apps installed on devices."
+    PossibleCountermeasures:
+        "To reduce the time to detection, use app threat intelligence services to detect malicious or vulnerable apps installed on devices.":
+            - Enterprise
+        "To reduce the risk of malicious behaviors or exploitation of vulnerable apps, deploy MDM or MAM solutions that successfully enforce policies restricting access to enterprise resources for devices running untrusted and unsupported versions of apps.":
+            - Enterprise
+        "To detect malicious or vulnerable apps installed on Android devices, use the Android Verify Apps feature.":
+            - Mobile Device User
 ---

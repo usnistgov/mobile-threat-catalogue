@@ -7,6 +7,10 @@
     ExploitExample: "Practical NFC peer-to-peer relay attack using mobile phones. [^11]"
     CVEExample:
     PossibleCountermeasures:
-        - "For the device user, when not specifically using NFC functionality, use device settings to turn off NFC."
-        - "Ensure native payment services (e.g. Apple Pay) are configured to require user authentication to complete any contactless payment transaction"
+        "To reduce opportunity for this attack, disable NFC when that feature is not in use.":
+            - Mobile Device User
+        "To avoid this attack, do not activate - or if no longer in use, deactivate - native mobile payment features, such as Apple Pay.":
+            - Mobile Device User
+        "To prevent this attack, ensure native payment services (e.g. Apple Pay) are configured to require user interaction to complete any contactless payment transaction.":
+            - Mobile Device User
 ---

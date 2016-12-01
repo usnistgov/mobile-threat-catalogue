@@ -10,7 +10,7 @@
         - "Android SMS Spoofer [^77]"
         - "Content provider permission bypass allows malicious application to access data [^78]"
     CVEExample:
-        - Android example: CVE-2016-2810
+        - CVE-2016-2810
     PossibleCountermeasures:
         "Use app-vetting tools or services to identify apps that expose functionality to untrusted apps.":
             - Enterprise
