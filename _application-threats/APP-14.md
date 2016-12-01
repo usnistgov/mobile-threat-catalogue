@@ -14,9 +14,14 @@
         - "Cloned banking app stealing usernames sneaks into Google Play [^88]"
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores."
-        - "Use Android Verify Apps feature to identify harmful apps."
-        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps."
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices."
-        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors."
+        "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify potentially harmful apps.":
+            - Mobile Device User
+        "Use application threat intelligence data about potentially harmful apps installed on COPE or BYOD devices":
+            - Enterprise
+        "To reduce the ease of an attacker to abuse existing app functionality, only request access to the minimal set of shared data stores (e.g., contacts, calendar), OS services (e.g. location services), and device sensors (e.g. camera, microphone) necessary for the app to provide functionality.":
+            - Mobile App Developer
 ---

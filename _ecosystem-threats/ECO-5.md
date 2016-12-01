@@ -7,6 +7,10 @@
     ExploitExample: "How Apple and Amazon Security Flaws Led To My Epic Hacking [^197]"
     CVEExample:
     PossibleCountermeasures:
-        - "Enable two-factor or other strong authentication methods for user accounts on Google, Apple, or other device management and tracking services."
-        - "Use features from Google or others to periodically analyze account activity for suspicious logins."
+        "To prevent an attacker from gaining unauthorized access to sensitive functionality (e.g., locating or wiping a device associated with the account), enable two-factor or other strong authentication methods for user accounts on Google, Apple, or other device management and tracking services.":
+            - Mobile Device User
+            - Enterprise
+        "To detect unauthorized access to user accounts, use features from Google or others to periodically analyze account activity for suspicious logins.":
+            - Mobile Device User
+            - Enterprise
 ---

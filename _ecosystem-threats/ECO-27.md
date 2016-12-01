@@ -6,5 +6,7 @@
     ThreatOrigin:
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Create a locally controlled repository of an application store such as F-Droid https://f-droid.org/wiki/page/Setup_an_FDroid_App_Repo  [^158]"
+    PossibleCountermeasures:
+        "Create a locally controlled repository of an application store such as F-Droid https://f-droid.org/wiki/page/Setup_an_FDroid_App_Repo  [^158]":
+            - 
 ---

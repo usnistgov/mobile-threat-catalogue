@@ -9,7 +9,16 @@
         - "Jekyll on iOS: When Benign Apps Become Evil [^111]"
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Perform application vetting to identify inappropriate behaviors by apps including use of private APIs"
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify apps that appear to abuse the OS API to gather sensitive data.":
+            - Mobile Device User
+        "Use application threat intelligence data about potential data collection risks associated with apps installed on COPE or BYOD devices":
+            - Enterprise
+        "Use app-vetting tools or services to identify apps that appear to abuse the OS API to gather sensitive data.":
+            - Enterprise
+        "To avoid inadvertent detection as a harmful app, review current developer documentation for the supporting OS and always use the recommended API calls to deliver app functionality.":
+            - Mobile App Developer
 ---

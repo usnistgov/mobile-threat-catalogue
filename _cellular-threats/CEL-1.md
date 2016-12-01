@@ -6,5 +6,7 @@
     ThreatOrigin: "GSM Sniffing [^173]"
     ExploitExample: "GSM Sniffing [^173]"
     CVEExample:
-    PossibleCountermeasures: "Where possible, prefer the use of modern air interface technologies to ensure stronger cryptographic algorithms are used."
+    PossibleCountermeasures:
+        "Where possible, prefer the use of modern air interface technologies to ensure stronger cryptographic algorithms are used.":
+            - Original Equipment Manufacturer
 ---

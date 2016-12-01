@@ -7,6 +7,10 @@
     ExploitExample: "Stealing Passwords is Easy in Native Mobile Apps Despite OAuth [^140]"
     CVEExample:
     PossibleCountermeasures:
-        - "Ensure apps are obtained from trusted sites/sources (e.g. official app stores or developers)."
-        - "Ensure vetting of enterprise apps to made available for users."
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use app-vetting tools or services to identify malicious behaviors in apps.":
+            - Enterprise
 ---

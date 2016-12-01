@@ -7,8 +7,19 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Increase the minimum length and complexity and reduce the maximum lifetime of passwords and PINs to reduce the probability a smudge attack will be successful"
-        - "Clean the screen of the device often"
-        - "Enter device unlock codes and passwords using a stylus on a clean screen"
-        - "When not directly attended, physically secure devices to prevent access by an attacker"
+        "To increase the difficulty in successfully inferring the authentication credential, increase the minimum length and complexity of PINs, passwords, or other authentication credentials.":
+            - Enterprise
+            - Mobile Device User
+        "To reduce the window of opporuntity during which an attacker can use an inferred authentication credential, reduce the maximum lifetime of authentication credentials.":
+            - Mobile Device User
+            - Enterprise
+        "To limit the amount of data available to an attacker conducting a screen smudge inferrence attack, clean the screen of the device often, particularly when leaving the device directly unattended.":
+            - Mobile Device User
+        "To limit the amount of authentication data available to the attacker (e.g. size, and number of smudges), enter device unlock codes and passwords using a stylus on (ideally) a clean device screen.": 
+            - Mobile Device User
+        "Use devices and applications that support biometric authentication methods (e.g. facial recognition, voice print), which do not result in direct physical evidence of authentication data being left on the device for later analysis.":
+            - Mobile Device User
+            - Enterprise
+        "To limit the window of opportunity for an attacker to conduct a screen smudge inferrence attack, physically secure the device when it is being left directly unattended.":
+            - Mobile Device User
 ---

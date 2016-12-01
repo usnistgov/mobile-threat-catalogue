@@ -16,15 +16,23 @@
 title: Mobile Threat Catalogue
 description: >
     <p>
-        In order to fully address the inherent threats of mobile devices, a wider view of the mobile ecosystem is necessary. This repository contains the Mobile Threat Catalogue,
-        which describes, identifies, and structures the threats posed to mobile information systems. Readers of the catalogue will notice there are gaps;
-        some threats are not tied to a documented source or lack countermeasures, and other threats not identified here may exist. The National Cybersecurity Center of Excellence (NCCoE) seeks comment on current
-        mobile threats addressed in the Catalogue as well as ideas for additional threats to add. Visit the <a href="/mobile-threat-catalogue/contributing.html">contributing page</a> for more information on how to provide feedback.
+        In order to fully address the inherent threats of mobile devices,
+        a wider view of the mobile ecosystem is necessary. This repository
+        contains the Mobile Threat Catalogue, which describes, identifies, and
+        structures the threats posed to mobile information systems. An associated report provide
+        context and describing this repository is available here:
+        <a href="https://nccoe.nist.gov/sites/default/files/library/mtc-nistir-8144-draft.pdf">NISTIR 8144: Assessing Threats to Mobile Devices & Infrastructure</a>.
     </p>
-    <p>An associated report provide context and describing this repository is available here:
-        <a href="https://nccoe.nist.gov/sites/default/files/library/mtc-nistir-8144-draft.pdf">NISTIR 8144: Assessing Threats to Mobile Devices & Infrastructure.</a>
+    <p>
+    The public comment period closed on Thursday, November 10, 2016.
+    Readers of the catalogue may notice that gaps still remain; some
+    threats are not tied to a documented source or lack countermeasures,
+    and other threats not identified here may exist. This catalogue is
+    intended as a living document. Feedback on mobile threats addressed in
+    the catalogue as well as ideas for additional threats are still encouraged,
+    but please note that a prompt response time may not be possible as we work to
+    address offline comments received before the deadline.
     </p>
-    <p>The comment period closes on Thursday, November 10, 2016.</p>
 
 
 baseurl: "/mobile-threat-catalogue" # the subpath of your site, e.g. /blog

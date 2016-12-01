@@ -14,6 +14,8 @@
     CVEExample:
         - CVE-2015-4640
     PossibleCountermeasures:
-        - "iOS App Transport Security feature, Android uses Cleartext Traffic or Network Security Policy features."
-        - "App vetting tools/services that can detect these vulnerabilities in apps."
+        "Implement secure communications in apps. On iOS, use the App Transport Security feature. On Android, opt out of the use of Cleartext traffic.":
+            - Mobile App Developer
+        "App vetting tools/services that can detect the use of cleartext traffic in mobile apps.":
+            - Enterprise
 ---
