@@ -4,10 +4,10 @@
     ID: APP-37
     Threat: "Clickjacking to entice user to perform activity in a hidden application."
     ThreatOrigin: 
-        - "\"Accessibility Clickjacking\" – The Next Evolution in Android Malware that Impacts More Than 500 Million Devices [^Y.Amit-1]"
-        - "Android ransomware variant uses clickjacking to become device administrator [^M.Zhang-1]"
+        - "\"Accessibility Clickjacking\" – The Next Evolution in Android Malware that Impacts More Than 500 Million Devices [^YAmit1]"
+        - "Android ransomware variant uses clickjacking to become device administrator [^MZhang1]"
     ExploitExample:
-        - "Android.Lockdown.E [^Symantec-1]"
+        - "Android.Lockdown.E [^Symantec1]"
     CVEExample:
     PossibleCountermeasures:
         "To detect if an unauthorized app has access to restricted functionality, such as Device Administrator or Accessibility Services, use device settings to review permissions and identify any app for which that functionality is not authorized.":
