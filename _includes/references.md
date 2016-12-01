@@ -139,7 +139,7 @@
 
 [^74]: M. Grace et al., "Unsafe Exposure Analysis of Mobile In-App Advertisements", in Proceedings of the Fifth ACM Conference on Security and Privacy in Wireless and Mobile Networks,2012, pp. 101-112; http://dl.acm.org/citation.cfm?id=2185464 [accessed 8/25/2016]
 
-[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013; www.nowsecure.com/blog/2013/10/04/ebay-for-android-content-provider-injection-vulnerability/ [accessed 8/25/2016]
+[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013.
 
 [^76]: X. Jiang, "Smishing Vulnerability in Multiple Android Platforms (including Gingerbread, Ice Cream Sandwich, and Jelly Bean)", 28 Nov. 2012; www.csc.ncsu.edu/faculty/jiang/smishing.html [accessed 8/25/2016]
 
