@@ -479,6 +479,6 @@
 
 [^M.Zhang-1]: M. Zhang, "Android ransomware variant uses clickjacking to become device administrator", Symantec Official Blog, 27 Jan. 2016, www.symantec.com/connect/blogs/android-ransomware-variant-uses-clickjacking-become-device-administrator [accessed 11/29/2016]
 
-[^Y.Amit1]: Y. Amit, "\"Accessibility Clickjacking\" - The Next Evolution in Android Malware that Impacts More Than 500 Million Devices [update – 1.34 Billion Devices!]", Skycure Mobile Security Blog, 3 Mar. 2016, www.skycure.com/blog/accessibility-clickjacking/ [accessed 11/29/2016]
+[^Y.Amit1]: Y. Amit, "\"Accessibility Clickjacking\" - The Next Evolution in Android Malware that Impacts More Than 500 Million Devices", Skycure Mobile Security Blog, 3 Mar. 2016, www.skycure.com/blog/accessibility-clickjacking/ [accessed 11/29/2016]
 
 [^Symantec-1]: "Android.Lockdown.E", Symantec, 6 Aug. 2016, www.symantec.com/security_response/writeup.jsp?docid=2014-103005-2209-99 [accessed 11/29/2016]
