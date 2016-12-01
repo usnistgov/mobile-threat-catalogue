@@ -7,8 +7,14 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Use Android Verify Apps feature to identify harmful apps"
-        - "Perform application vetting to identify potentially inappropriate behaviors by apps including dynamic code execution or reflection practices"
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Use app-vetting tools or services to identify untrusted apps that contain encrypted or obfuscated code.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify potentially harmful apps.":
+            - Mobile Device User
+        "Use application threat intelligence data about apps that contain encrypted or obfuscated code":
+            - Enterprise
+        "To mitigate your app being detected as potentially malicious, do not arbitrarily encrypt or obfuscate code.":
+            - Mobile App Developer
 ---

@@ -7,9 +7,20 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Use Android Verify Apps feature to identify harmful apps"
-        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
-        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors."
+        "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Use Android Verify Apps feature to identify apps that may violate privacy.":
+            - Mobile Device User
+        "Perform application vetting to identify privacy-invasive behaviors by apps.":
+            - Enterprise
+        "Use application threat intelligence data about potential privacy risks associated with apps installed on devices":
+            - Enterprise
+        "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide additional separation between personal apps and enterprise apps to mitigate the leakage of private information between work/personal contexts.":
+            - Enterprise
+        "Only request access to the minimal set of shared data stores (e.g., contacts, calendar), OS services (e.g. location services), and device sensors (e.g. camera, microphone) necessary for the app to provide functionality.":
+            - Mobile App Developer
+        "Only collect the minimal set of device or user data necessary for the app to provide functionality.":
+            - Mobile App Developer
 ---

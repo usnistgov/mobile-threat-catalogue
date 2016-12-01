@@ -7,6 +7,8 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Ensure that the mobile device management agent properly authenticates the server."
-        - "Consider the use of EMM/MDM products that use digital signatures to allow the on-device agent to perform validation of the source and the integrity of device management messages"
+        "Design on-device agents to only accept MDM administrative commands during secure communication with a trusted EMM server (e.g. during a TLS session).":
+            - Mobile App Developer
+        "Consider the use of EMM/MDM products that use digital signatures to allow the on-device agent to perform validation of the source and the integrity of device management messages.":
+            - Enterprise
 ---
