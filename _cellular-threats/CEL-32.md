@@ -6,5 +6,7 @@
     ThreatOrigin: "LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Ensure that baseline industry recommended practices are implemented and validated"
+    PossibleCountermeasures:
+        "Ensure that baseline industry recommended practices are implemented and validated":
+            - Mobile Network Operator
 ---

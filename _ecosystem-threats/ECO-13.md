@@ -7,7 +7,12 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Application threat intelligence data about potential risks associated with apps installed on devices"
-        - "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors."
+        "To prevent the installation of malicious applications, prohibit sideloading of apps and the use of unauthorized app stores":
+            - Enterprise
+        "To decrease the time to detection, use app threat intelligence data to identify malicious applications installed on devices.":
+            - Enterprise
+        "Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide additional separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors.":
+            - Enterprise
+        "Educate users about the risks of activating links in emails or SMS messages, and instead encourage users to identify the app where hosted by an official app store.":
+            - Enterprise
 ---

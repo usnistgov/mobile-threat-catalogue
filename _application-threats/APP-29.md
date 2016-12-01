@@ -11,4 +11,14 @@
         - "DroydSeuss: A Mobile Banking Trojan Tracker [^104]"
     CVEExample:
     PossibleCountermeasures:
+        "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
+            - Enterprise
+        "Disable access to notification or messaing services to apps for which such functions are not actually used.":
+            - Mobile Device User
+        "Use Verify Apps feature to identify potentially harmful apps.":
+            - Mobile Device User
+        "Use app-vetting tools or services to identify remote access control apps that receive commands over notification or messaging serices or other communication channels.":
+            - Enterprise
 ---

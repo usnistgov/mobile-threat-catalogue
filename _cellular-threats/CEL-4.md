@@ -9,6 +9,10 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        - "Rogue base station detection."
-        - "Use bandband firmware that authenticates the mobile network and does not allow the use of 2G or 3G connections."
+        "Implement rogue base station detection.":
+            - Original Equipment Manufacturer
+        "Use bandband firmware that does not connect to a base station unless it has been verified as a legitimate device operated as part of a trusted mobile network.":
+            - Original Equipment Manufacturer
+        "Use baseband firmware that does not support deprecated communciation protocols that are more vulnerable to attack (e.g., 2G or 3G connections).":
+            - Original Equipment Manufacturer
 ---

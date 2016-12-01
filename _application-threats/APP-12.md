@@ -8,8 +8,14 @@
         - "Slembunk: An Evolving Android Trojan Family [^84]"
     CVEExample:
     PossibleCountermeasures:
-        - "Prohibit sideloading of apps and prohibit use of unauthorized app stores"
-        - "Use Android Verify Apps feature to identify harmful apps"
-        - "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps"
-        - "Use application threat intelligence data about potential risks associated with apps installed on devices"
+        "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
+            - Enterprise
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.": 
+            - Enterprise
+        "Use Android Verify Apps feature to identify apps that may abuse permissions to perform data collection.":
+            - Mobile Device User
+        "Perform application vetting to identify inappropriate behaviors by apps including permission requests made by the apps":
+            - Enterprise
+        "Use application threat intelligence data about potential data collection risks associated with apps installed on devices":
+            - Enterprise
 ---
