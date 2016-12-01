@@ -477,8 +477,8 @@
 
 [^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
 
-[^M.Zhang-1]: M. Zhang, "Android ransomware variant uses clickjacking to become device administrator", Symantec Official Blog, 27 Jan. 2016, www.symantec.com/connect/blogs/android-ransomware-variant-uses-clickjacking-become-device-administrator [accessed 11/29/2016]
+[^MZhang1]: M. Zhang, "Android ransomware variant uses clickjacking to become device administrator", Symantec Official Blog, 27 Jan. 2016, www.symantec.com/connect/blogs/android-ransomware-variant-uses-clickjacking-become-device-administrator [accessed 11/29/2016]
 
-[^Y.Amit-1]: Y. Amit, "\“Accessibility Clickjacking\” – The Next Evolution in Android Malware that Impacts More Than 500 Million Devices [update – 1.34 Billion Devices!]", Skycure Mobile Security Blog, 3 Mar. 2016, www.skycure.com/blog/accessibility-clickjacking/ [accessed 11/29/2016]
+[^YAmit1]: Y. Amit, "\“Accessibility Clickjacking\” – The Next Evolution in Android Malware that Impacts More Than 500 Million Devices [update – 1.34 Billion Devices!]", Skycure Mobile Security Blog, 3 Mar. 2016, www.skycure.com/blog/accessibility-clickjacking/ [accessed 11/29/2016]
 
-[^Symantec-1]: "Android.Lockdown.E", Symantec, 6 Aug. 2016, www.symantec.com/security_response/writeup.jsp?docid=2014-103005-2209-99 [accessed 11/29/2016]
+[^Symantec1]: "Android.Lockdown.E", Symantec, 6 Aug. 2016, www.symantec.com/security_response/writeup.jsp?docid=2014-103005-2209-99 [accessed 11/29/2016]
