@@ -10,6 +10,12 @@
         - "Malware designed to take over cameras and record audio enters Google Play [^99]"
     CVEExample:
     PossibleCountermeasures:
-        - "Application threat intelligence data about potential risks associated with apps installed on devices"
-        - "Application vetting to identify inappropriate behaviors"
+        "Use app-vetting tools or services to determine that apps appear free of malicious behaviors or vulnerabilities prior to authorizing their use.":
+            - Enterprise
+        "To decrease the time to detection for malicious apps, use app threat intelligence services to detect malicious apps installed on devices":
+            - Enterprise
+        "To decrease the time to detection for malicious apps on Android devices, use Android Verify Apps feature.":
+            - Mobile Device User
+        "Educate end users to scrutinize the permissions requested by apps, particularly if an updated version requests significantly different permissions than previous ones.":
+            - Enterprise
 ---

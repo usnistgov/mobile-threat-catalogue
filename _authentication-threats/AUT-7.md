@@ -9,8 +9,12 @@
     ExploitExample: "Why I hacked TouchID (again) and still think it\'s awesome [^133]"
     CVEExample:
     PossibleCountermeasures:
-        - "Store the device in an area with high physical security to limit an attacker's physical access to the device"
-        - "Leave the device under trusted supervision to limit an attacker's opportunity to execute biometric spoofing attacks"
-        - "Disable biometric authentication before relinquishing direct control/attendance of the device, which requires the attacker to bypass (at a minimum) user-to-device authentication via device unlock code before biometric authentication can be reenabled"
-        - "Implementation of multi-factor biometric authentication mechanisms that transform the biometric data with an additional factor (e.g., password or cryptographic token). source: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5678012"
+        "To reduce the opportunity for an attacker to conduct a biometric spoofing attack, physically secure the device (e.g., lock it in a secure container) when leaving it directly unattended.":
+            - Mobile Device User
+        "Consider devices in which multi-factor biometric authentication mechanisms transform the biometric data using an additional factor (e.g., password or cryptographic token).":
+            - Mobile Device user
+            - Enterprise
+        "To prevent an attacker able to successfully conduct a biometric spoofing attack against the device from automatically gaining access to sensitive data, implement multi-factor authentication mechanisms for sensitive apps or services.":
+            - Mobile Device User
+            - Enterprise
 ---

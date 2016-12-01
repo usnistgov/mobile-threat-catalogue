@@ -11,6 +11,8 @@
         - "How Retailers Use Smartphones to Track Shoppers In the Store [^26]"
     CVEExample:
     PossibleCountermeasures:
-        - "Starting in Android 6.0, randomized MAC addresses are used for Wi-Fi and Bluetooth scans. See __Android 6.0 Changes__ [^35]"
-        - "In iOS 8, Wi-Fi scanning behavior changed to use random, locally administrated MAC addresses. See User Privacy on iOS and OS X [^36]"
+        "Starting in Android 6.0, randomized MAC addresses are used for Wi-Fi and Bluetooth scans. See __Android 6.0 Changes__ [^35]":
+            - 
+        "In iOS 8, Wi-Fi scanning behavior changed to use random, locally administrated MAC addresses. See User Privacy on iOS and OS X [^36]":
+            - 
 ---
