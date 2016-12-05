@@ -17,6 +17,9 @@ title: Mobile Device Technology Stack
 <p><b><a href="#sim-card">SIM Card:</a></b> This removable hardware token is a System on a Chip (SoC) housing the subscriber identity (i.e., International Mobile Subscriber Identity), pre-shared cryptographic keys, and configuration information needed to obtain access to cellular
     networks.</p>
 
+<p><b><a href="#sd-card">Secure Digital (SD) Card:</a></b> A removable peripheral supported by some models of mobile devices. SD cards come in many form factors and are most often used for data storage, and may contain app binaries, app data, or user data. SD System on a Chip (SoC) peripherals, such as a Wi-Fi adapter, also exist.</p>
+
+
 <h2>Threat List</h2>
 
 <h3 id="mobile-operating-system">Mobile Operating System</h3>
@@ -68,6 +71,15 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in site.stack-threats %}
         {% if stack-threat.ThreatCategory == 'USIM / SIM / UICC security' %}
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<h3 id="sd-card">SD Card</h3>
+<ul class="threat-list">
+    {% for stack-threat in site.stack-threats %}
+        {% if stack-threat.ThreatCategory == 'SD Card' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}

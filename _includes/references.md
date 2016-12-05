@@ -469,6 +469,11 @@
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
 
+[^250]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; http://simalliance.org/wp-content/uploads/2015/03/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 10/24/2016]
+
+[^251]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
+
+[^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016.  
 [^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
 
 [^245]: "Android Keystore System", https://developer.android.com/training/articles/keystore.html [accessed 10/14/2016]
@@ -480,6 +485,7 @@
 [^248]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
 
 [^249]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
+[^251]: M. Vanhoef et al., "Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Netowrk Discovery Mechanisms.", in Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security, 2016, pp. 413-424.
 [^248]: M. Humphries, "Touchscreen keylogger created using accelerometer movement during typing", PCMag, 9 Dec. 2011; http://www.geek.com/mobile/touchscreen-keylogger-created-using-accelerometer-movement-during-typing-1420485/ [accessed 11/07/2016]
 
 [^249]: E. Miluzzo et al., "Tapprints: your finger taps have fingerprints", in _Proceedings of the 10th International Conference on Mobile Systems, Applications, and Services_, 2012, pp. 323-336; https://forge.info.unicaen.fr/attachments/download/559/tapprints-final.pdf
