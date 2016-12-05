@@ -11,6 +11,9 @@
     CVEExample:
         - CVE-2011-1717
     PossibleCountermeasures:
-        - "App vetting tools/services or pen testing to detect these vulnerabilities in apps."
-        - "Android N has new behavior to improve the protections given to the internal storage directories of applications."
+        "Use app-vetting tools or services to identify insecure storage of sensitive data.":
+            - Enterprise
+        "Consider the use of devices that support Android 7.0 and later, which enables app-level encryption in addition to block-level encryption.":
+            - Mobile Device User
+            - Enterprise
 ---

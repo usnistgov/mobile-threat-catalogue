@@ -6,5 +6,7 @@
     ThreatOrigin: "Extracting Qualcomm\'s KeyMaster Keys - Breaking Android Full Disk Encryption [^209]"
     ExploitExample:
     CVEExample: CVE-2016-0825
-    PossibleCountermeasures: "Based on description of Trusty TEE, it is implicitly understood that all applications that execute in this space are capable of accessing device secrets (no concept of privilege escalation per se). However, they are only included in the Trusty image, cannot be dynamically loaded or modified, and must have been signed with a developer certificate trusted by the manufacturer of the TEE hardware. TEE OS other than Trusty can be used. [^222]"
+    PossibleCountermeasures:
+        "Use TEE OS that provide integrity protections over trustlets, such as verification of digital signatures on installed trustlets, such as Trusty OS. [^222]":
+            - Original Equipment Manufacturer
 ---

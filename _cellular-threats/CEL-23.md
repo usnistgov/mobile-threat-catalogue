@@ -6,5 +6,7 @@
     ThreatOrigin: "Zimperium zLabs is Raising the Volume: New Vulnerability Processing MP3/MP4 Media [^186]"
     ExploitExample:
     CVEExample:
-    PossibleCountermeasures: "Network level air interface encryption via the MNO"
+    PossibleCountermeasures:
+        "Network level air interface encryption for user-plane traffic.":
+            - Mobile Network Operator
 ---
