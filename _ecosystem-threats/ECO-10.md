@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: "Third-Party mobile app stores"
+    ThreatCategory: "Mobile Application Store"
     ID: ECO-10
     Threat: "Compromise leading to distribution of rogue / malicious applications"
     ThreatOrigin:

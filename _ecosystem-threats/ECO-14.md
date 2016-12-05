@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: "Third-Party mobile app stores"
+    ThreatCategory: "Mobile Application Store"
     ID: ECO-14
     Threat: "Bring the app store offline by attacking the hosting infrastructure"
     ThreatOrigin:

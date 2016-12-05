@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: "Third-Party mobile app stores"
+    ThreatCategory: "Mobile Application Store"
     ID: ECO-12
     Threat: "MiTM attack providing illegitimate apps when users request legitimate apps"
     ThreatOrigin:
