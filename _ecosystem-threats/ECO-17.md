@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Native mobile app stores
+    ThreatCategory: Mobile Application Store
     ID: ECO-17
     Threat: "Obtain an app developer\'s credentials in order to use their credentials to sign and distribute a new malicious app under the developers name / reputation"
     ThreatOrigin: "Keep out hijackers: Secure your app store dev account [^150]"

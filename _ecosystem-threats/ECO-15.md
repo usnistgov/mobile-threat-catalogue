@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: "Third-Party mobile app stores"
+    ThreatCategory: "Mobile Application Store"
     ID: ECO-15
     Threat: "App store compromise leading to distribution of private enterprise application to unauthorized parties"
     ThreatOrigin:
