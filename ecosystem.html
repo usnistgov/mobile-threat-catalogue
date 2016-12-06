@@ -7,11 +7,15 @@ title: Ecosystem
 
 <p><b><a href="#mobile-vendor-infra">Mobile OS &amp; Vendor Infrastructure</a>:</b> Infrastructure designed to provide services to mobile devices such as data backup, push notifications, and software updates.</p>
 
+<p><b><a href="#mobile-app-stores">Mobile Application Store</a>:</b> An application store whether native, private or third party which hosts mobile applications alongside music, movies, games, etc. for users to download and install.</p>
+
+<!--
 <p><b><a href="#native-public-stores">Native Public Stores</a>:</b> Major mobile operating system vendors own and operate their own native mobile application stores, which host mobile applications alongside music, movies, games, etc. for users to download and install.</p>
 
 <p><b><a href="#private-enterprise-stores">Private Enterprise Stores</a>:</b> App stores may be owned and operated by private enterprises to host applications not meant for public distribution, such as apps developed and used solely within the organization.</p>
 
 <p><b><a href="#third-party-stores">Third-Party Stores</a>:</b> Other legitimate, and illegitimate, app stores may be owned and operated by organizations external to the major mobile operating system vendors.</p>
+-->
 
 <h2>Threat List</h2>
 
@@ -24,6 +28,16 @@ title: Ecosystem
     {% endfor %}
 </ul>
 
+<h3 id="mobile-app-stores">Mobile Application Store</h3>
+<ul class="threat-list">
+    {% for ecosystem-threat in site.ecosystem-threats %}
+        {% if ecosystem-threat.ThreatCategory == 'Mobile Application Store' %}
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.Threat }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<!--
 <h3 id="native-public-stores">Native Public Stores</h3>
 <ul class="threat-list">
     {% for ecosystem-threat in site.ecosystem-threats %}
@@ -50,3 +64,4 @@ title: Ecosystem
         {% endif %}
     {% endfor %}
 </ul>
+-->
