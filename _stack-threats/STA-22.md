@@ -9,4 +9,6 @@
         -  "4 Surprising Ways Your Identity Can Be Stolen [^51]"
     CVEExample:
     PossibleCountermeasures:
+      "Carriers should be encouraged to strongly authenticate account holders before allowing account changes such as issuance of new SIM cards":
+        - Carriers
 ---
