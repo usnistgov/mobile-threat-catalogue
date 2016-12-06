@@ -16,7 +16,7 @@
             - Enterprise
         "Purchase devices from vendors/carriers who have committed to providing timely updates or have good track records for providing prompt security updates.":
             - Enterprise
-        "Use EMM/MDM solutions in combination with other tools or device APIs (e.g. Android SafetyNet, device attestation technologies) to detect and block enterprise connectivity from devices that show indications of device compromise.":
+        "Use EMM/MDM solutions in combination with other tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from devices that show indications of device compromise.":
             - Enterprise
         "To reduce the probability an exploit for a driver for an access-controlled peripheral or OS-provided service (e.g., camera, microphone), use OS configuration settings to disable or block access to these resources, with a preference for global settings (e.g., disabling NFC device-wide) over app-specific permissions.":
             - Mobile Device User
