@@ -3,8 +3,8 @@
     ThreatCategory: "Network Threats: Bluetooth"
     ID: LPN-6
     Threat: "Blueprinting - remotely fingerprint Bluetooth-enabled devices"
-    ThreatOrigin: "Guide to Bluetooth Security (SP 800-121) [^28]"
-    ExploitExample: "Blueprinting [^29]"
+    ThreatOrigin: "Blueprinting [^29]"
+    ExploitExample: 
     CVEExample:
     PossibleCountermeasures:
         "To reduce the opportunity for this attack, disable Bluetooth when that feature is not in use":
