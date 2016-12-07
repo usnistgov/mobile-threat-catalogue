@@ -1,0 +1,14 @@
+---
+    layout: threat
+    ThreatCategory: "Network Threats: Bluetooth"
+    ID: LPN-14
+    Threat: "Bluejacking - sending unsolicited messages to a bluetooth-enabled mobile device"
+    ThreatOrigin: "Guide to Bluetooth Security: Draft NIST SP 800-121rev2 [^J.Padgette-1]"
+    ExploitExample:
+    CVEExample:
+    PossibleCountermeasures:
+        "To reduce opportunity for this attack, disable Bluetooth when that feature is not in use.":
+            - Mobile Device User
+        "Do not accept data transfers, such as contact cards, transmitted over Bluetooth without confidence the message is legitimate.":
+            - Mobile Device User
+---
