@@ -18,6 +18,6 @@
             - Mobile Device User
         "Use application threat intelligence data to detect potential abuse of rooted/jail-broken BYOD devices":
             - Enterprise
-        "To avoid launching applications that handle sensitive information on a rooted/jail-broken device, perform device integrity checking, such as using Android's SafetyNet device integrity attestation API": 
+        "To avoid launching applications that handle sensitive information on a rooted/jail-broken device, perform device integrity checking, such as using Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies device integrity attestation API": 
             - Mobile App Developer
 ---

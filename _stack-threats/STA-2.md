@@ -8,15 +8,15 @@
     CVEExample: CVE-2013-4787
     PossibleCountermeasures:
         "Monitor the security patch state of devices and block enterprise connectivity from out-of-date devices with known exploitable vulnerabilities.":
-            - 
+            -
         "Purchase devices from vendors/carriers who have committed to providing timely updates or who have known track records for prompt updates.":
-            - 
+            -
         "Ensure devices are kept up-to-date with security patches to decrease the likelihood that they can be rooted/jailbroken.":
-            - 
-        "Use tools or device APIs (e.g. Android SafetyNet) to detect and block enterprise connectivity from known compromised devices.":
-            - 
+            -
+        "Use tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from known compromised devices.":
+            -
         "Use device APIs (e.g. SystemUpdatePolicy) to enforce system update policies.":
-            - 
+            -
         "Restrict installation of apps from unofficial app stores, which may not undergo certificate validation processes (e.g., side-loading)":
-            - 
+            -
 ---

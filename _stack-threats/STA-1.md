@@ -8,9 +8,9 @@
     CVEExample: CVE-2015-3636
     PossibleCountermeasures:
         "Ensure devices are kept up-to-date with security patches to decrease the likelihood that they can be rooted/jailbroken.":
-            - 
-        "Use hardware mechanisms, device APIs (e.g. Android SafetyNet), or other tools to detect rooted/jailbroken devices, provide notification to the enterprise and user, and block enterprise connectivity.":
-            - 
+            -
+        "Use hardware mechanisms, device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies), or other tools to detect rooted/jailbroken devices, provide notification to the enterprise and user, and block enterprise connectivity.":
+            -
         "Help users to understand the risks associated with rooting/jailbreaking their devices.":
-            - 
+            -
 ---

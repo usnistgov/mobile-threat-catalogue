@@ -21,6 +21,6 @@
         "To help reduce the opportunity for attack following availability of patches, configure automatic installation of, or, at a minimum, automatic notification of the availability of mobile OS security updates.":
             - Enterprise
             - Mobile Device User
-        "Use tools or device APIs (e.g. Android SafetyNet) to detect and block enterprise connectivity from devices that fail attestation or integrity checks.":
+        "Use tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from devices that fail attestation or integrity checks.":
             - Enterprise
 ---
