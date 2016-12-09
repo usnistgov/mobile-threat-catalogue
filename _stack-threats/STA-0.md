@@ -19,8 +19,11 @@
         "To help reduce the latency between exploit notification and patch availability, purchase devices from vendors/carriers who have committed to providing timely updates or who have known track records for prompt updates.":
             - Enterprise
         "To help reduce the opportunity for attack following availability of patches, configure automatic installation of, or, at a minimum, automatic notification of the availability of mobile OS security updates.":
-            - Enterprise
+            - Enterprise    
             - Mobile Device User
         "Use tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from devices that fail attestation or integrity checks.":
             - Enterprise
+        "Disable components with known vulnerabilities (e.g. disable MMS, Bluetooth, etc.) until the vulnerability is patched to prevent exploitation.":
+            - Enterprise
+            - Mobile Device User
 ---
