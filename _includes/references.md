@@ -488,3 +488,7 @@
 [^249]: E. Miluzzo et al., "Tapprints: your finger taps have fingerprints", in _Proceedings of the 10th International Conference on Mobile Systems, Applications, and Services_, 2012, pp. 323-336; https://forge.info.unicaen.fr/attachments/download/559/tapprints-final.pdf
 
 [^250]: C. Liang and H. Chen, "TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion", presented at _6th USENIX Workshop on Hot Topics in Security_, 9 Aug. 2011; https://pdfs.semanticscholar.org/8c8c/f6ff0a88a5ae99360cada9afaf5439b61a8d.pdf [accessed 11/07/2016]
+
+[^J.Padgette-1]: J. Padgette et. al, Guide to Bluetooth Security, Draft SP 800-121 rev. 2, National Institute of Standards and Technology, 2016; http://csrc.nist.gov/publications/drafts/800-121/sp800_121_r2_draft.pdf [accessed 12/07/2016]
+
+[^O.Whitehouse-1]: O. Whitehouse, _War Nibbling: Bluetooth Insecurity_, white paper, 2003; www.wardriving.ch/hpneu/blue/doku/atstake_war_nibbling.pdf [accessed 12/07/2016]
