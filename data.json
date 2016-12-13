@@ -1,0 +1,14 @@
+---
+---
+{% assign documents = site.documents | where: 'merged', true %}
+[{% for document in documents %}
+    {
+        "ThreatID": "{{ document.ID | xml_escape }}",
+        "ThreatCategory": "{{ document.ThreatCategory | xml_escape }}",
+        "Threat": "{{ document.Threat | xml_escape }}",
+        "ThreatOrigin": "{{ document.ThreatOrigin | jsonify | smartify | xml_escape }}",
+        "ExploitExample": "{{ document.ExploitExample | jsonify | smartify | xml_escape }}",
+        "CVEExample": "{{ document.CVEExample | jsonify | smartify | xml_escape }}",
+        "PossibleCountermeasures": "{{ document.PossibleCountermeasures | jsonify | smartify | xml_escape }}"
+    }{% unless forloop.last %},{% endunless %}
+{% endfor %}]

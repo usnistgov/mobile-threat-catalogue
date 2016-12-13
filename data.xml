@@ -1,0 +1,20 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    {% assign documents = site.documents | where: 'merged', true %}
+    {% for document in documents %}
+    <row>
+        <ThreatID>{{ document.ID | xml_escape }}</ThreatID>
+        <ThreatCategory>{{ document.ThreatCategory | xml_escape }}</ThreatCategory>
+        <Threat>{{ document.Threat | xml_escape }}</Threat>
+        {% for ThreatOrigin in document.ThreatOrigin %}<ThreatOrigins>{{ ThreatOrigin | xml_escape }}</ThreatOrigins>{% endfor %}
+        {% for ExploitExample in document.ExploitExample %}<ExploitExamples>{{ ExploitExample | xml_escape }}</ExploitExamples>{% endfor %}
+        {% for CVEExample in document.CVEExample %}<CVEExamples>{{ CVEExample | xml_escape }}</CVEExamples>{% endfor %}
+        {% for PossibleCountermeasure in document.PossibleCountermeasures %}<PossibleCountermeasures>{{ PossibleCountermeasure[0] | xml_escape }}
+            <Actor>{{ PossibleCountermeasure[1] | xml_escape }}</Actor>
+        </PossibleCountermeasures>
+        {% endfor %}
+    </row>
+    {% endfor %}
+</root>
