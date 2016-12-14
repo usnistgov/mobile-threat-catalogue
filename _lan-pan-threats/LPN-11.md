@@ -7,6 +7,12 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Use Bluetooth applications that strongly encrypt data prior to transmission.":
+        "To resist brute-force decryption attacks, use the maximum PIN length and encryption key sizes available on configurable Bluetooth devices.":
             - Mobile Device User
+        "Restrict the use of older Bluetooth devices with a static or 4-digit PIN to very low-risk use cases.":
+            - Mobile Device User
+            - Enterprise
+        "To prevent unauthorized disclosure or modification to data transmitted over a compromised Bluetooth session, use Bluetooth applications that provide strong over-the-top encryption to data prior to transmission over the Bluetooth interface.":
+            - Mobile Device User
+            - Enterprise
 ---

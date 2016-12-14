@@ -433,7 +433,7 @@
 
 [^225]: "Phone Theft in America: What really happens when your phone gets grabbed", blog, 7 May 2014; https://blog.lookout.com/blog/2014/05/07/phone-theft-in-america/ [accessed 8/25/2016]
 
-[^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows", Consumer Reports, 11 Jun 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
+[^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows, Consumer Reports, 11 Jun 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
 
 [^227]: Security Tips, https://developer.android.com/training/articles/security-tips.html [accessed on 8/24/2016]
 
@@ -473,7 +473,8 @@
 
 [^251]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
 
-[^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016.  
+[^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016.
+
 [^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
 
 [^245]: "Android Keystore System", https://developer.android.com/training/articles/keystore.html [accessed 10/14/2016]
@@ -483,8 +484,15 @@
 [^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
 
 [^251]: M. Vanhoef et al., "Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Netowrk Discovery Mechanisms.", in Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security, 2016, pp. 413-424.
+
 [^248]: M. Humphries, "Touchscreen keylogger created using accelerometer movement during typing", PCMag, 9 Dec. 2011; http://www.geek.com/mobile/touchscreen-keylogger-created-using-accelerometer-movement-during-typing-1420485/ [accessed 11/07/2016]
 
 [^249]: E. Miluzzo et al., "Tapprints: your finger taps have fingerprints", in _Proceedings of the 10th International Conference on Mobile Systems, Applications, and Services_, 2012, pp. 323-336; https://forge.info.unicaen.fr/attachments/download/559/tapprints-final.pdf
 
 [^250]: C. Liang and H. Chen, "TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion", presented at _6th USENIX Workshop on Hot Topics in Security_, 9 Aug. 2011; https://pdfs.semanticscholar.org/8c8c/f6ff0a88a5ae99360cada9afaf5439b61a8d.pdf [accessed 11/07/2016]
+
+[^J.Padgette-1]: J. Padgette et. al, Guide to Bluetooth Security, Draft SP 800-121 rev. 2, National Institute of Standards and Technology, 2016; http://csrc.nist.gov/publications/drafts/800-121/sp800_121_r2_draft.pdf [accessed 12/07/2016]
+
+[^O.Whitehouse-1]: O. Whitehouse, _War Nibbling: Bluetooth Insecurity_, white paper, 2003; www.wardriving.ch/hpneu/blue/doku/atstake_war_nibbling.pdf [accessed 12/07/2016]
+
+[^O.Afonin-1]: O. Afononin, _TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion_, Elcomsoft Blog, 23 Sept 2016; https://blog.elcomsoft.com/2016/09/ios-10-security-weakness-discovered-backup-passwords-much-easier-to-break/ [accessed 12/9/2016]

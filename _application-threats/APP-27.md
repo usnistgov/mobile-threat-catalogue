@@ -18,7 +18,7 @@
             - Enterprise
         "Use app-vetting tools or services to identify apps that exploit the underlying OS to achieve malicious persistence.":
             - Enterprise
-        "To avoid executing apps that process sensitve information while low-level malware is present on the device, perform device integrity checking within enterprise applications, such as use of Android's SafetyNet device integrity attestation API":
+        "To avoid executing apps that process sensitve information while low-level malware is present on the device, perform device integrity checking within enterprise applications, such as use of Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies device integrity attestation API":
             - Mobile App Developer
         "Deploy MDM solutions that require successful boot attestation prior to granting access to enterprise resources.":
             - Enterprise
