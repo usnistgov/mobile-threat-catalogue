@@ -8,11 +8,15 @@
         <ThreatID>{{ document.ID | xml_escape }}</ThreatID>
         <ThreatCategory>{{ document.ThreatCategory | xml_escape }}</ThreatCategory>
         <Threat>{{ document.Threat | xml_escape }}</Threat>
-        {% for ThreatOrigin in document.ThreatOrigin %}<ThreatOrigins>{{ ThreatOrigin | xml_escape }}</ThreatOrigins>{% endfor %}
-        {% for ExploitExample in document.ExploitExample %}<ExploitExamples>{{ ExploitExample | xml_escape }}</ExploitExamples>{% endfor %}
-        {% for CVEExample in document.CVEExample %}<CVEExamples>{{ CVEExample | xml_escape }}</CVEExamples>{% endfor %}
-        {% for PossibleCountermeasure in document.PossibleCountermeasures %}<PossibleCountermeasures>{{ PossibleCountermeasure[0] | xml_escape }}
-            <Actor>{{ PossibleCountermeasure[1] | xml_escape }}</Actor>
+        {% for ThreatOrigin in document.ThreatOrigin %}
+        <ThreatOrigins>{{ ThreatOrigin | xml_escape }}</ThreatOrigins>{% endfor %}
+        {% for ExploitExample in document.ExploitExample %}
+        <ExploitExamples>{{ ExploitExample | xml_escape }}</ExploitExamples>{% endfor %}
+        {% for CVEExample in document.CVEExample %}
+        <CVEExamples>{{ CVEExample | xml_escape }}</CVEExamples>{% endfor %}
+        {% for PossibleCountermeasure in document.PossibleCountermeasures %}
+        <PossibleCountermeasures>{{ PossibleCountermeasure[0] | xml_escape }}
+            <Actor>{{ PossibleCountermeasure[1] }}</Actor>
         </PossibleCountermeasures>
         {% endfor %}
     </row>
