@@ -2,7 +2,7 @@
 CVEExample: ~
 ExploitExample: 
   - "Exploiting Smart-Phone USB Connectivity for Fun and Profit [^143]"
-ID: STA-39
+ID: STA-42
 PossibleCountermeasures: 
   ? "Configure the computer to not automatically execute content stored on mounted USB devices."
   : 
