@@ -3,7 +3,7 @@
     ThreatCategory: Mobile Operating System
     ID: STA-39
     Threat: "Deliberate rooting of device through inherent weaknesses in hardware"
-    ThreatOrigin: "Using Rowhammer bitflips to root Android phones is now a thing [^D.Goodin-1]"
+    ThreatOrigin: "Using Rowhammer bitflips to root Android phones is now a thing [^D-Goodin-1]"
     ExploitExample:
     CVEExample: CVE-2016-0823
     PossibleCountermeasures:
