@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Native mobile app stores
+    ThreatCategory: Mobile Application Store
     ID: ECO-22
     Threat: "Bypass or evasion of application security analysis or vetting techniques to sneak an app into the store"
     ThreatOrigin: "Researchers Find Methods for Bypassing Google\'s Bouncer Android Security [^151]"

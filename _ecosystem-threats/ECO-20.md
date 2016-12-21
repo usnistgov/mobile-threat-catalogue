@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Native mobile app stores
+    ThreatCategory: Mobile Application Store
     ID: ECO-20
     Threat: "Restricted access to legitimate app stores, encouraging users to use 3rd party app stores"
     ThreatOrigin:

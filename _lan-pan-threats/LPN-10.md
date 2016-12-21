@@ -7,6 +7,6 @@
     ExploitExample: "Studying Bluetooth Malware Propagation: The BlueBag Project [^30]"
     CVEExample:
     PossibleCountermeasures:
-        "To reduce the opportunity for an attacker to conduct this attack, disable Bluetooth on vulnerable devices when that feature is not in use. Note: per NIST SP 800-121 Revision 1, some _older_ devices possessed a firmware vulnerability enabling this exploit.":
+        "To reduce the opportunity for an attacker to conduct this attack, disable Bluetooth on vulnerable (circa 2004) devices when that feature is not in use. [^J-Padgette-1]":
             - Mobile Device User
 ---

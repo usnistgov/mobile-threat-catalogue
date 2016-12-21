@@ -24,4 +24,7 @@
         "Consider the use of iOS 7.x or later, in which synchronization with a computer over USB that requires the device be unlocked and the user confirm an explicit trust request. Failure to establish trust permits charging only.":
             - Mobile Device User
             - Enterprise
+        "Provide extra device chargers to users that plug directly into an electrical socket and encourage users to use them instead of plugging into potentially malicious USB charging stations or USB ports on potentially infected computers.":
+            - Mobile Device User
+            - Enterprise
 ---

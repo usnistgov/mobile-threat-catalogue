@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Native mobile app stores
+    ThreatCategory: Mobile Application Store
     ID: ECO-18
     Threat: "Obtain an app developer\'s credentials in order to remove their app from the app store"
     ThreatOrigin: "Keep out hijackers: Secure your app store dev account [^150]"

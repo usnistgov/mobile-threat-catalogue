@@ -1,6 +1,6 @@
 ---
     layout: threat
-    ThreatCategory: Native mobile app stores
+    ThreatCategory: Mobile Application Store
     ID: ECO-21
     Threat: "Use of links or NFC tags, QR codes, or other distribution channels (e.g., sms, email) to point to malicious apps"
     ThreatOrigin: "How to Protect Yourself From Malicious QR Codes [^149]"
