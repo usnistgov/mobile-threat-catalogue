@@ -6,7 +6,7 @@
     ThreatOrigin:
     ExploitExample:
         - "BackStab: Mobile Backup Data Under Attack from Malware [^192]"
-        - "iOS 10: Security Weakness Discovered, Backup Passwords Much Easier to Break [^O.Afonin-1]"
+        - "iOS 10: Security Weakness Discovered, Backup Passwords Much Easier to Break [^O-Afonin-1]"
     CVEExample:
     PossibleCountermeasures:
         "As knowledge of the authentication credentials for any associated account (e.g., iTunes, Google) may facilitate an attacker\'s ability to initiate, access, or decrypt device backups, follow best practices for management of device account passwords.":
