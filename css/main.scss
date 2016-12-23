@@ -132,3 +132,50 @@ nav label {
         display: none;
     }
 }
+
+// menu toggle
+@media (max-width: 48em) {
+    .sidebar {
+        display: block;
+        input#toggle {
+            display: none;
+            visibility: hidden;
+        }
+
+        label {
+            display: block;
+            padding: .5em;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+
+        label:before {
+            font-size: 1.4rem;
+            content: "Show";
+            margin-right: 8px;
+        }
+
+        .expand {
+            height: 0;
+            overflow: hidden;
+            transition: height .5s;
+        }
+
+        #toggle:checked ~ .expand {
+          height: 500px;
+        }
+        #toggle:checked ~ label::before {
+          content: "Hide";
+        }
+
+    }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.expand {
+    height: auto;
+    overflow: auto;;
+}
