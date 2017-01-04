@@ -486,6 +486,13 @@
 [^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
 
 [^Bunnie-1]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
+
+[^M-Zhang-1]: M. Zhang, "Android ransomware variant uses clickjacking to become device administrator", Symantec Official Blog, 27 Jan. 2016, www.symantec.com/connect/blogs/android-ransomware-variant-uses-clickjacking-become-device-administrator [accessed 11/29/2016]
+
+[^Y-Amit1]: Y. Amit, "\"Accessibility Clickjacking\" - The Next Evolution in Android Malware that Impacts More Than 500 Million Devices", Skycure Mobile Security Blog, 3 Mar. 2016, www.skycure.com/blog/accessibility-clickjacking/ [accessed 11/29/2016]
+
+[^Symantec-1]: "Android.Lockdown.E", Symantec, 6 Aug. 2016, www.symantec.com/security_response/writeup.jsp?docid=2014-103005-2209-99 [accessed 11/29/2016]
+
 [^251]: M. Vanhoef et al., "Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Netowrk Discovery Mechanisms.", in Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security, 2016, pp. 413-424.
 
 [^248]: M. Humphries, "Touchscreen keylogger created using accelerometer movement during typing", PCMag, 9 Dec. 2011; http://www.geek.com/mobile/touchscreen-keylogger-created-using-accelerometer-movement-during-typing-1420485/ [accessed 11/07/2016]
