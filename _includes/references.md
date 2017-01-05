@@ -512,3 +512,5 @@
 [^TrendMicro-1]: "androidos_kagecoin.hbt" in _Threat Encyclopedia_, TrendMicro, 2014;  http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/AndroidOS_KageCoin.HBT [accessed 01/05/2017]
 
 [^V-Zhang-1]: V. Zhang, "Mobile Malware Mines Dogecoins and Litecoins for Bitcoin Payout", TrendLabs Security Intelligence Blog, 25 Mar. 2104; http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-mines-dogecoins-and-litecoins-for-bitcoin-payout/ [accessed 01/05/2017]
+
+[^T-Katsuki-1]: T. Katsuki, "Android.Tascudap", Symantec; www.symantec.com/security_response/writeup.jsp?docid=2012-121312-4547-99 [accessed 01/05/2017]
