@@ -3,7 +3,7 @@
     ThreatCategory: Mobile Operating System
     ID: STA-44
     Threat: "A malicous application with root privileges can surruptitiously answer phone calls."
-    ThreatDescription: "An attacker who can cause a device to answer his to it without the device user's knowledge could achieve a denial-of-service on voice services by depleting any pool of \"minutes\" allocated to the associated cellular subscriber account. Of more concern is the potential for a malicious caller to remotely record audio from within the vicinity of the device without directly accessing the device microphone."
+    ThreatDescription: "An attacker who can cause a device to answer his to it without the device user's knowledge could achieve a denial-of-service on voice services by depleting any pool of minutes allocated to the associated cellular subscriber account. Of more concern is the potential for a malicious caller to remotely record audio from within the vicinity of the device without directly accessing the device microphone."
     ThreatOrigin:
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     ExploitExample:
