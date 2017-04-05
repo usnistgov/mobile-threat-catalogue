@@ -5,6 +5,7 @@
     Threat: "Surreptitiously reporting the physical location (e.g. using GPS or other means) of the device through programmatic means by invoking standard APIs."
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"
     ExploitExample:
+        - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     CVEExample:
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
