@@ -5,6 +5,7 @@
     Threat: "Gathering sensitive personal or enterprise information such as contact list, call log, calendar information by invoking standard operating system (e.g. Android or iOS) APIs."
     ThreatOrigin: "The Google Android Security Team's Classifications for Potentially Harmful Applications [^83]"
     ExploitExample:
+        - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     CVEExample:
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
