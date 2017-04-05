@@ -11,6 +11,7 @@
         - CVE-2016-2474
         - CVE-2016-2490
         - CVE-2016-2491
+        - CVE-2017-6975
     PossibleCountermeasures:
         "Use EMM/MDM solutions in combination with devices that successfully enforce a policy to maintain a minimum OS patch level and block access to enterprise resources to non-compliant or devices with known-exploitable vulnerabilities.":
             - Enterprise
