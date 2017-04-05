@@ -6,6 +6,7 @@
     ThreatOrigin: "The Google Android Security Team\'s Classifications for Potentially Harmful Applications [^83]"
     ExploitExample:
         - "Slembunk: An Evolving Android Trojan Family [^84]"
+        - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     CVEExample:
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
