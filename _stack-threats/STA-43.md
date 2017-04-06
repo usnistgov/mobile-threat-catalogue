@@ -9,7 +9,7 @@
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     CVEExample:
     PossibleCountermeasures:
-        "To reduce the potential of downloading a malicious app, such as a keylogger, only install (or permit the installation of) mobile apps downloaded directly from an official app store (e.g. Apple iTunes Store, Google Play)."
+        "To reduce the potential of downloading a malicious app, such as a keylogger, only install (or permit the installation of) mobile apps downloaded directly from an official app store (e.g. Apple iTunes Store, Google Play).":
             - Mobile Device User
             - Enterprise
         "To help reduce the opportunity for attack following availability of patches, insure timely installation of mobile OS security updates.":
