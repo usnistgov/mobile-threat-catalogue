@@ -10,9 +10,9 @@
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     CVEExample:
     PossibleCountermeasures:
-        "To prevent data collection using the device microphone, install a protective cover over the device which reliably blocks sound from being picked up."
+        "To prevent data collection using the device microphone, install a protective cover over the device which reliably blocks sound from being picked up.":
             - Mobile Device User
-        "To reduce the potential for such an exploit for which a security patch is available, ensure OS security updates are installed in a timely fashion."
+        "To reduce the potential for such an exploit for which a security patch is available, ensure OS security updates are installed in a timely fashion.":
             - Mobile Device User
             - Enterprise
 ---
