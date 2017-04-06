@@ -2,7 +2,7 @@
     layout: threat
     ThreatCategory: Device Drivers
     ID: STA-9
-    Threat: "Exploitation of software vulnerability in a driver"
+    Threat: "Exploitation of software vulnerability in a device driver or firmware"
     ThreatOrigin: "Android Security Bulletin June 2016 [^206]"
     ExploitExample:
     CVEExample:
