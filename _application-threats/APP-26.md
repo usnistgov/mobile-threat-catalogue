@@ -30,7 +30,7 @@
             - Enterprise
         "Use app-vetting tools or services to identify apps that exploit the OS to achieve privilege escalation.":
             - Enterprise
-        "To limit the opportunity for malicious apps to exploit known vulnerabilities, ensure timely installation of security updates."
+        "To limit the opportunity for malicious apps to exploit known vulnerabilities, ensure timely installation of security updates.":
             - Mobile Device User
             - Enterprise
 ---
