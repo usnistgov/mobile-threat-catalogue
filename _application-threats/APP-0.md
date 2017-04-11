@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-0
-    Threat: Passive network eavesdropping on cleartext application or device traffic
+    Threat: "Passive network eavesdropping on cleartext application or device traffic"
+    ThreatDescription: "Transmission of app or device data unencrypted allows any attacker with access to the physical media channel (e.g. proximity to wireless radios) to intercept that data. Even if the data is not directly sensitive, it may in combination with other data, allow an attacker in infer sensitive information or conduct other attacks against the user or device (e.g. geo-physical tracking, social engineering, phishing, watering-hole attacks)."
     ThreatOrigin:
     ExploitExample:
         - "Remote Code Execution as System User on Samsung Phones [^55]"
@@ -13,9 +14,14 @@
         - "Card Crypt [^121]"
     CVEExample:
         - CVE-2015-4640
+        - CVE-2017-2412
     PossibleCountermeasures:
+        "To use HTTPS for web servers that support both HTTP and HTTPS, prepend URLs entered into the browser location bar with \'https://\'":
+            - Mobile Device User
         "Implement secure communications in apps. On iOS, use the App Transport Security feature. On Android, opt out of the use of Cleartext traffic.":
             - Mobile App Developer
-        "App vetting tools/services that can detect the use of cleartext traffic in mobile apps.":
+        "Use app vetting tools/services that can detect the use of cleartext traffic in mobile apps before deployment within your organization.":
+            - Enterprise
+        "To protect the confidentiality of enterprise data against passive interception, particularly when mobile devices may be connected to public networks (e.g. coffee shop Wi-Fi), deploy mobile VPN technologies to encapsulate potentially clear-text network traffic with a layer of strong encryption.":
             - Enterprise
 ---
