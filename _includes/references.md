@@ -507,8 +507,6 @@
 
 [^O-Afonin-1]: O. Afononin, _TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion_, Elcomsoft Blog, 23 Sept 2016; https://blog.elcomsoft.com/2016/09/ios-10-security-weakness-discovered-backup-passwords-much-easier-to-break/ [accessed 12/9/2016]
 
-[^D-Goodin-1]: D. Goodin, _Using Rowhammer bitflips to root Android phones is now a thing_, Ars Technica, 23 Oct. 2016; http://arstechnica.com/security/2016/10/using-rowhammer-bitflips-to-root-android-phones-is-now-a-thing/ [accessed 12/15/2016]
-
 [^TrendMicro-1]: "androidos_kagecoin.hbt" in _Threat Encyclopedia_, TrendMicro, 2014;  http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/AndroidOS_KageCoin.HBT [accessed 01/05/2017]
 
 [^V-Zhang-1]: V. Zhang, "Mobile Malware Mines Dogecoins and Litecoins for Bitcoin Payout", TrendLabs Security Intelligence Blog, 25 Mar. 2104; http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-mines-dogecoins-and-litecoins-for-bitcoin-payout/ [accessed 01/05/2017]
