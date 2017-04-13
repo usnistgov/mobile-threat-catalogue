@@ -1,7 +1,7 @@
 ---
     layout: threat
-    ThreatCategory: Mobile Operating System
-    ID: STA-46
+    ThreatCategory: Malicious or privacy-invasive application
+    ID: APP-39
     Threat: "Malware with root access avoids detection by uninstalling itself without user interaction."
     ThreatDescription: "By abusing root privileges, a malicious application could avoid detection by deleting itself after executing malicious behaviors. This would reduce the opportunity for detection and identification of the malicious activity, and may prevent or limit remediation."
     ThreatOrigin:
