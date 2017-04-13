@@ -1,7 +1,7 @@
 ---
     layout: threat
-    ThreatCategory: Mobile Operating System
-    ID: STA-44
+    ThreatCategory: Malicious or privacy-invasive application
+    ID: APP-41
     Threat: "A malicous application with root privileges can remotely record audio by stealthily placing or answering phone calls."
     ThreatDescription: "An attacker who can place or answer calls without the device user's knowledge could remotely record audio from within the vicinity of the device without directly accessing the device microphone."
     ThreatOrigin:
