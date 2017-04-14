@@ -4,6 +4,7 @@
     ID: AUT-4
     Threat: "Inferring the PIN/password from screen smudges"
     ThreatOrigin: "Smudge Attacks on Smartphone Touch Screens [^124]"
+    ThreatDescription: "Typical device usage scenarios result in fingerprints and smudges being left on the surface of a mobile device. Repeated taps to the same location on the screen may be discernable due to the clustering of similar prints, allowing an attacker to infer which numbers occur in the device PIN, or which characters appear in a device password. This greatly facilitates an educated brute-force attack against the device unlock PIN or passcode, particularly when combined with similar attacks, such as recording events of PIN entry by a user."
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
