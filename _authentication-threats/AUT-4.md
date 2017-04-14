@@ -22,4 +22,6 @@
             - Enterprise
         "To limit the window of opportunity for an attacker to conduct a screen smudge inferrence attack, physically secure the device when it is being left directly unattended.":
             - Mobile Device User
+        "To increase the difficulty of visual or sensor-based inference attacks on entries by the on-screen keyboard, a randomized keyboard layout for PIN or password entry could be implemented as a feature of the mobile OS.":
+            - Mobile OS Developer
 ---
