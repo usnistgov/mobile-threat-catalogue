@@ -506,3 +506,15 @@
 [^O-Whitehouse-1]: O. Whitehouse, _War Nibbling: Bluetooth Insecurity_, white paper, 2003; www.wardriving.ch/hpneu/blue/doku/atstake_war_nibbling.pdf [accessed 12/07/2016]
 
 [^O-Afonin-1]: O. Afononin, _TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion_, Elcomsoft Blog, 23 Sept 2016; https://blog.elcomsoft.com/2016/09/ios-10-security-weakness-discovered-backup-passwords-much-easier-to-break/ [accessed 12/9/2016]
+
+[^D-Goodin-1]: D. Goodin, _Using Rowhammer bitflips to root Android phones is now a thing_, Ars Technica, 23 October 2016; http://arstechnica.com/security/2016/10/using-rowhammer-bitflips-to-root-android-phones-is-now-a-thing/ [accessed 12/15/2016]
+
+[^Apple-1]: "About the security content of iOS 10.3", Apple, https://support.apple.com/en-us/HT207617 [accessed 4/10/2017]
+
+[^AndroidDevBlog-1]: "An investigation of Chrysaor Malware on Android", blog, 3 Apr. 2017; https://android-developers.googleblog.com/2017/04/an-investigation-of-chrysaor-malware-on.html [accessed 4/5/2017]
+
+[^TrendMicro-1]: "androidos_kagecoin.hbt" in _Threat Encyclopedia_, TrendMicro, 2014;  http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/AndroidOS_KageCoin.HBT [accessed 01/05/2017]
+
+[^V-Zhang-1]: V. Zhang, "Mobile Malware Mines Dogecoins and Litecoins for Bitcoin Payout", TrendLabs Security Intelligence Blog, 25 Mar. 2104; http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-mines-dogecoins-and-litecoins-for-bitcoin-payout/ [accessed 01/05/2017]
+
+[^T-Katsuki-1]: T. Katsuki, "Android.Tascudap", Symantec; www.symantec.com/security_response/writeup.jsp?docid=2012-121312-4547-99 [accessed 01/05/2017]
