@@ -21,5 +21,7 @@
         "To prevent a successful password inferrence attack from singly enabling authentication by an attacker, configure  sensitive services to require 2-factor authentication.":
             - Mobile Device User
             - Enterprise
+        "To increase the difficulty of visual or sensor-based inference attacks on entries by the on-screen keyboard, a randomized keyboard layout for PIN or password entry could be implemented as a feature of the mobile OS.":
+            - Mobile OS Developer
 ---
 
