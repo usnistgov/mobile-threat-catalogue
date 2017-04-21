@@ -5,7 +5,7 @@
     Threat: "A compromised or rooted device bypasses root/jailbreak or other compliance checks"
     ThreatOrigin: "All Your Root Checks Are Belong to Us: The Sad State of Root Detection [^5]"
     ExploitExample:
-    CVEExample:
+    CVEExample: CVE-2017-4895 [^Airwatch-1]
     PossibleCountermeasures:
         "To increase the potential that device root or jail-break is detected, deploy a variety of mechanisms capable of root or jail-break detection (e.g., on-device agents, apps that require successful boot attestation checks, manual inspection)":
             - Enterprise
