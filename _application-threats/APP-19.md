@@ -6,6 +6,7 @@
     ThreatOrigin:
     ExploitExample:
         - "Malware designed to take over cameras and record audio enters Google Play [^99]"
+        - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     CVEExample:
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":

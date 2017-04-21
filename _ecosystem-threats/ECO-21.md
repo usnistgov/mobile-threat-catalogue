@@ -4,7 +4,9 @@
     ID: ECO-21
     Threat: "Use of links or NFC tags, QR codes, or other distribution channels (e.g., sms, email) to point to malicious apps"
     ThreatOrigin: "How to Protect Yourself From Malicious QR Codes [^149]"
-    ExploitExample: "Find and Call app becomes first trojan to appear on iOS App Store [^154]"
+    ExploitExample: 
+        - "Find and Call app becomes first trojan to appear on iOS App Store [^154]"
+        - "An investigation of Chrysaor Malware on Android [^AndroidWebBlog-1]"
     CVEExample:
     PossibleCountermeasures:
         "To prevent the installation of malicious applications, prohibit sideloading of apps and the use of unauthorized app stores":
