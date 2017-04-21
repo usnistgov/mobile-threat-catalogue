@@ -518,3 +518,5 @@
 [^V-Zhang-1]: V. Zhang, "Mobile Malware Mines Dogecoins and Litecoins for Bitcoin Payout", TrendLabs Security Intelligence Blog, 25 Mar. 2104; http://blog.trendmicro.com/trendlabs-security-intelligence/mobile-malware-mines-dogecoins-and-litecoins-for-bitcoin-payout/ [accessed 01/05/2017]
 
 [^T-Katsuki-1]: T. Katsuki, "Android.Tascudap", Symantec; www.symantec.com/security_response/writeup.jsp?docid=2012-121312-4547-99 [accessed 01/05/2017]
+
+[^AirWatch-1]: "VMSA-2017-0001", AirWatch Security Advisories, 30 Jan. 2017; http://www.vmware.com/security/advisories/VMSA-2017-0001.html [accessed 04/21/2017]
