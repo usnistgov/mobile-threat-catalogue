@@ -3,10 +3,11 @@
     ThreatCategory: Vulnerable Applications
     ID: APP-10
     Threat: "Poorly implemented cryptography in mobile apps (e.g., hardcoded cryptographic keys, use of insecure cryptographic algorithms)"
+    ThreatDescription: "Application developers may not invest trust in the cryptographic function or key-protection features made available by the underlying mobile OS and if present, the underlying hardware cryptographic module of the mobile device. Instead, they choose to develop their own cryptographic functions or key-protection mechanisms, which may not have undergone sufficient scrutiny by the cryptographic community at large, and may possess vulnerabilities that if discovered, present an attacker with a path of lesser resistance to achieving unauthorized access to any data they were designed to protect."
     ThreatOrigin: "OWASP Mobile Top 10 2016 [^9]"
     ExploitExample:
         - "FortiClient Multiple Vulnerabilities [^82]"
-    CVEExample:
+    CVEExample: "CVE-2017-4896 [^AirWatch-1]"
     PossibleCountermeasures:
         "Strictly avoid the use of hard-coded cryptographic keys in application source code.":
             - Mobile App Developer
