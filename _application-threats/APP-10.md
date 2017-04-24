@@ -7,7 +7,8 @@
     ThreatOrigin: "OWASP Mobile Top 10 2016 [^9]"
     ExploitExample:
         - "FortiClient Multiple Vulnerabilities [^82]"
-    CVEExample: "CVE-2017-4896 [^AirWatch-1]"
+    CVEExample: CVE-2017-4896
+    CommentToRemove: [^AirWatch-1]
     PossibleCountermeasures:
         "Strictly avoid the use of hard-coded cryptographic keys in application source code.":
             - Mobile App Developer
