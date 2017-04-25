@@ -6,8 +6,7 @@
     ThreatDescription: "Root and jailbreak detection for mobile devices is based on detecting the changes that a process by which a mobile device was compromised would have caused. For instance, creation of files or directories that do not exist on uncompromised devices. Given the diversity of mobile devices, mobile OSs, the varying methods of compromise, and the potential for an attacker to intercept and forge acceptable responses to checks for such changes, root detection continues to be an area of challenge."
     ThreatOrigin: "All Your Root Checks Are Belong to Us: The Sad State of Root Detection [^5]"
     ExploitExample:
-    CVEExample: CVE-2017-4895
-    CommentToRemove: [^Airwatch-1]
+    CVEExample: CVE-2017-4895 [^AirWatch-1]
     PossibleCountermeasures:
         "To increase the potential that device root or jail-break is detected, deploy a variety of mechanisms capable of root or jail-break detection (e.g., on-device agents, apps that require successful boot attestation checks, manual inspection)":
             - Enterprise
