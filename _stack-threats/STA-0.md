@@ -3,6 +3,7 @@
     ThreatCategory: Mobile Operating System
     ID: STA-0
     Threat: "Exploitation of operating system software vulnerabilities to gain escalated privileges."
+    ThreatDescription: "Privilege escalation vulnerabilities in the mobile OS, OS services, service libraries, or the OS kernel itself can allow an attacker to gain unauthorized access to sensitive data or execute arbitrary code from the privileged context to achieve any number of goals."
     ThreatOrigin:
         - "Internet Security Threat Report 2016 [^110]"
         - "Mobile Security: Threats and Countermeasures [^90]"
@@ -13,6 +14,20 @@
         - CVE-2010-2973
         - CVE-2016-4655
         - CVE-2016-4656
+        - CVE-2017-0538
+        - CVE-2017-0539
+        - CVE-2017-0540
+        - CVE-2017-0544
+        - CVE-2017-0546
+        - CVE-2017-0547
+        - CVE-2017-0548
+        - CVE-2017-0549
+        - CVE-2017-0553
+        - CVE-2017-0554
+        - CVE-2017-0556
+        - CVE-2017-0557
+        - CVE-2017-0558
+        - CVE-2017-0564
     PossibleCountermeasures:
         "To reduce the risk to enterprise resources being accessed from vulnerable devices, deploy EMM/MDM solutions that can successfully enforce policies to monitor the OS version of devices and block enterprise connectivity from out-of-date devices or those with known-exploitable privilege escalation vulnerabilities.":
             - Enterprise
