@@ -9,7 +9,6 @@
         - "Mkero: Android malware secretly subscribes victims to premium SMS services [^94]"
         - "Chinese Android botnet 'netting millions' [^95]"
     CVEExample:
-        -
     PossibleCountermeasures:
         "Ensure Android devices are running a recent version of Android, as starting in Android 4.2, user confirmation is needed before apps can send premium SMSs (source: https://source.android.com/security/enhancements/enhancements42.html).":
             - Enterprise
