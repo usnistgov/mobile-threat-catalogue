@@ -3,8 +3,6 @@ layout: page
 title: Contributing
 ---
 
-# Contributing
-
 ## 	[View on Github](https://github.com/usnistgov/mobile-threat-catalogue/)
 
 ## Submitting feedback
