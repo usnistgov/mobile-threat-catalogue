@@ -8,39 +8,39 @@
     ExploitExample:
     CVEExample:
         - CVE-2016-10231
-		- CVE-2016-10236
-		- CVE-2016-2066
-		- CVE-2016-2469
-		- CVE-2016-2474
-		- CVE-2016-2490
-		- CVE-2016-2491
-		- CVE-2016-5346
-		- CVE-2017-0325
-		- CVE-2017-0329
-		- CVE-2017-0339
-		- CVE-2017-0454
-		- CVE-2017-046
-		- CVE-2017-056
-		- CVE-2017-0561
-		- CVE-2017-0562
-		- CVE-2017-0565
-		- CVE-2017-0566
-		- CVE-2017-0567
-		- CVE-2017-0569
-		- CVE-2017-057
-		- CVE-2017-057
-		- CVE-2017-0570
-		- CVE-2017-0571
-		- CVE-2017-0572
-	    - CVE-2017-0575
-	    - CVE-2017-0579
-	    - CVE-2017-058
-	    - CVE-2017-058
-	    - CVE-2017-0584
-	    - CVE-2017-0585
-	    - CVE-2017-6424
-	    - CVE-2017-6425
-	    - CVE-2017-6975
+        - CVE-2016-10236
+        - CVE-2016-2066
+        - CVE-2016-2469
+        - CVE-2016-2474
+        - CVE-2016-2490
+        - CVE-2016-2491
+        - CVE-2016-5346
+        - CVE-2017-0325
+        - CVE-2017-0329
+        - CVE-2017-0339
+        - CVE-2017-0454
+        - CVE-2017-046
+        - CVE-2017-056
+        - CVE-2017-0561
+        - CVE-2017-0562
+        - CVE-2017-0565
+        - CVE-2017-0566
+        - CVE-2017-0567
+        - CVE-2017-0569
+        - CVE-2017-057
+        - CVE-2017-057
+        - CVE-2017-0570
+        - CVE-2017-0571
+        - CVE-2017-0572
+        - CVE-2017-0575
+        - CVE-2017-0579
+        - CVE-2017-058
+        - CVE-2017-058
+        - CVE-2017-0584
+        - CVE-2017-0585
+        - CVE-2017-6424
+        - CVE-2017-6425
+        - CVE-2017-6975
     PossibleCountermeasures:
         "Use EMM/MDM solutions in combination with devices that successfully enforce a policy to maintain a minimum OS patch level and block access to enterprise resources to non-compliant or devices with known-exploitable vulnerabilities.":
             - Enterprise
