@@ -66,6 +66,8 @@ collections:
         output: true
     physical-threats:
         output: true
+    privacy-threats:
+        output: true
     supply-chain-threats:
         output: true
 
@@ -108,6 +110,10 @@ defaults:
       merged: true
   - scope:
       type: physical-threats
+    values:
+      merged: true
+  - scope:
+      type: privacy-threats
     values:
       merged: true
   - scope:
