@@ -520,3 +520,7 @@
 [^T-Katsuki-1]: T. Katsuki, "Android.Tascudap", Symantec; www.symantec.com/security_response/writeup.jsp?docid=2012-121312-4547-99 [accessed 01/05/2017]
 
 [^AirWatch-1]: "VMSA-2017-0001", AirWatch Security Advisories, 30 Jan. 2017; http://www.vmware.com/security/advisories/VMSA-2017-0001.html [accessed 04/21/2017]
+
+[^Ha-1]: A. Ha, "SilverPush Says It's Using Audio Beacons For An Unusual Approach to Cross-Device Ad Targeting", TechCrunch, 24 July 2014; https://techcrunch.com/2014/07/24/silverpush-audio-beacons/ [accessed 05/05/2017]
+
+[^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf [accessed 05/05/2017]
