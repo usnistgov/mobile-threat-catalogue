@@ -19,6 +19,7 @@
         - CVE-2017-2482
         - CVE-2017-2483
         - CVE-2017-2490
+        - CVE-2017-0617
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise
