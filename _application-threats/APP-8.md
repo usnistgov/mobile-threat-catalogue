@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-8
     Threat: "Android: Remote code execution by injecting JavaScript into a web page retrieved using WebView"

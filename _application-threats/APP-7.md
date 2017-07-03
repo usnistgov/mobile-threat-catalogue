@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-7
     Threat: "Insecurely exposed application components (e.g. exported Android broadcast receivers, services, activities, or content providers)"

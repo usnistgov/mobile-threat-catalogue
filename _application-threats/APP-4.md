@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-4
     Threat: "Business or personal need to use a vulnerable app or device for which a patch is not yet available or had not yet been installed"

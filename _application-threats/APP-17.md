@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-17
     Threat: "Captured text messages received without user authorization, for example to obtain authentication codes sent as part of multi-factor authentication"

@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-1
     Threat: "Man-in-the-middle eavesdropping on an application improperly authenticating server when connecting"

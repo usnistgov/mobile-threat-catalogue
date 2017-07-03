@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-32
     Threat: "Malicious app taking advantage of the device\'s access to an internal enterprise network (e.g. via device-wide VPN connection or connection to corporate Wi-Fi) to access enterprise resources."

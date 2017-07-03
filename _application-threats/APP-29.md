@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-29
     Threat:

@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-36
     Threat: "Privacy invasive behaviors in applications pre-installed on mobile device by carrier or device manufacturer (that a user may be unable to remove)."

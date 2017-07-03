@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-34
     Threat: "Remote Access Trojans (RAT) that enable remote access to mobile device capabilities by an attacker."

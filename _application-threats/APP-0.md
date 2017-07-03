@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-0
     Threat: "Passive network eavesdropping on cleartext application or device traffic"

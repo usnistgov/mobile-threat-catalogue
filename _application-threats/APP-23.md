@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-23
     Threat: "Android: Abuse of device administrator access, for example to lock the user out of his or her own device or wipe the device contents (Ransomware technique)"

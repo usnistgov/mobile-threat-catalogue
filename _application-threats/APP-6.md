@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-6
     Threat: "Use of insecure third-party library (e.g. advertisement library, library with known vulnerabilities)"

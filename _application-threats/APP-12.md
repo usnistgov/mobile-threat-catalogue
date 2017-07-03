@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-12
     Threat: "Gathering device information potentially used for further attacks, such as persistent identifiers (phone number, IMEI, IMSI, MAC addresses), operating system and device hardware information, or list of installed applications (i.e., data collection)"
@@ -11,7 +11,7 @@
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
             - Enterprise
-        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.": 
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
             - Enterprise
         "Use Android Verify Apps feature to identify apps that may abuse permissions to perform data collection.":
             - Mobile Device User

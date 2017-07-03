@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-19
     Threat: "Surreptitiously recording via camera and/or microphone. This can be done using standard operating system APIs."

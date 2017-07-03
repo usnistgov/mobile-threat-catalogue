@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-35
     Threat: "Malicious app retrieving sensitive data from the clipboard (e.g., passwords)"

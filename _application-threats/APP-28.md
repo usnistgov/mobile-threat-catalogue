@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-28
     Threat: "Encrypting, or preventing access to, user data (e.g. photos and similar files that are accessible to all installed apps) until a payment is made, or some other condition met (i.e., Ransomware)"

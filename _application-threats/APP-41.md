@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-41
     Threat: "A malicous application with root privileges can remotely record audio by stealthily placing or answering phone calls."

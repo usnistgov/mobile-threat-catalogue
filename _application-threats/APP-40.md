@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-40
     Threat: "A malicious app with root access records user activity by copying the raw screen buffer (screenshot)."

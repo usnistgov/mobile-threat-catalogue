@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-33
     Threat: "Malicious apps abusing operating system private APIs (typically on iOS) to gather sensitive data or perform unauthorized actions."

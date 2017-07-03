@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-21
     Threat: "Embedding malicious code within app in encrypted or obfuscated form, then decrypting or deobfuscating and executing at runtime to evade app vetting"

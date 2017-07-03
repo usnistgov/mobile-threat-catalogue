@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-22
     Threat: "Android : An application can request Device Administrator access and use it to make it more difficult for the user to remove the application."

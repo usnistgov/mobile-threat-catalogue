@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-5
     Threat: "Malicious code or exploit accidentally downloaded by visiting a URL (i.e., Drive by download)"

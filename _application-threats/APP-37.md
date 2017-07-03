@@ -1,9 +1,9 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-37
     Threat: "Clickjacking to entice user to perform activity in a hidden application."
-    ThreatOrigin: 
+    ThreatOrigin:
         - "\"Accessibility Clickjacking\" - The Next Evolution in Android Malware that Impacts More Than 500 Million Devices [^YAmit1]"
         - "Android ransomware variant uses clickjacking to become device administrator [^M-Zhang-1]"
     ExploitExample:

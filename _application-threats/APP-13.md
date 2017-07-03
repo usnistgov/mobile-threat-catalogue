@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-13
     Threat: "Gathering sensitive personal or enterprise information such as contact list, call log, calendar information by invoking standard operating system (e.g. Android or iOS) APIs."

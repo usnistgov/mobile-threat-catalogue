@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-2
     Threat: "Storing files with insecure file permissions or in an unprotected location on the device"

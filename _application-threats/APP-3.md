@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-3
     Threat: "Developer unintentionally writing sensitive information (e.g. passwords) to system logs"
