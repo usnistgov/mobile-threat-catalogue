@@ -2,6 +2,7 @@
 layout: page
 title: Contributing
 ---
+<h1 class="page-heading" >{{page.title}}</h1>
 
 ## 	[View on Github](https://github.com/usnistgov/mobile-threat-catalogue/)
 
