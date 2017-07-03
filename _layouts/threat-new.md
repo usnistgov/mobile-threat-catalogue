@@ -23,12 +23,11 @@ layout: page
     - 	[{{ CVEs[0] }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}) {{ CVEs[1] }}
 {% endfor %}
 - __Possible Countermeasures:__
-{% for PossibleCountermeasure in page.PossibleCountermeasures %}
-    {% if PossibleCountermeasure[1] %}
-    - __{{ PossibleCountermeasure[1] | array_to_sentence_string }}__: {{ PossibleCountermeasure[0] }}
-    {% else %}
-    - {{ PossibleCountermeasure }}
-    {% endif %}
+{% for PossibleCountermeasures in page.PossibleCountermeasures %}
+    - __{{ PossibleCountermeasures[0] }}__
+        {% for PossibleCountermeasures in PossibleCountermeasures[1] %}
+        - {{ PossibleCountermeasures }}
+        {% endfor %}
 {% endfor %}
 
 
