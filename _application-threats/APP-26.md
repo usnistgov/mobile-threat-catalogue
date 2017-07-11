@@ -19,7 +19,7 @@
         - CVE-2017-2482
         - CVE-2017-2483
         - CVE-2017-2490
-        - CVE-2017-0593
+        - CVE-2017-0593
         - CVE-2017-0598
         - CVE-2017-0601
         - CVE-2016-7056
@@ -33,12 +33,12 @@
         - CVE-2016-10280
         - CVE-2016-10281
         - CVE-2016-10282
-        - CVE-2016-10283
-        - CVE-2016-10284
+        - CVE-2016-10283
+        - CVE-2016-10284
         - CVE-2016-10285
         - CVE-2016-10286
-        - CVE-2015-9004
-        - CVE-2016-10287
+        - CVE-2015-9004
+        - CVE-2016-10287
         - CVE-2017-0606
         - CVE-2016-5860
         - CVE-2016-5867
@@ -53,7 +53,7 @@
         - CVE-2016-10289
         - CVE-2016-10290
         - CVE-2017-0465
-        - CVE-2017-0612
+        - CVE-2017-0612
         - CVE-2017-0613
         - CVE-2017-0614
         - CVE-2017-0616
@@ -131,7 +131,6 @@
         - CVE-2016-10294
         - CVE-2017-0615
         - CVE-2017-0617
-        
         Possible Countermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise 
