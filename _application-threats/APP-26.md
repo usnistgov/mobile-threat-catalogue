@@ -103,7 +103,7 @@
         - CVE-2017-7001
         - CVE-2017-7002
         - CVE-2017-2524
-        - CVE-2017-2496
+        - CVE-2017-2496
         - CVE-2017-2505
         - CVE-2017-2506
         - CVE-2017-2514
@@ -132,7 +132,7 @@
         - CVE-2017-0615
         - CVE-2017-0617
         
-    PossibleCountermeasures:
+        Possible Countermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise 
         "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
