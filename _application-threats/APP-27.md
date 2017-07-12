@@ -7,6 +7,7 @@
     ExploitExample:
         - "Brain Test re-emerges: 13 apps found in Google Play [^102]"
     CVEExample:
+     - CVE-2016-10277
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise
