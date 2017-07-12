@@ -9,6 +9,12 @@
         - "DRD13. Do not provide addJavaScriptInterface method access in a WebView which could contain untrusted content [^80]"
         - "Remote code execution on Android devices [^81]"
     CVEExample:
+    - CVE-2017-0587
+    - CVE-2017-0588
+    - CVE-2017-0589
+    - CVE-2017-0590
+    - CVE-2017-0591
+    - CVE-2017-0592
     PossibleCountermeasures:
         "Use app-vetting tools or services to identify vulnerable applications":
             - Enterprise
