@@ -8,6 +8,7 @@ layout: page
 
 - __Threat Category:__ {{page.ThreatCategory}}
 - __ID:__ {{page.ID}}
+- __Threat Description:__ {{page.ThreatDescription}}
 - __Threat Origin:__
 {% for ThreatOrigin in page.ThreatOrigin %}
     - {{ ThreatOrigin }}

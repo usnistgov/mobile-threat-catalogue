@@ -7,6 +7,7 @@
     ExploitExample:
         - "Juniper Networks Third Annual Mobile Threats Report [^236]"
     CVEExample:
+    - CVE-2016-10292
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise

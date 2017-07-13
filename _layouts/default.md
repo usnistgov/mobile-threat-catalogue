@@ -8,7 +8,6 @@
         {% include sidebar.html %}
 
         <div class="content container" id="page">
-            <h1 class="page-heading" >{{page.title}}</h1>
             {{ content | markdownify }}
             {% include nist-footer.html %}
         </div>
