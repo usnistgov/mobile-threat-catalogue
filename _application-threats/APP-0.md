@@ -1,4 +1,5 @@
 ---
+    thing: mit1
     layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-0
@@ -18,9 +19,13 @@
     PossibleCountermeasures:
         Mobile Device User:
             - "To use HTTPS for web servers that support both HTTP and HTTPS, prepend URLs entered into the browser location bar with \'https://\'"
+            - {{ site.data.mitigations.mit1.description }}
         Mobile App Developer:
             - "Implement secure communications in apps. On iOS, use the App Transport Security feature. On Android, opt out of the use of Cleartext traffic."
         Enterprise:
             - "Use app vetting tools/services that can detect the use of cleartext traffic in mobile apps before deployment within your organization."
             - "To protect the confidentiality of enterprise data against passive interception, particularly when mobile devices may be connected to public networks (e.g. coffee shop Wi-Fi), deploy mobile VPN technologies to encapsulate potentially clear-text network traffic with a layer of strong encryption."
 ---
+{% assign mit = site.data.mitigations[page.thing] %}
+
+<h1>{{ mit.description }}</h1>
