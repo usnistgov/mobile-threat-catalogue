@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-25
-    Threat: "Taking advantage of already rooted/jailbroken device\'s degraded security state to perform malicious action or obtain a persistent presence"
+    Threat: "Malicious app abuses existing root access"
+    ThreatDescription: "Rooting or jail-breaking an Android or iOS device significantly degrades its security architecture by enabling arbitrary apps to execute commands as root. A malicious app could, under an assumption some percentage of devices have been rooted or jail-broken, attempt to abuse implicit root privilege escalation."
     ThreatOrigin:
     ExploitExample:
         - "How to clean up the Duh iPhone worm [^101]"
