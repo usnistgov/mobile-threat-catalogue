@@ -524,3 +524,5 @@
 [^Ha-1]: A. Ha, "SilverPush Says It's Using Audio Beacons For An Unusual Approach to Cross-Device Ad Targeting", TechCrunch, 24 July 2014; https://techcrunch.com/2014/07/24/silverpush-audio-beacons/ [accessed 05/05/2017]
 
 [^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf [accessed 05/05/2017]
+
+[^Rambus-1]: "Evolving differential power analysis targets SIM cards," Rambus, 23 Sept. 2015; https://www.rambus.com/blogs/security-evolving-differential-power-analysis-targets-sim-cards/ [accessed 07/18/2017]
