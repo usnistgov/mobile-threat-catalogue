@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-36
-    Threat: "Privacy invasive behaviors in applications pre-installed on mobile device by carrier or device manufacturer (that a user may be unable to remove)."
+    Threat: "Privacy invasive behaviors by pre-installed apps"
+    ThreatDescription: "Mobile devices with cellular capability must generally be registered with a cellular carrier, and many devices are sold pre-configured to operate with a given carrier so users can have a fully functional device by the end of the initial purchase and activation at a retailer. As part of the configuration, the device may come with carrier-specific apps pre-installed, which may not be removable by the user. Because these apps come pre-installed, they may also may be granted implicit permission to access device resources without explicit knowledge or consent of the device owner. Privacy violations by such pre-installed apps may be more difficult to mitigate than by user-installed apps, which can be uninstalled at any time."
     ThreatOrigin:
     ExploitExample:
         - "Device Squad: The story behind the FTC's first case against a mobile device maker [^113]"
