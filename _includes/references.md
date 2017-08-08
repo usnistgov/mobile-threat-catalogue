@@ -524,3 +524,5 @@
 [^Ha-1]: A. Ha, "SilverPush Says It's Using Audio Beacons For An Unusual Approach to Cross-Device Ad Targeting", TechCrunch, 24 July 2014; https://techcrunch.com/2014/07/24/silverpush-audio-beacons/ [accessed 05/05/2017]
 
 [^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf [accessed 05/05/2017]
+
+[^Artenstein-1]: N. Artenstein, "Broadpwn: Remotely Compromising Android and IOS Via a Bug in the Broadcom Wi-Fi Chipset", [white paper], 2017; https://www.blackhat.com/docs/us-17/thursday/us-17-Artenstein-Broadpwn-Remotely-Compromising-Android-And-iOS-Via-A-Bug-In-Broadcoms-Wifi-Chipsets-wp.pdf [accessed 08/08/2017]
