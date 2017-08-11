@@ -6,6 +6,9 @@
     ThreatOrigin: "Android Security 2015 Year In Review [^98]"
     ExploitExample:
     CVEExample:
+    - CVE-2017-0594
+    - CVE-2017-0595
+    - CVE-2017-0596
     PossibleCountermeasures:
         "Ensure Android devices are running a recent version of the operating system. As described at 44:20 in the Google I/O 2016 \"What\'s new in Android security\" (https://www.youtube.com/watch?v=XZzLjllizYs), enhancements were made in Android M or N to ensure that all device admin apps can be uninstalled.":
             - Enterprise

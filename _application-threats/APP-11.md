@@ -7,6 +7,7 @@
     ExploitExample:
         - "Team Joch vs. Android [^57]"
     CVEExample:
+    - CVE-2017-7005
     PossibleCountermeasures:
         "When input should match one of a set of known and comparable options, use whitelisting to ensure the input is safe before applying it to security logic.":
             - Mobile App Developer

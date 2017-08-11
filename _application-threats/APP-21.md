@@ -6,6 +6,8 @@
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"
     ExploitExample:
     CVEExample:
+    - CVE-2015-07555
+    - CVE-2016-5131
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise

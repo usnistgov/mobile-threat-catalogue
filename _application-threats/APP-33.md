@@ -8,6 +8,9 @@
         - "YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs [^43]"
         - "Jekyll on iOS: When Benign Apps Become Evil [^111]"
     CVEExample:
+    - CVE-2017-0598
+    - CVE-2017-0602
+    - CVE-2017-7003
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the side-loading of apps, which may bypass security checks on the app.":
             - Enterprise
