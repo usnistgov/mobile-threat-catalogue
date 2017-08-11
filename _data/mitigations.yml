@@ -1,7 +1,7 @@
 ---
 -
     id: mit1
-    description: "To use HTTPS for web servers that support both HTTP and HTTPS, prepend URLs entered into the browser location bar with ‘https://’"
+    description: "To use HTTPS for web servers that support both HTTP and HTTPS, prepend URLs entered into the browser location bar with 'https://'"
 -
     id: mit2
     description: "Implement secure communications in apps. On iOS, use the App Transport Security feature. On Android, opt out of the use of Cleartext traffic."
