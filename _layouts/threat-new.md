@@ -2,7 +2,6 @@
 layout: page
 ---
 
-
 # {{page.Threat}}
 [Contribute]({{ site.baseurl }}/contributing.html)
 
@@ -26,9 +25,15 @@ layout: page
 {% for PossibleCountermeasures in page.PossibleCountermeasures %}
     - __{{ PossibleCountermeasures[0] }}__
         {% for PossibleCountermeasures in PossibleCountermeasures[1] %}
-        - {{ PossibleCountermeasures }}
+        {% for mitigation in site.data.mitigations %}
+        {% if mitigation.id ==  PossibleCountermeasures %}
+        - {{ mitigation.description }}
+        {% endif %}
+        {% endfor %}
         {% endfor %}
 {% endfor %}
+
+
 
 
 {% include issues.html %}
