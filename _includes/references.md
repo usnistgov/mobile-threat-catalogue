@@ -525,4 +525,6 @@
 
 [^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf [accessed 05/05/2017]
 
+[^Artenstein-1]: N. Artenstein, "Broadpwn: Remotely Compromising Android and IOS Via a Bug in the Broadcom Wi-Fi Chipset", [white paper], 2017; https://www.blackhat.com/docs/us-17/thursday/us-17-Artenstein-Broadpwn-Remotely-Compromising-Android-And-iOS-Via-A-Bug-In-Broadcoms-Wifi-Chipsets-wp.pdf [accessed 08/08/2017]
+
 [^Rambus-1]: "Evolving differential power analysis targets SIM cards," Rambus, 23 Sept. 2015; https://www.rambus.com/blogs/security-evolving-differential-power-analysis-targets-sim-cards/ [accessed 07/18/2017]
