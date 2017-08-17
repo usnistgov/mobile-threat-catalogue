@@ -9,6 +9,7 @@
         - "zSone, RogueSPPush, GGTracker malware described in Dissecting Android Malware: Characterization and Evolution [^85]"
         - "Mkero: Android malware secretly subscribes victims to premium SMS services [^94]"
         - "Chinese Android botnet 'netting millions' [^95]"
+        - "Android Security 2015 Year In Review [^98]"
     CVEExample:
     PossibleCountermeasures:
         "Ensure Android devices are running a recent version of Android, as starting in Android 4.2, user confirmation is needed before apps can send premium SMSs (source: https://source.android.com/security/enhancements/enhancements42.html).":
