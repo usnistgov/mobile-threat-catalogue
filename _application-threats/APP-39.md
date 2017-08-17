@@ -3,6 +3,7 @@
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-39
     Threat: Malware uses device to conduct DDoS attacks
+    ThreatDescription: "DDoS attacks are generally more effective with a greater number of systems an attacker can control. As many DDoS attack techniques only require a given participant to generate a small amount of network traffic, such as a spoofed DNS query used in a reflection attack, they can be easily generated from a mobile device. Given the high volume of these devices, the ability for an attacker to compromise a large number in a short time with trojan apps, and their potential to launch attacks from multiple networks (e.g., Wi-Fi and celluar connections, ) they are likely intermediary targets in DDoS campaigns."
     ThreatOrigin:
     ExploitExample:
         - "Android.Tascudap [^T-Katsuki-1]"
