@@ -5,7 +5,7 @@
     Threat: "Exploitation of software vulnerability in a device driver or firmware"
     ThreatDescription: "Privilege escalation, input validation, or buffer overflow vulnerabilities in a device driver or the associated firmware may allow an attacker to achieve arbitrary code execution in the context of the firmware or OS kernel, information disclosure, or denial-of-service attacks."
     ThreatOrigin: "Android Security Bulletin June 2016 [^206]"
-    ExploitExample:
+    ExploitExample: "Broadpwn: Remotely Compromising Android and iOS via a bug in the Broadcom's Wi-Fi Chipset [^Artenstein-1]"
     CVEExample:
         - CVE-2016-10231
         - CVE-2016-10236
@@ -45,6 +45,7 @@
         - CVE-2017-6424
         - CVE-2017-6425
         - CVE-2017-6975
+        - CVE-2017-9417
     PossibleCountermeasures:
         "Use EMM/MDM solutions in combination with devices that successfully enforce a policy to maintain a minimum OS patch level and block access to enterprise resources to non-compliant or devices with known-exploitable vulnerabilities.":
             - Enterprise
