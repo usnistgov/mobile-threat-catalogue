@@ -2,8 +2,8 @@
     layout: threat
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-43
-    Threat: "Malware avoids detection by uninstalling itself without user interaction"
-    ThreatDescription: "By abusing root privileges, a malicious application could avoid detection by automatically deleting itself after executing malicious behaviors. This would reduce the opportunity for detection and identification of the malicious activity, which may further prevent or limit the ability for a victim to recover from the attack."
+    Threat: "Malware avoids detection by uninstalling itself"
+    ThreatDescription: "By abusing root privileges, a malicious application could avoid detection by automatically deleting itself (with no user interaction) after executing malicious behaviors. This would reduce the opportunity for detection and identification of the malicious activity, which may further prevent or limit the ability for a victim to recover from the attack."
     ThreatOrigin:
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     ExploitExample:
