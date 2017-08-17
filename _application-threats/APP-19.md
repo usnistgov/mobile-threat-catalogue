@@ -2,7 +2,10 @@
     layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-19
-    Threat: "Surreptitiously recording via camera and/or microphone. This can be done using standard operating system APIs."
+    Threat: "App conducts audio or video surveillance."
+    ThreatDescription: "Starting with Android 6.0, access to the microphone or camera is considered a dangerous permission and each recording attempt must be granted permission by the user at runtime. Similarly, the iOS security model only allows apps granted permission by the user to access the camera or microphone while running in the foreground. Therefore, an app operating in these or newer environments cannot abuse public APIs to initiate a recording outside the user's knowledge. 
+    
+    This threat can still be realized following successful exploits of OS vulnerabilities that ultimately provide a malicious app with unauthorized access to those resources (e.g. bypass access control on APIs or direct access to the hardware)."
     ThreatOrigin:
     ExploitExample:
         - "Malware designed to take over cameras and record audio enters Google Play [^99]"

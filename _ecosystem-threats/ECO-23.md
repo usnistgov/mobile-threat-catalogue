@@ -1,8 +1,9 @@
 ---
     layout: threat
-    ThreatCategory: "Malicious or privacy-invasive application"
-    ID: APP-15
-    Threat: "Distribution of malicious apps outside of a controlled app store"
+    ThreatCategory: "Mobile OS & Vendor Infrastructure"
+    ID: ECO-23
+    Threat: "Distribution of malicious apps by a 3rd party store"
+    ThreatDescription: "By default, mobile OS only trust (and allow the installation of) apps signed by valid digital certificates they issued to developers. Further, only developers with verified identities are permitted to publish apps to their public app stores. Additionally, apps submitted for publication are evaluated for the presence of exploit code or malicious or privacy-invasive behaviors; apps that fail to meet their criteria are rejected. 3rd party app stores, however, may not apply the same standards to developers or apps, increasing the potential for malicious or potentially harmful apps to be published by them."
     ThreatOrigin:
         - "Change to sideloading apps in iOS 9 is a security win [^89]"
         - "Mobile Security: Threats and Countermeasures [^90]"

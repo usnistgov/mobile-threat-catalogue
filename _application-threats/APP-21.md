@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-21
-    Threat: "Embedding malicious code within app in encrypted or obfuscated form, then decrypting or deobfuscating and executing at runtime to evade app vetting"
+    Threat: "App vetting fails to detect malicious app code"
+    ThreatDescription: "App vetting methods designed to detect malicious code are complicated by various code obfuscation techniques such as sandbox detection, encryption, and dead code (malicious functions unreachable by normal program execution). As a result, a malicious app subjected to app vetting may appear free of harmful code and safe to publish or distribute."
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"
     ExploitExample:
     CVEExample:

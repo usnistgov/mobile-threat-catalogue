@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-9
-    Threat: "Insecure backend web servers relied upon by mobile apps."
+    Threat: "App communicates with a compromised back-end server"
+    ThreatDescription: "If an app exchanges data with a compromised back-end server, it may be vulnerable to exploitation from what may be treated as a trusted system. This may provide an attacker with unauthorized access to sensitive user data or  remote control over app behavior or content."
     ThreatOrigin:
     ExploitExample:
     CVEExample:

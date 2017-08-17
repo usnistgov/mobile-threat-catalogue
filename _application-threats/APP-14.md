@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-14
-    Threat: "Repackaging or impersonating a benign app, such as an online banking app, to contain malicious functionality (i.e., trojan)"
+    Threat: "Trojan app impersonates a legitimate app"
+    ThreatDescription: "Like well-behaved apps, a trojan app offers some functionality to the user, though a trojan also includes hidden functionality that is malicious or otherwise undesirable. One technique for deploying trojan functionality is to obtain the install packages for a legitimate app, decompile/disassemble it, introduce the trojan, and then generate a new install package. The app will appear to a user to be the legitimate app. Distribution of trojans is commonly achieved by submission to open 3rd party app stores or social engineering attacks claiming to offer users the app with incentives (lower cost, free, extras unlocked, etc.)."
     ThreatOrigin:
         - "The Google Android Security Team's Classifications for Potentially Harmful Applications [^83]"
         - "Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]"

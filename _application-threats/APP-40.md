@@ -2,8 +2,8 @@
     layout: threat
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-40
-    Threat: "A malicious app with root access records user activity by copying the raw screen buffer (screenshot)."
-    ThreatDescription: "A malicious application that has elevated to root privileges may be able to capture the contents of the screen buffer, in essence taking a screenshot of any foreground activity. This would allow an attacker to steal authentication credentals or gain unauthorized access to any other sensitive information displayed in the foreground. Note that this capture would not handled like a user-initiated screenshot, and would not automatically be stored in default locations read by camera or photo browser apps (e.g. Google Photos)."
+    Threat: "A malicious app captures the raw screen buffer"
+    ThreatDescription: "A malicious application that has elevated to root privileges may be able to capture the contents of the screen buffer, in essence taking a screenshot of any foreground activity. This would allow an attacker to steal authentication credentals or gain unauthorized access to any other sensitive information displayed in the foreground. Note that this capture would not be handled like a user-initiated screenshot, and would not automatically be stored in default locations read by camera or photo browser apps (e.g. Google Photos)."
     ThreatOrigin:
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"
     ExploitExample:

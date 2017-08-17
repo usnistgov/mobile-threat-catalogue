@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-7
-    Threat: "Insecurely exposed application components (e.g. exported Android broadcast receivers, services, activities, or content providers)"
+    Threat: "App exposes data or functionality to untrusted apps"
+    ThreatDescription: "Android apps can be designed to share data with other apps through a variety of mechanisms such as broadcast receivers, services, intents, and content providers. Some of these mechanisms permit the app developer to grant broader permissions to untrusted apps than intended. As a result, a malicious app may gain unauthorized access to sensitive functionality or data. The malicious app may further take advantage of the weak permission to exploit other vulnerabilities in the receiving app by sending it crafted input."
     ThreatOrigin:
     ExploitExample:
         - "eBay for Android Content Provider Injection Vulnerability [^75]"
