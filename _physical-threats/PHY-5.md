@@ -4,7 +4,9 @@
     ID: PHY-5
     Threat: "Use of a sidechannel attack to obtain crypto private keys"
     ThreatOrigin: "ECDSA Key Extraction from Mobile Devices Via Nonintrusive Physical Side Channels"
-    ExploitExample: "New Attack Steals Secret Crypto Keys from Android and iOS Phones [^164]"
+    ExploitExample: 
+        - "New Attack Steals Secret Crypto Keys from Android and iOS Phones [^164]"
+        - "Evolving differential power analysis targets SIM cards [^Rambus-1]"
     CVEExample:
     PossibleCountermeasures:
         "To increase the difficulty of this attack, use devices that implement mitigations in their cryptograhic functions against side-channel attacks, such as iOS 9.x and later devices.":
