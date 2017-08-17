@@ -2,7 +2,8 @@
     layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-4
-    Threat: "Business or personal need to use a vulnerable app or device for which a patch is not yet available or had not yet been installed"
+    Threat: "Need to use a known-vulnerable app or device"
+    ThreatDescription: "Organizations or individual users may develop and rely upon specific apps or devices to complete necessary work. Knowledge of a serious vulnerability affecting such an app or device increases the risk associated with using it to accomplish that work. However, the impact of being unable to complete the work as a result of abstaining from use of the app or device, may be unacceptable."
     ThreatOrigin:
     ExploitExample:
         - "Stumping the Mobile Chipset [^70]"
