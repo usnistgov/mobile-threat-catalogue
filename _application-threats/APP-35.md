@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-35
-    Threat: "Malicious app retrieving sensitive data from the clipboard (e.g., passwords)"
+    Threat: "App retrieves sensitive data from the clipboard"
+    ThreatDescription: "Any app that has been granted, or that has implicit OS-level permission to access the clipboard, may collect data left in the clipboard by other activity. A primary example would be using the device clipboard to copy-and-paste a password from an encrypted file to a form field."
     ThreatOrigin: "Attacks on Android Clipboard [^238]"
     ExploitExample:
         - "Update: XcodeGhost Attacker Can Phish Passwords and Open URLs Through Infected Apps [^239]"

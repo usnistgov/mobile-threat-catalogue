@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-34
-    Threat: "Remote Access Trojans (RAT) that enable remote access to mobile device capabilities by an attacker."
+    Threat: "App provides remote control over device"
+    ThreatDescription: "Malicious apps built with effective code execution exploits against the mobile OS and the ability to receive remote commands can provide a resourceful attacker with considerable control over a compromised mobile device. Typical usage of remote control functionality has been using build-in sensors, such as the microphone and camera, to surveil the user. However, an attacker can potentially exercise any capability of the device."
     ThreatOrigin:
     ExploitExample:
         - "Dendroid malware can take over your camera, record audio, and sneak into Google Play [^237]"

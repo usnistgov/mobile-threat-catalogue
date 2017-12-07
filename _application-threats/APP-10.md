@@ -2,8 +2,8 @@
     layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-10
-    Threat: "Poorly implemented cryptography in mobile apps (e.g., hardcoded cryptographic keys, use of insecure cryptographic algorithms)"
-    ThreatDescription: "Application developers may not invest trust in the cryptographic function or key-protection features made available by the underlying mobile OS and if present, the underlying hardware cryptographic module of the mobile device. Instead, they choose to develop their own cryptographic functions or key-protection mechanisms, which may not have undergone sufficient scrutiny by the cryptographic community at large, and may possess vulnerabilities that if discovered, present an attacker with a path of lesser resistance to achieving unauthorized access to any data they were designed to protect."
+    Threat: "Poorly implemented cryptography in app"
+    ThreatDescription: "While still supported by many systems, cryptographic algorithms and ciphers proven to be weak or broken should not be used to protect sensitive data. Weak algorithm/ciphers are those that have been deprecated following advancements in processing speeds and distributed processessing that have made brute-force attacks against them feasible. Broken algorithms, such as MD5, have known vulnerabilities an attacker can exploit to defeat one or more of its security properties. Similarly, the use of novel (e.g. home-grown) cryptographic algorithms should also be avoided. Novel algorithms may not have yet undergone sufficient scrutiny by the cryptologic community at large, and may possess flaws that if discovered, present an attacker with a path of lesser resistance to achieving unauthorized access to any data these cryptographic mechanisms were designed to protect."
     ThreatOrigin: "OWASP Mobile Top 10 2016 [^9]"
     ExploitExample:
         - "FortiClient Multiple Vulnerabilities [^82]"

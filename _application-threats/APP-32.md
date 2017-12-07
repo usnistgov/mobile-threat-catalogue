@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-32
-    Threat: "Malicious app taking advantage of the device\'s access to an internal enterprise network (e.g. via device-wide VPN connection or connection to corporate Wi-Fi) to access enterprise resources."
+    Threat: "Malicious app exploits device access to enterprise resources"
+    ThreatDescription: "Any device-wide communication channels, such as an encrypted enterprise Wi-Fi connection, may be accessible to all apps running on the device. This may allow an attacker to bypass some network defense mechanisms, such as network access control or firewalls, thereby facilitating attacks against enterprise resources from within the enterprise network."
     ThreatOrigin:
     ExploitExample:
         - "Juniper Networks Third Annual Mobile Threats Report [^236]"

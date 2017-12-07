@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-24
-    Threat: "Surreptitiously reporting the physical location (e.g. using GPS or other means) of the device through programmatic means by invoking standard APIs."
+    Threat: "Surreptitiously reporting device location"
+    ThreatDescription: "Apps that have been granted permission to Location Services or similar OS-provided services can abuse this permission to report device outside of what may be needed to support legitimate app functionality (e.g. navigation). Device location data may facilitate further attacks such as geo-physical or behavioral tracking of the user."
     ThreatOrigin: "Dissecting Android Malware: Characterization and Evolution [^85]"
     ExploitExample:
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"

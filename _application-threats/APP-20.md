@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-20
-    Threat: "Downloading and executing dynamic code after installation to evade app vetting / app store review."
+    Threat: "App evades vetting by loading malicious code at runtime"
+    ThreatDescription: "Mobile apps may evade app vetting by downloading and executing malicious app code after installation. On Android, external code can be loaded using the OS-provided API. On iOS, the ability to modify app code is a consequence of the Objective C runtime environment that apps execute within, which permits method definitions to be modified at runtime. As the malicious code would not be present when the app was submitted for review, it may evade detection as a malicious application."
     ThreatOrigin:
         - "Execute This! Analyzing Unsafe and Malicious Dynamic Code Loading in Android Applications [^240]"
         - "Jekyll on iOS: When Benign Apps Become Evil [^111]"

@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-27
-    Threat: "Maintaining persistence of malicious code or unauthorized privileged access across device resets by using escalated privileges to write to system partitions, Trusted Execution Environment, bootloader, or other lower-level component that is typically not erased during a device reset"
+    Threat: "Maintains persistence by writing to system or device locations"
+    ThreatDescription: "Malicious code that has achieved privilege escalation to the kernel or root user may achieve persistence by modifying memory locations reserved for use by the bootloader, mobile OS, or kernel to force the execution of malicious code following a device reboot or integrated factory reset."
     ThreatOrigin:
     ExploitExample:
         - "Brain Test re-emerges: 13 apps found in Google Play [^102]"

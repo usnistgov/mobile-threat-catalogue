@@ -2,9 +2,8 @@
     layout: threat-new
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-29
-    Threat:
-        - "Command-and-control using built-in encrypted channels such as Google Cloud Messaging or Apple Push Notification Service that will not stand out as unusual traffic."
-        - "On Android, GCM can be used for two-way communication. On iOS, APNS can be used for one-way communication (server to device)."
+    Threat: "Command-and-control messaging evades traffic analysis"
+    ThreatDescription: "Mobile OS offer built-in and encrypted communication channels that may appear to be normal traffic or occur out-of-band (over a cellular connection), thereby evading detection by Wi-Fi-based enterprise traffic analysis tools. Google offers Google Cloud Messaging (GCM) and newly, Firebase Cloud Messaging (FCM), which provides two-way communication. Apple offers the Apple Push Notification Service (APNS), which offers one-way communication from server-to-device. Both services are commonly used within mobile apps, which makes detecting abuse of these services difficult."
     ThreatOrigin:
     ExploitExample:
         - "Mobile Malware Evolution: 2013 [^103]"

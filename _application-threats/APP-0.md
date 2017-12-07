@@ -2,7 +2,7 @@
     layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-0
-    Threat: "Passive network eavesdropping on cleartext application or device traffic"
+    Threat: "Passive eavesdropping of unencrypted app traffic"
     ThreatDescription: "Transmission of app or device data unencrypted allows any attacker with access to the physical media channel (e.g. proximity to wireless radios) to intercept that data. Even if the data is not directly sensitive, it may in combination with other data, allow an attacker in infer sensitive information or conduct other attacks against the user or device (e.g. geo-physical tracking, social engineering, phishing, watering-hole attacks)."
     ThreatOrigin:
     ExploitExample:

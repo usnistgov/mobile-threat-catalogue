@@ -2,7 +2,8 @@
     layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-1
-    Threat: "Man-in-the-middle eavesdropping on an application improperly authenticating server when connecting"
+    Threat: "Man-in-the-middle attack on weak server authentication"
+    ThreatDescription: "Apps that exchange information with a back-end server should strongly authenticate the server before attemtping to establish a secure connection. If the authentication mechanism used by the app is weak, such as not validating a server certificate, an attacker can readily impersonate the back-end server to the app and achieve a man-in-the-middle (MITM) attack. This would provide an attacker with unauthorized access to all unencrypted transmitted data, including modification of data-in-transit. A successful MITM greatly facilitates further attacks against the client app, the back-end server, and all parties of a compromised session."
     ThreatOrigin: "Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]"
     ExploitExample:
         - "Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security [^62]"
