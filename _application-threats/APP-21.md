@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-21
     Threat: "App vetting fails to detect malicious app code"

@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-38
     Threat: Consuming device resources to perform computations for the attacker

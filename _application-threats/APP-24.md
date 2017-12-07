@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-24
     Threat: "Surreptitiously reporting device location"

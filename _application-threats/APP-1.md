@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-1
     Threat: "Man-in-the-middle attack on weak server authentication"

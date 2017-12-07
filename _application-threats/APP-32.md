@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-32
     Threat: "Malicious app exploits device access to enterprise resources"

@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-10
     Threat: "Poorly implemented cryptography in app"

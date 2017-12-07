@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-41
     Threat: "App records audio by stealthily placing or answering phone calls"

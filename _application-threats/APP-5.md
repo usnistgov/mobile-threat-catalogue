@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-5
     Threat: "Malicious code downloaded by visiting a malicious URL"

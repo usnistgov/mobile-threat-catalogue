@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Vulnerable Applications
     ID: APP-4
     Threat: "Need to use a known-vulnerable app or device"

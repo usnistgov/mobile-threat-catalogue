@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-22
     Threat: "App abuses Device Administrator permission to avoid uninstallation"

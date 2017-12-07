@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-30
     Threat: "Data exfiltration evades Wi-Fi traffic analysis"

@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: "Malicious or privacy-invasive application"
     ID: APP-26
     Threat: "Exploits OS or lower-level vulnerability to achieve privilege escalation"

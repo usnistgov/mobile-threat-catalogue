@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-43
     Threat: "Malware avoids detection by uninstalling itself"

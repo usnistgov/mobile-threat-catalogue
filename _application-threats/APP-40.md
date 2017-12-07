@@ -1,5 +1,5 @@
 ---
-    layout: threat-new
+    layout: threat
     ThreatCategory: Malicious or privacy-invasive application
     ID: APP-40
     Threat: "A malicious app captures the raw screen buffer"
