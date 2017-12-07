@@ -115,6 +115,7 @@ nav label {
     .sidebar h1 {
         font-size: 2.25rem
     }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -130,6 +131,9 @@ nav label {
 @media screen and (max-width: 1180px) {
     .nist-links {
         display: none;
+    }
+    ul.cve-examples {
+        columns: 1;
     }
 }
 
@@ -178,4 +182,8 @@ nav label {
 .expand {
     height: auto;
     overflow: auto;;
+}
+
+.cve-examples {
+    columns: 3;
 }
