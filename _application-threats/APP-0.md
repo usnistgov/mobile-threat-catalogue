@@ -1,5 +1,5 @@
 ---
-    layout: threat
+    layout: threat-new
     ThreatCategory: Vulnerable Applications
     ID: APP-0
     Threat: "Passive eavesdropping of unencrypted app traffic"
@@ -16,12 +16,11 @@
         - CVE-2015-4640
         - CVE-2017-2412
     PossibleCountermeasures:
-        "To use HTTPS for web servers that support both HTTP and HTTPS, prepend URLs entered into the browser location bar with \'https://\'":
-            - Mobile Device User
-        "Implement secure communications in apps. On iOS, use the App Transport Security feature. On Android, opt out of the use of Cleartext traffic.":
-            - Mobile App Developer
-        "Use app vetting tools/services that can detect the use of cleartext traffic in mobile apps before deployment within your organization.":
-            - Enterprise
-        "To protect the confidentiality of enterprise data against passive interception, particularly when mobile devices may be connected to public networks (e.g. coffee shop Wi-Fi), deploy mobile VPN technologies to encapsulate potentially clear-text network traffic with a layer of strong encryption.":
-            - Enterprise
+        Mobile Device User:
+            - mit1
+        Mobile App Developer:
+            - mit2
+        Enterprise:
+            - mit3
+            - mit4
 ---

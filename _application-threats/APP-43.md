@@ -11,7 +11,7 @@
     CVEExample:
     PossibleCountermeasures:
         "To help reduce the opportunity for attack following availability of patches, ensure timely installation of mobile OS security updates.":
-            - Enterprise    
+            - Enterprise
             - Mobile Device User
         "To reduce the potential of installing malicious applications, download public apps directly from an official app store (e.g., Google Play, iTunes Store).":
             - Mobile Device User

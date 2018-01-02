@@ -12,7 +12,7 @@
     PossibleCountermeasures:
         "Deploy MAM or MDM solutions with policies that prohibit the sideloading of apps, which may bypass security checks on the app.":
             - Enterprise
-        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.": 
+        "Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.":
             - Enterprise
         "Use Android Verify Apps feature to identify apps that may abuse permissions to perform data collection.":
             - Mobile Device User
