@@ -507,7 +507,7 @@
 
 [^O-Afonin-1]: O. Afononin, _TouchLogger: Inferring Keystrokes on Touch Screen from Smartphone Motion_, Elcomsoft Blog, 23 Sept 2016; https://blog.elcomsoft.com/2016/09/ios-10-security-weakness-discovered-backup-passwords-much-easier-to-break/ [accessed 12/9/2016]
 
-[^D-Goodin-1]: D. Goodin, _Using Rowhammer bitflips to root Android phones is now a thing_, Ars Technica, 23 October 2016; http://arstechnica.com/security/2016/10/using-rowhammer-bitflips-to-root-android-phones-is-now-a-thing/ [accessed 12/15/2016]
+[^D-Goodin-1]: D. Goodin, "Using Rowhammer bitflips to root Android phones is now a thing", _Ars Technica_, 23 Oct. 2016; http://arstechnica.com/security/2016/10/using-rowhammer-bitflips-to-root-android-phones-is-now-a-thing/ [accessed 12/15/2016]
 
 [^Apple-1]: "About the security content of iOS 10.3", Apple, https://support.apple.com/en-us/HT207617 [accessed 4/10/2017]
 
@@ -528,3 +528,5 @@
 [^Artenstein-1]: N. Artenstein, "Broadpwn: Remotely Compromising Android and IOS Via a Bug in the Broadcom Wi-Fi Chipset", [white paper], 2017; https://www.blackhat.com/docs/us-17/thursday/us-17-Artenstein-Broadpwn-Remotely-Compromising-Android-And-iOS-Via-A-Bug-In-Broadcoms-Wifi-Chipsets-wp.pdf [accessed 08/08/2017]
 
 [^Rambus-1]: "Evolving differential power analysis targets SIM cards," Rambus, 23 Sept. 2015; https://www.rambus.com/blogs/security-evolving-differential-power-analysis-targets-sim-cards/ [accessed 07/18/2017]
+
+[^D-Goodin-2]: D. Goodin, "Currency-mining Android malware is so aggressive it can physically harm phones", _Ars Technica_, 19 Dec. 2017; https://arstechnica.com/information-technology/2017/12/currency-mining-android-malware-is-so-aggressive-it-can-physically-harm-phones/ [accessed 02/02/2018]
