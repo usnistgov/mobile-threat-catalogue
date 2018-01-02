@@ -530,3 +530,5 @@
 [^Rambus-1]: "Evolving differential power analysis targets SIM cards," Rambus, 23 Sept. 2015; https://www.rambus.com/blogs/security-evolving-differential-power-analysis-targets-sim-cards/ [accessed 07/18/2017]
 
 [^D-Goodin-2]: D. Goodin, "Currency-mining Android malware is so aggressive it can physically harm phones", _Ars Technica_, 19 Dec. 2017; https://arstechnica.com/information-technology/2017/12/currency-mining-android-malware-is-so-aggressive-it-can-physically-harm-phones/ [accessed 02/02/2018]
+
+[^A-Chen-L-Goode-1]: A. Chen and L. Goode "The science behind exploding phone batteries", _The Verge_, 13 Oct. 2016; https://www.theverge.com/2016/9/8/12841342/why-do-phone-batteries-explode-samsung-galaxy-note-7 [accessed 02/02/2018]
