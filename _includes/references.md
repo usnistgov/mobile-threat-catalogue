@@ -534,3 +534,7 @@
 [^A-Chen-L-Goode-1]: A. Chen and L. Goode "The science behind exploding phone batteries", _The Verge_, 13 Oct. 2016; https://www.theverge.com/2016/9/8/12841342/why-do-phone-batteries-explode-samsung-galaxy-note-7 [accessed 02/02/2018]
 
 [^J-Horn-1]: J. Horn, "Reading privileged memory with a side-channel", Project Zero blog, Google, Jan. 3, 2018; https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html [accessed 1/10/2018]
+
+[^P-Kocher-et-al-1]: P. Kocher et al., _Spectre Attacks: Exploiting Speculative Execution_, white paper, 2017; https://spectreattack.com/spectre.pdf [accessed 02/02/2018]
+
+[^M-Lipp-et-al-1]: M. Lipp et al., _Meltdown_, white paper, 2017; https://meltdownattack.com/meltdown.pdf [accessed 02/02/2018]
