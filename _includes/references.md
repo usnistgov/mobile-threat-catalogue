@@ -538,3 +538,5 @@
 [^P-Kocher-et-al-1]: P. Kocher et al., _Spectre Attacks: Exploiting Speculative Execution_, white paper, 2017; https://spectreattack.com/spectre.pdf [accessed 02/02/2018]
 
 [^M-Lipp-et-al-1]: M. Lipp et al., _Meltdown_, white paper, 2017; https://meltdownattack.com/meltdown.pdf [accessed 02/02/2018]
+
+[^P-Frigo-1]: P. Frigo et al., _Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU_, white paper, 2018; https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf
