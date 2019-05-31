@@ -2,7 +2,7 @@
     layout: threat
     ThreatCategory: "Mobile Application Store"
     ID: ECO-11
-    Threat: "Change the links within the appstore pointing to where legitimate apps are stored to fake or malicious versions of the apps"
+    Threat: "Change the links within the app store pointing to where legitimate apps are stored to fake or malicious versions of the apps"
     ThreatOrigin:
     ExploitExample:
     CVEExample:
