@@ -18,7 +18,7 @@ layout: page
 {% endfor %}
 - __CVE Examples:__
 {% for CVEExample in page.CVEExample %}
-    {% assign CVEs = {{CVEExample}} | split: ' ' %}
+    {% assign CVEs = CVEExample | split: ' ' %}
     - 	[{{ CVEs[0] }}](https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}) {{ CVEs[1] }}
 {% endfor %}
 - __Possible Countermeasures:__
