@@ -20,8 +20,8 @@ layout: page
 - __CVE Examples:__
 <ul class="cve-examples">
 {% for CVEExample in page.CVEExample %}
-    {% assign CVEs = {{CVEExample}} | split: ' ' %}
-        <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}">{{ CVEs[0] }}</a> {{ CVEs[1] }}</li>
+	{% assign CVEs = CVEExample | split: " " %}
+    <li><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}">{{ CVEs[0] }}</a> {{ CVEs[1] }}</li>
 {% endfor %}
 </ul>
 - __Possible Countermeasures:__
