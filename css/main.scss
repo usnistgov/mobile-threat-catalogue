@@ -14,7 +14,6 @@
 .threat-list {
     li {
         margin: 1em;
-        font-size: 1.5em;
         list-style: none;
         padding-bottom: 1em;
         border-bottom: 1px solid #b4cfda;
@@ -31,6 +30,7 @@
 .logos {
     padding-top: 0.5rem;
 }
+
 #nist-logo, #nccoe-logo {
     height: 3rem;
     float: left;
@@ -53,6 +53,10 @@
             font-size: 0.75rem;
         }
     }
+}
+
+.sidebar h1 a:hover {
+    text-decoration: none;
 }
 
 nav label {
@@ -168,6 +172,7 @@ nav label {
         #toggle:checked ~ .expand {
           height: 35em;
         }
+
         #toggle:checked ~ label::before {
           content: "Hide";
         }
