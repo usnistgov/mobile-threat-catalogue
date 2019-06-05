@@ -15,6 +15,6 @@
             - Enterprise
         "Prior to authorizing general users to install an upgrade to an untested and potentially malicious software update, evaluate the behavior of the update on test devices to determine if it appears to be free of malicious or vulnerable behaviors.":
             - Enterprise
-        "To reduce the probability of devices being vulnerable to this type of exploit, consider deploying iOS devices. iOS updates are signed by Apple and the signed blob include the requesting device's unique ID and a nonce to ensure retrieved updates are intended for that specific device. The signature is verified using the chain-of-trust established at device boot to ensure the update was provided by Apple.":
+        "Use devices that require updates to be signed by the device vendor.":
             - Enterprise
 ---
