@@ -1,7 +1,7 @@
 ---
     layout: threat
-    ThreatCategory: Device Drivers
-    ID: STA-10
+    ThreatCategory: Supply Chain
+    ID: SPC-21
     Threat: "Low level backdoor inadvertently left by firmware developer"
     ThreatOrigin:
         - "This is what a root debug backdoor in a Linux kernel looks like [^207]"
