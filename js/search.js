@@ -38,7 +38,7 @@
         // a boost of 10 to indicate matches on this field are more important.
         var idx = lunr(function() {
             this.field('ThreatID', {
-                boost: 11
+                boost: 50
             });
             this.field('ThreatCategory');
             this.field('Threat', {
