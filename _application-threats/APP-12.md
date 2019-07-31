@@ -4,7 +4,7 @@
     ID: APP-12
     Threat: "Gathering device-identifying information for further attacks"
     ThreatDescription: "Persistent information that can be used to identify or characterize a specific mobile device in one or more contexts, such as IMEI, IMSI, MAC address, phone number, mobile OS, or installed apps, may be collected by a malicious or privacy-invasive app to facilitate future attacks. These values, particularly in combination, greatly increase potential for geo-physical or behavioral tracking, device fingerprinting, and impersonation attacks against the device or its user."
-    ThreatOrigin: "The Google Android Security Team\'s Classifications for Potentially Harmful Applications [^83]"
+    ThreatOrigin: "The Google Android Security Team's Classifications for Potentially Harmful Applications [^83]"
     ExploitExample:
         - "Slembunk: An Evolving Android Trojan Family [^84]"
         - "An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]"

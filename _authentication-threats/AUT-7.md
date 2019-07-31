@@ -6,7 +6,7 @@
     ThreatOrigin:
         - "Liveness Detection to Fight Biometric Spoofing [^132]"
         - "iPhone 5S Touch ID susceptible to fingerprint spoofs [^135]"
-    ExploitExample: "Why I hacked TouchID (again) and still think it\'s awesome [^133]"
+    ExploitExample: "Why I hacked TouchID (again) and still think it's awesome [^133]"
     CVEExample:
     PossibleCountermeasures:
         "To reduce the opportunity for an attacker to conduct a biometric spoofing attack, physically secure the device (e.g., lock it in a secure container) when leaving it directly unattended.":

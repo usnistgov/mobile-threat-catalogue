@@ -15,7 +15,7 @@
             - Mobile App Developer
         "Use each cryptographic key for a single purpose to limit the impact of key compromise.":
             - Mobile App Developer
-        "Strictly avoid the use of \'broken\', weak, or novel algorithms (those that have not undergone extensive evaluation by the cryptographic community at large) to protect long-term secrets.":
+        "Strictly avoid the use of 'broken', weak, or novel algorithms (those that have not undergone extensive evaluation by the cryptographic community at large) to protect long-term secrets.":
             - Mobile App Developer
         "Consider the use of cryptographic functions provided by the mobile operating system and where possible, leverage hardware-backed cryptographic and secure storage services.":
             - Mobile App Developer

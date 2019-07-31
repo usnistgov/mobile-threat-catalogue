@@ -7,7 +7,7 @@
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
-        "Use solutions such as Google Play Private Channel or Apple\'s Developer Enterprise program to securely distribute private applications.":
+        "Use solutions such as Google Play Private Channel or Apple's Developer Enterprise program to securely distribute private applications.":
             - Enterprise
         "To limit the distribution of sensitive enterprise apps outside of authorized mobile devices, use MAM solutions to push private apps directly onto authorized and enrolled devices.":
             - Enterprise

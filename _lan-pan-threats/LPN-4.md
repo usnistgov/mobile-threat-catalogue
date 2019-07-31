@@ -8,7 +8,7 @@
     ExploitExample:
         - "How Stores Use Your Phone's Wi-Fi to Track Your Shopping Habits [^23]"
         - "Attention, Shoppers: Store is Tracking Your Cell [^24]"
-        - "FTC Goes After Firm for Tracking Shoppers\' Cell Phones [^25]"
+        - "FTC Goes After Firm for Tracking Shoppers' Cell Phones [^25]"
         - "How Retailers Use Smartphones to Track Shoppers In the Store [^26]"
     CVEExample:
     PossibleCountermeasures:

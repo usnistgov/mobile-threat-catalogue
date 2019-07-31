@@ -2,7 +2,7 @@
     layout: threat
     ThreatCategory: Mobile Operating System
     ID: STA-6
-    Threat: "Installing potentially malicious apps via USB, either unintentionally by the device user, or by an infected computer or charging station without the user\'s knowledge."
+    Threat: "Installing potentially malicious apps via USB, either unintentionally by the device user, or by an infected computer or charging station without the user's knowledge."
     ThreatOrigin:
         - "Mobile Iron Q4 Mobile Security and Risk Review [^195]"
         - "Government Mobile and Wireless Security Baseline [^204]"

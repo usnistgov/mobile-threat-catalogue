@@ -9,7 +9,7 @@
         - "iOS 10: Security Weakness Discovered, Backup Passwords Much Easier to Break [^O-Afonin-1]"
     CVEExample:
     PossibleCountermeasures:
-        "As knowledge of the authentication credentials for any associated account (e.g., iTunes, Google) may facilitate an attacker\'s ability to initiate, access, or decrypt device backups, follow best practices for management of device account passwords.":
+        "As knowledge of the authentication credentials for any associated account (e.g., iTunes, Google) may facilitate an attacker's ability to initiate, access, or decrypt device backups, follow best practices for management of device account passwords.":
             - Mobile Device User
         "To detect malware that may realize this threat against device backups to a trusted computer, ensure up-to-date anti-malware software is configured to regularly scan for malicious files and application behavior.":
             - Mobile Device User
@@ -20,7 +20,7 @@
             - Enterprise
         "To prevent this threat for enterprise data contained in backups of managed devices, deploy EMM/MDM/container solutions in combination with devices that successfully enforce policies to either encrypt all enterprise data, or block enterprise data from being included in device backups.":
             - Enterprise
-        "To prevent a device from being inadvertently backed up to an computer under an attacker\'s control, when charging the device, do not grant trust to an untrusted computer or charging station.":
+        "To prevent a device from being inadvertently backed up to an computer under an attacker's control, when charging the device, do not grant trust to an untrusted computer or charging station.":
             - Mobile Device User
         "To prevent an attacker from directly initiating an unauthorized device backup to a controlled computer, ensure a device unlock code has been configured for the device and that the device is left in a locked state when being left unattended.":
             - Mobile Device User

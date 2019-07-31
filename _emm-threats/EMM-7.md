@@ -11,7 +11,7 @@
             - Enterprise
         "Configure EMM/MDM solutions to audit administrative access and activity, particularly with respects to privacy-sensitive information.":
             - Enterprise
-        "Configure EMM/MDM solutions to collect and audit only the minimal set of data necessary to meet the organization\'s broader mobile device security goals.":
+        "Configure EMM/MDM solutions to collect and audit only the minimal set of data necessary to meet the organization's broader mobile device security goals.":
             - Enterprise
         "Educate enterprise users about the privacy implications of enrolling their device into a EMM solution, such as clearly defining what data will be collected, and establishing procedures for resolving potential privacy violations.":
             - Enterprise

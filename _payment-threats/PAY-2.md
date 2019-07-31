@@ -3,13 +3,13 @@
     ThreatCategory: NFC-based
     ID: PAY-2
     Threat: "Credit or debit card enrolled into mobile payment without cardholder authorization"
-    ThreatOrigin: "The Weak Link in Apple Pay\'s Strong Chain is Bank Verification. Who\'s to Blame? [^14]"
+    ThreatOrigin: "The Weak Link in Apple Pay's Strong Chain is Bank Verification. Who's to Blame? [^14]"
     ExploitExample:
     CVEExample:
     PossibleCountermeasures:
         "To reduce the time to detection for unauthorized enrollment in mobile payment services, use credit monitoring services to monitor credit card accounts for unauthorized changes.":
             - Mobile Device User
-        "To prevent an attacker from bypassing holder-to-bank authentication to achieve card enrollment, configure payment services to use multi-factor authentication to enroll the user\'s card into a mobile payment service.":
+        "To prevent an attacker from bypassing holder-to-bank authentication to achieve card enrollment, configure payment services to use multi-factor authentication to enroll the user's card into a mobile payment service.":
             - Mobile Device User
         "As one method of enrollment into Apple Pay requires the attacker to provide the CVV, use strong physical security mechanisms to prevent unauthorized disclosure of the CVV. See iOS Security: iOS 9.3 and Later [^54]":
             - Mobile Device User

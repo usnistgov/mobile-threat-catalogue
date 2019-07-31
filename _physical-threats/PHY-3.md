@@ -4,7 +4,7 @@
     ID: PHY-3
     Threat: "Unauthorized access to device data resulting from poor lifecycle management."
     ThreatOrigin: "BYOD & Mobile Security [^146]"
-    ExploitExample: "Who\'s Got Your Old Phone\'s Data? [^233]"
+    ExploitExample: "Who's Got Your Old Phone's Data? [^233]"
     CVEExample:
     PossibleCountermeasures:
         "Use EMM or MDM solutions in combination with devices that successfully enforce data encryption and device lock policies (unlock code set, unlock code strength requirements, auto-locking enabled, and auto-wipe enabled) such that the recovery of data from an improperly retired device becomes highly improbable.":
