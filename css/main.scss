@@ -63,6 +63,18 @@ nav label {
     color: white;
 }
 
+.paragraph {
+    padding-left: 2em;
+
+    li {
+        list-style-type: none;
+    }
+
+    .countermeasure {
+        padding-left: 4em;
+    }
+}
+
 .search {
     display: inline-block;
     margin: 1em 0;

@@ -1,0 +1,47 @@
+---
+layout: page
+---
+
+# {{page.Threat}}
+[Contribute]({{ site.baseurl }}/contributing.html)
+
+<p><b>Threat Category:</b> {{page.ThreatCategory}}</p>
+<p><b>ID:</b> {{page.ID}}</p>
+<p><b>Threat Description:</b> {{page.ThreatDescription}}</p>
+
+<p><b>Threat Origin</b></p>
+<div class="paragraph">
+{% for ThreatOrigin in page.ThreatOrigin %}
+    <p markdown="1">{{ ThreatOrigin }}</p>
+{% endfor %}
+</div>
+
+<p><b>Exploit Examples</b></p>
+<div class="paragraph">
+{% for ExploitExample in page.ExploitExample %}
+    <p markdown="1">{{ ExploitExample }}</p>
+{% endfor %}
+</div>
+
+<p><b>CVE Examples</b></p>
+<div class="paragraph">
+{% for CVEExample in page.CVEExample %}
+    {% assign CVEs = CVEExample | split: " " %}
+    <p markdown="1"><a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}">{{ CVEs[0] }}</a></p>
+{% endfor %}
+</div>
+
+<p><b>Possible Countermeasures</b></p>
+<div class="paragraph">
+    {% for PossibleCountermeasures in page.PossibleCountermeasures %}
+        <b>{{ PossibleCountermeasures[0] }}</b>
+        {% for PossibleCountermeasures in PossibleCountermeasures[1] %}
+            <p markdown="1" class="countermeasure">{{ PossibleCountermeasures }}</p>
+        {% endfor %}
+    {% endfor %}
+</div>
+
+{% include issues.html %}
+
+<p><b>References</b></p>
+{% include references.md %}
