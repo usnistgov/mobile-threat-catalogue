@@ -4,13 +4,29 @@ title: Statistics
 ---
 
 <h1>Threat Statistics</h1>
-<div class="stats left">
-    <h2>Total Threats</h2>
-    <p id="total"></p>
-</div>
-<div class="stats">
-    <h2>Category Breakdown</h2>
-    <div id="chartContainer"></div>
+<div class="stats-container">
+    <div class="stats left">
+        <h2>Total Threats: <span id="total"></span></h2>
+        <h2>Threats by Category</h2>
+        <p><b>Application:</b> {{ site.application-threats | size }}</p>
+        <p><b>Authentication:</b> {{ site.authentication-threats | size }}</p>
+        <p><b>Cellular:</b> {{ site.cellular-threats | size }}</p>
+        <p><b>Ecosystem:</b> {{ site.ecosystem-threats | size }}</p>
+        <p><b>EMM:</b> {{ site.emm-threats | size }}</p>
+        <p><b>GPS:</b> {{ site.gps-threats | size }}</p>
+        <p><b>LAN & PAN:</b> {{ site.lan-pan-threats | size }}</p>
+        <p><b>Payment:</b> {{ site.payment-threats | size }}</p>
+        <p><b>Physical Access:</b> {{ site.physical-threats | size }}</p>
+        <p><b>Privacy:</b> {{ site.privacy-threats | size }}</p>
+        <p><b>Stack:</b> {{ site.stack-threats | size }}</p>
+        <p><b>Supply Chain:</b> {{ site.supply-chain-threats | size }}</p>
+    </div>
+    <div class="stats">
+        <h2>Category Visualization</h2>
+        <div id="chart-wrap">
+            <div id="chartContainer"></div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -66,4 +82,4 @@ title: Statistics
         }
     }
 </script>
- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+ <script src="{{ site.baseurl }}/js/charts-loader.min.js"></script> 

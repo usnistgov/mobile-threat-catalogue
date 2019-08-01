@@ -11,6 +11,10 @@
     word-break: break-word;
 }
 
+.stats-container {
+    overflow: auto;
+}
+
 .stats {
     width: 25%;
     margin-bottom: 0.5em;
@@ -19,8 +23,8 @@
 }
 
 #chartContainer {
-    width: 500px;
-    height: 400px;
+    width: 700px;
+    height: 600px;
     margin: 0;
     padding: 0;
 }
@@ -160,10 +164,6 @@ nav label {
         margin: 0 auto;
         float: none;
     }
-    .stats {
-        width: 100%;
-        display: block;
-    }
 }
 
 @media screen and (max-width: 1180px) {
@@ -172,6 +172,16 @@ nav label {
     }
     ul.cve-examples {
         columns: 1;
+    }
+    .stats {
+        width: 100%;
+        display: block;
+    }
+    #chartContainer {
+        width: 100%;
+    }
+    .container {
+        max-width: 100%;
     }
 }
 
