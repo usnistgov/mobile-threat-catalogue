@@ -11,6 +11,24 @@
     word-break: break-word;
 }
 
+.stats {
+    width: 25%;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    text-align: left;
+}
+
+#chartContainer {
+    width: 500px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
 .threat-list {
     li {
         margin: 1em;
@@ -141,6 +159,10 @@ nav label {
     #nist-logo {
         margin: 0 auto;
         float: none;
+    }
+    .stats {
+        width: 100%;
+        display: block;
     }
 }
 

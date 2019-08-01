@@ -20,7 +20,10 @@
             <label class="menu-toggle" for="toggle">Menu</label>
 
         <nav class="sidebar-nav expand">
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
+            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> 
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/statistics.html#page">Statistics</a> 
+
+            {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
             for usage. {% endcomment %}
 
             <h4 class="sidebar-nav-item">Categories</h4>

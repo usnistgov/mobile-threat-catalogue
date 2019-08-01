@@ -1,0 +1,69 @@
+---
+layout: page
+title: Statistics
+---
+
+<h1>Threat Statistics</h1>
+<div class="stats left">
+    <h2>Total Threats</h2>
+    <p id="total"></p>
+</div>
+<div class="stats">
+    <h2>Category Breakdown</h2>
+    <div id="chartContainer"></div>
+</div>
+
+<script>
+    let app_threats = parseInt("{{ site.application-threats | size }}");
+    let auth_threats = parseInt("{{ site.authentication-threats | size }}");
+    let cell_threats = parseInt("{{ site.cellular-threats | size }}");
+    let eco_threats = parseInt("{{ site.ecosystem-threats | size }}");
+    let emm_threats = parseInt("{{ site.emm-threats | size }}");
+    let gps_threats = parseInt("{{ site.gps-threats | size }}");
+    let lan_pan_threats = parseInt("{{ site.lan-pan-threats | size }}");
+    let payment_threats = parseInt("{{ site.payment-threats | size }}");
+    let physical_threats = parseInt("{{ site.physical-threats | size }}");
+    let privacy_threats = parseInt("{{ site.privacy-threats | size }}");
+    let stack_threats = parseInt("{{ site.stack-threats | size }}");
+    let supply_chain_threats = parseInt("{{ site.supply-chain-threats | size }}");
+
+    let sum = app_threats + auth_threats + cell_threats + eco_threats + emm_threats + gps_threats + lan_pan_threats + payment_threats + physical_threats + privacy_threats + stack_threats + supply_chain_threats;
+
+    document.getElementById("total").innerHTML = sum;
+
+    window.onload = function() {
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Threat Category', 'Threat Count'],
+                ['Application', app_threats],
+                ['Authentication', auth_threats],
+                ['Cellular', cell_threats],
+                ['Ecosystem', eco_threats],
+                ['EMM', emm_threats],
+                ['GPS', gps_threats],
+                ['LAN & PAN', lan_pan_threats],
+                ['Payment', payment_threats],
+                ['Physical', physical_threats],
+                ['Privacy', privacy_threats],
+                ['Stack', stack_threats],
+                ['Supply Chain', supply_chain_threats]
+            ]);
+
+            var options = { 
+                chartArea: {
+                    width: '100%',
+                    height: '100%'
+                }
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('chartContainer'));
+            chart.draw(data, options);
+        }
+    }
+</script>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
