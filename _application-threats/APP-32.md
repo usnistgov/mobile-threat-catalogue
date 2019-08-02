@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors, including use of per-app/per-user VPN features, so that only enterprise-approved apps can traverse the VPN and access enterprise resources.
     Mobile Device User:
       - Use Android Verify Apps feature to identify potentially harmful.
+title: APP-32
 ---

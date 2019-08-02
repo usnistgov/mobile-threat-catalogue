@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - Remove an attached SD card when not in use.
     Enterprise:
       - Deploy MAM or containerization solutions that support policies that can restrict access to the SD card by untrusted apps.
+title: STA-40
 ---

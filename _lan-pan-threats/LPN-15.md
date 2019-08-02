@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To reduce opportunity for this attack, disable Bluetooth when that feature is not in use.
     Enterprise:
       - Use EMM/MDM solutions in combination with devices that successfully enforce a policy inhibit Just Works functionality or disable Bluetooth entirely, as appropriate.
+title: LPN-15
 ---

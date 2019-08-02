@@ -20,4 +20,5 @@ PossibleCountermeasures:
       - Use Android Verify Apps feature to identify potentially harmful apps.
     Mobile App Developer:
       - To avoid executing apps that process sensitve information while low-level malware is present on the device, perform device integrity checking within enterprise applications, such as use of Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies device integrity attestation API
+title: APP-27
 ---

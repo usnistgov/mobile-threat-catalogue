@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - To decrease the risk of persistent and unpatched vulnerabilities in isolated execution environments in deployed devices, consider acquiring mobile devices from vendors and carriers with a history of addressing and releasing security updates in a timely fashion.
     Original Equipment Manufacturer:
       - Use TEE OS that provide integrity protections over trustlets, such as verification of digital signatures on installed trustlets, such as Trusty OS. [^222]
+title: STA-11
 ---

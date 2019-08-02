@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - Design testing processes such that individuals responsible for testing do not know the destination of a tested component to prevent sabotage of a specific critical function, location, device, or organizational operation
       - Design testing processes that use at least two independent testers/processes/tools and compare test results for consistency
       - For mission-critical components, randomly test the same component multiple times using different testers/processes/tools and compare test results for consistency
+title: SPC-9
 ---

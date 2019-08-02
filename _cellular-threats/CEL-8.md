@@ -9,4 +9,5 @@ CVEExample:
 PossibleCountermeasures:
     Mobile Network Operator:
       - Detect, locate, and deactivate the device causing interference with the base station radio interface.
+title: CEL-8
 ---

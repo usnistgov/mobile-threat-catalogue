@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - Use EMM/MDM solutions in combination with other tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from devices that show indications of device compromise.
       - Prior to authorizing general users to install an upgrade to an untested and potentially malicious software update, evaluate the behavior of the update on test devices to determine if it appears to be free of malicious or vulnerable behaviors.
       - Use devices that require updates to be signed by the device vendor.
+title: STA-4
 ---

@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Enterprise:
       - To reduce the probability an attacker will successfully launch a brute-force attack against cloud-based cryptographic keys, periodically change authentication credentials, digital certificates, or any cryptographic secret used to derive keys that protect access to the account or data associated with it.
       - As the strength of cryptographic mechanisms generally increases relative to that of any passwords or cryptographic secrets used, prefer or enforce the use of stronger passwords (increasing length, complexity, and randomness).
+title: ECO-9
 ---

@@ -11,4 +11,5 @@ PossibleCountermeasures:
       - To limit opportunity for this threat, disable Bluetooth when that feature is not in use
       - To prevent this threat from being realized, operate Bluetooth on devices in a secure location away from windows and doors, to which an attacker is unlikely to have physical access.
       - To limit opporunity for this threat, protect devices with a case that blocks Bluetooth signals.
+title: LPN-8
 ---

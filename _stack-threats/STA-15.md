@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - Use EMM/MDM solutions or on-device agents that can potentially detect rooted or jail-broken devices and subsequently, successfully block access to enterprise resources.
     Mobile App Developer:
       - To mitigate the potential of accessing sensitive data or functionality on rooted or jail-broken devices, leverage device attestation APIs to determine the device is in a known-good state prior to executing sensitve actions.
+title: STA-15
 ---

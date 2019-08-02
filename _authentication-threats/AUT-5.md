@@ -22,4 +22,5 @@ PossibleCountermeasures:
       - To detect apps that may realize this threat, use app-vetting services to determine if any apps present in your mobile device deployment appear to use sensor data in an untrusted manner.
     Mobile OS Developer:
       - To increase the difficulty of visual or sensor-based inference attacks on entries by the on-screen keyboard, a randomized keyboard layout for PIN or password entry could be implemented as a feature of the mobile OS.
+title: AUT-5
 ---

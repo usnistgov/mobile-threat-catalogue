@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To prevent this attack, when pairing devices, observe physical security, such as pairing devices in a secure location outside of which, the ability of an attacker to intercept Bluetooth messages is remote.
     Mobile Device user:
       - Avoid the use of Bluetooth 2.0 or earlier devices, or those that only support Legacy Pairing.
+title: LPN-16
 ---

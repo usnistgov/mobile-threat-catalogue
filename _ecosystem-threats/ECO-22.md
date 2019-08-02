@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Educate end users to scrutinize the permissions requested by apps, particularly if an updated version requests significantly different permissions than previous ones.
     Mobile Device User:
       - To decrease the time to detection for malicious apps on Android devices, use Android Verify Apps feature.
+title: ECO-22
 ---

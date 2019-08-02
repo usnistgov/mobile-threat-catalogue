@@ -14,4 +14,5 @@ PossibleCountermeasures:
     Enterprise:
       - Restrict the use of older Bluetooth devices with a static or 4-digit PIN to very low-risk use cases.
       - To prevent unauthorized disclosure or modification to data transmitted over a compromised Bluetooth session, use Bluetooth applications that provide strong over-the-top encryption to data prior to transmission over the Bluetooth interface.
+title: LPN-11
 ---

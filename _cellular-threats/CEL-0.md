@@ -21,4 +21,5 @@ PossibleCountermeasures:
       - To prevent an attacker who intercepts traffic on the unencrypted channel between a mobile device and a base station, use a mobile VPN or another third-party over-the-top encryption solution to encrypt data prior to transmission over the air interface.
     Enterprise:
       - To prevent an attacker who intercepts traffic on the unencrypted channel between a mobile device and a base station, use a mobile VPN or another third-party over-the-top encryption solution to encrypt data prior to transmission over the air interface.
+title: CEL-0
 ---

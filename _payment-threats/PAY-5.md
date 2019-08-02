@@ -15,4 +15,5 @@ ThreatCategory: Application-based
 ThreatDescription: HCE payments do not directly leverage the security of storing cryptographic keys in the Secure Element, and therefore must securely manage cryptographic secrets and transaction details at the application level. Operating at a lower security baseline makes HCE-based payment apps attractive targets for financially-motivated attackers. The further-lowered security baseline of rooted or jail-broken mobile devices renders HCE-based apps highly vulnerable to compromise.
 ThreatOrigin: Secure Element Deployment & Host Card Emulation v1.0 [^250]
 layout: threat
+title: PAY-5
 ---

@@ -11,4 +11,5 @@ CVEExample:
 PossibleCountermeasures:
     Original Equipment Manufacturer:
       - Implementation of a baseband firewall.
+title: STA-18
 ---

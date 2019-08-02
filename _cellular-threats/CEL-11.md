@@ -11,4 +11,5 @@ PossibleCountermeasures:
       - To increase detection of compromised devices, use small cells implemented with secure boot technologies.
     Mobile Network Operator:
       - To increase detection of compromised devices, use small cells implemented with secure boot technologies.
+title: CEL-11
 ---

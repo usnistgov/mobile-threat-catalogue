@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - To reduce the number of potentially vulnerable applications running on the device, disable or uninstall any NFC apps that are no longer in use.
     Enterprise:
       - To prevent an attacker from launching a successful NFC relay attack, use mobile devices and NFC apps that require user authorization of the transaction prior to fulfilling requests communicated over NFC.
+title: LPN-12
 ---

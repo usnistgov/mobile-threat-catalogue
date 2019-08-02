@@ -15,4 +15,5 @@ PossibleCountermeasures:
       - Employ application vetting processes on prospective EMM/MDM solutions to reduce the risk attackers can gain unauthorized access to administrative functions.
       - To prevent an attacker with unauthorized administrative access from activating sensitive features, such as remote full-wipe of devices, configure EMM solutions to with workflows that require authorization by multiple administrators prior to executing such actions.
       - To limit the functions available to an attacker with unauthorized administrative access, divide administrative responsibilities across distinct administrator roles or accounts.
+title: EMM-2
 ---

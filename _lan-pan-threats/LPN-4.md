@@ -19,4 +19,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To reduce traceable signals from a mobile device, place it airplane mode when wireless communication is not in use. In this mode, most devices will disconnect from any current Wi-Fi network, and not attempt to join any Wi-Fi networks until reenabled.
       - To minimize traceable signals from a mobile device, power it off when not in use.
+title: LPN-4
 ---

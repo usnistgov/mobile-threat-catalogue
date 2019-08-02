@@ -7,4 +7,5 @@ ThreatOrigin: A Silent SMS Denial of Service (DoS) Attack [^185]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}
+title: CEL-21
 ---

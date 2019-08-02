@@ -9,4 +9,5 @@ CVEExample:
 PossibleCountermeasures:
     Mobile Network Operator:
       - Network level air interface encryption for user plane traffic.
+title: CEL-24
 ---

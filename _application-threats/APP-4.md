@@ -21,4 +21,5 @@ PossibleCountermeasures:
       - Use MAM solutions to detect vulnerable apps and prevent access to enterprise resources while the app is installed.
       - Use MAM solutions to forcefully disable vulnerable apps until a patch is available and installed.
       - Use MAM solutions to temporarily revoke access to sensitive device sensors or OS-provided services.
+title: APP-4
 ---

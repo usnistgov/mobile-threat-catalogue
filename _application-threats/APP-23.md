@@ -17,4 +17,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Use Android Verify Apps feature to identify apps that may abuse Administrator privileges.
       - Consider the use of devices that support Android 7.0 and later and ensuring a PIN is set. Starting in 7.0, device administrator apps can no longer change the device PIN/password when one is already set, as described in https://developer.android.com/preview/behavior-changes.html and at 44:20 of https://www.youtube.com/watch?v=XZzLjllizYs
+title: APP-23
 ---

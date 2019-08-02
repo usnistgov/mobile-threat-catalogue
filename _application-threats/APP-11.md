@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - When input should match one of a set of known and comparable options, use whitelisting to ensure the input is safe before applying it to security logic.
       - When whitelisting is not possible, use vetted data sanitization libraries to verify the input appears syntactically safe prior to applying it to security logic.
       - Always use fail-safe security logic in apps; if input cannot be verified to be safe (versus not identified as unsafe), reject the input and do not perform the security action.
+title: APP-11
 ---

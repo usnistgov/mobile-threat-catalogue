@@ -7,4 +7,5 @@ ThreatOrigin: A Review of Smartcard Security Issues [^212]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}
+title: STA-37
 ---

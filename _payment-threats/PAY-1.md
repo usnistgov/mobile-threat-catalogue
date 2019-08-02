@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - To reduce the time to detection for compromised mobile payment information, perform regular review of statements for accounts for unauthorized transactions.
     Point-of-Sale Administrators:
       - Follow security best practices regarding the protection of point-of-sale systems. See __Malware Targeting Point of Sale Systems__ [^42]
+title: PAY-1
 ---

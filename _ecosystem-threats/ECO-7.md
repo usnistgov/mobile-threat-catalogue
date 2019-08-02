@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To reduce the risk of malicious behaviors or exploitation of vulnerable apps, deploy MDM or MAM solutions that successfully enforce policies restricting access to enterprise resources for devices running untrusted and unsupported versions of apps.
     Mobile Device User:
       - To detect malicious or vulnerable apps installed on Android devices, use the Android Verify Apps feature.
+title: ECO-7
 ---

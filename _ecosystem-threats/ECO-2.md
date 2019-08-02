@@ -15,4 +15,5 @@ PossibleCountermeasures:
       - To prevent sensitive app data from being backed-up to an untrusted cloud service, deploy MAM or MDM solutions in combination with devices that successfully enforce a policy that prohibits app data from being synchronized or backed-up to any cloud services.
     Mobile Device User:
       - To prevent an attacker from gaining access to app data backups via the cloud service account, enable two-factor or other strong authentication mechanisms.
+title: ECO-2
 ---

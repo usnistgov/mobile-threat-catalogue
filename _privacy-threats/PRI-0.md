@@ -19,4 +19,5 @@ PossibleCountermeasures:
       - To prevent apps from generating inaudible signals to relay ultrasonic beacons to other devices without user knowledge or consent, expand existing device resource usage and/or permission models to include controls that prevent apps from abusing the ability listen to or generate audio at ultrasonic frequencies.
     OEM Manufacturer:
       - To prevent apps from generating inaudible signals to relay ultrasonic beacons to other devices without user knowledge or consent, expand existing device resource usage and/or permission models to include controls that prevent apps from abusing the ability listen to or generate audio at ultrasonic frequencies.
+title: PRI-0
 ---

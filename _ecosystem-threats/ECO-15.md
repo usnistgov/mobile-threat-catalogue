@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - To prevent the unauthorized disclosure of secrets within private enterprise apps, do not hardcode secrets, such as cryptographic keys, directly into private enterprise applications.
     Application Developer:
       - To prevent unauthorized access to private enterprise apps from further granting unauthorized access to sensitive data, require the user of a mobile app to pass strong authentication mechanisms prior to granting access to sensitive data.
+title: ECO-15
 ---

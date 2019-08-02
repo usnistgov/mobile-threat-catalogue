@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - To further reduce the potential impact of unauthorized access to account and device data, dissociate or anonymize the data provided to the EMM service as much as possible (e.g., map enterprise or personal identities to aliases provisioned within the EMM solution).
       - To reduce the time to detection of unauthorized access to EMM administrative accounts, configure the EMM solution to audit system access and administrative actions, and establish procedures to review recent activity for indications of unauthorized access.
       - To reduce the potential for an attacker to activate sensitive EMM functionality, such as remote wiping of enrolled devices, configure the EMM solution to require authorization by multiple administrators before such actions will execute.
+title: EMM-1
 ---

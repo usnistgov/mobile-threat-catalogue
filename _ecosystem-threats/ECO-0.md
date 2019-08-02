@@ -20,4 +20,5 @@ PossibleCountermeasures:
       - To detect malware that may realize this threat against device backups to a trusted computer, ensure up-to-date anti-malware software is configured to regularly scan for malicious files and application behavior.
       - To prevent this threat for all backups of managed devices, deploy EMM/MDM solutions in combination with devices that successfully enforce policies to either encrypt all device backups or to block device backups entirely, as appropriate.
       - To prevent this threat for enterprise data contained in backups of managed devices, deploy EMM/MDM/container solutions in combination with devices that successfully enforce policies to either encrypt all enterprise data, or block enterprise data from being included in device backups.
+title: ECO-0
 ---

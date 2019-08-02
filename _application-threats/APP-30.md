@@ -15,4 +15,5 @@ PossibleCountermeasures:
       - Use app-vetting tools or services to identify apps that appear to exfiltrate data.
     Mobile Device User:
       - Use Android Verify Apps feature to identify apps that may abuse communication channels to exfiltrate data.
+title: APP-30
 ---

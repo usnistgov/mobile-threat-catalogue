@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To mitigate interference to on-premises communications, detect, locate, and deactivate the device causing interference to Wi-Fi communications.
     Mobile Device User:
       - Contingency planning for use of another communication band.
+title: LPN-5
 ---

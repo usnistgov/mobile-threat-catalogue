@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Ensure baseband firmware prevents the use of insecure cellular encryption algorithms
     Mobile Network Operator:
       - Use of application layer encryption technologies
+title: CEL-3
 ---

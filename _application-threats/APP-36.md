@@ -22,4 +22,5 @@ PossibleCountermeasures:
       - To mitigate the potential for abuse or exploits by pre-installed apps, ensure that devices have the latest security updates installed.
       - Deploy MAM solutions to identify and block access to devices running high-risk pre-installed apps.
       - Deploy MAM or container solutions to provide additional separation between trusted and untrusted pre-installed apps to mitigate the potential for pre-installed apps to violate the privacy of user actions performed within trusted apps.
+title: APP-36
 ---

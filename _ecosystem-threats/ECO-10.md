@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - Use features such as Apple iOS Managed Apps, Android for Work, or Samsung KNOX Workspace that provide some level of separation between personal apps and enterprise apps to mitigate the impact of malicious behaviors.
       - Use app-vetting tools or services to determine if enterprise applications appear free of malicious behaviors before authorizing their installation.
       - Host vetted apps within a locally controlled repository of an application store, such as F-Droid [^158]
+title: ECO-10
 ---

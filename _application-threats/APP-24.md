@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - Use Android Verify Apps feature to identify apps that may abuse location services.
       - When apps that require location services (e.g., map services) are not in use, use OS-provided settings to globally disable access to location services
       - When using untrusted apps that require locations services (e.g., map services), use OS-provided settings to revoke access to location services once the app is no longer in use.
+title: APP-24
 ---

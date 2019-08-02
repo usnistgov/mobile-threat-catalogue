@@ -29,4 +29,5 @@ PossibleCountermeasures:
       - To protect open source library used by a product from modification, then if possible, package a verified authentic instance of the open source library and apply cryptographic protections (e.g., strong hashing, digital signatures) to the product to allow customers to verify the authenticity and integrity of all packaged components.
       - To prevent distributing a software package that contains maliciously modified open source libraries, perform sufficient functional testing of the complete system to verify that it exhibits correct and consistent behavior.
       - To prevent executing an application that relies upon a maliciously modified version of an open source library that is loaded dynamically at runtime (e.g., Dynamic Linked Library), perform verification of the library file prior to execution. This may involve validating hashes, verifying digital signatures, or other integrity protection or detection mechanisms on the host system.
+title: SPC-0
 ---

@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - In anticipation of a potential denial-of-service attack on the air interface of devices, establish contingency plans for continued operations, such as use of alternative communication channels.
     Baseband Developer:
       - Ensure that the behavior of a mobile device's chipset in these conditions is understood before relying on cellular communication in critical situations.
+title: CEL-5
 ---

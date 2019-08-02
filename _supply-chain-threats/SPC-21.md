@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - To reduce the opportunity for attacks against various firmware components, disable device features when not in use (e.g., Bluetooth, Wi-Fi, NFC), and globally revoke access to unused device sensors or OS-provided functions (e.g., camera, microphone, location services).
     Enterprise:
       - To reduce the opportunity for an attacker to exploit a patched vulnerability, ensure security updates are applied in a timely manner by configuring automated installation of or, at a minimum, automatic notification of the availability of security updates.
+title: SPC-21
 ---

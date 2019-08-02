@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To decrease the probability of connecting to a spoofed Wi-Fi network, configure devices to not automatically connect to unknown Wi-Fi networks, and to 'forget' public networks once they are no longer in use.
     Enterprise:
       - To greatly decrease the probability of this attack, only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption with a strong pre-shared key (for personal mode).
+title: LPN-3
 ---

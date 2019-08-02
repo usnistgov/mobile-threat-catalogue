@@ -7,4 +7,5 @@ ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}
+title: SPC-19
 ---

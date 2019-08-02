@@ -7,4 +7,5 @@ ThreatOrigin:
 ExploitExample: Researchers exploit cellular tech flaws to intercept phone calls [^168]
 CVEExample:
 PossibleCountermeasures: {}
+title: CEL-18
 ---

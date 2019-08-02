@@ -11,4 +11,5 @@ PossibleCountermeasures:
       - When creating files, named sockets, or similar resources statically-defined (i.e., predictable by an attacker), verify that the resource does not already exist. If it does, cease execution and exit the app with an error that prompts the user to take action.
     Enterprise:
       - Use app-vetting tools or services to identify malicious apps that exploit cross-application resource attacks.
+title: AUT-11
 ---

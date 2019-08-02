@@ -9,4 +9,5 @@ CVEExample:
 PossibleCountermeasures:
     Enterprise:
       - To increase the difficulty of such an attack, consider EMM/MDM solutions that support enrollment procedures that require users to expressly opt-in to management of their device, such as by issuing one-time enrollment tokens using an out-of-band channel, or requiring enrollment be performed in person
+title: EMM-6
 ---

@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To enable recovery of personal data wiped from a managed device, provide a mechanism for users to preserve personal data, such as encrypted back-ups to the native cloud service (e.g. iCloud Backup & Storage).
       - To limit the potential loss of personal data, encourage users of enrolled devices to use authorized mechanisms for the synchronization or transfer of personal data to external systems not subject to remote wipe by enterprise EMM solutions.
       - Educate users regarding the risks to any personal data generated on an enrolled mobile device.
+title: EMM-8
 ---

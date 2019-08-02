@@ -19,4 +19,5 @@ PossibleCountermeasures:
       - To reduce the impact of a successful MiTM attack on your application, consider the use of public key cryptography to protect sensitive data destined for back-end servers prior to transmission off the device.
     Enterprise:
       - App vetting tools/services or pen testing to detect MiTM vulnerabilities in mobile apps.
+title: APP-1
 ---

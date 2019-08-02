@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - Consider the use of container solutions, such as Android for Work, that can prevent launching of managed apps when the device user is not authenticated to the work-centric container, thus minimizing the risk those apps present to the user outside of a work context.
     Mobile Device User:
       - For device users with concerns about the security implications of a mandatory enterprise app during personal use of the device, restrict its permissions or if possible, temporarily disable it when operating the device in a personal context.
+title: EMM-10
 ---

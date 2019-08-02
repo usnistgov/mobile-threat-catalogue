@@ -19,4 +19,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - 'Ensure Android devices are running a recent version of Android, as starting in Android 4.2, user confirmation is needed before apps can send premium SMSs (source: https://source.android.com/security/enhancements/enhancements42.html).'
       - Use Android Verify Apps feature to apps that attempt to abuse SMS functionality.
+title: APP-16
 ---

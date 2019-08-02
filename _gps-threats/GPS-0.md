@@ -11,4 +11,5 @@ PossibleCountermeasures:
       - To prevent loss of GPS signals from preventing location services from operating, select devices that attempts to a variety of location input sources, such as signal strength from cellular towers, Wi-Fi hotspots, and Bluetooth beacons. See __Ten Ways Your Smartphone Knows Where You Are__ [^40]
     Enterprise:
       - To prevent loss of GPS signals from preventing location services from operating, select devices that attempts to a variety of location input sources, such as signal strength from cellular towers, Wi-Fi hotspots, and Bluetooth beacons. See __Ten Ways Your Smartphone Knows Where You Are__ [^40]
+title: GPS-0
 ---

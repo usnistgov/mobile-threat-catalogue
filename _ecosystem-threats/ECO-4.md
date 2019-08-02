@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - To detect unauthorized activity, including remote installation of apps, use features from Google or others to periodically analyze account activity for suspicious logins.
       - Deploy a combination of MDM, MAM, or container solutions and mobile devices that successfully enforce policies (e.g., whitelisting) that prevent unauthorized applications from being installed to managed areas of the device.
       - To reduce the time to detection of malicious applications, use app threat intelligence services to identify malicious apps installed on devices.
+title: ECO-4
 ---

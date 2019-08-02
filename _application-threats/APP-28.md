@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Use app-vetting tools or services to identify apps that maliciously encrypt user data.
     Mobile Device User:
       - Use Android Verify Apps feature to identify potentially harmful apps.
+title: APP-28
 ---

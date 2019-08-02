@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Avoid the use of apps that may implement their own cryptographic functions without validation that appropriate mitigations against side-channel attacks have been implemented.
       - Educate users to be mindful of their physical surroundings when using mobile devices, and to report the appearance of unexpected hardware components to IT security immediately.
       - Educate users to not directly connect their mobile devices to untrusted systems or docking stations, and to maintain strong physical security for innocent components such as USB charging cables
+title: PHY-5
 ---

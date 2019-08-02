@@ -17,4 +17,5 @@ PossibleCountermeasures:
     Enterprise:
       - To prevent employees from accessing enterprise resources from devices with a weak device unlock code, deploy MDM or containerization solutions that enable device configuration policies that require the unlock code for enrolled devices to meet minimum length and complexity requirements prior to granting access to enterprise resources.
       - To increase the time required to perform brute-force attacks, use mobile devices that incur incrementally increasing delays when the wrong unlock code is entered.
+title: AUT-2
 ---

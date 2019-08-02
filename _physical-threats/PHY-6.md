@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To reduce opportunity for this attack, when leaving the device directly unattended, use strong physical security controls (e.g., lock it into a secure container).
     Enterprise:
       - To increase the complexity of this attack, use devices that implement an integrated SIM or eSIM, which cannot be readily replaced with a malicious component.
+title: PHY-6
 ---

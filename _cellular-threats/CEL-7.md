@@ -15,4 +15,5 @@ PossibleCountermeasures:
       - Detect, locate and deactivate the device interfering with the radio interface.
     Mobile Network Operator:
       - Detect, locate and deactivate the device interfering with the radio interface.
+title: CEL-7
 ---

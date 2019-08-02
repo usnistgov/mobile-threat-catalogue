@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Choose devices that will not execute USSD codes without user confirmation.
     Enterprise:
       - Choose devices that will not execute USSD codes without user confirmation.
+title: CEL-25
 ---

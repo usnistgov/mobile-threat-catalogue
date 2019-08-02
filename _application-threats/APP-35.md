@@ -18,4 +18,5 @@ PossibleCountermeasures:
       - Use app-vetting tools or services to identify applications that appear to abuse access to the device clipboard or similar OS-provided services to obtain sensitive information.
     Mobile Device User:
       - Use Android Verify Apps feature to identify potentially harmful apps.
+title: APP-35
 ---

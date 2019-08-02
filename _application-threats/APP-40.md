@@ -20,4 +20,5 @@ PossibleCountermeasures:
       - To prevent users of managed Android devices from installing applications from unknown sources, deploy EMM solutions that effectively disable the Unknown Sources feature.
       - To detect malicious applications, use on-device agents that automatically perform signature- and/or behavior-based malware detection.
       - To prevent granting access to compromised devices, use tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from devices that fail attestation or integrity checks.
+title: APP-40
 ---

@@ -38,4 +38,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To help reduce the opportunity for attack following availability of patches, configure automatic installation of, or, at a minimum, automatic notification of the availability of mobile OS security updates.
       - Disable components with known vulnerabilities (e.g. disable MMS, Bluetooth, etc.) until the vulnerability is patched to prevent exploitation.
+title: STA-0
 ---

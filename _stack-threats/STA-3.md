@@ -28,4 +28,5 @@ PossibleCountermeasures:
       - To minimize the risk of access from compromised devices, use EMM/MDM solutions in combination with devices that successfully enforce policies to block access to enterprise resources for vulnerable devices.
     Mobile Device User:
       - To reduce the probability of this variety of attack, configure devices to automatically install or, at a minimum, notify users of the availability of security updates for the mobile OS, drivers, and installed apps.
+title: STA-3
 ---

@@ -9,4 +9,5 @@ CVEExample:
 PossibleCountermeasures:
     Mobile Network Operator:
       - Implement industry standard physical security mitigations
+title: CEL-31
 ---

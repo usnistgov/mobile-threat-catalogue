@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Enterprise:
       - Prohibit users from installing apps from unofficial and authorized app stores.
       - Use app-vetting tools or services to determine that enterprise apps appear free from malicious behaviors or vulnerabilities prior to authorizing their use.
+title: ECO-3
 ---

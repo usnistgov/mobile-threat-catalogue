@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - As interception of pairing messages facilitates this attack, when pairing devices, observe physical security, such as pairing devices in a secure location outside of which, the ability of an attacker to intercept Bluetooth messages is remote.
     Enterprise:
       - To increase the complexity of this attack, consider the use of devices that support Bluetooth 4.0 and later. Bluetooth 4.0 allows for the address used by a device to change frequently, preventing persistent association of a given address with any user. See __Security, Bluetooth Smart (Low Energy)__ [^38]
+title: LPN-7
 ---
