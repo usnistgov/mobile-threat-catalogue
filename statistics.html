@@ -5,21 +5,9 @@ title: Statistics
 
 <h1>Threat Statistics</h1>
 <div class="stats-container">
-    <div class="stats left">
+    <div class="stats left" id="threat-listing">
         <h2>Total Threats: <span id="total"></span></h2>
         <h2>Threats by Category</h2>
-        <p><b>Application:</b> {{ site.application-threats | size }}</p>
-        <p><b>Authentication:</b> {{ site.authentication-threats | size }}</p>
-        <p><b>Cellular:</b> {{ site.cellular-threats | size }}</p>
-        <p><b>Ecosystem:</b> {{ site.ecosystem-threats | size }}</p>
-        <p><b>EMM:</b> {{ site.emm-threats | size }}</p>
-        <p><b>GPS:</b> {{ site.gps-threats | size }}</p>
-        <p><b>LAN & PAN:</b> {{ site.lan-pan-threats | size }}</p>
-        <p><b>Payment:</b> {{ site.payment-threats | size }}</p>
-        <p><b>Physical Access:</b> {{ site.physical-threats | size }}</p>
-        <p><b>Privacy:</b> {{ site.privacy-threats | size }}</p>
-        <p><b>Stack:</b> {{ site.stack-threats | size }}</p>
-        <p><b>Supply Chain:</b> {{ site.supply-chain-threats | size }}</p>
     </div>
     <div class="stats">
         <h2>Category Visualization</h2>
@@ -47,6 +35,36 @@ title: Statistics
 
     document.getElementById("total").innerHTML = sum;
 
+    let dataArray = [['Threat Category', 'Threat Count'],
+                    ['Application', app_threats],
+                    ['Authentication', auth_threats],
+                    ['Cellular', cell_threats],
+                    ['Ecosystem', eco_threats],
+                    ['EMM', emm_threats],
+                    ['GPS', gps_threats],
+                    ['LAN & PAN', lan_pan_threats],
+                    ['Payment', payment_threats],
+                    ['Physical', physical_threats],
+                    ['Privacy', privacy_threats],
+                    ['Stack', stack_threats],
+                    ['Supply Chain', supply_chain_threats]];
+
+    dataArray.sort(function (a, b) {
+        if (a[1] == b[1])
+            return 0;
+
+        return a[1] < b[1] ? 1 : -1;
+    })
+
+    dataArray.forEach(function (e, i) {
+        if (i == 0)
+            return;
+
+        let n = document.createElement("p");
+        n.innerHTML = "<b>" + e[0] + ":</b> " + e[1];
+        document.getElementById("threat-listing").appendChild(n);
+    });
+
     window.onload = function() {
         // Load google charts
         google.charts.load('current', {'packages':['corechart']});
@@ -54,21 +72,7 @@ title: Statistics
 
         // Draw the chart and set the chart values
         function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-                ['Threat Category', 'Threat Count'],
-                ['Application', app_threats],
-                ['Authentication', auth_threats],
-                ['Cellular', cell_threats],
-                ['Ecosystem', eco_threats],
-                ['EMM', emm_threats],
-                ['GPS', gps_threats],
-                ['LAN & PAN', lan_pan_threats],
-                ['Payment', payment_threats],
-                ['Physical', physical_threats],
-                ['Privacy', privacy_threats],
-                ['Stack', stack_threats],
-                ['Supply Chain', supply_chain_threats]
-            ]);
+            var data = google.visualization.arrayToDataTable(dataArray);
 
             var options = { 
                 chartArea: {
@@ -78,6 +82,7 @@ title: Statistics
             };
 
             var chart = new google.visualization.PieChart(document.getElementById('chartContainer'));
+            data.sort([{ column: 1, desc: true }])
             chart.draw(data, options);
         }
     }
