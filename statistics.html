@@ -9,7 +9,7 @@ title: Statistics
         <h2>Total Threats: <span id="total"></span></h2>
         <h2>Threats by Category</h2>
     </div>
-    <div class="stats">
+    <div class="stats chart-outer">
         <h2>Category Visualization</h2>
         <div id="chart-wrap">
             <div id="chartContainer"></div>
@@ -35,19 +35,21 @@ title: Statistics
 
     document.getElementById("total").innerHTML = sum;
 
-    let dataArray = [['Threat Category', 'Threat Count'],
-                    ['Application', app_threats],
-                    ['Authentication', auth_threats],
-                    ['Cellular', cell_threats],
-                    ['Ecosystem', eco_threats],
-                    ['EMM', emm_threats],
-                    ['GPS', gps_threats],
-                    ['LAN & PAN', lan_pan_threats],
-                    ['Payment', payment_threats],
-                    ['Physical', physical_threats],
-                    ['Privacy', privacy_threats],
-                    ['Stack', stack_threats],
-                    ['Supply Chain', supply_chain_threats]];
+    let dataArray = [
+        ['Threat Category', 'Threat Count'],
+        ['Application', app_threats],
+        ['Authentication', auth_threats],
+        ['Cellular', cell_threats],
+        ['Ecosystem', eco_threats],
+        ['EMM', emm_threats],
+        ['GPS', gps_threats],
+        ['LAN & PAN', lan_pan_threats],
+        ['Payment', payment_threats],
+        ['Physical', physical_threats],
+        ['Privacy', privacy_threats],
+        ['Stack', stack_threats],
+        ['Supply Chain', supply_chain_threats]
+    ];
 
     dataArray.sort(function (a, b) {
         if (a[1] == b[1])
@@ -65,26 +67,31 @@ title: Statistics
         document.getElementById("threat-listing").appendChild(n);
     });
 
+    // Draw the chart and set the chart values
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(dataArray);
+
+        var options = { 
+            chartArea: {
+                width: '100%',
+                top: 0
+            },
+            is3D: true
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chartContainer'));
+        data.sort([{ column: 1, desc: true }])
+        chart.draw(data, options);
+    }
+
     window.onload = function() {
         // Load google charts
         google.charts.load('current', {'packages':['corechart']});
         google.charts.setOnLoadCallback(drawChart);
 
-        // Draw the chart and set the chart values
-        function drawChart() {
-            var data = google.visualization.arrayToDataTable(dataArray);
-
-            var options = { 
-                chartArea: {
-                    width: '100%',
-                    height: '100%'
-                }
-            };
-
-            var chart = new google.visualization.PieChart(document.getElementById('chartContainer'));
-            data.sort([{ column: 1, desc: true }])
-            chart.draw(data, options);
-        }
+        drawChart();
     }
+
+    window.onresize = function() { drawChart(); }
 </script>
  <script src="{{ site.baseurl }}/js/charts-loader.min.js"></script> 
