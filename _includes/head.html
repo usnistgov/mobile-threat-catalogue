@@ -16,3 +16,17 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
+<header class="nist-header">
+  <h1>
+    <a href="{{ site.baseurl }}/">
+        {{ site.title }}
+    </a>
+  </h1>
+  <form class="search" action="{{ site.baseurl }}/search.html" method="get">
+      <input class="text-field" type="text" id="search-box" name="query" placeholder="Search">
+      <button type="submit" class="button">
+          <img src="{{ site.baseurl }}/img/search.svg" alt="Search" />
+      </button>
+  </form>
+</header>
+<div class="orange-bar"></div>

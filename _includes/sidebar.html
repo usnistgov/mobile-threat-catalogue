@@ -1,23 +1,8 @@
 <div class="sidebar">
     <div class="container">
-        <div class="sidebar-about">
-            <h1>
-                <a href="{{ site.baseurl }}/">
-                    {{ site.title }}
-                </a>
-            </h1>
-            <!--  <p class="lead">{{ site.description }}</p> -->
-        </div>
-
-        <form class="search" action="{{ site.baseurl }}/search.html" method="get">
-            <input class="text-field" type="text" id="search-box" name="query" placeholder="Search">
-            <button type="submit" class="button">
-                <img src="{{ site.baseurl }}/img/search.svg" alt="Search" />
-            </button>
-        </form>
-
-            <input class="menu-toggle "id="toggle" type="checkbox">
-            <label class="menu-toggle" for="toggle">Menu</label>
+        <a target="_blank" href="https://nist.gov"><img id="header-nist-logo" src="{{ site.baseurl }}/img/nist-logo.svg" alt="NIST Logo"></a>
+        <input class="menu-toggle "id="toggle" type="checkbox">
+        <label class="menu-toggle" for="toggle">Menu</label>
 
         <nav class="sidebar-nav expand">
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> 
