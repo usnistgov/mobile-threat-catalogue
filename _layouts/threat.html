@@ -34,10 +34,12 @@ layout: page
 <p><b>CVE Examples</b></p>
 <div class="paragraph">
 {% if page.CVEExample %}
+<ul class="cve-list">
 {% for CVEExample in page.CVEExample %}
     {% assign CVEs = CVEExample | split: " " %}
-    <p markdown="1"><a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}">{{ CVEs[0] }}</a></p>
+    <li><a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ CVEs[0] }}">{{ CVEs[0] }}</a></li>
 {% endfor %}
+</ul>
 {% else %}
     <p><i>Not Applicable</i></p>
 {% endif %}

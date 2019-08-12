@@ -191,6 +191,17 @@ nav label {
     transition: max-height 0.2s ease-out;
 }
 
+.cve-list {
+    column-count: 3;
+    width: 50%;
+}
+
+@media screen and (max-width: 1255px) {
+    .cve-list {
+        width: 75%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .nist-footer {
         padding-left: 0;
@@ -257,6 +268,11 @@ nav label {
     .nist-header h1 {
         font-size: 2rem;
     }
+
+    .cve-list {
+        column-count: 2;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1180px) {
@@ -272,6 +288,9 @@ nav label {
     }
     .container {
         max-width: 100%;
+    }
+    .cve-list {
+        column-count: 2;
     }
 }
 
