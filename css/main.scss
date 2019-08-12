@@ -135,6 +135,12 @@ nav label {
     }
 }
 
+#nav-links {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
 @media screen and (max-width: 767px) {
     .nist-header {
         padding-left: 0;

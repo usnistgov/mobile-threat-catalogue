@@ -26,8 +26,8 @@
             {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
             for usage. {% endcomment %}
 
-            <h4 class="sidebar-nav-item">Categories</h4>
-            <ul>
+            <h4 class="sidebar-nav-item" onclick="toggleNav()" style="cursor: pointer;">Categories</h4>
+            <ul id="nav-links">
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/application.html#page">Application</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/authentication.html#page">Authentication</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/cellular.html#page">Cellular</a></li>
@@ -50,3 +50,4 @@
         </nav>
     </div>
 </div>
+<script src="{{ site.baseurl }}/js/nav.js"></script>
