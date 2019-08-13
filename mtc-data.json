@@ -6,9 +6,10 @@
         "ThreatID": "{{ document.ID }}",
         "ThreatCategory": "{{ document.ThreatCategory}}",
         "Threat": "{{ document.Threat }}",
-        "ThreatOrigin": "{{ document.ThreatOrigin | jsonify | smartify }}",
-        "ExploitExample": "{{ document.ExploitExample | jsonify | smartify }}",
-        "CVEExample": "{{ document.CVEExample | jsonify | smartify  }}",
-        "PossibleCountermeasures": "{{ document.PossibleCountermeasures | jsonify | smartify }}"
+        "ThreatOrigin": {% if document.ThreatOrigin %}{{ document.ThreatOrigin | jsonify }}{% else %}""{% endif %},
+        "ExploitExample": {% if document.ExploitExample %}{{ document.ExploitExample | jsonify }}{% else %}[]{% endif %},
+        "CVEExample": {% if document.CVEExample %}{{ document.CVEExample | jsonify  }}{% else %}[]{% endif %}, 
+        "PossibleCountermeasures": [{% for countermeasure in document.PossibleCountermeasures %}
+        {{ countermeasure | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]
     }{% unless forloop.last %},{% endunless %}
 {% endfor %}]
