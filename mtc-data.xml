@@ -15,8 +15,10 @@
         {% for CVEExample in document.CVEExample %}
         <CVEExamples>{{ CVEExample | xml_escape }}</CVEExamples>{% endfor %}
         {% for PossibleCountermeasure in document.PossibleCountermeasures %}
-        <PossibleCountermeasures>{{ PossibleCountermeasure[0] | xml_escape }}
-            <Actor>{{ PossibleCountermeasure[1] }}</Actor>
+        <PossibleCountermeasures>
+            <Actor>{{ PossibleCountermeasure[0] }}</Actor>
+            {% for countermeasure in PossibleCountermeasure[1] %}<Countermeasure>{{ countermeasure | xml_escape }}</Countermeasure>
+            {% endfor %}
         </PossibleCountermeasures>
         {% endfor %}
     </row>
