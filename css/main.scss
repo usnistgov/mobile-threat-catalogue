@@ -59,8 +59,10 @@
     height: 4rem;
     background-color: #4f8cbd;
     z-index: 2;
-    position: relative;
+    position: fixed;
     padding-left: 0.5rem;
+    top: 0;
+    left: 0;
 
     a {
         color: white;
@@ -78,7 +80,9 @@
     height: 0.5rem;
     background-color: #e79824;
     z-index: 2;
-    position: relative;
+    position: fixed;
+    left: 0;
+    top: 4rem;
 }
 
 .nist-footer {
