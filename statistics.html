@@ -12,11 +12,12 @@ title: Statistics
     <div class="stats chart-outer">
         <h2>Category Visualization</h2>
         <div id="chart-wrap">
-            <div id="chartContainer"></div>
+            <div id="chartContainer" style="cursor: pointer;"></div>
         </div>
     </div>
 </div>
 
+<script src="{{ site.baseurl }}/js/charts-loader.min.js"></script>
 <script>
     let app_threats = parseInt("{{ site.application-threats | size }}");
     let auth_threats = parseInt("{{ site.authentication-threats | size }}");
@@ -51,6 +52,21 @@ title: Statistics
         ['Supply Chain', supply_chain_threats]
     ];
 
+    let pageMap = {
+        'Application': 'application.html',
+        'Authentication': 'authentication.html',
+        'Cellular': 'cellular.html',
+        'Ecosystem': 'ecosystem.html',
+        'EMM': 'emm.html',
+        'GPS': 'gps.html',
+        'LAN & PAN': 'lan-pan.html',
+        'Payment': 'payment.html',
+        'Physical': 'physical.html',
+        'Privacy': 'privacy.html',
+        'Stack': 'stack.html',
+        'Supply Chain': 'supply-chain.html'
+    };
+
     dataArray.sort(function (a, b) {
         if (a[1] == b[1])
             return 0;
@@ -82,6 +98,13 @@ title: Statistics
         var chart = new google.visualization.PieChart(document.getElementById('chartContainer'));
         data.sort([{ column: 1, desc: true }])
         chart.draw(data, options);
+
+        google.visualization.events.addListener(chart, 'select', function() {
+            var selection = chart.getSelection();
+            var idx = selection[0]['row'];
+
+            window.location = pageMap[data['jc'][idx][0]['gf']];
+        });
     }
 
     window.onload = function() {
@@ -94,4 +117,3 @@ title: Statistics
 
     window.onresize = function() { drawChart(); }
 </script>
- <script src="{{ site.baseurl }}/js/charts-loader.min.js"></script> 
