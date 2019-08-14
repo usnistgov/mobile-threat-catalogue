@@ -144,6 +144,25 @@ body {
     overflow-y: auto;
 }
 
+.down-caret {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #ffffff transparent transparent transparent;
+  display: inline-block;
+  margin-left: 6px;
+  top: -3px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: all .25s ease-in;
+}
+
+.open-caret {
+    transform: rotate(180deg);
+    transition: all .25s ease-out;
+}
+
 nav label {
     color: white;
 }
