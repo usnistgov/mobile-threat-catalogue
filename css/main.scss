@@ -221,7 +221,7 @@ nav label {
         height: 2.5rem;
     }
     .sidebar-nav ul {
-        width: 50%;
+        width: 100%;
         margin: 0 auto 1rem;
 
         li {
@@ -234,16 +234,23 @@ nav label {
     }
 
     .sidebar-nav-item {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .nist-header {
         padding: 0;
         text-align: center;
+        position: relative;
+    }
+
+    .orange-bar {
+        position: relative;
+        top: 0;
     }
     
     .sidebar {
         overflow-y: visible;
+        padding-top: 3rem;
     }
 
     .search {

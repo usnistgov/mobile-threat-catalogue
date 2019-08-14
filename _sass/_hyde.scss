@@ -58,6 +58,7 @@ html {
   //padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
@@ -66,7 +67,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 11rem;
+    width: 11.25rem;
     text-align: left;
     overflow-y: scroll;
   }
