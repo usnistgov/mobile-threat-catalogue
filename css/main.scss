@@ -233,8 +233,8 @@ nav label {
         display: block;
     }
     .logos {
-        width: 50%;
-        margin: 0 auto;
+        width: 100%;
+        padding-left: 25%;
     }
     #nist-logo, #nccoe-logo {
         height: 2.5rem;
@@ -280,13 +280,7 @@ nav label {
 }
 
 @media screen and (max-width: 480px) {
-    #nccoe-logo {
-        display: none;
-    }
-    #nist-logo {
-        margin: 0 auto;
-        float: none;
-    }
+
     .search {
         margin-left: 2.25%;
         width: 95%;
