@@ -270,12 +270,17 @@ nav label {
     .sidebar {
         overflow-y: visible;
         padding-top: 3rem;
+        margin-bottom: 0;
     }
 
     .search {
         float: left;
         width: 50%;
         margin-left: 25%;
+    }
+
+    .content {
+        padding-top: 0;
     }
 }
 
