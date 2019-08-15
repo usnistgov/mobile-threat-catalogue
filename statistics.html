@@ -8,6 +8,7 @@ title: Statistics
     <div class="stats left" id="threat-listing">
         <h2>Total Threats: <span id="total"></span></h2>
         <h2>Threats by Category</h2>
+        <table id="stats-table"></table>
     </div>
     <div class="stats chart-outer">
         <h2>Category Visualization</h2>
@@ -78,9 +79,9 @@ title: Statistics
         if (i == 0)
             return;
 
-        let n = document.createElement("p");
-        n.innerHTML = "<b>" + e[0] + ":</b> " + e[1];
-        document.getElementById("threat-listing").appendChild(n);
+        let n = document.createElement("tr");
+        n.innerHTML = "<td><b>" + e[0] + "</b></td><td>" + e[1] + "</tr>";
+        document.getElementById("stats-table").appendChild(n);
     });
 
     // Draw the chart and set the chart values

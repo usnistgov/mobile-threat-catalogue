@@ -229,6 +229,15 @@ nav label {
     width: 50%;
 }
 
+#stats-table {
+    border: none !important;
+    width: 35%;
+
+    td {
+        border: none;
+    }
+}
+
 @media screen and (max-width: 1255px) {
     .cve-list {
         width: 75%;
