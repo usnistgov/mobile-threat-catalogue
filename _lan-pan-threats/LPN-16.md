@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile Device user:
       - Avoid the use of Bluetooth 2.0 or earlier devices, or those that only support Legacy Pairing.
 title: LPN-16
+rawID: 16
 ---

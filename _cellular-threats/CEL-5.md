@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Baseband Developer:
       - Ensure that the behavior of a mobile device's chipset in these conditions is understood before relying on cellular communication in critical situations.
 title: CEL-5
+rawID: 5
 ---

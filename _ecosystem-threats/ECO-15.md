@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Application Developer:
       - To prevent unauthorized access to private enterprise apps from further granting unauthorized access to sensitive data, require the user of a mobile app to pass strong authentication mechanisms prior to granting access to sensitive data.
 title: ECO-15
+rawID: 15
 ---

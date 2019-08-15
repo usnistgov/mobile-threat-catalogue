@@ -18,4 +18,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Use Android Verify Apps feature to identify apps that may abuse permissions to perform data collection.
 title: APP-12
+rawID: 12
 ---

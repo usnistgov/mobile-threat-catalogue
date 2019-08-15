@@ -19,4 +19,5 @@ PossibleCountermeasures:
     Mobile App Developer:
       - To avoid launching applications that handle sensitive information on a rooted/jail-broken device, perform device integrity checking, such as using Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies device integrity attestation API
 title: APP-25
+rawID: 25
 ---

@@ -15,4 +15,5 @@ PossibleCountermeasures:
       - To reduce the probability of connecting to rogue access points, use Wi-Fi hotspot services that associate access points with registered Wi-Fi provider, geolocation, and crowd-sourced reputation data to make assertions about the their apparent trustworthiness.
       - To avoid this threat, only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption.
 title: LPN-0
+rawID: 0
 ---

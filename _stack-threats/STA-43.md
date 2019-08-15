@@ -22,4 +22,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To reduce the opportunity for an attacker to leverage any underlying vulnerability in the mobile OS or computing hardware, apply OS security updates in a timely fashion.
 title: STA-43
+rawID: 43
 ---

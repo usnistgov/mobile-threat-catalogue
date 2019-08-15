@@ -8,4 +8,5 @@ ExploitExample: Beware of the Text Massage That Crashes iPhones [^183]
 CVEExample: CVE-2015-1157
 PossibleCountermeasures: {}
 title: CEL-17
+rawID: 17
 ---

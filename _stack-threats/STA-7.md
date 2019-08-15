@@ -20,4 +20,5 @@ PossibleCountermeasures:
       - To prevent users from accepting prompts to install malicious management profiles, educate users about the risks associated with installing an untrusted profile and ensure that enrollment processes allow users to know when management profiles are legitimate (e.g., in-person enrollment, or secure out-of-band deployment methods such as digitally-signed or encrypted e-mails.
       - To prevent users from installing malicious digital certificates, which can be used to greatly facilitate this form of attack, educate users about the risks associated with installing digital certifications, and ensure that installation processes allow users to know when digital certificates are legitimate (e.g., in-person enrollment, or secure out-of-band deployment methods such as digitally-signed or encrypted e-mails).
 title: STA-7
+rawID: 7
 ---

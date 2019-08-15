@@ -8,4 +8,5 @@ ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}
 title: STA-26
+rawID: 26
 ---

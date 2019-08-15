@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - For device users with concerns about the security implications of a mandatory enterprise app during personal use of the device, restrict its permissions or if possible, temporarily disable it when operating the device in a personal context.
 title: EMM-10
+rawID: 10
 ---

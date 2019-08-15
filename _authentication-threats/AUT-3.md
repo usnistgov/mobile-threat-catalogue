@@ -22,4 +22,5 @@ PossibleCountermeasures:
     Mobile OS Developer:
       - To increase the difficulty of visual or sensor-based inference attacks on entries by the on-screen keyboard, a randomized keyboard layout for PIN or password entry could be implemented as a feature of the mobile OS.
 title: AUT-3
+rawID: 3
 ---

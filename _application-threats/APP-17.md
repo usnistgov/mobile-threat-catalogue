@@ -23,4 +23,5 @@ PossibleCountermeasures:
     Mobile App Developer:
       - Avoid the use of SMS messages for 2-factor authentication.
 title: APP-17
+rawID: 17
 ---

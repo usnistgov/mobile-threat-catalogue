@@ -24,4 +24,5 @@ PossibleCountermeasures:
       - Always use https URLs for WebView content.
       - Avoid enabling the WebView JavaScript bridge (with addJavascriptInterface) unless explicitly needed.
 title: APP-8
+rawID: 8
 ---

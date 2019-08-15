@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Original Equipment Manufacturer:
       - Ensure that baseline industry recommended practices are implemented and validated
 title: CEL-9
+rawID: 9
 ---

@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - Educate users to be mindful of their physical surroundings when using mobile devices, and to report the appearance of unexpected hardware components to IT security immediately.
       - Educate users to not directly connect their mobile devices to untrusted systems or docking stations, and to maintain strong physical security for innocent components such as USB charging cables
 title: PHY-5
+rawID: 5
 ---

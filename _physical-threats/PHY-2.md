@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - To reduce the opportunity for an attacker to directly connect a device to a malicious computer, use strong physical security when a device is being left directly unattended (e.g., lock it in a secure container).
       - To prevent some attacks over USB connectivity, ensure the device has an unlock code set and is explicitly locked when being left directly unattended.
 title: PHY-2
+rawID: 2
 ---

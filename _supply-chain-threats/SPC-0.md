@@ -30,4 +30,5 @@ PossibleCountermeasures:
       - To prevent distributing a software package that contains maliciously modified open source libraries, perform sufficient functional testing of the complete system to verify that it exhibits correct and consistent behavior.
       - To prevent executing an application that relies upon a maliciously modified version of an open source library that is loaded dynamically at runtime (e.g., Dynamic Linked Library), perform verification of the library file prior to execution. This may involve validating hashes, verifying digital signatures, or other integrity protection or detection mechanisms on the host system.
 title: SPC-0
+rawID: 0
 ---

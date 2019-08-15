@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - To limit the usefulness of captured passwords, do not use the same password or derivations thereof to authenticate to multiple services.
       - To increase the difficulty of establishing a MiTM attack on a given wireless access session in which authentication credentials are exchanged, avoid authenticating to sensitive remote services over untrusted Wi-Fi networks.
 title: AUT-8
+rawID: 8
 ---

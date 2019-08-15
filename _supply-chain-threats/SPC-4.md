@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - Use configuration management tools that can validate that current configuration settings meet policy requirements
       - Test software and microelectronics to verify their functionality conforms to expected behavior and operates within normal tolerances (e.g. timing, temperature, power consumption, EM emissions) both after development and maintenance prior to placing or returning the component to the production environment
 title: SPC-4
+rawID: 4
 ---

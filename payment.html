@@ -7,7 +7,8 @@ title: Payment
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for payment-threat in site.payment-threats %}
+	{% assign sorted = site.payment-threats | sort:"rawID" %}
+    {% for payment-threat in sorted %}
         <li><a href="{{ site.baseurl }}{{ payment-threat.url }}#page">{{ payment-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

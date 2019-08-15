@@ -8,4 +8,5 @@ ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}
 title: SPC-16
+rawID: 16
 ---

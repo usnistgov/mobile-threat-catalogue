@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - To limit the potential loss of personal data, encourage users of enrolled devices to use authorized mechanisms for the synchronization or transfer of personal data to external systems not subject to remote wipe by enterprise EMM solutions.
       - Educate users regarding the risks to any personal data generated on an enrolled mobile device.
 title: EMM-8
+rawID: 8
 ---

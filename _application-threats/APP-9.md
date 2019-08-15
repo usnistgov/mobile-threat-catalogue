@@ -12,4 +12,5 @@ PossibleCountermeasures:
     Mobile App Developer:
       - Follow best practices for server security, for example as described in https://www.owasp.org/index.php/Mobile_Top_10_2014-M1
 title: APP-9
+rawID: 9
 ---

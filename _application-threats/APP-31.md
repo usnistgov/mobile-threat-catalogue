@@ -22,4 +22,5 @@ PossibleCountermeasures:
       - Consider the use of devices that support Android 5.0 and later, in which ActivityManager.getRunningTasks() has been modified to stop leaking information about the current foreground activity, increasing the difficulty of malicious apps being able to perform a user interface spoofing attack
       - Use Android Verify Apps feature to identify potentially harmful apps.
 title: APP-31
+rawID: 31
 ---

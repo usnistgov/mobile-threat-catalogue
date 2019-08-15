@@ -17,4 +17,5 @@ PossibleCountermeasures:
     Mobile Network Operator:
       - Use of application layer encryption technologies
 title: CEL-3
+rawID: 3
 ---

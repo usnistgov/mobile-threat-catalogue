@@ -19,4 +19,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Consider the use of devices that support Android 4.1 or later, in which apps can no longer access the system log (other than reading log entries added by the app itself).
 title: APP-3
+rawID: 3
 ---

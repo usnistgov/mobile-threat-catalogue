@@ -12,4 +12,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Configure settings for native app store purchases on the device so that each purchase requires successful authentication. Alternatively, only enable the bypassing of authentication for purchases during a limited period following a successful authentication to the app store (e.g. within 15 minutes).
 title: PAY-4
+rawID: 4
 ---

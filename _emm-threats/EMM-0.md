@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - Consider choosing on-device agent apps that have certified against the most recent NIAP protection profile for MDM agents, as this provides a measure of assurance that the agent properly validates digital certificates.
       - To mitigate the risk of a MiTM attack on remote agent-server communications (for on-premises deployments) due to improper certificate validation by the agent, use mobile OS-provided VPN features to first establish a secure connection to the enterprise network.
 title: EMM-0
+rawID: 0
 ---

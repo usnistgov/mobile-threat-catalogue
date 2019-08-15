@@ -8,4 +8,5 @@ ExploitExample:
 CVEExample: CVE-2015-6602
 PossibleCountermeasures: {}
 title: CEL-22
+rawID: 22
 ---

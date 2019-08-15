@@ -10,4 +10,5 @@ ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}
 title: CEL-20
+rawID: 20
 ---

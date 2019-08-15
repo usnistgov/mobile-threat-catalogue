@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Enterprise:
       - To greatly decrease the probability of this attack, only allow mobile devices to connect to authorized Wi-Fi networks that use WPA2 encryption with a strong pre-shared key (for personal mode).
 title: LPN-3
+rawID: 3
 ---

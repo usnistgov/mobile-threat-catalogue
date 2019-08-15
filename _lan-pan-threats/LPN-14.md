@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To reduce opportunity for this attack, disable Bluetooth when that feature is not in use.
       - Do not accept data transfers, such as contact cards, transmitted over Bluetooth without confidence the message is legitimate.
 title: LPN-14
+rawID: 14
 ---

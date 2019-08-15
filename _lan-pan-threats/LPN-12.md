@@ -14,4 +14,5 @@ PossibleCountermeasures:
     Enterprise:
       - To prevent an attacker from launching a successful NFC relay attack, use mobile devices and NFC apps that require user authorization of the transaction prior to fulfilling requests communicated over NFC.
 title: LPN-12
+rawID: 12
 ---

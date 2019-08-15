@@ -18,4 +18,5 @@ PossibleCountermeasures:
     Enterprise:
       - To reduce the opportunity for an attacker to exploit a patched vulnerability, ensure security updates are applied in a timely manner by configuring automated installation of or, at a minimum, automatic notification of the availability of security updates.
 title: SPC-21
+rawID: 21
 ---

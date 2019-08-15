@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Original Equipment Manufacturer:
       - Several countermeasures to be implemented in GPS receiver software have been presented in GPS Spoofing Countermeasures [^41]
 title: GPS-1
+rawID: 1
 ---

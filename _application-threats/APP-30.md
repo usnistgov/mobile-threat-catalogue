@@ -16,4 +16,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Use Android Verify Apps feature to identify apps that may abuse communication channels to exfiltrate data.
 title: APP-30
+rawID: 30
 ---

@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - To reduce the time to detection of unauthorized access to EMM administrative accounts, configure the EMM solution to audit system access and administrative actions, and establish procedures to review recent activity for indications of unauthorized access.
       - To reduce the potential for an attacker to activate sensitive EMM functionality, such as remote wiping of enrolled devices, configure the EMM solution to require authorization by multiple administrators before such actions will execute.
 title: EMM-1
+rawID: 1
 ---

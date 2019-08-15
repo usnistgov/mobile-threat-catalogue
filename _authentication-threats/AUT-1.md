@@ -20,4 +20,5 @@ PossibleCountermeasures:
       - To reduce the success of lockscreen bypass exploits, ensure mobile OS security updates are installed in a timely manner
       - Use mobile OS settings or deploy MDM solutions that can effectively enforce policies to limit the data or services available while the device screen is locked (e.g., notifications, voice-operated assistants, camera)
 title: AUT-1
+rawID: 1
 ---

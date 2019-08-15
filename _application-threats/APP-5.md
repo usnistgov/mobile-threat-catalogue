@@ -26,4 +26,5 @@ PossibleCountermeasures:
       - Use anti-malware device agents to detect malicious applications inadvertently installed on the device.
       - Regularly use Verify Apps feature to identify potentially harmful applications.
 title: APP-5
+rawID: 5
 ---

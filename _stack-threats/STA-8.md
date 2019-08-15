@@ -12,4 +12,5 @@ ThreatCategory: Mobile Operating System
 ThreatOrigin:
 layout: threat
 title: STA-8
+rawID: 8
 ---

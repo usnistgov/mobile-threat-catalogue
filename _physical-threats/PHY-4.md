@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Enforce activation of the auto-lock feature of a mobile device with a maximum idle time that reduces the likelihood an attacker will gain physical access to the device in an unlocked state
       - Activate auto-lock features based on loss of proximity to a trusted, paired device attended by the mobile device user, such as a smart watch
 title: PHY-4
+rawID: 4
 ---

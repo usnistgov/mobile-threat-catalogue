@@ -7,7 +7,8 @@ title: GPS
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for gps-threat in site.gps-threats %}
+	{% assign sorted = site.gps-threats | sort:"rawID" %}
+    {% for gps-threat in sorted %}
         <li><a href="{{ site.baseurl }}{{ gps-threat.url }}#page">{{ gps-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

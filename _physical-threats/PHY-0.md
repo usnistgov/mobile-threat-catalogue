@@ -16,4 +16,5 @@ PossibleCountermeasures:
     Enterprise:
       - To mitigate the impact of a lost or stolen device in the possession of an attacker, use remote lock, activation lock, locate, or wipe capabilities as deemed appropriate based on the sensitivity of data stored on or capabilities of the device.
 title: PHY-0
+rawID: 0
 ---

@@ -22,4 +22,5 @@ PossibleCountermeasures:
     Mobile App Developer:
       - To reduce risks of using the app, only request access to the minimal set of shared data stores (e.g., contacts, calendar), OS services (e.g. location services), and device sensors (e.g. camera, microphone) necessary for the app to provide functionality.
 title: APP-19
+rawID: 19
 ---

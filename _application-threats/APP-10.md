@@ -21,4 +21,5 @@ PossibleCountermeasures:
     Enterprise:
       - Use app vetting tools/services to detect the misuse of cryptography in mobile apps.
 title: APP-10
+rawID: 10
 ---

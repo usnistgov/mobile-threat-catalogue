@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To detect malicious or vulnerable apps installed on Android devices, use the Android Verify Apps feature.
 title: ECO-7
+rawID: 7
 ---

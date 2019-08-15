@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Contingency planning for use of another communication band.
 title: LPN-5
+rawID: 5
 ---

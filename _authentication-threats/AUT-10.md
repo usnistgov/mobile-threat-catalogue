@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - Deploy MAM or MDM solutions with policies that prohibit the installation of apps from 3rd party (unofficial) app stores.
       - Use app-vetting tools or services to identify malicious behaviors in apps.
 title: AUT-10
+rawID: 10
 ---

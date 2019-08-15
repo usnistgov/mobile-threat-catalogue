@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - Restrict installation of apps from unofficial app stores, which may not undergo certificate validation processes (e.g., side-loading)
       - Use device built-in separation technologies such as Android for Work, Apple iOS managed apps, or Samsung Knox Workspace to provide a level of separation between enterprise apps and potentially harmful personal-use apps.
 title: STA-2
+rawID: 2
 ---

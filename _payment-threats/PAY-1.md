@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Point-of-Sale Administrators:
       - Follow security best practices regarding the protection of point-of-sale systems. See __Malware Targeting Point of Sale Systems__ [^42]
 title: PAY-1
+rawID: 1
 ---

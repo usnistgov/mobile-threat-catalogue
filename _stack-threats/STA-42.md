@@ -16,4 +16,5 @@ ThreatDescription: If the configuration of the mobile device and computer allow,
 ThreatOrigin: Exploiting Smart-Phone USB Connectivity for Fun and Profit [^143]
 layout: threat
 title: STA-42
+rawID: 42
 ---

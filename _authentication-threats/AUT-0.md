@@ -26,4 +26,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To mitigate an attacker's ability to achieve authentication using a stolen credential, when possible, configure services to use multi-factor authentication. Ideally, the additional factor should be provided by a separate device than the one being used to perform primary authentication (e.g., laptop and mobile app). Further, avoid the use of SMS messages for 2FA codes, as SMS messages can be readily intercepted.
 title: AUT-0
+rawID: 0
 ---

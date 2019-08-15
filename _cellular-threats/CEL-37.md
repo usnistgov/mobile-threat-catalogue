@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile Network Operator:
       - SS7 Firewalls may be deployed throughout the network. See Securing SS7 Telecommunications Networks [^191]
 title: CEL-37
+rawID: 37
 ---

@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - To lessen the amount of heat produced by the battery during charging operations, charge the device from the USB port of a trusted computer.
       - If a device becomes hot while charging while asleep or off, take it to a authorized service center so a defective battery can be replaced before causing damage to the device.
 title: PHY-5
+rawID: 5
 ---

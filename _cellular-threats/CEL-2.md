@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Original Equipment Manufacturer:
       - To reduce the amount of high-quality data an attacker can use to track a device, employ methods of rogue base station detection
 title: CEL-2
+rawID: 2
 ---

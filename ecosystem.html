@@ -21,7 +21,8 @@ title: Ecosystem
 
 <h3 id="mobile-vendor-infra">Mobile OS &amp; Vendor Infrastructure</h3>
 <ul class="threat-list">
-    {% for ecosystem-threat in site.ecosystem-threats %}
+    {% assign sorted = site.ecosystem-threats | sort:"rawID" %}
+    {% for ecosystem-threat in sorted %}
         {% if ecosystem-threat.ThreatCategory == 'Mobile OS & Vendor Infrastructure' %}
             <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.Threat }}</a></li>
         {% endif %}
@@ -30,7 +31,7 @@ title: Ecosystem
 
 <h3 id="mobile-app-stores">Mobile Application Store</h3>
 <ul class="threat-list">
-    {% for ecosystem-threat in site.ecosystem-threats %}
+    {% for ecosystem-threat in sorted %}
         {% if ecosystem-threat.ThreatCategory == 'Mobile Application Store' %}
             <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.Threat }}</a></li>
         {% endif %}

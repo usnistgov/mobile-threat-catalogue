@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - To prevent an attacker with unauthorized administrative access from activating sensitive features, such as remote full-wipe of devices, configure EMM solutions to with workflows that require authorization by multiple administrators prior to executing such actions.
       - To limit the functions available to an attacker with unauthorized administrative access, divide administrative responsibilities across distinct administrator roles or accounts.
 title: EMM-2
+rawID: 2
 ---

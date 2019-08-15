@@ -7,7 +7,8 @@ title: Physical
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for physical-threat in site.physical-threats %}
+	{% assign sorted = site.physical-threats | sort:"rawID" %}
+    {% for physical-threat in sorted %}
         <li><a href="{{ site.baseurl }}{{ physical-threat.url }}#page">{{ physical-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

@@ -8,4 +8,5 @@ ExploitExample:
 CVEExample: CVE-2009-2795
 PossibleCountermeasures: {}
 title: STA-16
+rawID: 16
 ---

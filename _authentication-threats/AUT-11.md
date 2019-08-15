@@ -12,4 +12,5 @@ PossibleCountermeasures:
     Enterprise:
       - Use app-vetting tools or services to identify malicious apps that exploit cross-application resource attacks.
 title: AUT-11
+rawID: 11
 ---

@@ -8,4 +8,5 @@ ExploitExample: Researchers exploit cellular tech flaws to intercept phone calls
 CVEExample:
 PossibleCountermeasures: {}
 title: CEL-18
+rawID: 18
 ---

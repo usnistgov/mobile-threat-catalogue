@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To reduce the potential for USB-based root or jail-break exploits, do not accept prompts to grant trust when connecting to untrusted computers or charging stations.
 title: EMM-5
+rawID: 5
 ---

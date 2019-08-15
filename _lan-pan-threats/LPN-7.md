@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Enterprise:
       - To increase the complexity of this attack, consider the use of devices that support Bluetooth 4.0 and later. Bluetooth 4.0 allows for the address used by a device to change frequently, preventing persistent association of a given address with any user. See __Security, Bluetooth Smart (Low Energy)__ [^38]
 title: LPN-7
+rawID: 7
 ---

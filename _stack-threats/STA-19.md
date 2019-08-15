@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Original Equipment Manufacturer:
       - Implementation of a baseband firewall
 title: STA-19
+rawID: 19
 ---

@@ -11,4 +11,5 @@ PossibleCountermeasures:
       - Use EMM/MDM solutions in combination with devices that can detect mobile OS verions and successfully block access to enterprise resources from devices running unapproved OS versions.
       - Consider the use of iOS devices; to prevent devices from being downgraded to older versions that lack the latest security updates, iOS uses a process called System Software Authorization. [^54]
 title: STA-17
+rawID: 17
 ---

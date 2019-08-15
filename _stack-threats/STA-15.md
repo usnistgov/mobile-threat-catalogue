@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile App Developer:
       - To mitigate the potential of accessing sensitive data or functionality on rooted or jail-broken devices, leverage device attestation APIs to determine the device is in a known-good state prior to executing sensitve actions.
 title: STA-15
+rawID: 15
 ---

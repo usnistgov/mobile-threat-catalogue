@@ -19,4 +19,5 @@ PossibleCountermeasures:
       - Use Android Verify Apps feature to identify potentially harmful apps.
       - When installing apps, be suspicious of those requesting access to OS services or sensors that do not appear related to the functionality of the app
 title: APP-34
+rawID: 34
 ---

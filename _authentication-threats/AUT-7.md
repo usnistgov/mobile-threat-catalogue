@@ -18,4 +18,5 @@ PossibleCountermeasures:
       - Consider devices in which multi-factor biometric authentication mechanisms transform the biometric data using an additional factor (e.g., password or cryptographic token).
       - To prevent an attacker able to successfully conduct a biometric spoofing attack against the device from automatically gaining access to sensitive data, implement multi-factor authentication mechanisms for sensitive apps or services.
 title: AUT-7
+rawID: 7
 ---

@@ -17,4 +17,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To decrease the time to detection for malicious apps on Android devices, use Android Verify Apps feature.
 title: ECO-22
+rawID: 22
 ---

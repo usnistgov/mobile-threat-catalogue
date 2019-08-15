@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Enterprise:
       - Ensure devices are kept up-to-date with security patches to decrease the likelihood that they can be rooted/jailbroken.
 title: STA-39
+rawID: 39
 ---

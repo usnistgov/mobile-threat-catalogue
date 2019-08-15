@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To avoid this attack, do not activate - or if no longer in use, deactivate - native mobile payment features, such as Apple Pay.
       - To prevent this attack, ensure native payment services (e.g. Apple Pay) are configured to require user interaction to complete any contactless payment transaction.
 title: PAY-0
+rawID: 0
 ---

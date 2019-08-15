@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - Properly wipe and dispose of old network equipment
       - Ensure that baseline industry recommended practices for information system security are implemented and validated
 title: CEL-30
+rawID: 30
 ---

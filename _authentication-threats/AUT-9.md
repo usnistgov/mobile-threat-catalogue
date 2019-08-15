@@ -13,4 +13,5 @@ PossibleCountermeasures:
       - Deploy email filtering tools or services that will automatically remove detected URLs from the body of emails from untrusted domains.
       - Educate end users on how to recognize phishing attempts and increase their awareness of techniques to browse safely from mobile devices, such as tap-and-hold on a hyperlink to examine its associated URL.
 title: AUT-9
+rawID: 9
 ---

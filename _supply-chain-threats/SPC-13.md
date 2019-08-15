@@ -11,4 +11,5 @@ PossibleCountermeasures:
       - Employ software integrity verification checks on firmware, which can be validated against a known-good value (e.g. brute-force resistant cryptographic hash of firmware image) to detect any modification
       - Obtain device measurements for comparison to normal ranges (e.g., temperature, timing, EM radiation, power consumption) to detect anomalous behavior in received components prior to production use.
 title: SPC-13
+rawID: 13
 ---

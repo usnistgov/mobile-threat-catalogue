@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Educate users that Oauth 2.0 style authorization request from native applications should only be made through external user-agents (system browser)
 title: AUT-12
+rawID: 12
 ---

@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - Design testing processes that use at least two independent testers/processes/tools and compare test results for consistency
       - For mission-critical components, randomly test the same component multiple times using different testers/processes/tools and compare test results for consistency
 title: SPC-9
+rawID: 9
 ---

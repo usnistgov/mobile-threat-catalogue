@@ -29,4 +29,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To reduce the probability of this variety of attack, configure devices to automatically install or, at a minimum, notify users of the availability of security updates for the mobile OS, drivers, and installed apps.
 title: STA-3
+rawID: 3
 ---

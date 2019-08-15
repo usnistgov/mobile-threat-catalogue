@@ -18,4 +18,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - Use Android Verify Apps feature to identify potentially harmful.
 title: APP-32
+rawID: 32
 ---

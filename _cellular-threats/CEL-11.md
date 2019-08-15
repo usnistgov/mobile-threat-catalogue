@@ -12,4 +12,5 @@ PossibleCountermeasures:
     Mobile Network Operator:
       - To increase detection of compromised devices, use small cells implemented with secure boot technologies.
 title: CEL-11
+rawID: 11
 ---

@@ -19,4 +19,5 @@ PossibleCountermeasures:
       - When the installation of apps from unofficial app stores (e.g., enterprise app stores) is necessary, use Android Verify Apps feature to identify potentially harmful apps.
       - To protect against arbitrary installation of 3rd party apps, when the installation of apps from unofficial app stores (e.g., enterprise app stores) is necessary, disable the installation of 3rd party apps once installation is complete.
 title: ECO-23
+rawID: 23
 ---

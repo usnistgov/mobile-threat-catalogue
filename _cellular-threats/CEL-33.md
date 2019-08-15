@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Mobile Network Operator:
       - Ensure that baseline industry recommended practices are implemented and validated
 title: CEL-33
+rawID: 33
 ---

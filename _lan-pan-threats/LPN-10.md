@@ -10,4 +10,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To reduce the opportunity for an attacker to conduct this attack, disable Bluetooth on vulnerable (circa 2004) devices when that feature is not in use. [^J-Padgette-1]
 title: LPN-10
+rawID: 10
 ---

@@ -142,4 +142,5 @@ PossibleCountermeasures:
       - Use the Android Verify Apps feature to identify potentially harmful apps.
       - To limit the opportunity for malicious apps to exploit known vulnerabilities, ensure timely installation of security updates.
 title: APP-26
+rawID: 26
 ---

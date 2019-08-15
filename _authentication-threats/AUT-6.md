@@ -15,4 +15,5 @@ PossibleCountermeasures:
       - To reduce the potential an attacker acquires your device in an unlocked but unattended state or can acquire the pair of devices, avoid pairing your mobile device with a device that is typically already located in proximity to it, such as a keyboard or headset.
       - Avoid pairing with Bluetooth 2.0 or earlier devices, or those that otherwise only support Legacy Pairing, which is vulnerable to eavesdropping attacks that greatly facilitates the spoofing a trusted device.
 title: AUT-6
+rawID: 6
 ---

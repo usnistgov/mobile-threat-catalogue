@@ -16,4 +16,5 @@ PossibleCountermeasures:
       - To mitigate eavesdropping over unencrypted Wi-Fi networks, use over-the-top encryption products that encrypt data prior to transmission off the device.
       - To mitigate eavesdropping over unencrypted Wi-Fi networks, use VPN solutions to establish an encrypted tunnel.
 title: LPN-2
+rawID: 2
 ---

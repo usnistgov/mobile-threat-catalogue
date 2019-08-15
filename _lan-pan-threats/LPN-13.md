@@ -12,4 +12,5 @@ PossibleCountermeasures:
       - To reduce the opportunity for this attack, disable NFC when that feature is not in use.
       - To further reduce the opportunity for this attack, protect the device from malicious signals using a NFC-blocking case when that features is not in use.
 title: LPN-13
+rawID: 13
 ---

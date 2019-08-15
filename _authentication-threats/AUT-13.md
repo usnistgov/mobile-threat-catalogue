@@ -21,4 +21,5 @@ PossibleCountermeasures:
       - 'To detect malicious applications, deploy on-device agents that automatically initiate malware detection for all installed applications. '
       - Use tools or device APIs (Android SafetyNet, Samsung Knox hardware-backed remote attestation, or other applicable remote attestation technologies) to detect and block enterprise connectivity from devices until they pass such integrity checks.
 title: AUT-13
+rawID: 13
 ---

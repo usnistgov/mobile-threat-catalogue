@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - Use app-vetting tools or services to determine if enterprise applications appear free of malicious behaviors before authorizing their installation.
       - Host vetted apps within a locally controlled repository of an application store, such as F-Droid [^158]
 title: ECO-10
+rawID: 10
 ---

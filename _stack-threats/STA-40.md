@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Enterprise:
       - Deploy MAM or containerization solutions that support policies that can restrict access to the SD card by untrusted apps.
 title: STA-40
+rawID: 40
 ---

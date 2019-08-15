@@ -8,4 +8,5 @@ ExploitExample: Google Play Store seems blocked now from China. How can I update
 CVEExample:
 PossibleCountermeasures: {}
 title: ECO-20
+rawID: 20
 ---

@@ -17,4 +17,5 @@ PossibleCountermeasures:
       - Use app-vetting tools or services to identify apps that expose functionality to untrusted apps.
       - Use personal/enterprise app separation features (e.g. Android for Work or Samsung KNOX Workspace) so that vulnerabilities in an enterprise app cannot be exploited by a personal app or vice versa.
 title: APP-7
+rawID: 7
 ---

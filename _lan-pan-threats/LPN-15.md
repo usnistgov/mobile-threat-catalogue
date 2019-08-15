@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Enterprise:
       - Use EMM/MDM solutions in combination with devices that successfully enforce a policy inhibit Just Works functionality or disable Bluetooth entirely, as appropriate.
 title: LPN-15
+rawID: 15
 ---

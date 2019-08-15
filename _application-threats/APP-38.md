@@ -16,4 +16,5 @@ PossibleCountermeasures:
     Enterprise:
       - Use malware detection apps that identify malware by anomalous energy consumption.
 title: APP-38
+rawID: 38
 ---

@@ -16,4 +16,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To prevent an attacker from gaining access to app data backups via the cloud service account, enable two-factor or other strong authentication mechanisms.
 title: ECO-2
+rawID: 2
 ---

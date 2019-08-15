@@ -23,4 +23,5 @@ ThreatDescription: Unauthorized access to data stored on an attached SD card may
 ThreatOrigin: On Hacking MicroSD Cards [^248]
 layout: threat
 title: STA-41
+rawID: 41
 ---

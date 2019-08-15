@@ -55,4 +55,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To reduce the probability an exploit for a driver for an access-controlled peripheral or OS-provided service (e.g., camera, microphone), use OS configuration settings to disable or block access to these resources, with a preference for global settings (e.g., disabling NFC device-wide) over app-specific permissions.
 title: STA-9
+rawID: 9
 ---

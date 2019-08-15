@@ -16,4 +16,5 @@ ThreatDescription: HCE payments do not directly leverage the security of storing
 ThreatOrigin: Secure Element Deployment & Host Card Emulation v1.0 [^250]
 layout: threat
 title: PAY-5
+rawID: 5
 ---

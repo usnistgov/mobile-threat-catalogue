@@ -8,4 +8,5 @@ ExploitExample: Rooting SIM Cards [^211]
 CVEExample:
 PossibleCountermeasures: {}
 title: STA-20
+rawID: 20
 ---

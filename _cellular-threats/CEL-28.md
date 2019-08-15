@@ -15,4 +15,5 @@ PossibleCountermeasures:
     Mobile Device User:
       - To mitigate the impact of eavesdropping on an unencrypted backhaul or core network communications channel, employ over-the-top encryption services to user-plane data prior to transmission off the mobile device.
 title: CEL-28
+rawID: 28
 ---

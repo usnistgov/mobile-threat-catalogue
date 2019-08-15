@@ -12,4 +12,5 @@ PossibleCountermeasures:
     Carriers:
       - Carriers should be encouraged to strongly authenticate account holders before allowing account changes such as issuance of new SIM cards
 title: STA-22
+rawID: 22
 ---

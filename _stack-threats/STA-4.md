@@ -14,4 +14,5 @@ PossibleCountermeasures:
       - Prior to authorizing general users to install an upgrade to an untested and potentially malicious software update, evaluate the behavior of the update on test devices to determine if it appears to be free of malicious or vulnerable behaviors.
       - Use devices that require updates to be signed by the device vendor.
 title: STA-4
+rawID: 4
 ---

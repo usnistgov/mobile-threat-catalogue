@@ -13,4 +13,5 @@ PossibleCountermeasures:
     Enterprise:
       - To increase the complexity of this attack, use devices that implement an integrated SIM or eSIM, which cannot be readily replaced with a malicious component.
 title: PHY-6
+rawID: 6
 ---

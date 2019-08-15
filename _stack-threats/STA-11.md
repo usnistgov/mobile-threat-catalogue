@@ -18,4 +18,5 @@ PossibleCountermeasures:
     Original Equipment Manufacturer:
       - Use TEE OS that provide integrity protections over trustlets, such as verification of digital signatures on installed trustlets, such as Trusty OS. [^222]
 title: STA-11
+rawID: 11
 ---
