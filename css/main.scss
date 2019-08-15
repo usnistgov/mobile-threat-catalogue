@@ -303,14 +303,22 @@ nav label {
     }
 }
 
+@media screen and (max-width: 388px) {
+    .nist-header {
+        height: 6rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .search {
         margin-left: 2.25%;
         width: 95%;
     }
-    .nist-header h1 {
-        font-size: 2rem;
+    .nist-header {
+        h1 {
+            font-size: 2rem;
+        }
     }
 
     .cve-list {
