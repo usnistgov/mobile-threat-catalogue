@@ -85,6 +85,16 @@
     top: 4rem;
 }
 
+.orange-bar-bottom {
+    width: 100%;
+    height: 0.15rem;
+    background-color: #e79824;
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    bottom: 4rem;
+}
+
 .nist-footer {
     width: 100%;
     height: 4rem;
