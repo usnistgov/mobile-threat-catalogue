@@ -24,7 +24,8 @@ title: Mobile Device Technology Stack
 
 <h3 id="mobile-operating-system">Mobile Operating System</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% assign sorted = site.stack-threats | sort:"rawID" %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Mobile Operating System' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
@@ -33,7 +34,7 @@ title: Mobile Device Technology Stack
 
 <h3 id="device-drivers">Device Drivers</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Device Drivers' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
@@ -42,7 +43,7 @@ title: Mobile Device Technology Stack
 
 <h3 id="isolated-exec-environ">Isolated Execution Environments</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Isolated Execution Environments' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
@@ -51,7 +52,7 @@ title: Mobile Device Technology Stack
 
 <h3 id="boot-firmware">Boot Firmware</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Boot firmware' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
@@ -60,7 +61,7 @@ title: Mobile Device Technology Stack
 
 <h3 id="baseband-subsystem">Baseband Subsystem</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Baseband Subsystem' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
@@ -69,7 +70,7 @@ title: Mobile Device Technology Stack
 
 <h3 id="sim-card">SIM Card</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'USIM / SIM / UICC security' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}
@@ -78,7 +79,7 @@ title: Mobile Device Technology Stack
 
 <h3 id="sd-card">SD Card</h3>
 <ul class="threat-list">
-    {% for stack-threat in site.stack-threats %}
+    {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'SD Card' %}
             <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.Threat }}</a></li>
         {% endif %}

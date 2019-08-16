@@ -10,7 +10,8 @@ title: Applications
 <h2>Threat List</h2>
 <h3 id="vulnerable-applications" >Application Vulnerabilities</h3>
 <ul class="threat-list">
-    {% for application-threat in site.application-threats %}
+    {% assign sorted = site.application-threats | sort:"rawID" %}
+    {% for application-threat in sorted %}
         {% if application-threat.ThreatCategory == 'Vulnerable Applications' %}
             <li><a href="{{ site.baseurl }}{{ application-threat.url }}#page">{{ application-threat.Threat }}</a></li>
         {% endif %}
@@ -19,7 +20,7 @@ title: Applications
 
 <h3 id="malicious-priv-applications" >Malicious or privacy-invasive applications</h3>
 <ul class="threat-list">
-    {% for application-threat in site.application-threats %}
+    {% for application-threat in sorted %}
         {% if application-threat.ThreatCategory == 'Malicious or privacy-invasive application' %}
             <li><a href="{{ site.baseurl }}{{ application-threat.url }}#page">{{ application-threat.Threat }}</a></li>
         {% endif %}

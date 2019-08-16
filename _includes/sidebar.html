@@ -1,30 +1,17 @@
 <div class="sidebar">
     <div class="container">
-        <div class="sidebar-about">
-            <h1>
-                <a href="{{ site.baseurl }}/">
-                    {{ site.title }}
-                </a>
-            </h1>
-            <!--  <p class="lead">{{ site.description }}</p> -->
-        </div>
-
-        <form class="search" action="{{ site.baseurl }}/search.html" method="get">
-            <input class="text-field" type="text" id="search-box" name="query" placeholder="Search">
-            <button type="submit" class="button">
-                <img src="{{ site.baseurl }}/img/search.svg" alt="Search" />
-            </button>
-        </form>
-
-            <input class="menu-toggle "id="toggle" type="checkbox">
-            <label class="menu-toggle" for="toggle">Menu</label>
+        <input class="menu-toggle "id="toggle" type="checkbox">
+        <label class="menu-toggle" for="toggle">Menu</label>
 
         <nav class="sidebar-nav expand">
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
+            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> 
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/statistics.html#page">Statistics</a> 
+
+            {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
             for usage. {% endcomment %}
 
-            <h4 class="sidebar-nav-item">Categories</h4>
-            <ul>
+            <h4 class="sidebar-nav-item" onclick="toggleNav()" style="cursor: pointer;">Categories <span class="down-caret"></span></h4>
+            <ul id="nav-links">
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/application.html#page">Application</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/authentication.html#page">Authentication</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/cellular.html#page">Cellular</a></li>
@@ -39,7 +26,7 @@
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/supply-chain.html#page">Supply Chain</a></li>
             </ul>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/contributing.html#page">Contribute</a>
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/glossary.html#page">Glossary</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/acronyms.html#page">Acronyms</a>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/cve-list.html#page">CVE List</a>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/downloads.html#page">Downloads</a>
 
@@ -47,3 +34,4 @@
         </nav>
     </div>
 </div>
+<script src="{{ site.baseurl }}/js/nav.js"></script>

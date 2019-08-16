@@ -117,7 +117,7 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 dt {
@@ -230,7 +230,7 @@ blockquote p:last-child {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 0 0rem;
   border-radius: 5px;
 }
 
@@ -285,13 +285,16 @@ tbody tr:nth-child(odd) th {
  * Center the page content.
  */
 
-.container {
-  max-width: 38rem;
+ .container {
   padding-left:  1rem;
   padding-right: 1rem;
   //margin-left:  auto;
   margin-right: auto;
   overflow-wrap: normal;
+}
+
+.content .container {
+  max-width: 75%;
 }
 
 

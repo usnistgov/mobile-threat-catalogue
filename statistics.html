@@ -1,0 +1,120 @@
+---
+layout: page
+title: Statistics
+---
+
+<h1>Threat Statistics</h1>
+<div class="stats-container">
+    <div class="stats left" id="threat-listing">
+        <h2>Total Threats: <span id="total"></span></h2>
+        <h2>Threats by Category</h2>
+        <table id="stats-table"></table>
+    </div>
+    <div class="stats chart-outer">
+        <h2>Category Visualization</h2>
+        <div id="chart-wrap">
+            <div id="chartContainer" style="cursor: pointer;"></div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ site.baseurl }}/js/charts-loader.min.js"></script>
+<script>
+    let app_threats = parseInt("{{ site.application-threats | size }}");
+    let auth_threats = parseInt("{{ site.authentication-threats | size }}");
+    let cell_threats = parseInt("{{ site.cellular-threats | size }}");
+    let eco_threats = parseInt("{{ site.ecosystem-threats | size }}");
+    let emm_threats = parseInt("{{ site.emm-threats | size }}");
+    let gps_threats = parseInt("{{ site.gps-threats | size }}");
+    let lan_pan_threats = parseInt("{{ site.lan-pan-threats | size }}");
+    let payment_threats = parseInt("{{ site.payment-threats | size }}");
+    let physical_threats = parseInt("{{ site.physical-threats | size }}");
+    let privacy_threats = parseInt("{{ site.privacy-threats | size }}");
+    let stack_threats = parseInt("{{ site.stack-threats | size }}");
+    let supply_chain_threats = parseInt("{{ site.supply-chain-threats | size }}");
+
+    let sum = app_threats + auth_threats + cell_threats + eco_threats + emm_threats + gps_threats + lan_pan_threats + payment_threats + physical_threats + privacy_threats + stack_threats + supply_chain_threats;
+
+    document.getElementById("total").innerHTML = sum;
+
+    let dataArray = [
+        ['Threat Category', 'Threat Count'],
+        ['Application', app_threats],
+        ['Authentication', auth_threats],
+        ['Cellular', cell_threats],
+        ['Ecosystem', eco_threats],
+        ['EMM', emm_threats],
+        ['GPS', gps_threats],
+        ['LAN & PAN', lan_pan_threats],
+        ['Payment', payment_threats],
+        ['Physical', physical_threats],
+        ['Privacy', privacy_threats],
+        ['Stack', stack_threats],
+        ['Supply Chain', supply_chain_threats]
+    ];
+
+    let pageMap = {
+        'Application': 'application.html',
+        'Authentication': 'authentication.html',
+        'Cellular': 'cellular.html',
+        'Ecosystem': 'ecosystem.html',
+        'EMM': 'emm.html',
+        'GPS': 'gps.html',
+        'LAN & PAN': 'lan-pan.html',
+        'Payment': 'payment.html',
+        'Physical': 'physical.html',
+        'Privacy': 'privacy.html',
+        'Stack': 'stack.html',
+        'Supply Chain': 'supply-chain.html'
+    };
+
+    dataArray.sort(function (a, b) {
+        if (a[1] == b[1])
+            return 0;
+
+        return a[1] < b[1] ? 1 : -1;
+    })
+
+    dataArray.forEach(function (e, i) {
+        if (i == 0)
+            return;
+
+        let n = document.createElement("tr");
+        n.innerHTML = "<td><b>" + e[0] + "</b></td><td>" + e[1] + "</tr>";
+        document.getElementById("stats-table").appendChild(n);
+    });
+
+    // Draw the chart and set the chart values
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(dataArray);
+
+        var options = { 
+            chartArea: {
+                width: '100%',
+                top: 0
+            },
+            is3D: true
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('chartContainer'));
+        data.sort([{ column: 1, desc: true }])
+        chart.draw(data, options);
+
+        google.visualization.events.addListener(chart, 'select', function() {
+            var selection = chart.getSelection();
+            var idx = selection[0]['row'];
+
+            window.location = pageMap[data['jc'][idx][0]['gf']];
+        });
+    }
+
+    window.onload = function() {
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        drawChart();
+    }
+
+    window.onresize = function() { drawChart(); }
+</script>

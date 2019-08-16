@@ -21,7 +21,7 @@ description: >
         contains the Mobile Threat Catalogue, which describes, identifies, and
         structures the threats posed to mobile information systems. The associated report providing
         context and describing the origins of this repository is available here:
-        <a href="https://www.nccoe.nist.gov/sites/default/files/library/mtc-nistir-8144-draft.pdf">NISTIR 8144: Assessing Threats to Mobile Devices & Infrastructure</a>.
+        <a target="_blank" href="https://www.nccoe.nist.gov/sites/default/files/library/mtc-nistir-8144-draft.pdf">NISTIR 8144: Assessing Threats to Mobile Devices & Infrastructure</a>.
     </p>
     <p>
     Readers of the catalogue may notice

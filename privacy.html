@@ -6,7 +6,8 @@ title: Privacy
 
 <h2>Threat List</h2>
 <ul class="threat-list">
-    {% for privacy-threat in site.privacy-threats %}
+	{% assign sorted = site.privacy-threats | sort:"rawID" %}
+    {% for privacy-threat in sorted %}
         <li><a href="{{ site.baseurl }}{{ privacy-threat.url }}#page">{{ privacy-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

@@ -1,0 +1,5 @@
+---
+---
+ID,Category,Threat,Description{% assign documents = site.documents | where: 'merged', true %}
+{% for document in documents %}"{{ document.ID }}","{{ document.ThreatCategory }}","{{ document.Threat }}","{{ document.ThreatDescription }}"
+{% endfor %}

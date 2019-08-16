@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    {% include head.html %}
-
     <body class="theme-base-0d">
+
+        {% include head.html %}
 
         {% include sidebar.html %}
 
@@ -11,6 +11,8 @@
             {{ content | markdownify }}
             {% include nist-footer.html %}
         </div>
+
+        {% include footer.html %}
 
   </body>
 </html>

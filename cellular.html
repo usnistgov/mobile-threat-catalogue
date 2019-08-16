@@ -23,7 +23,8 @@ title: Cellular
 
 <h3 id="air-interface">Air Interface</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% assign sorted = site.cellular-threats | sort:"rawID" %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Cellular Air Interface' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
@@ -32,7 +33,7 @@ title: Cellular
 
 <h3 id="consumer-grade-small-cell">Consumer grade small cell</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Consumer-grade Femtocell' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
@@ -41,7 +42,7 @@ title: Cellular
 
 <h3 id="carrier-grade-messaging">Carrier-grade Messaging Services</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'SMS / MMS / RCS' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
@@ -50,7 +51,7 @@ title: Cellular
 
 <h3 id="ussd">USSD</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'USSD' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
@@ -59,7 +60,7 @@ title: Cellular
 
 <h3 id="carrier-infrastructure">Carrier Infrastructure</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Carrier Infrastructure' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
@@ -68,7 +69,7 @@ title: Cellular
 
 <h3 id="carrier-interoperability">Carrier Interoperability</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Carrier Interoperability' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
@@ -77,7 +78,7 @@ title: Cellular
 
 <h3 id="volte">VoLTE</h3>
 <ul class="threat-list">
-    {% for cellular-threat in site.cellular-threats %}
+    {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'VoLTE' %}
             <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.Threat }}</a></li>
         {% endif %}
