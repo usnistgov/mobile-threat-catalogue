@@ -373,13 +373,14 @@ nav label {
         }
 
         .expand {
-            height: 0;
+            max-height: 0;
             overflow: hidden;
-            transition: height .5s;
+            transition: max-height 1s cubic-bezier(0, 1, 0, 1);
         }
 
         #toggle:checked ~ .expand {
-          height: 100%;
+          max-height: 100rem;
+          transition: max-height .5s ease-in;
         }
 
         #toggle:checked ~ label::before {
