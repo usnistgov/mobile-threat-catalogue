@@ -38,7 +38,6 @@ title: Statistics
     document.getElementById("total").innerHTML = sum;
 
     let dataArray = [
-        ['Threat Category', 'Threat Count'],
         ['Application', app_threats],
         ['Authentication', auth_threats],
         ['Cellular', cell_threats],
@@ -73,7 +72,8 @@ title: Statistics
             return 0;
 
         return a[1] < b[1] ? 1 : -1;
-    })
+    });
+    dataArray.unshift(["Threat Category", "Threat Count"]);
 
     dataArray.forEach(function (e, i) {
         if (i == 0)
@@ -112,8 +112,6 @@ title: Statistics
         // Load google charts
         google.charts.load('current', {'packages':['corechart']});
         google.charts.setOnLoadCallback(drawChart);
-
-        drawChart();
     }
 
     window.onresize = function() { drawChart(); }
