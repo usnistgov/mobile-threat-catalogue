@@ -16,10 +16,17 @@
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mobile-attack-surface/mobile-ecosystem.html">Mobile Ecosystem</a></li>
             </ul>
 
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mtc-overview/">MTC Overview</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" style="display: inline-block;" href="{{ site.baseurl }}/background/mtc-overview/">MTC Overview</a>
+            <span class="down-caret-mtc-overview" onclick="toggleNav('mtc-overview');"></span>
+            <ul id="mtc-overview">
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mtc-overview/methodology.html">Methodology</a></li>
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mtc-overview/structure.html">Catalogue Structure</a></li>
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mtc-overview/category-descriptions.html">Categories</a></li>
+            </ul>
+
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/statistics.html#page">Statistics</a> 
 
-            <h4 class="sidebar-nav-item" onclick="toggleNav('nav-links')" style="cursor: pointer;">Categories <span class="down-caret-nav-links"></span></h4>
+            <h4 class="sidebar-nav-item" onclick="toggleNav('nav-links')" style="cursor: pointer;">Categories<span class="down-caret-nav-links"></span></h4>
             <ul id="nav-links">
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/application.html#page">Application</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/authentication.html#page">Authentication</a></li>
