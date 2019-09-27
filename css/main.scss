@@ -154,7 +154,7 @@ body {
     overflow-y: auto;
 }
 
-.down-caret {
+span[class^="down-caret-"] {
   width: 0;
   height: 0;
   border-style: solid;
@@ -166,11 +166,12 @@ body {
   position: relative;
   transform: rotate(0deg);
   transition: all .25s ease-in;
+  cursor: pointer;
 }
 
 .open-caret {
-    transform: rotate(180deg);
-    transition: all .25s ease-out;
+    transform: rotate(180deg) !important;
+    transition: all .25s ease-out !important;
 }
 
 nav label {
@@ -218,10 +219,11 @@ nav label {
     }
 }
 
-#nav-links {
+#nav-links, #attack-surface {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    padding-left: 0.6rem;
 }
 
 .cve-list {

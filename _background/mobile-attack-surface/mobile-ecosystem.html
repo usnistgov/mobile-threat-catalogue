@@ -1,0 +1,33 @@
+---
+layout: default
+title: Mobile Ecosystem
+---
+
+<h1 class="page-heading">Mobile Ecosystem</h1>
+
+<p>Mobile devices do not exist in a vacuum - a series networks and interconnected systems exist to support modern mobility. The utility of modern mobile devices is greatly enhanced by software applications and their supporting cloud services. Mobile OSs provide dedicated application stores for end users offering a convenient and customized means of adding functionality. Application stores pose an additional threat vector for attackers to distribute malware or other harmful software to end users. This is especially true of third-party application stores not directly supervised by mobile OS vendors.</p>
+<p>Mobile applications may traverse many networks and interact with systems owned and operated by many parties to accomplish their intended goals. This mobile ecosystem is depicted in the Figure 1.</p>
+<img width="50%" src="{{ site.baseurl }}/img/mobile-ecosystem.png">
+<small><b>Figure 1</b> - Mobile Ecosystem</small>
+
+<h2>Cellular Infrastructure</h2>
+<p>MNOs build out cellular base stations over a large geographic area. These base stations modulate and demodulate radio signals to communicate with mobile devices. Base stations forward mobile device information, such as calls, messages, and other data, to other base stations and a cellular network core. The cellular network core contains anchor points to communicate with other networks, such as other MNO’s cellular networks, WiFi networks, the Internet, and the PSTN. Cellular network cores also rely upon authentication servers to use and store customer authentication information.</p>
+
+<h2>Public Application Stores</h2>
+<p>Major mobile operating vendors own and operate their own native mobile application stores, which host mobile applications for users to download and install. These stores also provide music, movies, video games, and more. Access to these stores is natively installed and configured into mobile devices. Third-party mobile application stores also exist for most mobile operating systems. These third-party application stores may be explicitly built into the mobile OS, or they may be added as additional functionality for jailbroken or rooted devices.  Third-party application stores may be completely legitimate, but may also host applications that commit substantial copyright violations or “cracked” versions of applications that allow users to install and use paid applications for free.</p>
+<p>The native application stores are hosted and operated by their respective mobile OS developers.</p>
+
+<h2>Private Application Stores</h2>
+<p>Many enterprises and other organizations host their own mobile application stores. These stores either host, or link to, a set of applications for an organization’s users to access. These applications may be privately developed applications that organizations do not wish to be made public, or they may be publicly available applications that have been specifically approved for enterprise use. The servers used to host these applications may be privately hosted and operated by the enterprise, or hosted and operated by a third-party cloud provider.</p>
+
+<h2>Device & OS Vendor Infrastructure</h2>
+<p>Mobile OS developers often host infrastructure to provide updates and patches to a mobile device’s OS and native applications. Other cloud-based applications may be provided as well, including functionality to locate, lock, or wipe a missing device or to store user data (e.g., pictures, notes, music).</p>
+
+<h2>Enterprise Mobility Management Systems</h2>
+<p>Enterprise Mobility Management (EMM) systems are a common way of managing mobile devices in an enterprise. Although EMMs are not directly classified as a security technology, they can help to deploy policies to an enterprise’s device pool and to monitor a device’s state. Mobile OS developers provide APIs for EMM systems to deliver mobile policies, such as only allowing a whitelisted set of applications to run; ensuring a lock screen security policy is met; and disabling certain device peripherals (e.g., camera). EMMs can also use APIs to gather data about various aspects of a mobile device’s state.</p>
+<p>For more information about the management and security of EMMs, see NIST SP 800-124 – Guidelines for Managing the Security of Mobile Devices in the Enterprise.</p>
+
+<h2>Enterprise Mobile Services</h2>
+<p>Email, contacts, and calendars are common workforce drivers, and are the cornerstone applications in mobile devices that are deployed by enterprises. Directory services are also deployed in an enterprise and used by mobile devices. Enterprises may also make other services available to mobile devices depending on their specific mission needs and requirements.</p>
+
+<script>toggleNav('attack-surface');</script>
