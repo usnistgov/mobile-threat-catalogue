@@ -1,9 +1,14 @@
 (function() {
-    function displaySearchResults(results, store) {
+    function displaySearchResults(results, store, a_results, a_store) {
         var searchResults = document.getElementById('search-results');
 
-        if (results.length) { // Are there any results?
+        if (results.length + a_results.length) { // Are there any results?
             var appendString = '';
+
+            for (var i = 0; i < a_results.length; i++) {
+                var item = a_store[a_results[i].ref];
+                appendString += '<li><a target="_blank" href="' + item.url + '">' + item.Term + ': ' + item.Definition + '</a></li>';
+            }
 
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
@@ -52,6 +57,11 @@
             this.field('PossibleCountermeasures');
         });
 
+        var acronym_idx = lunr(function() {
+            this.field('Term');
+            this.field('Definition');
+        });
+
         for (var key in window.store) { // Add the data to lunr
             idx.add({
                 'id': key,
@@ -63,9 +73,18 @@
                 'CVEExample': window.store[key].CVEExample,
                 'PossibleCountermeasures': window.store[key].PossibleCountermeasures,
             });
-
-            var results = idx.search(searchTerm); // Get lunr to perform a search
-            displaySearchResults(results, window.store); // We'll write this in the next section
         }
+
+        for (var key in window.acronym_store) {
+            acronym_idx.add({
+                'id': key,
+                'Term': window.acronym_store[key].Term,
+                'Definition': window.acronym_store[key].Definition,
+            });
+        }
+
+        var acronym_results = acronym_idx.search(searchTerm);
+        var results = idx.search(searchTerm); // Get lunr to perform a search
+        displaySearchResults(results, window.store, acronym_results, window.acronym_store); // We'll write this in the next section
     }
 })();

@@ -7,6 +7,14 @@
 @import "poole";
 @import "syntax";
 
+/* Offset for anchor links to avoid overlap with fixed header */
+:target::before {
+  content: "";
+  display: block;
+  height: 4.5rem;
+  margin: -4.5rem 0 0;
+}
+
 .page {
     word-break: break-word;
 }
