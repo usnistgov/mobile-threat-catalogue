@@ -1,0 +1,110 @@
+---
+layout: default
+title: MTC Overview
+---
+
+<h1 class="page-heading">Mobile Threat Catalogue Overview</h1>
+
+<p>The MTC captures a broad range of the threats posed to mobile devices and their associated infrastructure. The following sections describe the methodology used to create the catalogue, the category breakdown, and the description of each category.</p>
+
+<h2>Methodology</h2>
+
+<p>NCCoE’s mobile security engineers performed a foundational review of mobile security literature in order to identify major categories of mobile threats. Building upon this knowledge, threats were identified using a modified <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf" target="_blank">NIST SP 800-30 Rev. 1</a> risk assessment process. One of the primary drivers for change was the lack of a specific information system under review. A single mobile deployment was not under review – instead the threats posed to foundational mobile technologies were analyzed. Therefore, key risk information necessitated by <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf" target="_blank">NIST SP 800-30 Rev. 1</a> such as likelihood, impact, and overall risk was unavailable and not included. Threats were identified in communication mechanisms, the mobile supply chain, and at each level of the mobile device technology stack. These threats were then placed into threat categories alongside information pertaining to specific instantiations of these threats.</p>
+<p>During the threat identification process, it was necessary to identify which associated systems would be included and applicable mitigation capabilities. The mitigation capabilities are inclusive of a mobile security literature review and submissions resulting from the request for information on mobile threats and defenses, which support the congressional study on mobile device security. A broad scope was used in an effort to be comprehensive. The threats listed in the catalogue are sector-agnostic. For instance, threats pertaining to the use of mobile devices in a medical setting are not included. The exception to this is the inclusion of threats pertaining to the telecommunications industry, since this includes threats to cellular networks and infrastructure by definition.</p>
+
+<h2>Catalogue Structure</h2>
+
+<p>Threats are presented in categories and subcategories within the catalogue. <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf" target="_blank">NIST SP 800-30 Rev. 1</a> defines a threat as “any circumstance or event with the potential to adversely impact organizational operations and assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, or modification of information, and/or denial of service”. For each threat identified within our analysis, the following information is provided:</p>
+<ul>
+	<li><b>Threat Category</b>: The major topic area pertaining to this threat. Topic areas are further divided when necessary, and are discussed below.</li>
+	<li><b>Threat Identifier (ID)</b>: The Threat ID is a unique identifier for referencing a specific threat. The broad identifier categories used within the MTC are:
+		<ul>
+			<li><i>APP</i>: Application</li>
+			<li><i>STA</i>: Stack</li>
+			<li><i>CEL</i>: Cellular</li>
+			<li><i>GPS</i>: Global Positioning System</li>
+			<li><i>LPN</i>: Local Area Network & Personal Area Network</li>
+			<li><i>AUT</i>: Authentication</li>
+			<li><i>SPC</i>: Supply Chain</li>
+			<li><i>PHY</i>: Physical</li>
+			<li><i>ECO</i>: Ecosystem</li>
+			<li><i>EMM</i>: Enterprise Mobility Management</li>
+			<li><i>PAY</i>: Payment</li>
+		</ul>
+	</li>
+	<li><b>Threat Origin</b>: Reference to the source material used to initially identify the threat.</li>
+	<li><b>Exploit Example</b>: A reference to the vulnerability’s origin or examples of specific instances of this threat.</li>
+	<li><b>Common Vulnerability and Exposure (CVE) Reference</b>: A specific vulnerability located within the National Vulnerability Database (NVD). A vulnerability origin may describe a specific vulnerability, which may, or may not, be associated with a CVE.</li>
+	<li><b>Possible Countermeasure</b>: Security controls or mitigations that could reduce the impact of a particular threat. If a countermeasure is not present, it may be an area for future research.</li>
+</ul>  
+<p style="margin-top: 1rem;">The CVE is a dictionary of publicly known information security vulnerabilities and exposures.</p>
+
+<h2>Category Descriptions</h2>
+<p>There are 12 tabs within the MTC, each acting as general threat categories with subcategories defined as necessary.</p>
+
+<h3>Mobile Device Technology Stack</h3>
+<p>The mobile device technology stack consists of the hardware, firmware, and software used to host and operate the mobile device.</p>
+
+<ul>
+	<li><b>Mobile Applications</b>: The Applications tab contains threats related to software application developed for a mobile device, or more specifically a mobile operating system. <i>Note: The Applications category was separated into its own tab to enhance the usability of the catalogue. All of the other items are listed under the Stack tab.</i>
+	</li>
+	<li><b>Mobile Operating System</b>: Operating system specifically designed for a mobile device and running mobile applications.</li>
+	<li><b>Device Drivers</b>: Plug-ins used to interact with device hardware and other peripherals (e.g., camera, accelerometer).</li>
+	<li><b>Isolated Execution Environments</b>: Hardware or firmware-based environment built into the mobile device that may provide many capabilities such as trusted key storage, code verification, code integrity, and trusted execution for security relevant processes.</li>
+	<li><b>SD Card</b>: SD cards are removable memory used to expand the storage capacity of mobile devices to store data such as photos, videos, music, and application data.</li>
+	<li><b>Boot Firmware</b>: The firmware necessary to boot the mobile OS (i.e., bootloader). Firmware may verify additional device initialization code, device drivers used for peripherals, and portions of the mobile OS – all before a user can use the device.</li>
+	<li><b>Baseband Subsystem</b>: The collection of hardware and firmware used to communicate with the cellular network via the cellular radio.</li>
+	<li><b>SIM Card</b>: This removable hardware token is a SoC housing the IMSI, pre-shared cryptographic keys, and configuration information needed to obtain access to cellular networks.</li>
+</ul>
+
+<h3>Cellular</h3>
+<p>Threats exist to a number of cellular systems, broken into the following subcategories</p>
+<ul>
+	<li><b>Air Interface</b>: The cellular air interface is the radio connection between a handset and a base station. There are many cellular network types each with its own air interface standards which as a total set are extremely flexible and primarily communicate with base stations. <i>Note: While a number of general threats to the cellular air interface are listed, specific threats to particular cellular protocols (e.g., GSM, CDMA, LTE) are also included.</i></li>
+	<li><b>Consumer grade small cell</b>: Small cells are often used to extend cellular network coverage into homes, offices, and other locations lacking service.</li>
+	<li><b>Carrier-grade Messaging Services</b>: Messaging services (i.e., SMS, MMS, RCS) allow text, photos, and more to be sent from one device to another. Although third-party messaging services exist, carrier-grade messaging services are pre-installed on nearly every mobile phone, and are interoperable with most MNOs’ networks.</li>
+	<li><b>USSD</b>: A method for establishing real-time sessions with a service or application to quickly share short messages. Although USSD messages may travel over SMS, the protocol itself is distinct.</li>
+	<li><b>Carrier Infrastructure</b>: This category includes threats to the base stations, backhaul and cellular network cores.</li>
+	<li><b>Carrier Interoperability</b>: This subcategory is primarily reserved for signaling threats associated with the Signaling System No. 7 (SS7) network.</li>
+	<li><b>VoLTE</b>: The packet switched network application used for making voice calls within LTE. Although not supported in all MNO networks, large-scale rollouts are underway throughout the world.</li>
+</ul>
+
+<h3>LAN & PAN</h3>
+<p>This threat category consists of local and personal area wireless network technologies.</p>
+<ul>
+	<li><b>WiFi</b>: WiFi is a WLAN technology based on the IEEE 802.11 series of standards.</li>
+	<li><b>Bluetooth</b>: Bluetooth is a medium-range, lower power, wireless communication technology.</li>
+	<li><b>NFC</b>: NFC is a short range wireless communication technology commonly used for mobile wallet technologies and peripheral configuration, although a number of other applications exist.</li>
+</ul>
+
+<h3>GPS</h3>
+<p>A network of orbiting satellites used to help a device determine its location.</p>
+
+<h3>Authentication</h3>
+<p>Authentication mechanisms are grouped within the three subcategories listed below. Individual credential and token types are not broken into their own categories and are instead included within one of these three broad categories.</p>
+<ul>
+	<li><b>User to Device</b>: Mechanisms used to authenticate with a mobile device, such as passwords, fingerprints, or voice recognition. This is most often local authentication to a device’s lock screen.</li>
+	<li><b>User or Device to Remote Service</b>: Mechanisms a user or a distinct non-person entity (NPE) uses to remotely authenticate to an external process, service, or device.</li>
+	<li><b>User or Device to Network</b>: Mechanisms a user, mobile device, or peripheral uses to authenticate to a network (e.g., Wi-Fi, cellular). This commonly includes proving possession of a cryptographic token.</li>
+</ul>
+
+<h3>Supply Chain</h3>
+<p>This category includes threats related to the device and component supply chain. To the extent that they are included, software supply chain related threats are noted within the Exploitation of Vulnerabilities in Applications category.</p>
+
+<h3>Physical Access</h3>
+<p>This category includes general threats originating from outside of the device, such as device loss and malicious charging stations.</p>
+
+<h3>Ecosystem</h3>
+<p>This category includes threats related to the greater mobile ecosystem includes a number of items, including EMMs, mobile OS vendor infrastructure, and mobile enterprise services such as email, contacts, and calendar.</p>
+<ul>
+	<li><b>Mobile OS Vendor Infrastructure</b>: Infrastructure provided by the OS developer to provide OS and application updates, alongside auxiliary services such as cloud storage.</li>
+	<li><b>Native Public Stores</b>: Major mobile operating system vendors own and operate their own native mobile application stores, which host mobile applications alongside music, movies, games, etc. for users to download and install.</li>
+	<li><b>Private Enterprise Stores</b>: Application stores may be owned and operated by private enterprises to host applications not meant for public distribution, such as applications developed and used solely within the organization.</li>
+	<li><b>Third-Party Stores</b>: Other legitimate, and illegitimate, application stores may be owned and operated by organizations external to the major mobile operating system vendors.</li>
+</ul>
+
+<h3>Enterprise Mobility</h3>
+<p>This threat category comprises enterprise mobility management systems and threats to enterprises services.</p>
+
+<h3>Payment</h3>
+<p>Threats related to mobile payments are included within this category, including a variety of mobile payment technologies such as USSD, NFC-based payments, and credit card tokenization. Although general threats relating to USSD and NFC are included elsewhere, threats relating to payment specific use cases are captured here.</p>

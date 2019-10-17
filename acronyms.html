@@ -5,6 +5,6 @@ title: Acronyms
 
 <ul class="threat-list">
     {% for glossary-term in site.data.glossary-terms %}
-        <li><b>{{ glossary-term.term }}</b>: {{ glossary-term.definition }}</li>
+        <li id="{{ glossary-term.term }}"><b>{{ glossary-term.term }}</b>: {{ glossary-term.definition }}</li>
     {% endfor %}
 </ul>

@@ -5,12 +5,20 @@
 
         <nav class="sidebar-nav expand">
             <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a> 
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/statistics.html#page">Statistics</a> 
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/">Background</a>
 
-            {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
-            for usage. {% endcomment %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" style="display: inline-block;" href="{{ site.baseurl }}/background/mobile-attack-surface/">Attack Surface</a>
+            <span class="down-caret-attack-surface" onclick="toggleNav('attack-surface');"></span>
+            <ul id="attack-surface">
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mobile-attack-surface/tech-stack.html">Technology Stack</a></li>
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mobile-attack-surface/communication-mechanisms.html">Communication</a></li>
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mobile-attack-surface/supply-chain.html">Supply Chain</a></li>
+                <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mobile-attack-surface/mobile-ecosystem.html">Mobile Ecosystem</a></li>
+            </ul>
 
-            <h4 class="sidebar-nav-item" onclick="toggleNav()" style="cursor: pointer;">Categories <span class="down-caret"></span></h4>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mtc-overview/">MTC Overview</a>
+
+            <h4 class="sidebar-nav-item" onclick="toggleNav('nav-links')" style="cursor: pointer;">Threat Categories<span class="down-caret-nav-links"></span></h4>
             <ul id="nav-links">
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/application.html#page">Application</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/authentication.html#page">Authentication</a></li>
@@ -25,13 +33,14 @@
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/stack.html#page">Stack</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/supply-chain.html#page">Supply Chain</a></li>
             </ul>
+
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/statistics.html#page">Threat Statistics</a>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/contributing.html#page">Contribute</a>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/acronyms.html#page">Acronyms</a>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/cve-list.html#page">CVE List</a>
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/downloads.html#page">Downloads</a>
-
-
         </nav>
+
     </div>
 </div>
 <script src="{{ site.baseurl }}/js/nav.js"></script>
