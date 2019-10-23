@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-13
-Threat: Gathering sensitive information vis OS APIs
+Threat: Gathering sensitive information via OS APIs
 ThreatDescription: Apps may be granted permission, by the user or by default, access common data stores provided by the mobile OS. Common stores are contacts lists, call history, calendar, notes, or app clipboard. When apps used in differing personal and enterprise contexts have access to these stores, they may contain co-mingled personal and enterprise data. A malicious or invasive app granted access to these locations can collect any sensitive data stored there, likely with an intent to exfiltrate it to the attacker.
 ThreatOrigin: The Google Android Security Team's Classifications for Potentially Harmful Applications [^83]
 ExploitExample:
