@@ -24,7 +24,7 @@ title: Ecosystem
     {% assign sorted = site.ecosystem-threats | sort:"rawID" %}
     {% for ecosystem-threat in sorted %}
         {% if ecosystem-threat.ThreatCategory == 'Mobile OS & Vendor Infrastructure' %}
-            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.ID }}: {{ ecosystem-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -33,7 +33,7 @@ title: Ecosystem
 <ul class="threat-list">
     {% for ecosystem-threat in sorted %}
         {% if ecosystem-threat.ThreatCategory == 'Mobile Application Store' %}
-            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ ecosystem-threat.url }}#page">{{ ecosystem-threat.ID }}: {{ ecosystem-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
