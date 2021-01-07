@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: Bluetooth'
 ID: LPN-7
-Threat: BlueStumbling (a.k.a. Bluetooth War Walking) - discover, locate, and identify users based on their Bluetooth device addresses.
+Threat: BlueStumbling
 ThreatOrigin: 'War Nibbling: Bluetooth Insecurity [^O-Whitehouse-1]'
+ThreatDescription: BlueStumbling occurs when adversaries discover, locate, and/or identify users based on their Bluetooth device addresses.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

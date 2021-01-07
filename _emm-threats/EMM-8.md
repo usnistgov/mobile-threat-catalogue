@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-8
-Threat: Unauthorized or unintentional wiping of personal user data from devices
+Threat: Personal Data Deletion
+ThreatDescription: Personal data may be intentionally or unintentionally wiped from devices, by MDM administrators or attackers.
 ThreatOrigin: "Personal Data Security and the ''BYOD'' problem: Who is Truly at Risk? [^7]"
 ExploitExample:
 CVEExample:

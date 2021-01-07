@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: NFC-based
 ID: PAY-0
-Threat: NFC Payment replay attacks
+Threat: NFC Payment Relay Attacks
 ThreatOrigin: 'iOS Security: iOS 9.3 and Later [^54]'
+ThreatDescription: Certain NFC implementations may be vulnerable to relay attacks, which is where an attacker relays messages between two parties, similar to a proxy.
 ExploitExample: Practical NFC peer-to-peer relay attack using mobile phones. [^11]
 CVEExample:
 PossibleCountermeasures:

@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-3
-Threat: Impersonating the EMM/MDM server to an enrolled device to execute unauthorized actions, such as triggering a device wipe or installing a malicious MDM profile
+Threat: MDM Impersonation
+ThreatDescription: An adversary could impersonate the EMM/MDM server to an enrolled device to execute unauthorized actions, such as triggering a device wipe or installing a malicious MDM profile.
 ThreatOrigin: Mobile Device Mismanagement [^4]
 ExploitExample:
 CVEExample:

@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-4
-Threat: Exploitation of app store remote installation capabilities to install malicious apps onto mobile devices
+Threat: Remote Installation Exploit
+ThreatDescription: Remote installation capabilities of app stores can be exploited to install malicious apps on mobile devices.
 ThreatOrigin: Symantec Internet Security Threat Report 2016 [^110]
 ExploitExample:
   - How I Almost Won Pwn2Own via XSS [^200]

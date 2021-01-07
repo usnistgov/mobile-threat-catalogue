@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Authentication: User to Device'
 ID: AUT-6
-Threat: 'Android: Spoofing of NFC token or Bluetooth devices that automatically unlock the mobile device, or keeps a mobile device unlocked (e.g., Android Smartlock)'
+Threat: Android Smartlock Device Spoofing
 ThreatOrigin: Which is the most secure Android Smart Lock? [^131]
+ThreatDescription: On Android, a feature called Smartlock exists that allows the device to automatically stay unlocked when connected to certain Bluetooth devices or WiFi networks. If an attacker is able to spoof a device enabled within Smartlock, they could force the device to remain unlocked as long as the device is paired.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-16
-Threat: Sending premium SMS messages without user authorization
+Threat: Premium SMS Fraud
 ThreatDescription: SMS messages were initially charged to a cellular subscriber's account on a per-message basis. However, some services use SMS messaging as a subscription or one-time payment method. The charge associated with the SMS message is placed on the cellular subscriber's account and collected along with standard cellular service fees. This model enables malicious app developers to potentially collude with premium SMS service providers to commit fraud against users. The subscriber is held responsible for the fraudulent charges by the cellular carrier. Early forms of this attack exploited the weak OS permission models that allowed apps to send premium SMS messages without user interaction, which prompted improvement by affected OS developers. Contemporary variants must instead exploit vulnerabilities in the mobile OS to send messages without user knowledge and consent.
 ThreatOrigin: 'Dissecting Android Malware: Characterization and Evolution [^85]'
 ExploitExample:

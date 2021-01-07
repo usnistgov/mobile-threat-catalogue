@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: USSD
 ID: CEL-25
-Threat: Unsafe interactions between USSD system and the browser, leading to autodial of unsafe USSD codes (e.g., factory reset)
+Threat: Unauthorized USSD Code Autodial
 ThreatOrigin:
 ExploitExample:
   - Dirty USSD Code Could Automatically Wipe Your Samsung TouchWize Device (Updated) [^187]

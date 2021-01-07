@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-6
-Threat: An adversary with access to the hardware commodity procurement process can insert improperly vetted or untested malicious critical microelectronics components into the system during development.
+Threat: Improperly Vetted or Untested Malicious Microelectronics
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An adversary with access to the hardware commodity procurement process can insert improperly vetted or untested malicious critical microelectronics components into the system during development.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Carrier Infrastructure
 ID: CEL-26
-Threat: Voicemail hacking using default PINs
+Threat: Voicemail Hacking via Default PIN
 ThreatOrigin: Safe Use of Mobile Devices and the Internet [^171]
 ExploitExample:
 CVEExample:

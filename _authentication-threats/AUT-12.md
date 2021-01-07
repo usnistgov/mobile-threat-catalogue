@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Authentication: User or Device to Network'
 ID: AUT-12
-Threat: Insecure storage of authentication credentials
+Threat: Insecure Credential Storage
 ThreatOrigin:
+ThreatDescription: OS APIs provide access to device locations to properly store sensitve credentials. Improper storage of credentials could lead to unauthorized access or exposure.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

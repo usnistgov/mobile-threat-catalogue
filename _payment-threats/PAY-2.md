@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: NFC-based
 ID: PAY-2
-Threat: Credit or debit card enrolled into mobile payment without cardholder authorization
+Threat: Unauthorized Mobile Payment Usage
 ThreatOrigin: The Weak Link in Apple Pay's Strong Chain is Bank Verification. Who's to Blame? [^14]
+ThreatDescription: Adversaries that are able to enroll credit or debit cards in mobile payment systems without the cardholder's authorization could use the card and charge to it without the cardholder's knowledge.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

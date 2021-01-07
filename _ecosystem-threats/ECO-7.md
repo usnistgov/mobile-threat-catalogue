@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-7
-Threat: 'Applications that have been removed by app stores (for example, due to security vulnerabilities or harmful behaviors) but are still present on mobile devices (e.g. zombie apps) '
+Threat: Zombie Applications
+ThreatDescription: When an application is removed from an app store, the app is not removed from devices that it is installed on. This can present a threat when the removed application is malicious, and therefore allowed to continue running on infected devices. The applications still present on mobile devices are referred to as "zombie applications".
 ThreatOrigin: The State of the Mobile Ecosystem, Appthority Unveils New Security Research at Black Hat [^199]
 ExploitExample:
 CVEExample:

@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: SMS / MMS / RCS
 ID: CEL-17
-Threat: Receiving a text message causing a DoS of the device or application (possibly apps other than the messaging app)
+Threat: SMS-induced DoS
 ThreatOrigin: Attacking SMS [^182]
+ThreatDescription: Due to certain OS bugs or vulnerabilites, specially crafted SMS messages may crash the application, launcher, or entire device.
 ExploitExample: Beware of the Text Massage That Crashes iPhones [^183]
 CVEExample: CVE-2015-1157
 PossibleCountermeasures: {}

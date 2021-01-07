@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-33
-Threat: App bypasses access controls on OS-private functions
+Threat: Bypassing OS Private API Controls
 ThreatDescription: Mobile OS generally have two APIs - an external API that is available to public developers, and a private API that is restricted to the OS and built-in applications. Access control mechanisms implemented at the OS level may have vulnerabilities that allow 3rd party apps to successfully execute private API functions. Mobile OS app stores have since improved detection of a direct attempt by an app to call a private OS function.
 ThreatOrigin: Symantec Internet Security Threat Report 2016 [^110]
 ExploitExample:

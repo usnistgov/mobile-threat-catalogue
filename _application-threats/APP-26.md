@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-26
-Threat: Exploits OS or lower-level vulnerability to achieve privilege escalation
+Threat: Privilage Escalation via OS Vulnerability
 ThreatDescription: Malicious applications that achieve privilege escalation in the context of the mobile OS, driver, peripheral firmware, or the kernel, may further achieve unauthorized access or modification of app, user, or system data, process memory, or execute other unauthorized actions on the device.
 ThreatOrigin: 'Dissecting Android Malware: Characterization and Evolution [^85]'
 ExploitExample:

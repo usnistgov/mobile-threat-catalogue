@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Physical Access
 ID: PHY-3
-Threat: Unauthorized access to device data resulting from poor lifecycle management.
+Threat: Unauthorized Access via Poor Lifecycle Management
 ThreatOrigin: BYOD & Mobile Security [^146]
+ThreatDescription: Discarded devices may not be properly erased, potentially exposing the data to anyone that has access to the device after disposal.
 ExploitExample: Who's Got Your Old Phone's Data? [^233]
 CVEExample:
 PossibleCountermeasures:

@@ -16,7 +16,7 @@ title: LANs and PANs
     {% assign sorted = site.lan-pan-threats | sort:"rawID" %}
     {% for lan-pan-threat in sorted %}
         {% if lan-pan-threat.ThreatCategory == 'Network Threats: Wi-Fi' %}
-            <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}#page">{{ lan-pan-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}#page">{{ lan-pan-threat.ID }}: {{ lan-pan-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -25,7 +25,7 @@ title: LANs and PANs
 <ul class="threat-list">
     {% for lan-pan-threat in sorted %}
         {% if lan-pan-threat.ThreatCategory == 'Network Threats: Bluetooth' %}
-            <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}#page">{{ lan-pan-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}#page">{{ lan-pan-threat.ID }}: {{ lan-pan-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -34,7 +34,7 @@ title: LANs and PANs
 <ul class="threat-list">
     {% for lan-pan-threat in sorted %}
         {% if lan-pan-threat.ThreatCategory == 'Network Threats: NFC' %}
-            <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}#page">{{ lan-pan-threat.Threat }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ lan-pan-threat.url }}#page">{{ lan-pan-threat.ID }}: {{ lan-pan-threat.Threat }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Vulnerable Applications
 ID: APP-8
-Threat: WebView app vulnerable to browser-based attacks
+Threat: WebView App Vulnerable to Browser-Based Attacks
 ThreatDescription: A mobile app that implement a WebView, which allows it to render and potentially perform actions available in a web page, may contain vulnerabilities to common browser-based attacks, such as cross-site request forgery, cross-site scripting, and injection of malicious dynamic content (e.g., JavaScript). Further, exploits delivered over web pages may allow remote exploitation of vulnerabilities in other app components, thereby gaining access to data or functionality outside the context of the vulnerable WebView.
 ThreatOrigin:
 ExploitExample:

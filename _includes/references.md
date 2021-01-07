@@ -540,3 +540,21 @@
 [^M-Lipp-et-al-1]: M. Lipp et al., _Meltdown_, white paper, 2017; https://meltdownattack.com/meltdown.pdf [accessed 02/02/2018]
 
 [^P-Frigo-1]: P. Frigo et al., _Grand Pwning Unit: Accelerating Microarchitectural Attacks with the GPU_, white paper, 2018; https://www.vusec.net/wp-content/uploads/2018/05/glitch.pdf
+
+[^300]: McAfee, _How Does Jailbreaking Or Rooting Affect My Mobile Device Security?_, blog, 13 Jun. 2012; https://www.mcafee.com/blogs/consumer/how-does-jailbreaking-or-rooting-affect-my-mobile-device-security [accessed 12/02/2019]
+
+[^301]: Trend Micro, _Understanding Code Signing Abuse in Malware Campaigns_, blog, 5 Apr. 2018; https://blog.trendmicro.com/trendlabs-security-intelligence/understanding-code-signing-abuse-in-malware-campaigns [accessed 12/02/2019]
+
+[^302]: MITRE, _Install Insecure or Malicious Configuration_, blog; https://attack.mitre.org/techniques/T1478 [accessed 12/02/2019]
+
+[^303]: SearchSecurity, _backdoor (computing)_, blog, Aug. 2017; https://searchsecurity.techtarget.com/definition/back-door [accessed 12/02/2019]
+
+[^304]: B. Brenner, _Fur flies over Android bootloader flaws: here’s what you need to know_, Naked Security, blog, 6 Sep. 2017; https://nakedsecurity.sophos.com/2017/09/06/fur-flies-over-android-bootloader-flaws-heres-what-you-need-to-know [accessed 12/02/2019]
+
+[^305]: C. Puodzius, _UEFI malware: How to exploit a false sense of security_, WeLiveSecurity, blog, 19 Oct. 2017; https://www.welivesecurity.com/2017/10/19/malware-firmware-exploit-sense-security [accessed 12/02/2019]
+
+[^306]: B. Donohue, _Weak Encryption Enables SIM Card Root Attack_, threat post, blog, 1 Aug. 2013; https://threatpost.com/weak-encryption-enables-sim-card-root-attack/101557/ [accessed 12/03/2019]
+
+[^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
+
+[^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]

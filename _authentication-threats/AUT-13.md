@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Mobile Operating System
 ID: AUT-13
-Threat: A malicious application with root access acts as a keylogger to capture authentication credentials.
+Threat: Credential Theft via Keylogging
 ThreatDescription: A malicious application that is able to intercept screen tap events while other applications are in the foreground can act as a keylogger, thereby collecting authentication credentials (as well as any other sensitive information, such as PII, entered using the displayed keyboard).
 ThreatOrigin:
   - An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]

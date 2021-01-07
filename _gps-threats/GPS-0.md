@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: GPS
 ID: GPS-0
-Threat: Jamming, which could prevent applications that rely on Location Services, such as mapping or navigation apps, from functioning correctly.
+Threat: GPS Jamming
+ThreatDescription: GPS jamming could prevent applications that rely on Location Services, such as mapping or navigation apps, from functioning correctly.
 ThreatOrigin: A study of GPS jamming and anti-jamming, [^179]
 ExploitExample:
 CVEExample:

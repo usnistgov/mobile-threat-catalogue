@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-19
-Threat: App conducts audio or video surveillance.
+Threat: Audio or Video Surveillance
 ThreatDescription: "Starting with Android 6.0, access to the microphone or camera is considered a dangerous permission and each recording attempt must be granted permission by the user at runtime. Similarly, the iOS security model only allows apps granted permission by the user to access the camera or microphone while running in the foreground. Therefore, an app operating in these or newer environments cannot abuse public APIs to initiate a recording outside the user's knowledge.\nThis threat can still be realized following successful exploits of OS vulnerabilities that ultimately provide a malicious app with unauthorized access to those resources (e.g. bypass access control on APIs or direct access to the hardware)."
 ThreatOrigin:
 ExploitExample:

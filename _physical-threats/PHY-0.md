@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Physical Access
 ID: PHY-0
-Threat: Device loss or theft
+Threat: Device Loss or Theft
 ThreatOrigin: FAQ on Lost/Stolen Devices [^230]
+ThreatDescription: Lost or stolen mobile devices gives an adversary unhindered access to the device, and if there's an insecure or no PIN in place, access to the data on the device as well.
 ExploitExample:
   - 'Phone Theft in America: What really happens when your phone gets grabbed [^225]'
   - Smartphone thefts drop as kill switch usage grows [^226]

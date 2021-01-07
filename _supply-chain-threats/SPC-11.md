@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-11
-Threat: An adversary with access to download and update system software installs a BIOS containing known vulnerabilities for future exploitation.
+Threat: Vulnerable BIOS Installation
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An adversary with access to download and update system software installs a BIOS containing known vulnerabilities for future exploitation.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

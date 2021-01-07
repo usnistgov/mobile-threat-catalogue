@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Isolated Execution Environments
 ID: STA-13
-Threat: Reverse engineering of TEE components
+Threat: Reverse Engineering of TEE Components
 ThreatOrigin: ARM Security Technology Building a Secure System using TrustZone Technology [^210]
+ThreatDescription: Adversaries that are able to reverse engineer parts of the TEE may gain access to cryptographic secrets and other sensitive information.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

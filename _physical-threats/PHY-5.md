@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Physical Access
 ID: PHY-5
-Threat: Use of a sidechannel attack to obtain crypto private keys
+Threat: Side-Channel Attack
 ThreatOrigin: ECDSA Key Extraction from Mobile Devices Via Nonintrusive Physical Side Channels
+ThreatDescription: Side channel attacks allow adversaries to extract information or perform malicious actions via the implmentation of the system itself, rather than algorithmic weaknesses.[^308]
 ExploitExample:
   - New Attack Steals Secret Crypto Keys from Android and iOS Phones [^164]
   - Evolving differential power analysis targets SIM cards [^Rambus-1]

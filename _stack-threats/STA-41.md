@@ -17,7 +17,7 @@ PossibleCountermeasures:
       - Deploy MAM or containerization solutions that support policies that can enforce strong encryption on any data stored on the SD card by trusted apps
       - Deploy MAM or containerization solutions that support policies that can restrict access to the SD card by untrusted apps.
       - Use app-vetting services to determine if any apps present in your mobile device deployment store data on or access an SD card in an untrusted manner so appropriate policies and controls can be established to mitigate those risks.
-Threat: Unauthorized disclosure of data stored on an attached SD card.
+Threat: Unauthorized Disclosure of SD Card Data
 ThreatCategory: SD Card
 ThreatDescription: Unauthorized access to data stored on an attached SD card may have multiple causes. Vulnerabilities in the microcontroller integrated into the SD card itself may allow a crafted app to access arbitrary memory locations. Further, apps may store data on an attached SD card in locations readable by any app with permission to access an attached SD card. Additionally, as removable media, SD cards can be mounted to devices accessed by operating systems or applications that may ignore or explicitly bypass any security information (e.g. file permissions) applied to stored data.
 ThreatOrigin: On Hacking MicroSD Cards [^248]

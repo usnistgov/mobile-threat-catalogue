@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Carrier Interoperability
 ID: CEL-43
-Threat: Decrypt air interface traffic by requesting the encryption key from the correct MNO
+Threat: Air Interface Traffic Decryption
 ThreatOrigin: Mobile Self Defense [^189]
 ExploitExample:
 CVEExample:

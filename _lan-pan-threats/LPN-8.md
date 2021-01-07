@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: Bluetooth'
 ID: LPN-8
-Threat: Denial of service attack over the Bluetooth connection to render Bluetooth unusable and rapidly drain the device battery
+Threat: Bluetooth DoS
 ThreatOrigin: Guide to Bluetooth Security (SP 800-121) [^28]
+ThreatDescription: Adversaries can execute a denial of service attack over a Bluetooth connection to render Bluetooth unusable and rapidly drain the device battery.
 ExploitExample: 'Studying Bluetooth Malware Propagation: The BlueBag Project [^30]'
 CVEExample:
 PossibleCountermeasures:

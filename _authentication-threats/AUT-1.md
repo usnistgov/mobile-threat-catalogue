@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: 'Authentication: User to Device'
 ID: AUT-1
-Threat: Unauthorized disclosure of sensitve data displayed on device lock screen
+Threat: Unauthorized Information Disclosure via Lockscreen
 ThreatDescription: When notification features are enabled for a device and mobile app, any sensitive information contained in a notification may be displayed on screen, even when the device is locked. An attacker with proximity to a locked device may gain unauthorized access to that information. Additional device features, such as voice-operated assistants (e.g., Siri, Cortana) may also allow an attacker with physical or voice access to a locked device to access sensitive information, such as contacts or reminders.
 ThreatOrigin: About the security content of iOS 10.3 [Apple-1]
 ExploitExample: How hackers can access iPhone contacts and photos without a password [^129]

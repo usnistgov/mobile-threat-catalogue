@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-2
-Threat: Adversarial supply chain distribution channel personnel (e.g., packaging, shipping, receiving, or transfer) can intercept and replace legitimate critical hardware components with malicious ones
+Threat: Replacing Critical Hardware Components
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: Adversarial supply chain distribution channel personnel (e.g., packaging, shipping, receiving, or transfer) can intercept and replace legitimate critical hardware components with malicious ones.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

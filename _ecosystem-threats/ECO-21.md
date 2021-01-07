@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-21
-Threat: Use of links or NFC tags, QR codes, or other distribution channels (e.g., sms, email) to point to malicious apps
+Threat: Distributing URLs Pointing to Malicious Applications
+ThreatDescription: A popular method of distributing links to malicious applications is direct links to the application files. These links can be distributed over several channels, including QR codes, NFC tags, and SMS messages.
 ThreatOrigin: How to Protect Yourself From Malicious QR Codes [^149]
 ExploitExample:
   - Find and Call app becomes first trojan to appear on iOS App Store [^154]

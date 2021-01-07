@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-14
-Threat: Bring the app store offline by attacking the hosting infrastructure
+Threat: Application Store Infrastructure Attack
+ThreatDescription: Attackers bringing down official app stores may drive users to unofficial, 3rd party sources, opening their device up to malicious applications.
 ThreatOrigin:
 ExploitExample:
 CVEExample:

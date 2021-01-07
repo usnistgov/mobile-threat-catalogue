@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Physical Access
 ID: PHY-6
-Threat: Physically swapping a user's SIM with a compromised SIM to run malicious javacard applets
+Threat: SIM Swap
 ThreatOrigin: A Biometrics-Based Solution to Combat SIM Swap Fraud [^235]
+ThreatDescription: Physically swapping a user's SIM with a compromised SIM could an allow an adversary to run malicious javacard applets.
 ExploitExample: Sim-Swap Fraud Claims Another Mobile Banking Victim [^145]
 CVEExample:
 PossibleCountermeasures:

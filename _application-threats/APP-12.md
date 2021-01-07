@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-12
-Threat: Gathering device-identifying information for further attacks
+Threat: Device Information Gathering
 ThreatDescription: Persistent information that can be used to identify or characterize a specific mobile device in one or more contexts, such as IMEI, IMSI, MAC address, phone number, mobile OS, or installed apps, may be collected by a malicious or privacy-invasive app to facilitate future attacks. These values, particularly in combination, greatly increase potential for geo-physical or behavioral tracking, device fingerprinting, and impersonation attacks against the device or its user.
 ThreatOrigin: The Google Android Security Team's Classifications for Potentially Harmful Applications [^83]
 ExploitExample:

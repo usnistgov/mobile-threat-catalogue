@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-5
-Threat: An adversary with access to hardware procurement, maintenance, or upgrade control can embed malware in a critical component
+Threat: Malware Embedded in Critical Component
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An adversary with access to hardware procurement, maintenance, or upgrade control can embed malware in a critical component.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

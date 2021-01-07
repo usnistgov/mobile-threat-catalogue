@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: NFC-based
 ID: PAY-1
-Threat: Compromised mobile payment terminal
+Threat: Compromised Mobile Payment Terminal
 ThreatOrigin: Demystifying Point of Sale Malware and Attacks [^12]
+ThreatDescription: Attackers could potentially plant malware on POS terminals to collect credit card numbers and other private information.
 ExploitExample: Home Depot Hit By Same Malware as Target [^13]
 CVEExample:
 PossibleCountermeasures:

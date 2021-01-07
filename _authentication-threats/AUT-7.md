@@ -2,10 +2,11 @@
 layout: threat
 ThreatCategory: 'Authentication: User to Device'
 ID: AUT-7
-Threat: Biometric spoofing
+Threat: Biometric Spoofing
 ThreatOrigin:
   - Liveness Detection to Fight Biometric Spoofing [^132]
   - iPhone 5S Touch ID susceptible to fingerprint spoofs [^135]
+ThreatDescription: Older biometric systems were subject to spoofing, through methods such as printed pictures of faces and fingerprints lifted from other places.
 ExploitExample: Why I hacked TouchID (again) and still think it's awesome [^133]
 CVEExample:
 PossibleCountermeasures:

@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-9
-Threat: A brute-force attack parallelized across many computers could theoretically be attempted on the authentication data and cryptographic keys  (passwords, etc.) stored in the cloud.
+Threat: Parallelized Brute Force
+ThreatDescription: A brute-force attack parallelized across many computers could theoretically be attempted on the authentication data and cryptographic keys (passwords, etc.) stored in the cloud.
 ThreatOrigin: 'iOS Security: iOS 9.3 or later [^54]'
 ExploitExample:
 CVEExample:

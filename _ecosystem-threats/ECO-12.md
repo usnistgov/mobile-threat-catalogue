@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-12
-Threat: MiTM attack providing illegitimate apps when users request legitimate apps
+Threat: Man in the Middle Attack on Application Download
+ThreatDescription: An attacker able to successfully execute a man in the middle attack on a connection could intercept legitimate application requests, and return back malicious or illegitimate applications to the user.
 ThreatOrigin:
 ExploitExample:
 CVEExample:

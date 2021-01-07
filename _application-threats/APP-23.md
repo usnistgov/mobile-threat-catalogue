@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-23
-Threat: Abuse of device management functionality to ransom assets
+Threat: Ransoming Assets via Device Management Abuse
 ThreatDescription: Device management features built into Android and iOS allow organizations to develop apps designed to enforce organizational mobile device security policies. Some policy options could be abused by a malicious app to block access to desired functionality (e.g. camera access) until a ransom is paid. Prior to Android 7.0, the Device Administrator role could forcefully set a device unlock code, which could be used to hold the entire device for ransom.
 ThreatOrigin: Android Security 2015 Year In Review [^98]
 ExploitExample:

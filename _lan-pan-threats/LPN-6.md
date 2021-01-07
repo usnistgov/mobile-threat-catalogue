@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: Bluetooth'
 ID: LPN-6
-Threat: Blueprinting - remotely fingerprint Bluetooth-enabled devices
+Threat: BluePrinting
 ThreatOrigin: Blueprinting [^29]
+ThreatDescription: BluePrinting occurs when adversaries remotely fingerprint Bluetooth-enabled devices to gather information to potentially exploit at a later point in time.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

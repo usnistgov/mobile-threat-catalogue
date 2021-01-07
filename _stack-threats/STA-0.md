@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Mobile Operating System
 ID: STA-0
-Threat: Exploitation of operating system software vulnerabilities to gain escalated privileges.
+Threat: Privilege Escalation via Software Vulnerabilities
 ThreatDescription: Privilege escalation vulnerabilities in the mobile OS, OS services, service libraries, or the OS kernel itself can allow an attacker to gain unauthorized access to sensitive data or execute arbitrary code from the privileged context to achieve any number of goals.
 ThreatOrigin:
   - Internet Security Threat Report 2016 [^110]

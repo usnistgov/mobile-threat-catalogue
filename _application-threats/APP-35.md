@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-35
-Threat: App retrieves sensitive data from the clipboard
+Threat: Retrieving Sensitive Information from Clipboard
 ThreatDescription: Any app that has been granted, or that has implicit OS-level permission to access the clipboard, may collect data left in the clipboard by other activity. A primary example would be using the device clipboard to copy-and-paste a password from an encrypted file to a form field.
 ThreatOrigin: Attacks on Android Clipboard [^238]
 ExploitExample:

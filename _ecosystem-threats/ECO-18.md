@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-18
-Threat: Obtain an app developer's credentials in order to remove their app from the app store
+Threat: Remove App From App Store
+ThreatDescription: App developer's credentials typically have permission to push app updates to the respective app store. If these credentials are somehow obtained by an attacker, they could remove any applications that the developer has published.
 ThreatOrigin: 'Keep out hijackers: Secure your app store dev account [^150]'
 ExploitExample: Major security hole allows Apple passwords to be reset with only email address, date of birth (update) [^152]
 CVEExample:

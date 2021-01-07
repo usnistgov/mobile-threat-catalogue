@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Authentication: User to Device'
 ID: AUT-2
-Threat: PIN/password brute force
+Threat: PIN/password Brute Force
 ThreatOrigin:
+ThreatDescription: Short or easy to guess PINs can be brute forced to unlock the device.
 ExploitExample:
   - Black Box Brouhaha Breaks Out Over Brute Forcing of iPhone Pin Lock [^125]
   - The bumpy road towards iPhone 5c NAND mirroring [^243]

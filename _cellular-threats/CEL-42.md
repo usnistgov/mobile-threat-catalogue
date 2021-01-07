@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Carrier Interoperability
 ID: CEL-42
-Threat: Redirect, duplicate, or eavesdrop voice calls
+Threat: Redirect, Duplicate, or Eavesdrop on Phone Calls
 ThreatOrigin: Mobile Self Defense [^189]
 ExploitExample:
 CVEExample:

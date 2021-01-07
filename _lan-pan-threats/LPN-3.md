@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: Wi-Fi'
 ID: LPN-3
-Threat: Malicious Wi-Fi networks masquerading as legitimate Wi-Fi networks (hotspot hijacking)
+Threat: Wi-Fi Hotspot Hijacking
 ThreatOrigin: Guidelines for Securing Wireless Local Area Networks (WLANs) (SP 800-163) [^16]
+ThreatDescription: Malicious Wi-Fi networks could masquerade as legitimate Wi-Fi networks, allowing adversaries to intercept or potentially manipulate device communications.
 ExploitExample: FCC Fines Marriott $600,000 for Jamming Hotel Wi-Fi [^21]
 CVEExample:
 PossibleCountermeasures:

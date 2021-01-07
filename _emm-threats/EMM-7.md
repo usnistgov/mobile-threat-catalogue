@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-7
-Threat: End user privacy incursions by an administrator or attacker with administrative access to the EMM/MDM administrative console (e.g., tracking device location, call logs, text messages, personal contacts, etc.)
+Threat: Breach of Privacy By MDM Administrator
+ThreatDescription: End user privacy incursions by an administrator or attacker with administrative access to the EMM/MDM administrative console (e.g., tracking device location, call logs, text messages, personal contacts, etc).
 ThreatOrigin: Worker Fired for Disabling GPS App That Tracked Her 24 Hours a Day [Updated] [^6]
 ExploitExample:
 CVEExample:

@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Vulnerable Applications
 ID: APP-3
-Threat: Sensitive information written to system logs
+Threat: Sensitive Information in System Logs
 ThreatDescription: Mobile application developers may unintentionally expose sensitive information by storing it in system logs designed to troubleshoot problems. An example would be logging the username and password for a failed user-to-app authentication attempt. An attacker with access to the system log would gain unauthorized access to the information.
 ThreatOrigin:
 ExploitExample:

@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-1
-Threat: 'A hardware or firmware component can be intercepted by an adversary while in transit between supplier and acquirer, for the purpose of substitution or manipulation. Vulnerabilities: The distribution channels are susceptible to hardware or firmware'
+Threat: Hardware or Firmware Component Interception
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: A hardware or firmware component can be intercepted by an adversary while in transit between supplier and acquirer, for the purpose of substitution or manipulation.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:
