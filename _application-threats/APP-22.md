@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-22
-Threat: App abuses Device Administrator permission to avoid uninstallation
+Threat: Avoiding Uninstallation via Permissions Abuse
 ThreatDescription: The Device Administrator permission in Android is designed to allow enterprises to develop apps that can manage settings on users devices to enforce compliance with the enterprise mobile device security policy. Prior to Android 6.0, the Device Administrator role could enforce a policy that disabled uninstallation of an app. Malicious applications could abuse this behavior to gain persistence on the device. Since Android 6.0, users can always unregister a given app as a Device Administrator, which disables all associated policies and would restore the ability to uninstall the malicious app.
 ThreatOrigin: Android Security 2015 Year In Review [^98]
 ExploitExample:

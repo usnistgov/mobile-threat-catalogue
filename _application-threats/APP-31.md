@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-31
-Threat: Malicious app impersonates a legitimate app
+Threat: Masquerading as a Legitimate Application
 ThreatDescription: 3rd party apps may duplicate the appearance and interface of a legitimate app, such as a banking app, to trick the user into supplying authentication credentials or other sensitive information intended for the app being spoofed. This threat was facilitated on Android devices before 5.0, as a malicious app could determine if a target app was running in the foreground, then initiate an activity to gain focus and intercept credential entry by the user.
 ThreatOrigin:
   - Phishing on Mobile Devices [^105]

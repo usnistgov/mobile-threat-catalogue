@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Vulnerable Applications
 ID: APP-5
-Threat: Malicious code downloaded by visiting a malicious URL
+Threat: Malicious Code Downloaded via Malicious URL
 ThreatDescription: A URL can refer to a broad spectrum of resource types, some of which can contain code that is executed by the process that requests it. The malicious code may automatically function in the target context, such as a script that is allowed to execute in a web browser, or it may require the presence of a vulnerability in the app that downloaded it that is exploited during an attempt to process the content, such as a buffer overflow attack.
 ThreatOrigin:
   - Android Towelroot Exploit Used to Deliver Dogspectus Ransomware [^71]

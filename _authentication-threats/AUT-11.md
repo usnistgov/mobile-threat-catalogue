@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Authentication: User or Device to Remote Service'
 ID: AUT-11
-Threat: Authentication credentials (e.g. token or private key) stolen from device
+Threat: Stolen Credentials
 ThreatOrigin: Mobile Top 10 2016 [^9]
+ThreatDescription: Vulnerabilities in applications may allow attackers to steal credentials from a device either remotely or with physical access.
 ExploitExample: Serious OS X and iOS Flaws Let Hackers Steal Keychain, 1Password Contents [^130]
 CVEExample:
 PossibleCountermeasures:

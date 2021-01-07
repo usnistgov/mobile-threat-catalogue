@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Mobile Operating System
 ID: STA-4
-Threat: Failure to properly authenticate operating system updates, enabling attackers to provide a malicious update.
+Threat: Improper OS Update Validation
 ThreatOrigin: UAE cellular carrier rolls out spyware as a 3G update [^203]
+ThreatDescription: Improper operating system update validation leaves the device vulnerable to malicious OS updates.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

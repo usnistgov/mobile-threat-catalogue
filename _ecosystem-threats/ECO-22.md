@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-22
-Threat: Bypass or evasion of application security analysis or vetting techniques to sneak an app into the store
+Threat: App Store Vetting Bypass
+ThreatDescription: Applications that can bypass app store's analysis or vetting techniques can implant malware in a legitimate app store.
 ThreatOrigin: Researchers Find Methods for Bypassing Google's Bouncer Android Security [^151]
 ExploitExample:
   - Dissecting the Android Bouncer [^155]

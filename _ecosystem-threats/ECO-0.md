@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-0
-Threat: Exploitation of mobile device backups stored on a compromised PC
+Threat: Exploitation of PC Backups
 ThreatOrigin:
 ExploitExample:
   - 'BackStab: Mobile Backup Data Under Attack from Malware [^192]'

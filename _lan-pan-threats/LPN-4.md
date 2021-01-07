@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: 'Network Threats: Wi-Fi'
 ID: LPN-4
-Threat: Client MAC address tracking
+Threat: Client MAC Address Tracking
 ThreatOrigin: IEEE 802 Privacy Threat Analysis [^22]
 ThreatDescription: When probing for available Wi-Fi networks, mobile devices transmit their MAC address. Persistent use of a single MAC address readily enables physical tracking of a specific device by listening or probing for messages that contain its associated MAC address. As a result, most mobile OS added support for some implementation of MAC address randomization, such that a device generates a new MAC address when establishing communication with an unknown Wi-Fi network. Note, however, that once an attacker has associated a target device with the MAC address it uses on a given Wi-Fi network, successful SSID spoofing may trigger the device to attempt to connect, thereby revealing a traceble MAC address.
 ExploitExample:

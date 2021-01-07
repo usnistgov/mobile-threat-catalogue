@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-28
-Threat: App encrypts/encodes and ransoms files
+Threat: Encrypting and Ransoming Files
 ThreatDescription: A malicious app with permission to modify files or data stored in shared locations, such as external media or contacts could potentially overwrite an original file or data object with an encoded or encrypted one. The attacker could then demand some form of payment in exchange for returning randomed data to a usable state.
 ThreatOrigin:
 ExploitExample:

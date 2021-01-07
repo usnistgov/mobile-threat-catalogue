@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: Bluetooth'
 ID: LPN-10
-Threat: Bluebugging - Attacker takes control of phone; can make and take calls, listen to phone conversations, read contacts and calendars
+Threat: Bluebugging
 ThreatOrigin: Guide to Bluetooth Security (SP 800-121) [^28]
+ThreatDescription: Bluebugging is a Bluetooth vulnerability that allows the attacker to take full control of the target device without the user's knowledge.
 ExploitExample: 'Studying Bluetooth Malware Propagation: The BlueBag Project [^30]'
 CVEExample:
 PossibleCountermeasures:

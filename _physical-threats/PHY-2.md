@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Physical Access
 ID: PHY-2
-Threat: Attack via a connection from an untrusted or compromised mobile device to a PC
+Threat: Device Attack via PC Connection
 ThreatOrigin: Exploiting Smart-Phone USB Connectivity for Fun and Profit [^143]
+ThreatDescription: Compromised PCs may try to exploit a trusted USB connection between a mobile device and the PC, and infect the mobile device.
 ExploitExample: New Malware Tries to Infect Android Devices Via USB Cable [^232]
 CVEExample:
 PossibleCountermeasures:

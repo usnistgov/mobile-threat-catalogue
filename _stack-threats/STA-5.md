@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Mobile Operating System
 ID: STA-5
-Threat: Bypassing Code signing mechanisms
+Threat: Bypassing Code Signing Mechanisms
 ThreatOrigin:
+ThreatDescription: Code signing protects the software from being modified by anyone other than the author. If malicious actors have gained access to valid certificates they can use them later with their malicious code to appear to be signed by trusted author, and therefore trusted by the user.[^301]
 ExploitExample: iOS 8.4.1 Kernel Vulnerabilities in AppleHDQGasGaugeControl [^216]
 CVEExample: CVE-2015-5839
 PossibleCountermeasures:

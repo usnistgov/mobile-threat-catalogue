@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-10
-Threat: An adversary with access to 3rd party bundling processes and tools can implant malicious software in a system during the hardware-software integration phase.
+Threat: Malicious Software in 3rd Party Bundling Process
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An adversary with access to 3rd party bundling processes and tools can implant malicious software in a system during the hardware-software integration phase.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

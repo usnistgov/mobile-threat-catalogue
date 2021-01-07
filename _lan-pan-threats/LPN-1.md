@@ -4,6 +4,7 @@ ThreatCategory: 'Network Threats: Wi-Fi'
 ID: LPN-1
 Threat: Wi-Fi SSID Tracking
 ThreatOrigin: 'CAPEC-163: Wi-Fi SSID Tracking (Version 2.8) [^18]'
+ThreatDescription: Once an adversary is able to associate a Wi-Fi SSID with a specific user, the attacker can scan for that SSID in the future to track the user.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

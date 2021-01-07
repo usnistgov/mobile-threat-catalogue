@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-27
-Threat: Maintains persistence by writing to system or device locations
+Threat: Persistance via Writing to System Partition
 ThreatDescription: Malicious code that has achieved privilege escalation to the kernel or root user may achieve persistence by modifying memory locations reserved for use by the bootloader, mobile OS, or kernel to force the execution of malicious code following a device reboot or integrated factory reset.
 ThreatOrigin:
 ExploitExample:

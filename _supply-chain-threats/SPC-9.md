@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-9
-Threat: An adversary with access privileges within the software development environment and to associated tools, including the software unit/component test system and the software configuration management system, can hide malicious code in custom software.
+Threat: Malicious Code in Custom Software
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An adversary with access privileges within the software development environment and to associated tools, including the software unit/component test system and the software configuration management system, can hide malicious code in custom software.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

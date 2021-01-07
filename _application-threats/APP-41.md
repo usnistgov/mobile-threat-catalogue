@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-41
-Threat: App records audio by stealthily placing or answering phone calls
+Threat: Recording Audio by Placing or Answering Phone Calls
 ThreatDescription: An attacker who can place or answer calls without the device user's knowledge could remotely record audio from within the vicinity of the device without directly accessing the device microphone.
 ThreatOrigin:
   - An investigation of Chrysaor Malware on Android [^AndroidDevBlog-1]

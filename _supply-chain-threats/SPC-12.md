@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-12
-Threat: An automated software update/patch downloader/installer can be corrupted to download malicious code and apply it to systems being sustained.
+Threat: Corrupted Automated Installer
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An automated software update/patch downloader/installer can be corrupted to download malicious code and apply it to systems being sustained.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Authentication: User or Device to Remote Service'
 ID: AUT-9
-Threat: Phishing attack via e-mails that link to malicious applications or websites that captures credentials
+Threat: Phishing Websites
 ThreatOrigin: Phishing Defenses for Webmail Providers [^138]
+ThreatDescription: Phishing emails have been prevalent for a very long time. These emails typically link to websites geared at specific individuals, departments, or companies, and may be designed to look like their genuine counterpart with the intention of capturing credentials.
 ExploitExample: Your Account PayPal Has Been Limited Phishing Scam [^139]
 CVEExample:
 PossibleCountermeasures:

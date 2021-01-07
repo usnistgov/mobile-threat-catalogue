@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-24
-Threat: Surreptitiously reporting device location
+Threat: Covertly Track Device Location
 ThreatDescription: Apps that have been granted permission to Location Services or similar OS-provided services can abuse this permission to report device outside of what may be needed to support legitimate app functionality (e.g. navigation). Device location data may facilitate further attacks such as geo-physical or behavioral tracking of the user.
 ThreatOrigin: 'Dissecting Android Malware: Characterization and Evolution [^85]'
 ExploitExample:

@@ -2,11 +2,12 @@
 layout: threat
 ThreatCategory: Mobile Operating System
 ID: STA-7
-Threat: Malicious device management profile installed on device
+Threat: Malicious Configuration Profiles
 ThreatOrigin:
   - Malicious Profiles - The Sleeping Giant of iOS Security [^205]
   - 'Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]'
   - Symantec Internet Security Threat Report 2016 [^110]
+ThreatDescription: Malicious configuration profiles may contain unwanted CA certificates or VPN settings to route the device's network traffic through an adversary's system. The device could also potentially be enrolled into a malicious Mobile Device Management (MDM) system.[^302]
 ExploitExample:
   - Threat Advisory Semi Jailbreak [^218]
   - 'YiSpecter: First iOS Malware That Attacks Non-jailbroken Apple iOS Devices by Abusing Private APIs [^43]'

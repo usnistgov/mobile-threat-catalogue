@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: Wi-Fi'
 ID: LPN-0
-Threat: Rogue access points
+Threat: Rogue Access Points
 ThreatOrigin: Guidelines for Securing Wireless Local Area Networks (WLANs) (SP 800-153) [^16]
+ThreatDescription: Public, unsecure access points are subject to rogue access point attacks. This could allow adversaries to man-in-the-middle traffic going to and from devices connected to the network.
 ExploitExample: 'Darkhotel: A Sophisticated New Hacking Attack Targets High-Profile Hotel Guests [^17]'
 CVEExample:
 PossibleCountermeasures:

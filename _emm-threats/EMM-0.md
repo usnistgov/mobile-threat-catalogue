@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-0
-Threat: EMM application on the mobile device fails to validate digital certificate
+Threat: Improper X.509 Certificate Validation
+ThreatDescription: The EMM application on the device may improperly validate X.509 certificates, which can allow attackers to perform man in the middle attacks using a crafted certificate.
 ThreatOrigin: The Security of MDM Systems[^3]
 ExploitExample:
 CVEExample: CVE-2014-5903

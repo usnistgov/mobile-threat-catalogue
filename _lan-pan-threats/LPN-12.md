@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Network Threats: NFC'
 ID: LPN-12
-Threat: Man in the middle by relaying NFC packets
+Threat: NFC Relay MiTM
 ThreatOrigin: Implementation and Analysis of a Practical NFC Relay Attack Example [^31]
+ThreatDescription: Man in the middle by relaying NFC packets.
 ExploitExample: 'Demo: NFCGate - An NFC Relay Application for Android [Extended Abstract] [^32]'
 CVEExample:
 PossibleCountermeasures:

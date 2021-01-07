@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: SD Card
 ID: STA-40
-Threat: Achieving code execution by exploiting vulnerabilities in SD cards.
+Threat: Code Execution via SD Card Vulnerability
 ThreatDescription: SD cards contain an integrated processor which may contain vulnerabilities an attacker can exploit to achieve arbitrary code execution in the context of the SD card or the calling application.
 ThreatOrigin: Exploiting Vulnerabilties of Wi-Fi SD cards [^S-Konstantaras-1]
 ExploitExample:

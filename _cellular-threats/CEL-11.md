@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Consumer-grade Femtocell
 ID: CEL-11
-Threat: A rooted consumer-grade femtocell may be able to modify, insert, and eavesdrop on user traffic.
+Threat: Rooted Femtocell Eavesdropping
 ThreatOrigin: 'I Can Hear You Now: Traffic Interception and Remote Mobile Phone Cloning with a Compromised CDMA Femtocell [^180]'
+ThreatDescription: When a femtocell is rooted, the operator can gain further access into the data passing through it. This could allow unauthorized modification, insertion, and deletion of user traffic.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

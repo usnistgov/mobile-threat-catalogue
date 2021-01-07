@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Physical Access
 ID: PHY-4
-Threat: Data loss via 3rd party temporary access to unattended and unlocked mobile device
+Threat: Unattended and Unlocked Device
 ThreatOrigin: Eight Ways to Keep Your Smartphone Safe [^231]
+ThreatDescription: Leaving mobile devices unattended and unlocked for any period of time prevents a serious security and privacy risk. Any individual near the device subsequently has unhindered access, and can perform any malicious act, such as installing backdoors, pairing malicious devices, or gathering data.
 ExploitExample: The Current State of Android Security [^234]
 CVEExample:
 PossibleCountermeasures:

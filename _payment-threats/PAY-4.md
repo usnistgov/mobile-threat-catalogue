@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: In-app Purchases
 ID: PAY-4
-Threat: Accidental purchase of in-app content
+Threat: Accidental In-App Purchase
 ThreatOrigin:
+ThreatDescription: Many apps offer in-app purchases. Depending on a user's purchase settings, some of these purchases can be executed with one or two clicks, making accidental purchases probable.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

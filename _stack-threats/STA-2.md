@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Mobile Operating System
 ID: STA-2
-Threat: Failure to properly authenticate application updates, enabling attackers to cause installation of malicious apps.
+Threat: Improper Application Update Authentication
 ThreatOrigin: 'Android: One Root to Own Them All [^202]'
+ThreatDescription: Improperly authenticating application update packages could leave the device susceptible to malicious updates or other attacks.
 ExploitExample: Own your Android! Yet Another Universal Root [^214]
 CVEExample: CVE-2013-4787
 PossibleCountermeasures:

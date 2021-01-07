@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-30
-Threat: Data exfiltration evades Wi-Fi traffic analysis
+Threat: Exfiltration Evades Analysis
 ThreatDescription: Malicious apps that collect and exfiltrate sensitive data have multiple communication channels available. In addition to using encryption, steganography, or other obfuscation techniques over an inspected Wi-Fi connection, apps may exfiltrate data over a cellular connection, which cannot be directly analyzed using an enterprise network security mechanism. While requiring a receiver with proximity to the device, apps can also potentially exfiltrate data over Bluetooth or NFC connections. Common use of these channels are interfaces to device peripherals or short-range data transfers, making these channels less likely to be monitored by enterprise security mechanisms.
 ThreatOrigin: 'Dissecting Android Malware: Characterization and Evolution [^85]'
 ExploitExample:
