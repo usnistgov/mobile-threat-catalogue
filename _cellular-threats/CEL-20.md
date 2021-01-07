@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: SMS / MMS / RCS
 ID: CEL-20
-Threat: Device enumeration and fingerprinting via silent SMS
+Threat: Device Fingerprinting via SMS
 ThreatOrigin:
   - A Silent SMS Denial of Service (DoS) Attack [^185]
   - Attacking SMS [^182]

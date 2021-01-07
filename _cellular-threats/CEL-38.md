@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Carrier Interoperability
 ID: CEL-38
-Threat: Exploiting SS7 to obtain physical location of mobile device
+Threat: Obtaining Device Location via SS7 Exploit
 ThreatOrigin:
   - SCTPscan - Finding Entry Points to SS7 Networks & Telecommunication Backbones [^172]
   - GSM Sniffing [^173]

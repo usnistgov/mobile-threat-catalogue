@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Carrier Infrastructure
 ID: CEL-35
-Threat: Intruders may masquerade as a network element to intercept user traffic, signaling data or control data on the radio interface.
+Threat: Traffic Interception via Masquerading
 ThreatOrigin: '3G Security: Security Threats and Requirements (Release 4) [^165]'
 ExploitExample:
 CVEExample:

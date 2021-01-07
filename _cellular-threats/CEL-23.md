@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: USSD
 ID: CEL-23
-Threat: Request and response eavesdropping
+Threat: Traffic Eavesdropping
 ThreatOrigin: 'Zimperium zLabs is Raising the Volume: New Vulnerability Processing MP3/MP4 Media [^186]'
 ExploitExample:
 CVEExample:
