@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-13
-Threat: Hardawre Design and Manufacture Compromise
+Threat: Hardware Design and Manufacture Compromise
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
 ThreatDescription: The design and manufacture of critical hardware at targeted suppliers can be compromised.[^142]
 ExploitExample:

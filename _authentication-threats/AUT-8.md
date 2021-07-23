@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: 'Authentication: User or Device to Remote Service'
 ID: AUT-8
-Threat: Man-in-the-middle Website Substitution
+Threat: Man-in-the-middle Malicious Website Substitution
 ThreatOrigin: Man-in-the-Middle Attack [^136]
 ThreatDescription: An attacker able to perform a man-in-the-middle attack could intercept a request for a genuine website and return a fake or malicious website that attempts to capture credentials.
 ExploitExample: Using spoofed Wi-Fi to attack mobile devices [^20]

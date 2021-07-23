@@ -6,7 +6,7 @@ Threat: Malicious Apps Installed via USB
 ThreatOrigin:
   - Mobile Iron Q4 Mobile Security and Risk Review [^195]
   - Government Mobile and Wireless Security Baseline [^204]
-ThreatDescription: When connected through USB, potentially malicious applications can be installed on the mobile device, sometimes without the user's knowledge.
+ThreatDescription: When connected through USB, potentially malicious applications can be installed on the mobile device, sometimes without the user's knowledge. These applications can be installed intentionally by the user, or by an infected computer or charging station.
 ExploitExample: Injecting Malware into iOS Devices via Malicious Chargers [^217]
 CVEExample:
 PossibleCountermeasures:

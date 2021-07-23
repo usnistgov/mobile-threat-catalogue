@@ -3,7 +3,7 @@ layout: threat
 ThreatCategory: Mobile Operating System
 ID: STA-3
 Threat: Arbitrary Code Execution via Malicious File
-ThreatDescription: Vulnerabilities in how various file types are handled by any software running on a mobile device (e.g. mobile apps, mobile OS, native or 3rd party software libraries, device drivers, mobile OS kernel) may allow an attacker to craft a malicous file that when processed, results in code execution in the context of the vulnerable component.
+ThreatDescription: Vulnerabilities in how various file types (e.g. graphic, audio, font, x509 certificate) are handled by any software running on a mobile device (e.g. mobile apps, mobile OS, native or 3rd party software libraries, device drivers, mobile OS kernel) may allow an attacker to craft a malicous file that when processed, results in code execution in the context of the vulnerable component.
 ThreatOrigin:
 ExploitExample: TALOS Vulnerability Report [^215]
 CVEExample:
