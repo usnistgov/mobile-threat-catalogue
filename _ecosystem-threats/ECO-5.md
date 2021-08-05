@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-5
-Threat: Exploit infrastructure/cloud services to track/locate/wipe device without consent, e.g. Google's Android Device Manager or Apple's Find my iPhone
+Threat: Exploit Remote Management Services
 ThreatOrigin:
+ThreatDescription: If adversaries are able to exploit cloud services that can control devices remotely, they can take advantage of this to track, locate, or wipe devices (e.g. Apple's Find My iPhone).
 ExploitExample: How Apple and Amazon Security Flaws Led To My Epic Hacking [^197]
 CVEExample:
 PossibleCountermeasures:

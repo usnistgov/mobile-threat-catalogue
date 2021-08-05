@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Vulnerable Applications
 ID: APP-2
-Threat: App exposes sensitive information to untrusted apps
+Threat: Sensitive Information Exposure
 ThreatDescription: Mobile OS APIs allow apps to share data with other apps, either by exposing specific services to other apps (e.g. Android intents) or by storing it to locations accessible to other apps. Sensitive information stored in commonly-accessible files/locations (e.g. OS-managed contacts list) or openly accessible through intents may be read or potentially modified by apps untrusted by the developer, which may lead to a loss of confidentiality, integrity, or availability of that data.
 ThreatOrigin:
 ExploitExample:

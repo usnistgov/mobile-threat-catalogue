@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-4
-Threat: A software or firmware programmer with access to the configuration control system can introduce malicious logic into software or microelectronics during coding and/or logic-bearing component development or update/maintenance.
+Threat: Malicious Logic Introduction
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: A software or firmware programmer with access to the configuration control system can introduce malicious logic into software or microelectronics during coding and/or logic-bearing component development or update/maintenance.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

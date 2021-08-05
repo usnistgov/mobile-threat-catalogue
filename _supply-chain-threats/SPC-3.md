@@ -2,10 +2,11 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-3
-Threat: An adversary with access to software processes and tools within the development or software support environment can insert malicious software into components during development or update/maintenance.
+Threat: Malicious Software Inserted into Software Processes or Tools
 ThreatOrigin:
   - Supply Chain Attack Framework and Attack Patterns [^142]
   - Symantec Internet Security Threat Report 2016 [^110]
+ThreatDescription: An adversary with access to software processes and tools within the development or software support environment can insert malicious software into components during development or update/maintenance.[^142]
 ExploitExample: XcodeGhost distributed a malicious version of Xcode (Apple''s developer tools) that automatically includes malicious code in compiled iOS apps.
 CVEExample:
 PossibleCountermeasures:

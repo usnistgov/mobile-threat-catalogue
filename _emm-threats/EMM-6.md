@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-6
-Threat: An attacker enrolls a mobile device into an EMM/MDM without authorization of the device's owner, which facilitates further attacks against the device or tracking user behavior
+Threat: Unauthorized Enrollment in MDM
+ThreatDescription: An attacker enrolls a mobile device into an EMM/MDM without authorization of the device's owner, which facilitates further attacks against the device or tracking user behavior.
 ThreatOrigin: Mobile Device Mismanagement [^4]
 ExploitExample:
 CVEExample:

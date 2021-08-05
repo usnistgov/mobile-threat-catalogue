@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: 'Authentication: User to Device'
 ID: AUT-5
-Threat: Inferring PIN through device sensor information
+Threat: Inferring PIN/password from Sensor Information
 ThreatDescription: Mobile applications, if granted permissions to do so, can collect data from various device sensors such as an accelerometer, gyroscope, microphone, or camera to calculate what areas of the mobile device screen are being tapped by the user. This data can be analyzed to infer with high probability (70%) the keystrokes made by the user, such as a PIN or password entry. The success of this attack improves as additional data is collected from activity by a given user. Note this attack does not require an application to acheive privilege escalation; however, an application that can successfully exploit privilege escalation vulnerabilities may have increased potential to realize this threat by accessing otherwise restricted sensors.
 ThreatOrigin: Your Smartphone Isn't As Safe As You'd Think [^128]
 ExploitExample:

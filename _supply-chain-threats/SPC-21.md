@@ -2,10 +2,11 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-21
-Threat: Low level backdoor inadvertently left by firmware developer
+Threat: Low-level Backdoor
 ThreatOrigin:
   - This is what a root debug backdoor in a Linux kernel looks like [^207]
   - Chinese ARM vendor left developer backdoor in kernel for Android, other devices [^208]
+ThreatDescription: Low level backdoor inadvertently left by firmware developer.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

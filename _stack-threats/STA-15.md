@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Boot firmware
 ID: STA-15
-Threat: Deliberate unlocking of bootloader by device user/owner to install custom operating systems, which could then enable an attacker to use the bootloader to install malware.
+Threat: Bootloader Unlocking
 ThreatOrigin:
+ThreatDescription: Malicious actors can use an unlocked bootloader to gain root access to phones and to launch attack code. These vulnerabilities would allow an attacker to execute arbitrary code as part of the bootloader compromising the entire chain of trust.[^304]
 ExploitExample: "Xiaomi Locks Mi Devices' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock [^47]"
 CVEExample:
 PossibleCountermeasures:

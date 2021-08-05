@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-8
-Threat: Mobile data / device subject to different laws and regulations (e.g.,  lawful intercept, IP, data privacy) from foreign nations
+Threat: Varying Mobile Data/Device Regulations
 ThreatOrigin: The State of the Mobile Ecosystem, Appthority Unveils New Security Research at Black Hat [^199]
+ThreatDescription: Mobile data and devices are subject to different laws and regulations (e.g.,  lawful intercept, IP, data privacy) from foreign nations, such as GDPR, which must be abided by.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: 'Authentication: User or Device to Remote Service'
 ID: AUT-10
-Threat: Malicious application that captures credentials
+Threat: Capturing Credentials
 ThreatOrigin: OAuth 2.0 for Native Apps [^141]
+ThreatDescription: Malicious applications can intercept and steal passwords when logging in using webpages rendered within applications.
 ExploitExample: Stealing Passwords is Easy in Native Mobile Apps Despite OAuth [^140]
 CVEExample:
 PossibleCountermeasures:

@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Cellular Air Interface
 ID: CEL-1
-Threat: Cryptanalysis of air interface traffic encrypted with insecure algorithms
+Threat: Cryptanalysis of Air Interface Traffic
 ThreatOrigin: GSM Sniffing [^173]
 ExploitExample: GSM Sniffing [^173]
 CVEExample:

@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Carrier Interoperability
 ID: CEL-39
-Threat: Tracking subscriber location
+Threat: Device Location Tracking
 ThreatOrigin: Mobile Self Defense [^189]
 ExploitExample:
 CVEExample:

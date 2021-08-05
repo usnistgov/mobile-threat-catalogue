@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Supply Chain
 ID: SPC-8
-Threat: An adversary with access to supplier shipping channels during transfer of system components can substitute a counterfeit firmware component for an authentic component.
+Threat: Firmware Component Substitution During Transfer
 ThreatOrigin: Supply Chain Attack Framework and Attack Patterns [^142]
+ThreatDescription: An adversary with access to supplier shipping channels during transfer of system components can substitute a counterfeit firmware component for an authentic component.[^142]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

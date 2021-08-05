@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-2
-Threat: Unauthorized access to EMM/MDM administrative console, for instance by exploiting EMM/MDM vulnerabilities
+Threat: Unauthorized Access to MDM Admin Console
+ThreatDescription: Unauthorized access to EMM/MDM administrative console, for instance by exploiting EMM/MDM vulnerabilities.
 ThreatOrigin: The Security of MDM Systems[^3]
 ExploitExample: The Security of MDM Systems[^3]
 CVEExample:

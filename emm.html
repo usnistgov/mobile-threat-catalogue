@@ -9,6 +9,6 @@ title: EMM
 <ul class="threat-list">
 	{% assign sorted = site.emm-threats | sort:"rawID" %}
     {% for emm-threat in sorted %}
-        <li><a href="{{ site.baseurl }}{{ emm-threat.url }}#page">{{ emm-threat.Threat }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ emm-threat.url }}#page">{{ emm-threat.ID }}: {{ emm-threat.Threat }}</a></li>
     {% endfor %}
 </ul>

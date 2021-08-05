@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Vulnerable Applications
 ID: APP-6
-Threat: Use of a vulnerable third-party library
+Threat: Vulnerable Third-Party Library
 ThreatDescription: A mobile app may not directly contain vulnerabilities in its code, but may make calls to a third-party library that does contain vulnerabilities that are exploitable by a remote attacker.
 ThreatOrigin:
   - A Pattern for Remote Code Execution using Arbitrary File Writes and MultiDex Applications [^73]

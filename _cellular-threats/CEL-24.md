@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: USSD
 ID: CEL-24
-Threat: Modification of requests and responses in transit
+Threat: Modification of Requests and Responses in Transit
 ThreatOrigin:
 ExploitExample:
 CVEExample:

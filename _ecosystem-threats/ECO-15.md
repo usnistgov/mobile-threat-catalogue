@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-15
-Threat: App store compromise leading to distribution of private enterprise application to unauthorized parties
+Threat: Enterprise App Store Compromise
+ThreatDescription: Attackers able to compromise enterprise app stores could potentially distribute work applications to unauthorized parties, potentially leading to unauthroized data access, modification, or leakage.
 ThreatOrigin:
 ExploitExample:
 CVEExample:

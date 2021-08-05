@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Boot firmware
 ID: STA-17
-Threat: Downgrading operating system to a vulnerable version that can then be exploited
+Threat: Operating System Downgrade
 ThreatOrigin:
+ThreatDescription: Downgrading the phone's operating system may expose the device to previously patched security vulnerabilities.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

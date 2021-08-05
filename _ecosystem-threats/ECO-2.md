@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-2
-Threat: Exploitation of cloud backups or other cloud file storage performed by individual mobile applications
+Threat: Exploitation of Cloud Backups
+ThreatDescription: If an attacker is able to compromise cloud backups, they could gain unauthorized access to private and potentially sensitive data.
 ThreatOrigin: 'Mobile Security: Threats and Countermeasures [^90]'
 ExploitExample: Q4 Mobile Security and Risk Review [^195]
 CVEExample:

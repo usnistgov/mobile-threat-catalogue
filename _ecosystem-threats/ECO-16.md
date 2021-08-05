@@ -2,7 +2,8 @@
 layout: threat
 ThreatCategory: Mobile Application Store
 ID: ECO-16
-Threat: Obtain an app developer's credentials in order to maliciously modify or replace an already deployed app
+Threat: Modify or Replace Deployed App
+ThreatDescription: App developer's credentials typically have permission to push app updates to the respective app store. If these credentials are somehow obtained by an attacker, they could replace the genuine application with a version embedded with malware.
 ThreatOrigin: 'Keep out hijackers: Secure your app store dev account [^150]'
 ExploitExample: Major security hole allows Apple passwords to be reset with only email address, date of birth (update) [^152]
 CVEExample:

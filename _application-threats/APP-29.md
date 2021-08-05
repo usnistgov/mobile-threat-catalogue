@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Malicious or privacy-invasive application
 ID: APP-29
-Threat: Command-and-control messaging evades traffic analysis
+Threat: Command-and-control Traffic Evades Analysis
 ThreatDescription: Mobile OS offer built-in and encrypted communication channels that may appear to be normal traffic or occur out-of-band (over a cellular connection), thereby evading detection by Wi-Fi-based enterprise traffic analysis tools. Google offers Google Cloud Messaging (GCM) and newly, Firebase Cloud Messaging (FCM), which provides two-way communication. Apple offers the Apple Push Notification Service (APNS), which offers one-way communication from server-to-device. Both services are commonly used within mobile apps, which makes detecting abuse of these services difficult.
 ThreatOrigin:
 ExploitExample:

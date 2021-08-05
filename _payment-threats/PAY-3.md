@@ -2,8 +2,9 @@
 layout: threat
 ThreatCategory: Application-based
 ID: PAY-3
-Threat: Software vulnerabilities in bank payment application
+Threat: Mobile Banking Application Vulnerabilities
 ThreatOrigin: 'The most dangerous code in the world: validating SSL certificates in non-browser software [^15]'
+ThreatDescription: Vulnerabilities in mobile banking applications could lead to information leakage, theft, or modification, as well as financial loss.
 ExploitExample:
 CVEExample: CVE-2015-1314
 PossibleCountermeasures:

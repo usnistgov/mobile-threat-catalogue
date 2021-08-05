@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: 'Network Threats: Bluetooth'
 ID: LPN-15
-Threat: Secure Simple Pairing attacks
+Threat: Secure Simple Pairing Attacks
 ThreatDescription: An attacker may be able to force or entice a Bluetooth device to participate in Just Works SSP, which is susceptible to MiTM attacks.
 ThreatOrigin: 'Guide to Bluetooth Security: Draft NIST SP 800-121rev2 [^J-Padgette-1]'
 ExploitExample:
