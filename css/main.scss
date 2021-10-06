@@ -248,6 +248,12 @@ nav label {
     }
 }
 
+#content-hide {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
 @media screen and (max-width: 1255px) {
     .cve-list {
         width: 75%;

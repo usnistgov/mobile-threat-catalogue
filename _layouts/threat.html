@@ -5,6 +5,12 @@ layout: page
 # {{page.Threat}}
 [Contribute]({{ site.baseurl }}/contributing.html)
 
+{% if page.removed %}
+<p>This threat has been deprecated, and is no longer part of the Mobile Threat Catalogue.</p>
+<p>Click <a style="cursor: pointer;" onClick="toggleThreatContent()">here</a> if you would like to see the original content.</p>
+<div id="content-hide" markdown="1">
+{% endif %}
+
 <p><b>Threat Category:</b> {{page.ThreatCategory}}</p>
 <p><b>ID:</b> {{page.ID}}</p>
 <p markdown="1"><b>Threat Description:</b> {{page.ThreatDescription}}</p>
@@ -59,3 +65,8 @@ layout: page
 
 <p><b>References</b></p>
 {% include references.md %}
+{:footnotes}
+
+{% if page.removed %}
+</div>
+{% endif %}

@@ -6,3 +6,9 @@ function toggleNav(anchor)
     element.style.maxHeight = (element.style.maxHeight) ? null : element.scrollHeight + "px";
     caret.classList.toggle('open-caret');
 }
+
+function toggleThreatContent()
+{
+    let element = document.getElementById("content-hide");
+    element.style.maxHeight = (element.style.maxHeight) ? null : element.scrollHeight + "px";
+}
