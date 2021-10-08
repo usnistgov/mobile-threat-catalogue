@@ -1,6 +1,9 @@
 ---
 layout: threat
 removed: true
+moved: true
+location: /ecosystem-threats/ECO-23.html
+newThreatName: ECO-23
 ThreatCategory: "Malicious or privacy-invasive application"
 ID: APP-15
 rawID: 15

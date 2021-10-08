@@ -2,6 +2,9 @@
     layout: threat
     ThreatCategory: Device Drivers
     removed: true
+    moved: true
+    location: /supply-chain-threats/SPC-21.html
+    newThreatName: SPC-21
     ID: STA-10
     Threat: "Low level backdoor inadvertently left by firmware developer"
     ThreatOrigin:

@@ -4,13 +4,17 @@ layout: page
 
 # {{page.Threat}}
 [Contribute]({{ site.baseurl }}/contributing.html)
-
 {% if page.removed %}
+{% if page.moved %}
+<div>This threat has been moved to <a href="{{ site.baseurl }}{{ page.location }}">{{ page.newThreatName }}</a>.</div>
+{% else %}
 <p>This threat has been deprecated, and is no longer part of the Mobile Threat Catalogue.</p>
 <p>Click <a style="cursor: pointer;" onClick="toggleThreatContent()">here</a> if you would like to see the original content.</p>
 <div id="content-hide" markdown="1">
 {% endif %}
+{% endif %}
 
+{% if page.moved != true %}
 <p><b>Threat Category:</b> {{page.ThreatCategory}}</p>
 <p><b>ID:</b> {{page.ID}}</p>
 <p markdown="1"><b>Threat Description:</b> {{page.ThreatDescription}}</p>
@@ -70,4 +74,5 @@ layout: page
 {% if page.removed %}
 </div>
 <script>window.onload = function() { document.getElementById('content-hide').appendChild(document.getElementsByClassName('footnotes')[0]) }</script>
+{% endif %}
 {% endif %}
