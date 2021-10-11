@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Enterprise Mobility
 ID: EMM-10
-Threat: Insecure internally developed enterprise app installed onto enrolled devices via MAM policy
+Threat: Insecure Internally-developed App Installation
 ThreatOrigin: Mobile Top Ten 2016 [^9]
 ExploitExample:
 CVEExample:

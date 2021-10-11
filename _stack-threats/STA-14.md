@@ -2,7 +2,7 @@
 layout: threat
 ThreatCategory: Isolated Execution Environments
 ID: STA-14
-Threat: Lab attack which reverse engineers the component via laboratory equipment
+Threat: Reverse Engineering Components
 ThreatOrigin: ARM Security Technology Building a Secure System using TrustZone Technology [^210]
 ExploitExample:
 CVEExample:
