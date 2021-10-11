@@ -1,6 +1,9 @@
 ---
 layout: threat
 removed: true
+isMerged: true
+location: /application-threats/APP-16.html
+newThreatName: APP-16
 ThreatCategory: "Malicious or privacy-invasive application"
 ID: APP-18
 rawID: 18
