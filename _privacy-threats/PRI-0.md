@@ -3,7 +3,7 @@ layout: threat
 ThreatCategory: Behavior Tracking
 ID: PRI-0
 Threat: Tracking via Ultrasonic Beacons
-ThreatDescription: ''
+ThreatDescription: Adversaries may use ultrasonic beacons to track device location and/or user behavior.
 ThreatOrigin: Privacy Threats through Ultrasonic Side Channels on Mobile Devices [^Arp-1]
 ExploitExample:
   - SilverPush Says It's Using Audio Beacons For An Unusual Approach To Cross-Device Ad Targeting [^Ha-1]
