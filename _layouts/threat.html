@@ -4,7 +4,24 @@ layout: page
 
 # {{page.Threat}}
 [Contribute]({{ site.baseurl }}/contributing.html)
+{% assign showPage = true %}
+{% assign javascriptFooter = false %}
+{% if page.removed %}
+{% if page.moved %}
+{% assign showPage = false %}
+<p>This threat has been moved to <a href="{{ site.baseurl }}{{ page.location }}">{{ page.newThreatName }}</a>.</p>
+{% elsif page.isMerged %}
+{% assign showPage = false %}
+<p>This threat has been merged with <a href="{{ site.baseurl }}{{ page.location }}">{{ page.newThreatName }}</a>.</p>
+{% else %}
+{% assign javascriptFooter = true %}
+<p>This threat has been withdrawn, and is no longer part of the Mobile Threat Catalogue.</p>
+<p>Click <a style="cursor: pointer;" onClick="toggleThreatContent()">here</a> if you would like to see the original content.</p>
+<div id="content-hide" markdown="1">
+{% endif %}
+{% endif %}
 
+{% if showPage %}
 <p><b>Threat Category:</b> {{page.ThreatCategory}}</p>
 <p><b>ID:</b> {{page.ID}}</p>
 <p markdown="1"><b>Threat Description:</b> {{page.ThreatDescription}}</p>
@@ -59,3 +76,9 @@ layout: page
 
 <p><b>References</b></p>
 {% include references.md %}
+
+{% if javascriptFooter %}
+</div>
+<script>window.onload = function() { document.getElementById('content-hide').appendChild(document.getElementsByClassName('footnotes')[0]) }</script>
+{% endif %}
+{% endif %}
