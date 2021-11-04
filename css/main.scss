@@ -62,14 +62,13 @@
     }
 }
 
-.nist-header {
+.nccoe-header {
     width: 100%;
-    height: 4rem;
     background-color: #4f8cbd;
     z-index: 2;
     position: fixed;
     padding-left: 0.5rem;
-    top: 0;
+    margin-top: 2.2rem;
     left: 0;
 
     a {
@@ -90,7 +89,7 @@
     z-index: 2;
     position: fixed;
     left: 0;
-    top: 4rem;
+    top: 6.1rem;
 }
 
 .orange-bar-bottom {
@@ -101,17 +100,6 @@
     position: fixed;
     left: 0;
     bottom: 4rem;
-}
-
-.nist-footer {
-    width: 100%;
-    height: 4rem;
-    background-color: #4f8cbd;
-    padding-left: 0.5rem;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
 }
 
 html {
@@ -158,7 +146,7 @@ body {
 
 .sidebar {
     z-index: 1;
-    padding-top: 5rem;
+    padding-top: 7rem;
     overflow-y: auto;
 }
 
@@ -254,6 +242,19 @@ nav label {
     transition: max-height 0.5s ease-out;
 }
 
+#nistfootergoeshere {
+    z-index: 2;
+    line-height: 1;
+    width: 100%;
+}
+
+#nistheadergoeshere {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 @media screen and (max-width: 1255px) {
     .cve-list {
         width: 75%;
@@ -316,12 +317,6 @@ nav label {
 
     .content {
         padding-top: 0;
-    }
-}
-
-@media screen and (max-width: 388px) {
-    .nist-header {
-        height: 6rem;
     }
 }
 
