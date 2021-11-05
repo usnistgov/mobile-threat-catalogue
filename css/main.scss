@@ -24,7 +24,7 @@
 }
 
 .stats {
-    width: 25%;
+    width: 50%;
     margin-bottom: 0.5em;
     display: inline-block;
     text-align: left;
@@ -224,7 +224,6 @@ nav label {
 
 .cve-list {
     column-count: 3;
-    width: 50%;
 }
 
 #stats-table {
@@ -261,20 +260,34 @@ nav label {
     }
 }
 
+@media screen and (max-width: 860px) {
+    .search {
+        width: 50%;
+        margin: 0.5em 25% 0.5em 25%;
+    }
+
+    .orange-bar {
+        top: 8.7rem;
+    }
+
+    .sidebar {
+        padding-top: 9.5rem;
+    }
+
+    .nccoe-header {
+        text-align: center;
+    }
+
+    .content {
+        padding-top: 8rem;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .nist-footer {
         padding-left: 0;
     }
-    .nist-links, .sidebar, .search {
-        display: block;
-    }
-    .logos {
-        width: 100%;
-        padding-left: 25%;
-    }
-    #nist-logo, #nccoe-logo {
-        height: 2.5rem;
-    }
+
     .sidebar-nav ul {
         width: 100%;
         margin: 0 auto 1rem;
@@ -284,35 +297,15 @@ nav label {
             padding-left: 30%
         }
     }
-    .nist-header h1 {
-        font-size: 2.25rem
-    }
 
     .sidebar-nav-item {
         font-size: 1.2rem;
     }
-
-    .nist-header {
-        padding: 0;
-        text-align: center;
-        position: relative;
-    }
-
-    .orange-bar {
-        position: relative;
-        top: 0;
-    }
     
     .sidebar {
         overflow-y: visible;
-        padding-top: 3rem;
-        margin-bottom: 0;
-    }
-
-    .search {
-        float: left;
-        width: 50%;
-        margin-left: 25%;
+        margin-top: 9.2rem;
+        padding-top: 0;
     }
 
     .content {
@@ -320,12 +313,26 @@ nav label {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 606px) {
+    .nccoe-header {
+        margin-top: 2.84rem;
+    }
 
+    .orange-bar {
+        top: 9.4rem;
+    }
+
+    .sidebar {
+        margin-top: 9.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .search {
-        margin-left: 2.25%;
+        margin: 0.5em;
         width: 95%;
     }
+
     .nist-header {
         h1 {
             font-size: 2rem;
@@ -342,20 +349,40 @@ nav label {
     }
 }
 
+@media screen and (max-width: 380px) {
+    .orange-bar {
+        top: 8.7rem;
+    }
+
+    .nccoe-header {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .sidebar {
+        margin-top: 9.2rem;
+    }
+}
+
 @media screen and (max-width: 1180px) {
     .nist-links {
         display: none;
     }
+
     ul.cve-examples {
         columns: 1;
     }
+
     .stats {
         width: 100%;
+      
         display: block;
     }
     .container {
         max-width: 100%;
     }
+
     .cve-list {
         column-count: 2;
     }
@@ -365,6 +392,7 @@ nav label {
 @media (max-width: 48em) {
     .sidebar {
         display: block;
+
         input#toggle {
             display: none;
             visibility: hidden;
@@ -372,7 +400,7 @@ nav label {
 
         label {
             display: block;
-            padding: .5em .5em 1.5em .5em;
+            padding: 0;
             text-align: center;
             font-size: 1.4rem;
         }
@@ -398,6 +426,10 @@ nav label {
           content: "Hide";
         }
 
+    }
+
+    .sidebar-nav {
+        margin-bottom: 0.2rem;
     }
 }
 
