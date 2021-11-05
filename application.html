@@ -13,7 +13,7 @@ title: Applications
     {% assign sorted = site.application-threats | sort:"rawID" %}
     {% for application-threat in sorted %}
         {% if application-threat.ThreatCategory == 'Vulnerable Applications' %}
-            <li><a href="{{ site.baseurl }}{{ application-threat.url }}#page">{{ application-threat.ID }}: {{ application-threat.Threat }} {% if application-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.ID }}: {{ application-threat.Threat }} {% if application-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ title: Applications
 <ul class="threat-list">
     {% for application-threat in sorted %}
         {% if application-threat.ThreatCategory == 'Malicious or privacy-invasive application' %}
-            <li><a href="{{ site.baseurl }}{{ application-threat.url }}#page">{{ application-threat.ID }}: {{ application-threat.Threat }} {% if application-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ application-threat.url }}">{{ application-threat.ID }}: {{ application-threat.Threat }} {% if application-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

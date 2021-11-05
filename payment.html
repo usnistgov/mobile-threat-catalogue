@@ -9,6 +9,6 @@ title: Payment
 <ul class="threat-list">
 	{% assign sorted = site.payment-threats | sort:"rawID" %}
     {% for payment-threat in sorted %}
-        <li><a href="{{ site.baseurl }}{{ payment-threat.url }}#page">{{ payment-threat.ID }}: {{ payment-threat.Threat }} {% if payment-threat.removed %}(DEPRECATED){% endif %}</a></li>
+        <li><a href="{{ site.baseurl }}{{ payment-threat.url }}">{{ payment-threat.ID }}: {{ payment-threat.Threat }} {% if payment-threat.removed %}(DEPRECATED){% endif %}</a></li>
     {% endfor %}
 </ul>

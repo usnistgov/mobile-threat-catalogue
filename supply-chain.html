@@ -9,6 +9,6 @@ title: Supply Chain
 <ul class="threat-list">
 	{% assign sorted = site.supply-chain-threats | sort:"rawID" %}
     {% for supply-chain-threat in sorted %}
-        <li><a href="{{ site.baseurl }}{{ supply-chain-threat.url }}#page">{{ supply-chain-threat.ID }}: {{ supply-chain-threat.Threat }} {% if supply-chain-threat.removed %}(DEPRECATED){% endif %}</a></li>
+        <li><a href="{{ site.baseurl }}{{ supply-chain-threat.url }}">{{ supply-chain-threat.ID }}: {{ supply-chain-threat.Threat }} {% if supply-chain-threat.removed %}(DEPRECATED){% endif %}</a></li>
     {% endfor %}
 </ul>
