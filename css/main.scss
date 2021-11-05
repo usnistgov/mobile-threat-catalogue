@@ -66,10 +66,9 @@
     width: 100%;
     background-color: #4f8cbd;
     z-index: 2;
-    position: fixed;
+    display: flex;
+    justify-content: space-between;
     padding-left: 0.5rem;
-    margin-top: 2.2rem;
-    left: 0;
 
     a {
         color: white;
@@ -84,12 +83,9 @@
 
 .orange-bar {
     width: 100%;
-    height: 0.5rem;
+    min-height: 0.5rem;
     background-color: #e79824;
     z-index: 2;
-    position: fixed;
-    left: 0;
-    top: 6.1rem;
 }
 
 .orange-bar-bottom {
@@ -110,6 +106,7 @@ body {
     min-height: 100%;
     position: relative;
     padding-bottom: 4rem;
+    display: flex;
 }
 
 .logos {
@@ -138,10 +135,6 @@ body {
             font-size: 0.75rem;
         }
     }
-}
-
-.nist-header h1 a:hover {
-    text-decoration: none;
 }
 
 .sidebar {
@@ -183,9 +176,8 @@ nav label {
 }
 
 .search {
-    display: inline-block;
+    display: flex;
     margin: 1em 0;
-    float: right;
     margin-right: 0.5rem;
 
     input {
@@ -250,14 +242,43 @@ nav label {
 
 #nistheadergoeshere {
     z-index: 2;
-    position: fixed;
-    top: 0;
+    display: flex;
     width: 100%;
+}
+
+.nist-header {
+    flex-grow: 1;
+}
+
+.theme-base-0d {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 @media screen and (max-width: 1255px) {
     .cve-list {
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .nccoe-header {
+        flex-direction: column;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .search {
+        float: left;
+        width: 50%;
+        margin: 0.5em 0 0.5em 25%;
+    }
+
+    .sidebar {
+        padding-top: 9.5rem;
     }
 }
 
@@ -284,18 +305,9 @@ nav label {
             padding-left: 30%
         }
     }
-    .nist-header h1 {
-        font-size: 2.25rem
-    }
 
     .sidebar-nav-item {
         font-size: 1.2rem;
-    }
-
-    .nist-header {
-        padding: 0;
-        text-align: center;
-        position: relative;
     }
 
     .orange-bar {
@@ -305,14 +317,8 @@ nav label {
     
     .sidebar {
         overflow-y: visible;
-        padding-top: 3rem;
+        padding-top: 1rem;
         margin-bottom: 0;
-    }
-
-    .search {
-        float: left;
-        width: 50%;
-        margin-left: 25%;
     }
 
     .content {
@@ -325,11 +331,6 @@ nav label {
     .search {
         margin-left: 2.25%;
         width: 95%;
-    }
-    .nist-header {
-        h1 {
-            font-size: 2rem;
-        }
     }
 
     .cve-list {
@@ -372,7 +373,6 @@ nav label {
 
         label {
             display: block;
-            padding: .5em .5em 1.5em .5em;
             text-align: center;
             font-size: 1.4rem;
         }
