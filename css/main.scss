@@ -24,7 +24,7 @@
 }
 
 .stats {
-    width: 25%;
+    width: 50%;
     margin-bottom: 0.5em;
     display: inline-block;
     text-align: left;
@@ -66,9 +66,10 @@
     width: 100%;
     background-color: #4f8cbd;
     z-index: 2;
-    display: flex;
-    justify-content: space-between;
+    position: fixed;
     padding-left: 0.5rem;
+    margin-top: 2.2rem;
+    left: 0;
 
     a {
         color: white;
@@ -83,9 +84,12 @@
 
 .orange-bar {
     width: 100%;
-    min-height: 0.5rem;
+    height: 0.5rem;
     background-color: #e79824;
     z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 6.1rem;
 }
 
 .orange-bar-bottom {
@@ -106,7 +110,6 @@ body {
     min-height: 100%;
     position: relative;
     padding-bottom: 4rem;
-    display: flex;
 }
 
 .logos {
@@ -135,6 +138,10 @@ body {
             font-size: 0.75rem;
         }
     }
+}
+
+.nist-header h1 a:hover {
+    text-decoration: none;
 }
 
 .sidebar {
@@ -176,8 +183,9 @@ nav label {
 }
 
 .search {
-    display: flex;
+    display: inline-block;
     margin: 1em 0;
+    float: right;
     margin-right: 0.5rem;
 
     input {
@@ -216,7 +224,6 @@ nav label {
 
 .cve-list {
     column-count: 3;
-    width: 50%;
 }
 
 #stats-table {
@@ -242,18 +249,9 @@ nav label {
 
 #nistheadergoeshere {
     z-index: 2;
-    display: flex;
+    position: fixed;
+    top: 0;
     width: 100%;
-}
-
-.nist-header {
-    flex-grow: 1;
-}
-
-.theme-base-0d {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
 }
 
 @media screen and (max-width: 1255px) {
@@ -263,22 +261,25 @@ nav label {
 }
 
 @media screen and (max-width: 860px) {
-    .nccoe-header {
-        flex-direction: column;
-
-        h1 {
-            text-align: center;
-        }
+    .search {
+        width: 50%;
+        margin: 0.5em 25% 0.5em 25%;
     }
 
-    .search {
-        float: left;
-        width: 50%;
-        margin: 0.5em 0 0.5em 25%;
+    .orange-bar {
+        top: 8.7rem;
     }
 
     .sidebar {
         padding-top: 9.5rem;
+    }
+
+    .nccoe-header {
+        text-align: center;
+    }
+
+    .content {
+        padding-top: 8rem;
     }
 }
 
@@ -286,16 +287,7 @@ nav label {
     .nist-footer {
         padding-left: 0;
     }
-    .nist-links, .sidebar, .search {
-        display: block;
-    }
-    .logos {
-        width: 100%;
-        padding-left: 25%;
-    }
-    #nist-logo, #nccoe-logo {
-        height: 2.5rem;
-    }
+
     .sidebar-nav ul {
         width: 100%;
         margin: 0 auto 1rem;
@@ -309,16 +301,11 @@ nav label {
     .sidebar-nav-item {
         font-size: 1.2rem;
     }
-
-    .orange-bar {
-        position: relative;
-        top: 0;
-    }
     
     .sidebar {
         overflow-y: visible;
-        padding-top: 1rem;
-        margin-bottom: 0;
+        margin-top: 9.2rem;
+        padding-top: 0;
     }
 
     .content {
@@ -326,11 +313,30 @@ nav label {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 606px) {
+    .nccoe-header {
+        margin-top: 2.84rem;
+    }
 
+    .orange-bar {
+        top: 9.4rem;
+    }
+
+    .sidebar {
+        margin-top: 9.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .search {
-        margin-left: 2.25%;
+        margin: 0.5em;
         width: 95%;
+    }
+
+    .nist-header {
+        h1 {
+            font-size: 2rem;
+        }
     }
 
     .cve-list {
@@ -343,20 +349,40 @@ nav label {
     }
 }
 
+@media screen and (max-width: 380px) {
+    .orange-bar {
+        top: 8.7rem;
+    }
+
+    .nccoe-header {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .sidebar {
+        margin-top: 9.2rem;
+    }
+}
+
 @media screen and (max-width: 1180px) {
     .nist-links {
         display: none;
     }
+
     ul.cve-examples {
         columns: 1;
     }
+
     .stats {
         width: 100%;
+      
         display: block;
     }
     .container {
         max-width: 100%;
     }
+
     .cve-list {
         column-count: 2;
     }
@@ -366,6 +392,7 @@ nav label {
 @media (max-width: 48em) {
     .sidebar {
         display: block;
+
         input#toggle {
             display: none;
             visibility: hidden;
@@ -373,6 +400,7 @@ nav label {
 
         label {
             display: block;
+            padding: 0;
             text-align: center;
             font-size: 1.4rem;
         }
@@ -398,6 +426,10 @@ nav label {
           content: "Hide";
         }
 
+    }
+
+    .sidebar-nav {
+        margin-bottom: 0.2rem;
     }
 }
 

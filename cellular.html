@@ -26,7 +26,7 @@ title: Cellular
     {% assign sorted = site.cellular-threats | sort:"rawID" %}
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Cellular Air Interface' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -35,7 +35,7 @@ title: Cellular
 <ul class="threat-list">
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Consumer-grade Femtocell' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -44,7 +44,7 @@ title: Cellular
 <ul class="threat-list">
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'SMS / MMS / RCS' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -53,7 +53,7 @@ title: Cellular
 <ul class="threat-list">
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'USSD' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -62,7 +62,7 @@ title: Cellular
 <ul class="threat-list">
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Carrier Infrastructure' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -71,7 +71,7 @@ title: Cellular
 <ul class="threat-list">
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'Carrier Interoperability' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -80,7 +80,7 @@ title: Cellular
 <ul class="threat-list">
     {% for cellular-threat in sorted %}
         {% if cellular-threat.ThreatCategory == 'VoLTE' %}
-            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}#page">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ cellular-threat.url }}">{{ cellular-threat.ID }}: {{ cellular-threat.Threat }} {% if cellular-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

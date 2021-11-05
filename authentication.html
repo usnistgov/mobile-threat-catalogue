@@ -18,7 +18,7 @@ title: Authentication
     {% assign sorted = site.authentication-threats | sort:"rawID" %}
     {% for authentication-threat in sorted %}
         {% if authentication-threat.ThreatCategory == 'Authentication: User to Device' %}
-            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}#page">{{ authentication-threat.ID }}: {{ authentication-threat.Threat }} {% if authentication-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.ID }}: {{ authentication-threat.Threat }} {% if authentication-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -27,7 +27,7 @@ title: Authentication
 <ul class="threat-list">
     {% for authentication-threat in sorted %}
         {% if authentication-threat.ThreatCategory == 'Authentication: User or Device to Remote Service' %}
-            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}#page">{{ authentication-threat.ID }}: {{ authentication-threat.Threat }} {% if authentication-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.ID }}: {{ authentication-threat.Threat }} {% if authentication-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -36,7 +36,7 @@ title: Authentication
 <ul class="threat-list">
     {% for authentication-threat in sorted %}
         {% if authentication-threat.ThreatCategory == 'Authentication: User or Device to Network' %}
-            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}#page">{{ authentication-threat.ID }}: {{ authentication-threat.Threat }} {% if authentication-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ authentication-threat.url }}">{{ authentication-threat.ID }}: {{ authentication-threat.Threat }} {% if authentication-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

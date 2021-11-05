@@ -27,7 +27,7 @@ title: Mobile Device Technology Stack
     {% assign sorted = site.stack-threats | sort:"rawID" %}
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Mobile Operating System' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -36,7 +36,7 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Device Drivers' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -45,7 +45,7 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Isolated Execution Environments' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -54,7 +54,7 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Boot firmware' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -63,7 +63,7 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'Baseband Subsystem' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -72,7 +72,7 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'USIM / SIM / UICC security' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -81,7 +81,7 @@ title: Mobile Device Technology Stack
 <ul class="threat-list">
     {% for stack-threat in sorted %}
         {% if stack-threat.ThreatCategory == 'SD Card' %}
-            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}#page">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
+            <li><a href="{{ site.baseurl }}{{ stack-threat.url }}">{{ stack-threat.ID }}: {{ stack-threat.Threat }} {% if stack-threat.removed %}(DEPRECATED){% endif %}</a></li>
         {% endif %}
     {% endfor %}
 </ul>

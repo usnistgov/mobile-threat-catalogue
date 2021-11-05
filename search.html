@@ -18,7 +18,7 @@ title: Search
                 "ExploitExample": "{{ document.ExploitExample | jsonify | smartify | xml_escape }}",
                 "CVEExample": "{{ document.CVEExample | jsonify | smartify | xml_escape }}",
                 "PossibleCountermeasures": "{{ document.PossibleCountermeasures | jsonify | smartify | xml_escape }}",
-                "url": "{{ site.baseurl }}{{ document.url | xml_escape }}#page"
+                "url": "{{ site.baseurl }}{{ document.url | xml_escape }}"
         }
         {% unless forloop.last %},{% endunless %}
         {% endfor %}

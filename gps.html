@@ -9,6 +9,6 @@ title: GPS
 <ul class="threat-list">
 	{% assign sorted = site.gps-threats | sort:"rawID" %}
     {% for gps-threat in sorted %}
-        <li><a href="{{ site.baseurl }}{{ gps-threat.url }}#page">{{ gps-threat.ID }}: {{ gps-threat.Threat }} {% if gps-threat.removed %}(DEPRECATED){% endif %}</a></li>
+        <li><a href="{{ site.baseurl }}{{ gps-threat.url }}">{{ gps-threat.ID }}: {{ gps-threat.Threat }} {% if gps-threat.removed %}(DEPRECATED){% endif %}</a></li>
     {% endfor %}
 </ul>

@@ -8,6 +8,6 @@ title: Privacy
 <ul class="threat-list">
 	{% assign sorted = site.privacy-threats | sort:"rawID" %}
     {% for privacy-threat in sorted %}
-        <li><a href="{{ site.baseurl }}{{ privacy-threat.url }}#page">{{ privacy-threat.ID }}: {{ privacy-threat.Threat }} {% if privacy-threat.removed %}(DEPRECATED){% endif %}</a></li>
+        <li><a href="{{ site.baseurl }}{{ privacy-threat.url }}">{{ privacy-threat.ID }}: {{ privacy-threat.Threat }} {% if privacy-threat.removed %}(DEPRECATED){% endif %}</a></li>
     {% endfor %}
 </ul>
