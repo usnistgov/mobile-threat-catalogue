@@ -4,6 +4,7 @@ ThreatCategory: Carrier Infrastructure
 ID: CEL-30
 Threat: Unauthorized OAM Network Access
 ThreatOrigin: LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]
+ThreatDescription: Operational and Access Management (OAM) networks enable remote management of carrier infrastructure components. Unauthorized access to OAM networks can allow intentional misconfiguration of the communication components.
 ExploitExample: Attacking BaseStations - an Odyssey through a Telco's Network [^177]
 CVEExample:
 PossibleCountermeasures:

@@ -6,6 +6,7 @@ Threat: Device and Identity Tracking via Rogue Base station
 ThreatOrigin:
   - '3G Security: Security Threats and Requirements (Release 4) [^165]'
   - LTE Architecture Overview and Security Analysis [^166]
+ThreatDescription: A rogue base station could use a device's unique identifiers to identify the device owner and whether an individual is, or is not, residing within a specific location.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

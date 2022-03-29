@@ -1,6 +1,7 @@
 ---
 layout: threat
 ThreatCategory: Carrier Interoperability
+removed: true
 ID: CEL-40
 Threat: Device Information Leak
 ThreatOrigin: Mobile Self Defense [^189]

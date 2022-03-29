@@ -4,6 +4,7 @@ ThreatCategory: USSD
 ID: CEL-25
 Threat: Unauthorized USSD Code Autodial
 ThreatOrigin:
+ThreatDescription: Unstructured Supplementary Service Data (USSD) code execution causes mobile phone to autodial phone numbers. USSD code could be delivered via browser.
 ExploitExample:
   - Dirty USSD Code Could Automatically Wipe Your Samsung TouchWize Device (Updated) [^187]
   - Remote USSD Code Execution on Android Devices [^188]

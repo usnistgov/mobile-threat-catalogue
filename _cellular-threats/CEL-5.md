@@ -6,6 +6,7 @@ Threat: Incomplete Attach Procedure via Rogue Base station
 ThreatOrigin:
   - LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]
   - LTE Security and Protocol Exploits [^167]
+ThreatDescription: A mobile device is prevented from connecting to a legitimate base station. A Denial of Service (DoS) attack is implemented by sending an ATTACH REJECT from a rogue base station, causing the mobile device to no longer attach to any base station, legitimate or otherwise. The situation can continue until a hard reboot of the mobile device takes place.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

@@ -4,6 +4,7 @@ ThreatCategory: Carrier Infrastructure
 ID: CEL-36
 Threat: Unauthorized Phone Call and SMS Rerouting
 ThreatOrigin: '3G Security: Security Threats and Requirements (Release 4) [^165]'
+ThreatDescription: Network control data compromises can enable intruders to reroute calls and Short Message Service (SMS) data.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures: {}

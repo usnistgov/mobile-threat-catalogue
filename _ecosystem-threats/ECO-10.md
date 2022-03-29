@@ -4,6 +4,7 @@ ThreatCategory: Mobile Application Store
 ID: ECO-10
 Threat: Compromise leading to distribution of rogue / malicious applications
 ThreatOrigin:
+ThreatDescription: Malicious applications are placed into an application repository and made available for download, or malicious applications are sideloaded onto mobile devices.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

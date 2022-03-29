@@ -1,6 +1,7 @@
 ---
 layout: threat
 ThreatCategory: Carrier Interoperability
+removed: true
 ID: CEL-39
 Threat: Device Location Tracking
 ThreatOrigin: Mobile Self Defense [^189]

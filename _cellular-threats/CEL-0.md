@@ -6,6 +6,7 @@ Threat: Air Interface Eavesdropping
 ThreatOrigin:
   - '3G Security: Security Threats and Requirements (Release 4) [^165]'
   - LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]
+ThreatDescription: An attacker intercepts traffic between a mobile device and a base station. (E.g., unencrypted data is intercepted over the air during the cellular phone and base station's radio communications.)
 ExploitExample:
   - Attacking phone privacy [^175]
   - A man-in-the-middle attack on UMTS [^176]
