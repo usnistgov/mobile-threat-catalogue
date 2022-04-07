@@ -4,6 +4,7 @@ ThreatCategory: USSD
 ID: CEL-24
 Threat: Modification of Requests and Responses in Transit
 ThreatOrigin:
+ThreatDescription: Data traffic intercepted and modified via adversary-in-the-middle (AiTM) techniques.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

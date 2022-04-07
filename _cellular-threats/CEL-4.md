@@ -6,6 +6,7 @@ Threat: Preventing Emergency Phone Calls via Rogue Base station
 ThreatOrigin:
   - '3G Security: Security Threats and Requirements (Release 4) [^165]'
   - LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]
+ThreatDescription: A rogue base station could prevent devices from accessing emergency services. This can happen when a rogue station does not forward user traffic to the mobile network operator.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

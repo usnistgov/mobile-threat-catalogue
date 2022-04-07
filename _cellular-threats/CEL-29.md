@@ -1,6 +1,10 @@
 ---
 layout: threat
 ThreatCategory: Carrier Infrastructure
+removed: true
+isMerged: true
+newThreatName: CEL-9
+location: /cellular-threats/CEL-9.html
 ID: CEL-29
 Threat: Preshared Key Theft
 ThreatOrigin: LTE Architecture Overview and Security Analysis (Draft NISTIR 8071) [^166]

@@ -313,7 +313,7 @@
 
 [^165]: 3G Security; Security Threats and Requirements (Release 4), 3GPP TS 21.133 V4.0.0, 3rd Generation Partnership Project, 2003; www.3gpp.org/ftp/tsg_sa/wg3_security/_specs/Old_Vsns/21133-400.pdf [Accessed 8/23/2016]
 
-[^166]: J. Cichonski, J.M. Franklin, and M. Bartock, LTE Architecture Overview and Security Analysis, Draft NISTIR 8071, National Institute of Standards and Technology, 2016; http://csrc.nist.gov/publications/drafts/nistir-8071/nistir_8071_draft.pdf [Accessed 8/23/2016]
+[^166]: J. Cichonski, J.M. Franklin, and M. Bartock, NIST Special Publication 800-187: Guide to LTE Security, National Institute of Standards and Technology, 2017; https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-187.pdf [Accessed 3/29/2022]
 
 [^167]: R.P. Jover, LTE Security and Protocol Exploits, presented at ShmooCon, 3 Jan. 2016; www.ee.columbia.edu/~roger/ShmooCon_talk_final_01162016.pdf [accessed 8/23/2016]
 
@@ -323,7 +323,7 @@
 
 [^170]: C.-Y. Li et al. "Insecurity of Voice Solution VoLTE in LTE Mobile Networks", In Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, 2015, pp. 316-327; http://dx.doi.org/10.1145/2810103.2813618 [accessed 8/23/2016]
 
-[^171]: Safe Use of Mobile Devices and the Internet, CESG, 2016; www.cesg.gov.uk/guidance/safe-use-mobile-devices-and-internet [accessed 8/23/2016]
+[^171]: Safe Use of Mobile Devices and the Internet, CESG, 2016; https://web.archive.org/web/20160623094354/www.cesg.gov.uk/guidance/safe-use-mobile-devices-and-internet [accessed 8/23/2016]
 
 [^172]: P. Langlois, SCTPscan - Finding Entry Points to SS7 Networks & Telecommunication Backbones, presented at Blackhat EU, 29 Mar. 2007; www.blackhat.com/presentations/bh-europe-07/Langlois/Presentation/bh-eu-07-langlois-ppt-apr19.pdf [accessed 8/23/2016]
 
@@ -349,7 +349,7 @@
 
 [^183]: D. Goodin, "Beware of the Text Massage That Crashes iPhones", Ars Technica, 27 May 2015; http://arstechnica.com/security/2015/05/beware-of-the-text-message-that-crashes-iphones/ [accessed 8/29/2016]
 
-[^184]: P. Traynor et al., "Mitigating Attacks on Open Functionality in SMS-Capable Cellular Networks", in IEEE/ACM Transaction on Networking 17.1, 2009; http://www.cc.gatech.edu/~traynor/papers/mobicom06.pdf [accessed 8/29/2016]
+[^184]: P. Traynor et al., "Mitigating Attacks on Open Functionality in SMS-Capable Cellular Networks", in IEEE/ACM Transaction on Networking 17.1, 2009; https://www.cise.ufl.edu/~traynor/papers/mobicom06.pdf [accessed 8/29/2016]
 
 [^185]: N.J. Croft and M.S. Olivier, "A Silent SMS Denial of Servie (DoS) Attack", in Information and Computer Security Architectures (ICSA) Research Group South Africa, 2007; http://mo.co.za/open/silentdos.pdf [accessed 8/29/2016]
 

@@ -6,6 +6,7 @@ Threat: Jamming Device Radio Interface
 ThreatOrigin:
   - Analysis and Mitigation of Interference to the LTE Physical Control Format Indicator Channel [^169]
   - Researchers exploit cellular tech flaws to intercept phone calls [^168]
+ThreatDescription: An attacker jams the mobile device by broadcasting in close proximity to the mobile device to prevent communication with the base station.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

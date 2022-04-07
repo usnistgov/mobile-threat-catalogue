@@ -7,6 +7,7 @@ ThreatOrigin:
   - SCTPscan - Finding Entry Points to SS7 Networks & Telecommunication Backbones [^172]
   - GSM Sniffing [^173]
   - 'Toward the HLR: Attacking the SS7 & SIGTRAN Applications [^174]'
+ThreatDescription: Leveraging network weaknesses to monitor or forward phone calls or SMS texts to unintended locations.
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

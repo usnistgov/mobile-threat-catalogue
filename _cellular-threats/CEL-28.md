@@ -4,6 +4,7 @@ ThreatCategory: Carrier Infrastructure
 ID: CEL-28
 Threat: Backhaul and Core Eavesdropping
 ThreatOrigin:
+ThreatDescription: If the LTE network is not utilizing confidentiality protection on the backhaul interface the communication being sent to and received from cell sites is vulnerable to eavesdropping.[^166]
 ExploitExample:
 CVEExample:
 PossibleCountermeasures:

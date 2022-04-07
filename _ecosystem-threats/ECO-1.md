@@ -4,6 +4,7 @@ ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-1
 Threat: Unauthorized Access to Cloud Backups
 ThreatOrigin:
+ThreatDescription: An attacker gains access to a mobile device's cloud backup.
 ExploitExample: Elcomsoft Phone Breaker [^194]
 CVEExample:
 PossibleCountermeasures:

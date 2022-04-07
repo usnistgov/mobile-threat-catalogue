@@ -4,6 +4,7 @@ ThreatCategory: Mobile OS & Vendor Infrastructure
 ID: ECO-0
 Threat: Exploitation of PC Backups
 ThreatOrigin:
+ThreatDescription: Mobile device backup data that is stored on a user's personal computer may be exploited through weak passwords or other access methods. Mobile device data may also be inadvertently stolen when the mobile device is plugged into a compromised personal computer.
 ExploitExample:
   - 'BackStab: Mobile Backup Data Under Attack from Malware [^192]'
   - 'iOS 10: Security Weakness Discovered, Backup Passwords Much Easier to Break [^O-Afonin-1]'

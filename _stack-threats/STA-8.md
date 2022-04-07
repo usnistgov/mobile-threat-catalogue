@@ -10,6 +10,7 @@ PossibleCountermeasures:
 Threat: Services Requiring Insecure Configuration
 ThreatCategory: Mobile Operating System
 ThreatOrigin:
+ThreatDescription: Apps are installed without the device owner's permission or knowledge while device is in weakened device security posture.
 layout: threat
 title: STA-8
 rawID: 8
