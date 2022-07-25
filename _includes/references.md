@@ -558,4 +558,5 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
 [^309]: S. Fahl, "Web & Mobile Security Knowledge Area", The Cyber Security Body of Knowledge, white paper; Jul. 2021, https://www.cybok.org/media/downloads/Web_Mobile_Security_v1.0.1.pdf [accessed 7/25/22]
