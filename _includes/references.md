@@ -129,7 +129,7 @@
 
 [^69]: "[Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]"
 
-[^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://media.defcon.org/DEF CON 24/DEF CON 24 presentations/DEFCON-24-Adam-Donenfeld-Stumping-The-Mobile-Chipset.pdf [accessed 8/25/2016]
+[^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://kipdf.com/stumping-the-mobile-chipset_5afc4b768ead0ed8128b4574.html [accessed 7/26/2022]
 
 [^71]: A. Brandt, "Android Towelroot Exploit Used to Deliver Dogspectus Ransomware", blog, 25 Apr. 2016; www.bluecoat.com/security-blog/2016-04-25/android-exploit-delivers-dogspectus-ransomware [accessed 8/25/2016]
 
@@ -558,5 +558,3 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
-
-[^309]: S. Fahl, "Web & Mobile Security Knowledge Area", The Cyber Security Body of Knowledge, white paper; Jul. 2021, https://www.cybok.org/media/downloads/Web_Mobile_Security_v1.0.1.pdf [accessed 7/25/22]
