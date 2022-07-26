@@ -199,7 +199,7 @@
 
 [^104]: A. Coletta et al., "DroydSeuss: A Mobile Banking Trojan Tracker - A Short Paper", in Proceedings of Financial Cryptography and Data Security 2016, 2016; http://fc16.ifca.ai/preproceedings/14_Coletta.pdf [accessed 8/25/2016]
 
-[^105]: A.P. Felt and D. Wagner, Phishing on Mobile Devices, presented at Web 2.0 Security & Privacy 2011, 26 May 2011; http://w2spconf.com/2011/papers/felt-mobilephishing.pdf [accessed 8/25/2016]
+[^105]: A.P. Felt and D. Wagner, Phishing on Mobile Devices, presented at Web 2.0 Security & Privacy 2011, 26 May 2011; https://www.slideserve.com/debbie/one-root-to-own-them-all [accessed 7/26/2022]
 
 [^106]: R. Hassell, Exploiting Androids for Fun and Profit, presented at Hack In The Box Security Conference 2011, 12-13 Oct. 2011; http://conference.hitb.org/hitbsecconf2011kul/materials/D1T1 - Riley Hassell - Exploiting Androids for Fun and Profit.pdf [accessed 8/25/2016]
 
