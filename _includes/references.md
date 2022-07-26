@@ -131,7 +131,7 @@
 
 [^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://kipdf.com/stumping-the-mobile-chipset_5afc4b768ead0ed8128b4574.html [accessed 7/26/2022]
 
-[^71]: A. Brandt, "Android Towelroot Exploit Used to Deliver Dogspectus Ransomware", blog, 25 Apr. 2016; www.bluecoat.com/security-blog/2016-04-25/android-exploit-delivers-dogspectus-ransomware [accessed 8/25/2016]
+[^71]: A. Brandt, Towelroot and Leaked Hacking Team Exploits Used to Deliver “Dogspectus” Ransomware to Android Devices, blog, 26 Apr. 2016; https://www.outlookseries.com/A0977/Security/3695_Towelroot_Leaked_Hacking_Team_Exploits_Dogspectus_Ransomware_Android_Devices.htm [accessed 7/26/2022]
 
 [^72]: JailbreakMe; https://jailbreakme.qoid.us [accessed 8/25/2016]
 
