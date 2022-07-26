@@ -33,7 +33,7 @@
 
 [^18]: CAPEC-613: WiFi SSID Tracking (Version 2.8), MITRE, 7 Dec. 2015; http://capec.mitre.org/data/definitions/613.html [accessed 8/24/2016]
 
-[^19]: A. Stubblefield, J. Ioannidis and A.D. Rubin, Using the Fluhrer, Mantin, and Shamir Attack to Break WEP, tech. report TD-4ZCPZZ, AT&T Labs, 2001; www.isoc.org/isoc/conferences/ndss/02/papers/stubbl.pdf [accessed 8/24/2016]
+[^19]: A. Stubblefield, J. Ioannidis and A.D. Rubin, Using the Fluhrer, Mantin, and Shamir Attack to Break WEP, tech. report TD-4ZCPZZ, AT&T Labs, 2001; https://www.ndss-symposium.org/wp-content/uploads/2017/09/Using-the-Fluhrer-Mantin-and-Shamir-Attack-to-Break-WEP-Adam-Stubbefild.pdf [accessed 7/26/2022]
 
 [^20]: D. Richardson, "Using spoofed Wi-Fi to attack mobile devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/24/2016]
 
