@@ -63,7 +63,7 @@
 
 [^33]: G. Vaughan, NFC Threat Landscape, OWASP Toronto chapter meeting, 31 Mar. 2013; www.owasp.org/images/3/38/NFC_Threat_Landscape_OWASP_Toronto_March_2013.pdf [accessed 8/24/2016]
 
-[^34]: C. Miller, Exploring the NFC Attack Surface, presented at Blackhat, 5 July 2012; https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf [accessed 8/24/2016]
+[^34]: P. Paganini, Near field communication (NFC) technology, vulnerabilities and principal attack schema, blog, 13 June 2013; https://resources.infosecinstitute.com/topic/near-field-communication-nfc-technology-vulnerabilities-and-principal-attack-schema/ [accessed 7/27/2022]
 
 [^35]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
 
