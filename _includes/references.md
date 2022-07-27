@@ -297,7 +297,7 @@
 
 [^155]: J. Miller and C. Oberheide, Dissecting the Android Bouncer, Summercon, June 2012. https://jon.oberheide.org/files/summercon12-bouncer.pdf [accessed 8/25/16]
 
-[^156]: N.J. Percoco and S. Schulte, Adventures in BouncerLand, presented at BlackHat, 25 July 2012. https://media.blackhat.com/bh-us-12/Briefings/Percoco/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf [accessed 8/25/16]
+[^156]: N.J. Percoco and S. Schulte, Adventures in BouncerLand, presented at BlackHat, 25 July 2012. https://ia601905.us.archive.org/4/items/blackhat2012usaslides/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf [accessed 7/27/22]
 
 [^158]: Setup an FDroid App Repo, wiki entry, 3 May 2016, https://f-droid.org/wiki/page/Setup_an_FDroid_App_Repo [accessed 8/25/16]
 
