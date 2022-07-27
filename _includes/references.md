@@ -229,7 +229,7 @@
 
 [^119]: Corriere Della Sera App, Wandera Threat Advisory No. 74, Wandera, 29 Aug. 2015; www.wandera.com/resources/dl/TA_CorriereDellaSeraApp.pdf (accessed 24 Aug 2016)
 
-[^120]: La Tribune, Wandera Threat Advisory No. 84, Wandera, 2 Oct. 2015; www.wandera.com/resources/dl/TA_LaTribune.pdf [accessed 8/24/2016]
+[^120]: Z.Maldonado, Jailbreak Vulnerability & Mobile Security Updates, Polytechnic University of Puerto Rico, 2018; https://prcrepository.org/xmlui/bitstream/handle/20.500.12475/375/Articulo%20Final_Zedrick%20Maldonado.pdf?sequence=1&isAllowed=y [accessed 7/27/22]
 
 [^121]: Card Crypt, Wandera Threat Advisory No. 142, Wandera, 9 Dec. 2015; www.wandera.com/resources/dl/TA_CardCrypt.pdf [accessed 8/24/2016]
 
