@@ -67,7 +67,7 @@
 
 [^35]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
 
-[^36]: D. Stites and K. Skinner, User Privacy on iOS and OS X, presented at Apple Worldwide Developer Conference, June 2014; http://devstreaming.apple.com/videos/wwdc/2014/715xx4loqo5can9/715/715_user_privacy_in_ios_and_os_x.pdf [accessed 8/24/2016]
+[^36]: M. Beasley, More details on how iOS 8’s MAC address randomization feature works (and when it doesn’t), blog, 26 Sep. 2014; https://9to5mac.com/2014/09/26/more-details-on-how-ios-8s-mac-address-randomization-feature-works-and-when-it-doesnt/ [accessed 7/27/22]
 
 [^37]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; http://grouper.ieee.org/groups/802/15/Bluetooth/profile_10_b.pdf [accessed 8/24/2016]
 
