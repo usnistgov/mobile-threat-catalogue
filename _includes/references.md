@@ -87,7 +87,7 @@
 
 [^45]: L. Tung, "Apple iPhone, iPad iOS 9 security flaw lets malicious apps sneak onto enterprise devices," ZDNet, 1 Apr. 2016; www.zdnet.com/article/apple-iphone-ipad-ios-9-security-flaw-lets-malicious-apps-sneak-onto-enterprise-devices/
 
-[^46]: B. Lau et al. , MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at BlackHat, 3-4 Aug. 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
+[^46]: B. Lau et al. , MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at BlackHat, 3-4 Aug. 2013. https://macsecurity.net/view/50-mactans-injecting-malware-into-ios-devices-via-malicious-chargers [accessed 7/27/22].
 
 [^47]: M. Mendoza, "Xiaomi Locks Mi Devices' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock," Tech Times, 20 Jan. 2016; www.techtimes.com/articles/125681/20160120/xiaomi-locks-mi-devices-bootloaders-on-fears-of-malware-and-security-risks-up-to21-days-to-unlock.htm [accessed 8/26/2016]
 
