@@ -379,7 +379,7 @@
 
 [^198]: B. Thompson, "UAE Blackberry update was spyware", 21 Jul. 2009, http://news.bbc.co.uk/2/hi/8161190.stm [accessed 8/29/2016]
 
-[^199]: "The State of the Mobile Ecosystem, Appthority Unveils New Security Research at Black Hat", 4 Aug. 2015, https://www.appthority.com/company/news-and-events/press-releases/the-state-of-the-mobile-ecosystem-appthority-unveils-new-security-research-at-black-hat/ [accessed 8/29/2015]
+[^199]: "The State of the Mobile Ecosystem", 5 Aug. 2015, https://www.helpnetsecurity.com/2015/08/05/the-state-of-the-mobile-ecosystem/ [accessed 7/27/2022]
 
 [^200]: J. Oberheide, "How I Almost Won Pwn2Own via XSS", 07 Mar. 2011; https://jon.oberheide.org/blog/2011/03/07/how-i-almost-won-pwn2own-via-xss/ [accessed 8/25/2016]
 
