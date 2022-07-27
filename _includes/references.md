@@ -49,7 +49,7 @@
 
 [^26]: How Retailers Use Smartphones To Track Shoppers In The Store, All Things Considered, National Public Radio, 16 June 2014, transcript; www.npr.org/2014/06/16/322597862/how-retailers-use-smartphones-to-track-shoppers-in-the-store [accessed 8/24/2016]
 
-[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://transition.fcc.gov/eb/jammerenforcement/jamfaq.pdf [accessed 8/24/2016]
+[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://cduggleby.files.wordpress.com/2016/03/federal-communications-q-and-a-sheet-on-cellphone-jamming-see-cellphone-jammer-article-at-chrisdugglebydotcom.pdf [accessed 7/27/22]
 
 [^28]: J. Padgette, K. Scarfone and L. Chen, Guide to Bluetooth Security, SP 800-121 rev. 1, National Institute of Standards and Technology, 2012; http://csrc.nist.gov/publications/nistpubs/800-121-rev1/sp800-121_rev1.pdf [accessed 8/24/2016]
 
