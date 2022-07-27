@@ -1,5 +1,5 @@
 
-[^1]: N.O. Tippenhauer et al., "On the requirements for successful GPS spoofing attacks", in Proceedings of the 18th ACM conference on Computer and communications security, 2011, pp. 75-86; www.cs.ox.ac.uk/files/6489/gps.pdf [accessed 8/23/2016]
+[^1]: N.O. Tippenhauer et al., "On the requirements for successful GPS spoofing attacks", in Proceedings of the 18th ACM conference on Computer and communications security, 2011, pp. 75-86;  <a href="www.cs.ox.ac.uk/files/6489/gps.pdf">www.cs.ox.ac.uk/files/6489/gps.pdf</a> [accessed 8/23/2016]
 
 [^2]: T.E. Humpreys et al. "Assessing the spoofing threat: Development of a portable GPS civilian spoofer." in Proceedings of the 21st International Technical Meeting of the Satellite Division of The Institute of Navigation, 2008, pp. 2314-2325; https://gps.mae.cornell.edu/humphreys_etal_iongnss2008.pdf [accessed 8/23/2016]
 
