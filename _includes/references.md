@@ -385,7 +385,7 @@
 
 [^201]: R. Konoth, V. van der Veen et al., "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016.
 
-[^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://media.blackhat.com/us-13/US-13-Forristal-Android-One-Root-to-Own-Them-All-Slides.pdf [accessed 8/24/2016]
+[^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://www.slideserve.com/debbie/one-root-to-own-them-all [accessed 7/27/2022]
 
 [^203]: J. Timmer, "UAE cellular carrier rolls out spyware as a 3G 'update'", Ars Technica, 23 Jul 2009; http://arstechnica.com/business/2009/07/mobile-carrier-rolls-out-spyware-as-a-3g-update/ [accessed 8/23/2016]
 
