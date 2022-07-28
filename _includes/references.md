@@ -367,7 +367,7 @@
 
 [^192]: C. Xiao, "BackStab: Mobile Backup Data Under Attack from Malware", paloalto, 7 Dec. 2015; http://researchcenter.paloaltonetworks.com/2015/12/backstab-mobile-backup-data-under-attack-from-malware/ [accessed 8/29/2016]
 
-[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://www.paloaltonetworks.com/resources/research/unit42-backstab-mobile-backup-data-under-attack-from-malware.html  [accessed 8/29/2016]
+[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://unit42.paloaltonetworks.com/backstab-mobile-backup-data-under-attack-from-malware/  [accessed 7/28/2022]
 
 [^194]: Elcomsoft Phone Breaker; https://www.elcomsoft.com/eppb.html [accessed 8/29/2016]
 
