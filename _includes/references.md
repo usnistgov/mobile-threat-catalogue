@@ -273,13 +273,13 @@
 
 [^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013;   www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
 
-[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365.
+[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.3427&rep=rep1&type=pdf [accessed 7/28/2022]
 
-[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-Slides.pdf [accessed 8/25/2016]
+[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.3427&rep=rep1&type=pdf [accessed 7/28/2022]
 
 [^145]: M. Brignall, "Sim-Swap Fraud Claims Another Mobile Banking Victim", The Guardian, 16 Apr. 2016; www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters  [accessed 8/25/2016]
 
-[^146]: BYOD & Mobile Security, Information Security Community on LinkedIn, Apr. 2016; http://get.skycure.com/hubfs/Reports/BYOD_and_Mobile_Security_Report_2016.pdf  [accessed 8/25/2016]
+[^146]: BYOD & Mobile Security, Information Security Community on LinkedIn, Apr. 2016; https://docs.broadcom.com/doc/byod-and-mobile-security-en  [accessed 7/28/22]
 
 [^147]: V. Blue, "Researchers Show How to Hack an iPhone in 60 Seconds", ZDNet, 31 July 2013; www.zdnet.com/article/researchers-reveal-how-to-hack-an-iphone-in-60-seconds/ [accessed 8/25/2016]
 
@@ -367,7 +367,7 @@
 
 [^192]: C. Xiao, "BackStab: Mobile Backup Data Under Attack from Malware", paloalto, 7 Dec. 2015; http://researchcenter.paloaltonetworks.com/2015/12/backstab-mobile-backup-data-under-attack-from-malware/ [accessed 8/29/2016]
 
-[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://www.paloaltonetworks.com/resources/research/unit42-backstab-mobile-backup-data-under-attack-from-malware.html  [accessed 8/29/2016]
+[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://unit42.paloaltonetworks.com/backstab-mobile-backup-data-under-attack-from-malware/  [accessed 7/28/2022]
 
 [^194]: Elcomsoft Phone Breaker; https://www.elcomsoft.com/eppb.html [accessed 8/29/2016]
 
@@ -469,6 +469,10 @@
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
 
+[^250]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; https://www.fintechfutures.com/files/2014/04/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 7/27/2022]
+
+[^251]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
+
 [^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016.
 
 [^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
@@ -479,7 +483,7 @@
 
 [^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
 
-[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://cupdf.com/document/exploiting-vulnerabilities-of-wi-fi-sd-cards-os3nl-vulnerabilities-of-wi-fi-sd.html?page=1 [accessed 7/28/2022]
 
 [^Bunnie-1]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
 
