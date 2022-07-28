@@ -273,9 +273,9 @@
 
 [^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013;   www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
 
-[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365.
+[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.3427&rep=rep1&type=pdf [accessed 7/28/2022]
 
-[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-Slides.pdf [accessed 8/25/2016]
+[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.3427&rep=rep1&type=pdf [accessed 7/28/2022]
 
 [^145]: M. Brignall, "Sim-Swap Fraud Claims Another Mobile Banking Victim", The Guardian, 16 Apr. 2016; www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters  [accessed 8/25/2016]
 
