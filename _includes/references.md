@@ -279,7 +279,7 @@
 
 [^145]: M. Brignall, "Sim-Swap Fraud Claims Another Mobile Banking Victim", The Guardian, 16 Apr. 2016; www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters  [accessed 8/25/2016]
 
-[^146]: BYOD & Mobile Security, Information Security Community on LinkedIn, Apr. 2016; http://get.skycure.com/hubfs/Reports/BYOD_and_Mobile_Security_Report_2016.pdf  [accessed 8/25/2016]
+[^146]: BYOD & Mobile Security, Information Security Community on LinkedIn, Apr. 2016; https://docs.broadcom.com/doc/byod-and-mobile-security-en  [accessed 7/28/22]
 
 [^147]: V. Blue, "Researchers Show How to Hack an iPhone in 60 Seconds", ZDNet, 31 July 2013; www.zdnet.com/article/researchers-reveal-how-to-hack-an-iphone-in-60-seconds/ [accessed 8/25/2016]
 
