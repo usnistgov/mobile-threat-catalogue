@@ -558,3 +558,5 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
+[^309]: Brett Giller, "Implementing Practical Electrical Glitching Attacks", PowerPoint, Nov 2015, https://www.blackhat.com/docs/eu-15/materials/eu-15-Giller-Implementing-Electrical-Glitching-Attacks.pdf [accessed 8/3/2022]
