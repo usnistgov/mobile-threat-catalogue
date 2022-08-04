@@ -49,7 +49,7 @@
 
 [^26]: How Retailers Use Smartphones To Track Shoppers In The Store, All Things Considered, National Public Radio, 16 June 2014, transcript; www.npr.org/2014/06/16/322597862/how-retailers-use-smartphones-to-track-shoppers-in-the-store [accessed 8/24/2016]
 
-[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://transition.fcc.gov/eb/jammerenforcement/jamfaq.pdf [accessed 8/24/2016]
+[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://cduggleby.files.wordpress.com/2016/03/federal-communications-q-and-a-sheet-on-cellphone-jamming-see-cellphone-jammer-article-at-chrisdugglebydotcom.pdf [accessed 7/27/22]
 
 [^28]: J. Padgette, K. Scarfone and L. Chen, Guide to Bluetooth Security, SP 800-121 rev. 1, National Institute of Standards and Technology, 2012; http://csrc.nist.gov/publications/nistpubs/800-121-rev1/sp800-121_rev1.pdf [accessed 8/24/2016]
 
@@ -67,7 +67,7 @@
 
 [^35]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
 
-[^36]: D. Stites and K. Skinner, User Privacy on iOS and OS X, presented at Apple Worldwide Developer Conference, June 2014; http://devstreaming.apple.com/videos/wwdc/2014/715xx4loqo5can9/715/715_user_privacy_in_ios_and_os_x.pdf [accessed 8/24/2016]
+[^36]: M. Beasley, More details on how iOS 8’s MAC address randomization feature works (and when it doesn’t), blog, 26 Sep. 2014; https://9to5mac.com/2014/09/26/more-details-on-how-ios-8s-mac-address-randomization-feature-works-and-when-it-doesnt/ [accessed 7/27/22]
 
 [^37]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; http://grouper.ieee.org/groups/802/15/Bluetooth/profile_10_b.pdf [accessed 8/24/2016]
 
@@ -229,7 +229,7 @@
 
 [^119]: Corriere Della Sera App, Wandera Threat Advisory No. 74, Wandera, 29 Aug. 2015; www.wandera.com/resources/dl/TA_CorriereDellaSeraApp.pdf (accessed 24 Aug 2016)
 
-[^120]: La Tribune, Wandera Threat Advisory No. 84, Wandera, 2 Oct. 2015; www.wandera.com/resources/dl/TA_LaTribune.pdf [accessed 8/24/2016]
+[^120]: Z.Maldonado, Jailbreak Vulnerability & Mobile Security Updates, Polytechnic University of Puerto Rico, 2018; https://prcrepository.org/xmlui/bitstream/handle/20.500.12475/375/Articulo%20Final_Zedrick%20Maldonado.pdf?sequence=1&isAllowed=y [accessed 7/27/22]
 
 [^121]: Card Crypt, Wandera Threat Advisory No. 142, Wandera, 9 Dec. 2015; www.wandera.com/resources/dl/TA_CardCrypt.pdf [accessed 8/24/2016]
 
@@ -273,13 +273,13 @@
 
 [^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013;   www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
 
-[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365.
+[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.3427&rep=rep1&type=pdf [accessed 7/28/2022]
 
-[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-Slides.pdf [accessed 8/25/2016]
+[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.226.3427&rep=rep1&type=pdf [accessed 7/28/2022]
 
 [^145]: M. Brignall, "Sim-Swap Fraud Claims Another Mobile Banking Victim", The Guardian, 16 Apr. 2016; www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters  [accessed 8/25/2016]
 
-[^146]: BYOD & Mobile Security, Information Security Community on LinkedIn, Apr. 2016; http://get.skycure.com/hubfs/Reports/BYOD_and_Mobile_Security_Report_2016.pdf  [accessed 8/25/2016]
+[^146]: BYOD & Mobile Security, Information Security Community on LinkedIn, Apr. 2016; https://docs.broadcom.com/doc/byod-and-mobile-security-en  [accessed 7/28/22]
 
 [^147]: V. Blue, "Researchers Show How to Hack an iPhone in 60 Seconds", ZDNet, 31 July 2013; www.zdnet.com/article/researchers-reveal-how-to-hack-an-iphone-in-60-seconds/ [accessed 8/25/2016]
 
@@ -367,7 +367,7 @@
 
 [^192]: C. Xiao, "BackStab: Mobile Backup Data Under Attack from Malware", paloalto, 7 Dec. 2015; http://researchcenter.paloaltonetworks.com/2015/12/backstab-mobile-backup-data-under-attack-from-malware/ [accessed 8/29/2016]
 
-[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://www.paloaltonetworks.com/resources/research/unit42-backstab-mobile-backup-data-under-attack-from-malware.html  [accessed 8/29/2016]
+[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://unit42.paloaltonetworks.com/backstab-mobile-backup-data-under-attack-from-malware/  [accessed 7/28/2022]
 
 [^194]: Elcomsoft Phone Breaker; https://www.elcomsoft.com/eppb.html [accessed 8/29/2016]
 
@@ -469,7 +469,7 @@
 
 [^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
 
-[^250]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; http://simalliance.org/wp-content/uploads/2015/03/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 10/24/2016]
+[^250]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; https://www.fintechfutures.com/files/2014/04/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 7/27/2022]
 
 [^251]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
 
@@ -483,7 +483,7 @@
 
 [^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
 
-[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://cupdf.com/document/exploiting-vulnerabilities-of-wi-fi-sd-cards-os3nl-vulnerabilities-of-wi-fi-sd.html?page=1 [accessed 7/28/2022]
 
 [^Bunnie-1]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
 
@@ -558,3 +558,7 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
+[^309]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; http://simalliance.org/wp-content/uploads/2015/03/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 10/24/2016]
+
+[^310]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
