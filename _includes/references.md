@@ -562,8 +562,9 @@
 
 
 
-[^310] Z.Shan et al., _Self-Hiding Behavior in Android Apps: Detection and Characterization_; presented at International Conference on Software Engineering, 2018, https://ieeexplore.ieee.org/document/8453145 [accessed 8/1/2022]
 
-[^311] L. Stefanko, _Android Trojan steals money from PayPal accounts even with 2FA on_; welivesecurity, blog, 11 Dec 2018, https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/ [accessed 8/1/2022]
+[^311] Z.Shan et al., _Self-Hiding Behavior in Android Apps: Detection and Characterization_; presented at International Conference on Software Engineering, 2018, https://ieeexplore.ieee.org/document/8453145 [accessed 8/1/2022]
 
-[^312] McAfee, _Is Mobile Malware Playing Hide and Steal on Your Device?_; McAfee, blog, https://www.mcafee.com/blogs/mobile-security/mobile-threat-report-q1-2020/ [accessed 8/1/2022]
+[^312] L. Stefanko, _Android Trojan steals money from PayPal accounts even with 2FA on_; welivesecurity, blog, 11 Dec 2018, https://www.welivesecurity.com/2018/12/11/android-trojan-steals-money-paypal-accounts-2fa/ [accessed 8/1/2022]
+
+[^313] McAfee, _Is Mobile Malware Playing Hide and Steal on Your Device?_; McAfee, blog, https://www.mcafee.com/blogs/mobile-security/mobile-threat-report-q1-2020/ [accessed 8/1/2022]
