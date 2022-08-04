@@ -331,7 +331,7 @@
 
 [^174]: P. Langlois, Toward the HLR: Attacking the SS7 & SIGTRAN Applications, presented at H2HC, Dec. 2009; www.h2hc.org.br/repositorio/2009/files/Philippe.en.pdf [accessed 8/23/2016]
 
-[^175]: K. Nohl, Attacking Phone Privacy, presented at Blackhat, 29 July 2010; https://media.blackhat.com/bh-ad-10/Nohl/BlackHat-AD-2010-Nohl-Attacking-Phone-Privacy-wp.pdf [accessed 8/23/2016]
+[^175]: K. Nohl, Attacking Phone Privacy, presented at Blackhat, 29 July 2010;  https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.470.1482&rep=rep1&type=pdf [accessed 8/23/2016]
 
 [^176]: U. Meyer and S. Wetzel, "A Man-in-the-Middle Attack on UMTS", Proceedings of the 3rd ACM workshop on Wireless security, 2004, pp. 90-97; http://dx.doi.org/10.1145/1023646.1023662 [accessed 8/23/2016]
 
