@@ -3,16 +3,10 @@ layout: threat
 ThreatCategory: 'Authentication: User or Device to Remote Service'
 ID: AUT-0
 Threat: Use of Stolen Credentials
-ThreatOrigin: 'Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]'
+ThreatOrigin: 'Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices [^61]
 ThreatDescription: Attackers able to steal authorized credentials could potentially login to sensitive services or devices, and gain unauthorized access to privileged information.
 ExploitExample:
-  - CBS App & Mobility Website [^116]
-  - The Fork [^117]
-  - Star Q8 [^118]
-  - Corriere Della Sera App [^119]
-  - LaTribune [^120]
-  - Card Crypt [^121]
-  - Starbucks Caught Storing Mobile Passwords in Clear Text [^122]
+  - How malware steals autofill data from browsers [^116]
 CVEExample:
 PossibleCountermeasures:
     Enterprise:
