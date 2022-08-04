@@ -63,7 +63,7 @@
 
 [^33]: G. Vaughan, NFC Threat Landscape, OWASP Toronto chapter meeting, 31 Mar. 2013; www.owasp.org/images/3/38/NFC_Threat_Landscape_OWASP_Toronto_March_2013.pdf [accessed 8/24/2016]
 
-[^34]: C. Miller, Exploring the NFC Attack Surface, presented at Blackhat, 5 July 2012; https://media.blackhat.com/bh-us-12/Briefings/C_Miller/BH_US_12_Miller_NFC_attack_surface_WP.pdf [accessed 8/24/2016]
+[^34]: P. Paganini, Near field communication (NFC) technology, vulnerabilities and principal attack schema, blog, 13 June 2013; https://resources.infosecinstitute.com/topic/near-field-communication-nfc-technology-vulnerabilities-and-principal-attack-schema/ [accessed 7/27/2022]
 
 [^35]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
 
@@ -87,7 +87,7 @@
 
 [^45]: L. Tung, "Apple iPhone, iPad iOS 9 security flaw lets malicious apps sneak onto enterprise devices," ZDNet, 1 Apr. 2016; www.zdnet.com/article/apple-iphone-ipad-ios-9-security-flaw-lets-malicious-apps-sneak-onto-enterprise-devices/
 
-[^46]: B. Lau et al. , MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at BlackHat, 3-4 Aug. 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16].
+[^46]: B. Lau et al. , MACTANS: Injecting Malware Into iOS Devices Via Malicious Chargers, presented at BlackHat, 3-4 Aug. 2013. https://macsecurity.net/view/50-mactans-injecting-malware-into-ios-devices-via-malicious-chargers [accessed 7/27/22].
 
 [^47]: M. Mendoza, "Xiaomi Locks Mi Devices' Bootloaders On Fears Of Malware And Security Risks: Up To 21 Days To Unlock," Tech Times, 20 Jan. 2016; www.techtimes.com/articles/125681/20160120/xiaomi-locks-mi-devices-bootloaders-on-fears-of-malware-and-security-risks-up-to21-days-to-unlock.htm [accessed 8/26/2016]
 
@@ -199,7 +199,7 @@
 
 [^104]: A. Coletta et al., "DroydSeuss: A Mobile Banking Trojan Tracker - A Short Paper", in Proceedings of Financial Cryptography and Data Security 2016, 2016; http://fc16.ifca.ai/preproceedings/14_Coletta.pdf [accessed 8/25/2016]
 
-[^105]: A.P. Felt and D. Wagner, Phishing on Mobile Devices, presented at Web 2.0 Security & Privacy 2011, 26 May 2011; http://w2spconf.com/2011/papers/felt-mobilephishing.pdf [accessed 8/25/2016]
+[^105]: A.P. Felt and D. Wagner, Phishing on Mobile Devices, presented at Web 2.0 Security & Privacy 2011, 26 May 2011; https://people.eecs.berkeley.edu/~daw/papers/mobphish-w2sp11.pdf [accessed 7/27/2022]
 
 [^106]: R. Hassell, Exploiting Androids for Fun and Profit, presented at Hack In The Box Security Conference 2011, 12-13 Oct. 2011; http://conference.hitb.org/hitbsecconf2011kul/materials/D1T1 - Riley Hassell - Exploiting Androids for Fun and Profit.pdf [accessed 8/25/2016]
 
@@ -297,7 +297,7 @@
 
 [^155]: J. Miller and C. Oberheide, Dissecting the Android Bouncer, Summercon, June 2012. https://jon.oberheide.org/files/summercon12-bouncer.pdf [accessed 8/25/16]
 
-[^156]: N.J. Percoco and S. Schulte, Adventures in BouncerLand, presented at BlackHat, 25 July 2012. https://media.blackhat.com/bh-us-12/Briefings/Percoco/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf [accessed 8/25/16]
+[^156]: N.J. Percoco and S. Schulte, Adventures in BouncerLand, presented at BlackHat, 25 July 2012. https://ia601905.us.archive.org/4/items/blackhat2012usaslides/BH_US_12_Percoco_Adventures_in_Bouncerland_WP.pdf [accessed 7/27/22]
 
 [^158]: Setup an FDroid App Repo, wiki entry, 3 May 2016, https://f-droid.org/wiki/page/Setup_an_FDroid_App_Repo [accessed 8/25/16]
 
@@ -379,13 +379,13 @@
 
 [^198]: B. Thompson, "UAE Blackberry update was spyware", 21 Jul. 2009, http://news.bbc.co.uk/2/hi/8161190.stm [accessed 8/29/2016]
 
-[^199]: "The State of the Mobile Ecosystem, Appthority Unveils New Security Research at Black Hat", 4 Aug. 2015, https://www.appthority.com/company/news-and-events/press-releases/the-state-of-the-mobile-ecosystem-appthority-unveils-new-security-research-at-black-hat/ [accessed 8/29/2015]
+[^199]: "The State of the Mobile Ecosystem", 5 Aug. 2015, https://www.helpnetsecurity.com/2015/08/05/the-state-of-the-mobile-ecosystem/ [accessed 7/27/2022]
 
 [^200]: J. Oberheide, "How I Almost Won Pwn2Own via XSS", 07 Mar. 2011; https://jon.oberheide.org/blog/2011/03/07/how-i-almost-won-pwn2own-via-xss/ [accessed 8/25/2016]
 
 [^201]: R. Konoth, V. van der Veen et al., "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016.
 
-[^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://media.blackhat.com/us-13/US-13-Forristal-Android-One-Root-to-Own-Them-All-Slides.pdf [accessed 8/24/2016]
+[^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://www.slideserve.com/debbie/one-root-to-own-them-all [accessed 7/27/2022]
 
 [^203]: J. Timmer, "UAE cellular carrier rolls out spyware as a 3G 'update'", Ars Technica, 23 Jul 2009; http://arstechnica.com/business/2009/07/mobile-carrier-rolls-out-spyware-as-a-3g-update/ [accessed 8/23/2016]
 
@@ -403,7 +403,7 @@
 
 [^210]: ARM Security Technology Building a Secure System using TrustZone Technology;  http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.prd29-genc-009492c/ch01s03s03.html [accessed 8/23/16]
 
-[^211]: K. Nohl, Rooting SIM cards, presented at BlackHat, 2013. https://media.blackhat.com/us-13/us-13-Nohl-Rooting-SIM-cards-Slides.pdf [accessed 8/23/16]
+[^211]: K. Nohl, Rooting SIM cards, presented at BlackHat, 2013. https://infocondb.org/con/black-hat/black-hat-usa-2013/rooting-sim-cards [accessed 7/27/22]
 
 [^212]: H. Ko and R. Caytiles, "A Review of Smartcard Security Issues," Journal of Security Engineering, 8, no. 3 (2011): 6. https://docplayer.net/23347975-A-review-of-smartcard-security-issues.html [accessed 10/11/21]
 
