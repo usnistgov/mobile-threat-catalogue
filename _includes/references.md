@@ -111,7 +111,7 @@
 
 [^57]: J. Oberheide and Z. Lanier, "Team Joch vs. Android", presented at ShmooCon 2011, 28-30 Jan. 2011, slide 54; https://jon.oberheide.org/files/shmoo11-teamjoch.pdf [accessed 8/25/2016]
 
-[^61]: L. Neely, Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices, SANS Institute, 2016; www.sans.org/reading-room/whitepapers/analyst/mobile-threat-protection-holistic-approach-securing-mobile-data-devices-36715 [accessed 8/25/2016]
+[^61]: L. Neely, Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices, SANS Institute, 2016; https://docs.broadcom.com/doc/sans-mobile-threat-protection-a-holistic-approach[accessed 8/25/2016]
 
 [^62]: S. Fahl et al., "Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security", in Proceedings of the 2012 ACM conference on Computer and Communications Security, 2012, pp. 50-61; http://dl.acm.org/citation.cfm?id=2382205 [accessed 8/25/2016]
 
@@ -221,7 +221,7 @@
 
 [^115]: "Samsung Keyboard Security Risk Disclosed", 16 June 2015; www.nowsecure.com/keyboard-vulnerability/ [accessed 8/25/2016]
 
-[^116]: CBS App & Mobility Website, Wandera Threat Advisory No. 192, Wandera, 23 Mar. 2016; www.wandera.com/resources/dl/TA_CBS.pdf [accessed 8/24/2016]
+[^116]: K. Arya, How malware steals autofill data from browsers, ITProPortal, 23 Apr. 2018; [www.wandera.com/resources/dl/TA_CBS.pdf](https://www.itproportal.com/features/five-ways-mobile-apps-are-putting-your-credentials-at-risk/) [accessed 8/1/2022]
 
 [^117]: The Fork, Wandera Threat Advisory No. 154, Wandera, 14 Jan. 2016; www.wandera.com/resources/dl/TA_The_Fork.pdf [accessed 8/24/2016]
 
@@ -558,3 +558,4 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
