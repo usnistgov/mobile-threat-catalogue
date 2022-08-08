@@ -158,9 +158,10 @@ If you are familiar with Github you are also welcome to provide suggestions to c
 
 1. After forking the repository, Find the ``references.md`` file located in the ``_includes`` folder
 2. Make a new entry at the bottom of the file with the following format
-``[^ReferenceID]: Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, URL (if available online)``
-3. Back in the threat file, make a call to the newly added reference using the following format ``[^ReferenceID]``
-4. [Create a pull request](#creating-a-pull-request).
+``[^ReferenceID]: Author(s), "Name of Document", in Name of Publication, [type of resource], Date of Publication, [URL](link) (if available online)``
+3. If adding a url, please include the entire url including the protocol, otherwise the hyperlink will not work.
+4. Back in the threat file, make a call to the newly added reference using the following format ``[^ReferenceID]``
+5. [Create a pull request](#creating-a-pull-request).
 
 
 #### Adding a Glossary Term
