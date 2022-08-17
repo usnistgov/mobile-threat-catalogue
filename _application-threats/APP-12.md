@@ -17,6 +17,7 @@ PossibleCountermeasures:
       - Use application threat intelligence data about potential data collection risks associated with apps installed on devices
     Mobile Device User:
       - Use Android Verify Apps feature to identify apps that may abuse permissions to perform data collection.
+      - Consider the use of devices that support Android 11 or higher, in which applications have limited visibility of what other apps are on the device.
 title: APP-12
 rawID: 12
 ---

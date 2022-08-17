@@ -16,6 +16,7 @@ PossibleCountermeasures:
       - To increase the complexity of MAC address tracking, procure mobile devices with OS and hardware versions that support MAC address randomization. Starting in Android 6.0, randomized MAC addresses are used for Wi-Fi and Bluetooth scans. See __Android 6.0 Changes__. [^35] In iOS 8, Wi-Fi scanning behavior changed to use random, locally administrated MAC addresses. See User Privacy on iOS and OS X. [^36] Windows 10 and later verions support MAC address randomization. [^251]
     Enterprise:
       - To increase the complexity of MAC address tracking, procure mobile devices with OS and hardware versions that support MAC address randomization. Starting in Android 6.0, randomized MAC addresses are used for Wi-Fi and Bluetooth scans. See __Android 6.0 Changes__. [^35] In iOS 8, Wi-Fi scanning behavior changed to use random, locally administrated MAC addresses. See User Privacy on iOS and OS X. [^36] Windows 10 and later verions support MAC address randomization. [^251]
+      - Consider the use of devices supporting Android 10 or later, in which MAC randomization is enabled by default for client mode, SoftAp, and Wi-Fi Direct.
     Mobile Device User:
       - To reduce traceable signals from a mobile device, place it airplane mode when wireless communication is not in use. In this mode, most devices will disconnect from any current Wi-Fi network, and not attempt to join any Wi-Fi networks until reenabled.
       - To minimize traceable signals from a mobile device, power it off when not in use.
