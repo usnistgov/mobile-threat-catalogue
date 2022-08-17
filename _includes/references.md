@@ -49,7 +49,7 @@
 
 [^26]: How Retailers Use Smartphones To Track Shoppers In The Store, All Things Considered, National Public Radio, 16 June 2014, transcript; www.npr.org/2014/06/16/322597862/how-retailers-use-smartphones-to-track-shoppers-in-the-store [accessed 8/24/2016]
 
-[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://transition.fcc.gov/eb/jammerenforcement/jamfaq.pdf [accessed 8/24/2016]
+[^27]: GPS, Wi-Fi, and Cell Phone Jammers Frequently Asked Questions (FAQs), Federal Communications Commission; https://cduggleby.files.wordpress.com/2016/03/federal-communications-q-and-a-sheet-on-cellphone-jamming-see-cellphone-jammer-article-at-chrisdugglebydotcom.pdf [accessed 7/27/22]
 
 [^28]: J. Padgette, K. Scarfone and L. Chen, Guide to Bluetooth Security, SP 800-121 rev. 1, National Institute of Standards and Technology, 2012; http://csrc.nist.gov/publications/nistpubs/800-121-rev1/sp800-121_rev1.pdf [accessed 8/24/2016]
 
@@ -67,7 +67,7 @@
 
 [^35]: Android 6.0 Changes, https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id [accessed on 8/24/2016]
 
-[^36]: D. Stites and K. Skinner, User Privacy on iOS and OS X, presented at Apple Worldwide Developer Conference, June 2014; http://devstreaming.apple.com/videos/wwdc/2014/715xx4loqo5can9/715/715_user_privacy_in_ios_and_os_x.pdf [accessed 8/24/2016]
+[^36]: M. Beasley, More details on how iOS 8’s MAC address randomization feature works (and when it doesn’t), blog, 26 Sep. 2014; https://9to5mac.com/2014/09/26/more-details-on-how-ios-8s-mac-address-randomization-feature-works-and-when-it-doesnt/ [accessed 7/27/22]
 
 [^37]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; http://grouper.ieee.org/groups/802/15/Bluetooth/profile_10_b.pdf [accessed 8/24/2016]
 
@@ -229,7 +229,7 @@
 
 [^119]: Corriere Della Sera App, Wandera Threat Advisory No. 74, Wandera, 29 Aug. 2015; www.wandera.com/resources/dl/TA_CorriereDellaSeraApp.pdf (accessed 24 Aug 2016)
 
-[^120]: La Tribune, Wandera Threat Advisory No. 84, Wandera, 2 Oct. 2015; www.wandera.com/resources/dl/TA_LaTribune.pdf [accessed 8/24/2016]
+[^120]: Z.Maldonado, Jailbreak Vulnerability & Mobile Security Updates, Polytechnic University of Puerto Rico, 2018; https://prcrepository.org/xmlui/bitstream/handle/20.500.12475/375/Articulo%20Final_Zedrick%20Maldonado.pdf?sequence=1&isAllowed=y [accessed 7/27/22]
 
 [^121]: Card Crypt, Wandera Threat Advisory No. 142, Wandera, 9 Dec. 2015; www.wandera.com/resources/dl/TA_CardCrypt.pdf [accessed 8/24/2016]
 
@@ -558,3 +558,7 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
+[^309]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; http://simalliance.org/wp-content/uploads/2015/03/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 10/24/2016]
+
+[^310]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
