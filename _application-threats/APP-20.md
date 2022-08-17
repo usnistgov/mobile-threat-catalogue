@@ -19,6 +19,7 @@ PossibleCountermeasures:
       - Use application threat intelligence data about potential abuse of dynamic code execution associated with apps installed on COPE or BYOD devices
     Mobile Device User:
       - Use Android Verify Apps feature to identify potentially harmful apps.
+      - Consider the use of devices that support Android 10 or higher, in which applications cannot execute code within their own system binaries and libraries. 
 title: APP-20
 rawID: 20
 ---

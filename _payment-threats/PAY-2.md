@@ -15,6 +15,7 @@ PossibleCountermeasures:
       - 'Follow general guidelines to protect credit card info: When conducting online transactions or accessing banking sites online, never access the URL from a link in an email or SMS/MMS; always type the URL directly into the location bar.'
       - Verify the browser indicates the session is secured with HTTPS before authenticating to a banking site or making online payments to vendors.
       - To prevent attackers from obtaining authentication credentials or account details for payment systems, never access banking sites from public or untrusted systems, as these may have been infected with malware designed to steal authentication credentials or credit card information.
+      - Consider the use of devices that support Android 9 or higher, in which the Protected Confirmation feature, a hardware protected UI, was added to bolster protection for transactions. 
 title: PAY-2
 rawID: 2
 ---
