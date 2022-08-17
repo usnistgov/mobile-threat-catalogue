@@ -33,9 +33,9 @@
 
 [^18]: CAPEC-613: WiFi SSID Tracking (Version 2.8), MITRE, 7 Dec. 2015; http://capec.mitre.org/data/definitions/613.html [accessed 8/24/2016]
 
-[^19]: A. Stubblefield, J. Ioannidis and A.D. Rubin, Using the Fluhrer, Mantin, and Shamir Attack to Break WEP, tech. report TD-4ZCPZZ, AT&T Labs, 2001; www.isoc.org/isoc/conferences/ndss/02/papers/stubbl.pdf [accessed 8/24/2016]
+[^19]: A. Stubblefield, J. Ioannidis and A.D. Rubin, Using the Fluhrer, Mantin, and Shamir Attack to Break WEP, tech. report TD-4ZCPZZ, AT&T Labs, 2001;  https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.2068&rep=rep1&type=pdf [accessed 8/24/2016]
 
-[^20]: D. Richardson, "Using spoofed Wi-Fi to attack mobile devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/24/2016]
+[^20]: D. Richardson, "Using spoofed Wi-Fi to attack mobile devices", blog, 21 Apr. 2016; https://www.lookout.com/blog/spoofed-wifi-60-minutes[accessed 8/24/2016]
 
 [^21]: G. Fleishman, "FCC fines Marriott $600,000 for jamming hotel Wi-Fi", blog, 3 Oct. 2014; http://boingboing.net/2014/10/03/fcc-fines-marriott-for-jamming.html [accessed 8/24/2016]
 
@@ -69,9 +69,9 @@
 
 [^36]: D. Stites and K. Skinner, User Privacy on iOS and OS X, presented at Apple Worldwide Developer Conference, June 2014; http://devstreaming.apple.com/videos/wwdc/2014/715xx4loqo5can9/715/715_user_privacy_in_ios_and_os_x.pdf [accessed 8/24/2016]
 
-[^37]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; http://grouper.ieee.org/groups/802/15/Bluetooth/profile_10_b.pdf [accessed 8/24/2016]
+[^37]: Specification of the Bluetooth System version 1.0 B, Bluetooth Special Interest Group, 1999; https://people.inf.ethz.ch/hvogt/proj/btmp3/Datasheets/Bluetooth_11_Specifications_Book.pdf [accessed 8/24/2016]
 
-[^38]: Security, Bluetooth Smart (Low Energy), 2016; https://developer.bluetooth.org/TechnologyOverview/Pages/LE-Security.aspx [accessed 8/24/2016]
+[^38]: Security, Bluetooth Smart (Low Energy), 2016; https://www.bluetooth.com/bluetooth-resources/le-security-study-guide/ [accessed 8/24/2016]
 
 [^39]: S. Cobb, "QR Codes and NFC Chips: Preview-and-authorize should be default", blog, 23 Apr. 2012; www.welivesecurity.com/2012/04/23/qr-codes-and-nfc-chips-preview-and-authorize-should-be-default/ [accessed 8/24/2016]
 
@@ -99,7 +99,7 @@
 
 [^51]: G. Williams, "4 Surprising Ways Your Identity Can Be Stolen," U.S. News & World Report, 9 June 2015; http://money.usnews.com/money/personal-finance/articles/2015/06/09/4-surprising-ways-your-identity-can-be-stolen
 
-[^52]: AT&T SIM-Card Switch Scam, New York Department of State; www.dos.ny.gov/consumerprotection/scams/att-sim.html [accessed 8/23/16].
+[^52]: AT&T SIM-Card Switch Scam, New York Department of State; https://www.nbcnewyork.com/investigations/sim-swapping-how-the-latest-cellphone-hacking-scam-works-and-how-to-protect-yourself/3686051/ [accessed 8/23/16].
 
 [^53]: R. Chirgwin, "This is what a root debug backdoor in a Linux kernel looks like," The Register, 9 May. 2016; www.theregister.co.uk/2016/05/09/allwinners_allloser_custom_kernel_has_a_nasty_root_backdoor/ [accessed 8/26/2016]
 
@@ -111,15 +111,15 @@
 
 [^57]: J. Oberheide and Z. Lanier, "Team Joch vs. Android", presented at ShmooCon 2011, 28-30 Jan. 2011, slide 54; https://jon.oberheide.org/files/shmoo11-teamjoch.pdf [accessed 8/25/2016]
 
-[^61]: L. Neely, Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices, SANS Institute, 2016; www.sans.org/reading-room/whitepapers/analyst/mobile-threat-protection-holistic-approach-securing-mobile-data-devices-36715 [accessed 8/25/2016]
+[^61]: L. Neely, Mobile Threat Protection: A Holistic Approach to Securing Mobile Data and Devices, SANS Institute, 2016; https://docs.broadcom.com/doc/sans-mobile-threat-protection-a-holistic-approach [accessed 8/25/2016]
 
 [^62]: S. Fahl et al., "Why Eve and Mallory Love Android: An Analysis of Android SSL (In)Security", in Proceedings of the 2012 ACM conference on Computer and Communications Security, 2012, pp. 50-61; http://dl.acm.org/citation.cfm?id=2382205 [accessed 8/25/2016]
 
-[^63]: D. Sounthiraraj et al., "SMV-HUNTER: Large Scale, Automated Detection of SSL/TLS Man-in-the-Middle Vulnerabilities in Android Apps", in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; www.internetsociety.org/sites/default/files/10_3_1.pdf [accessed 8/25/2016]
+[^63]: D. Sounthiraraj et al., "SMV-HUNTER: Large Scale, Automated Detection of SSL/TLS Man-in-the-Middle Vulnerabilities in Android Apps", in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; https://web.cse.ohio-state.edu/~lin.3021/file/NDSS14b.pdf [accessed 8/25/2016]
 
 [^64]: A. Mettler et al., "SSL Vulnerabilities: Who Listens When Android Applications Talk?", 20 Aug. 2014; www.fireeye.com/blog/threat-research/2014/08/ssl-vulnerabilities-who-listens-when-android-applications-talk.html [accessed 8/25/2016]
 
-[^65]: J. Montelibano and W. Dormann, How We Discovered Thousands of Vulnerable Android Apps in 1 Day, presented at RSA Conference USA 2015, 19 Apr. 2015;  www.rsaconference.com/writable/presentations/file_upload/hta-t08-how-we-discovered-thousands-of-vulnerable-android-apps-in-1-day_final.pdf [accessed 8/25/2016]
+[^65]: J. Montelibano and W. Dormann, How We Discovered Thousands of Vulnerable Android Apps in 1 Day, presented at RSA Conference USA 2015, 19 Apr. 2015; https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=442543 [accessed 8/25/2016]
 
 [^66]: Fandango, Credit Karma Settle FTC Charges that They Deceived Consumers By Failing to Securely Transmit Sensitive Personal Information, Federal Trade Commission, 28 Mar. 2014; www.ftc.gov/news-events/press-releases/2014/03/fandango-credit-karma-settle-ftc-charges-they-deceived-consumers [accessed 8/25/2016]
 
@@ -129,7 +129,7 @@
 
 [^69]: "[Vulnerability Identifier]: LOOK-11-001, blog, 1 Feb. 2011; https://blog.lookout.com/look-11-001/ [accessed 8/25/2016]"
 
-[^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://media.defcon.org/DEF CON 24/DEF CON 24 presentations/DEFCON-24-Adam-Donenfeld-Stumping-The-Mobile-Chipset.pdf [accessed 8/25/2016]
+[^70]: A. Donenfeld, Stumping the Mobile Chipset, presented at DEFCON 24, 7 Aug. 2016; https://kipdf.com/stumping-the-mobile-chipset_5afc4b768ead0ed8128b4574.html [accessed 8/25/2016]
 
 [^71]: A. Brandt, "Android Towelroot Exploit Used to Deliver Dogspectus Ransomware", blog, 25 Apr. 2016; www.bluecoat.com/security-blog/2016-04-25/android-exploit-delivers-dogspectus-ransomware [accessed 8/25/2016]
 
@@ -149,11 +149,11 @@
 
 [^79]: "WebView addJavaScriptInterface Remote Code Execution", 24 Sept. 2013; https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/ [accessed 8/25/2016]
 
-[^80]: F. Long, "DRD13. Do not provide addJavascriptInterface method access in a WebView which could contain untrusted content. (API level JELLY_BEAN or below)", 8 Apr. 2015; www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=129859614 [accessed 8/25/2016]
+[^80]: F. Long, "DRD13. Do not provide addJavascriptInterface method access in a WebView which could contain untrusted content. (API level JELLY_BEAN or below)", 8 Apr. 2015; https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=87150717 [accessed 8/25/2016]
 
 [^81]: T. Sutcliffe, "Remote code execution on Android devices", blog, 31 July 2014; https://labs.bromium.com/2014/07/31/remote-code-execution-on-android-devices/ [accessed 8/25/2016]
 
-[^82]: D. Andzakovic, FortiClient Multiple Vulnerabilities, vulnerability disclosure, 29 Jan. 2015; www.security-assessment.com/files/documents/advisory/Fortinet_FortiClient_Multiple_Vulnerabilities.pdf [accessed 8/25/2016]
+[^82]: D. Andzakovic, FortiClient Multiple Vulnerabilities, vulnerability disclosure, 29 Jan. 2015; https://www.fortiguard.com/psirt_policy[accessed 8/25/2016]
 
 [^83]: The Google Android Security Team's Classifications for Potentially Harmful Applications, Apr. 2016; https://static.googleusercontent.com/media/source.android.com/en//security/reports/Google_Android_Security_PHA_classifications.pdf [accessed 8/25/2016]
 
@@ -165,21 +165,21 @@
 
 [^87]: Unauthorized App Discovered, in Incident Response for Android and iOS, www.nowsecure.com/resources/mobile-incident-response/en/case-studies/unauthorized-app-discovered.html [accessed 8/25/2016]
 
-[^88]: M. Kelly, "Cloned banking app stealing usernames sneaks into Google Play", blog, 24 June 2014; https://blog.lookout.com/blog/2014/06/24/bankmirage/ [accessed 8/25/2016]
+[^88]: M. Kelly, "Cloned banking app stealing usernames sneaks into Google Play", blog, 24 June 2014; https://www.lookout.com/blog/bankmirage [accessed 8/25/2016]
 
-[^89]: D. Richardson, "Change to sideloading apps in iOS 9 is a security win", blog, 10 Sept. 2015; https://blog.lookout.com/blog/2015/09/10/ios-9-sideloading/ [accessed 8/25/2016]
+[^89]: D. Richardson, "Change to sideloading apps in iOS 9 is a security win", blog, 10 Sept. 2015; http://www.stratusvideo.org/download/stratus_video-ios9_trust.pdf [accessed 8/25/2016]
 
 [^90]: Mobile Security: Threats and Countermeasures, white paper, MobileIron; www.mobileiron.com/sites/default/files/security/Mobile-Security-Threats-and-Countermeasures-WP-MKT-6361-V1.pdf [accessed 8/25/2016]
 
-[^91]: D. Richardson, "Jailbreaking not a requirement for infecting iPhones with Hacking Team spyware", blog, 10 July 2015; https://blog.lookout.com/blog/2015/07/10/hacking-team/ [accessed 8/25/2016]
+[^91]: D. Richardson, "Jailbreaking not a requirement for infecting iPhones with Hacking Team spyware", blog, 10 July 2015; https://www.lookout.com/blog/hacking-team [accessed 8/25/2016]
 
 [^92]: L. Sun, et al., "Pawn Storm Update: iOS Espionage App Found", blog, 4 Feb. 2015; http://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-update-ios-espionage-app-found/ [accessed 8/25/2016]
 
 [^93]: C. Xiao, "WireLurker: A New Era in OS X and iOS Malware", blog, 5 Nov. 2014; http://researchcenter.paloaltonetworks.com/2014/11/wirelurker-new-era-os-x-ios-malware/ [accessed 8/25/2016]
 
-[^94]: C. Page, "MKero: Android malware secretly subscribes victims to premium SMS services", The Inquirer, 9 Sept. 2015; www.theinquirer.net/inquirer/news/2425201/mkero-android-malware-secretly-subscribes-victims-to-premium-sms-services [accessed 8/25/2016]
+[^94]: C. Page, "MKero: Android malware secretly subscribes victims to premium SMS services", The Inquirer, 9 Sept. 2015; https://news.softpedia.com/news/android-malware-secretly-subscribes-victims-to-premium-sms-services-491264.shtml [accessed 8/25/2016]
 
-[^95]: T. Espiner, "Chinese Android botnet 'netting millions', says Symantec", ZDNet, 10 Feb. 2012; www.zdnet.com/article/chinese-android-botnet-netting-millions-says-symantec/ [accessed 8/25/2016]
+[^95]: T. Espiner, "Chinese Android botnet 'netting millions', says Symantec", ZDNet, 10 Feb. 2012; https://www.zdnet.com/google-amp/article/chinese-android-botnet-netting-millions-says-symantec/[accessed 8/25/2016]
 
 [^96]: C. Zheng, et al., "New Android Trojan XBot Phishes Credit Cards and Bank Accounts, Encrypts Devices for Ransom", blog, 18 Feb. 2016; http://researchcenter.paloaltonetworks.com/2016/02/new-android-trojan-xbot-phishes-credit-cards-and-bank-accounts-encrypts-devices-for-ransom/ [accessed 8/25/2016]
 
@@ -193,7 +193,7 @@
 
 [^101]: P. Ducklin, "How to clean up the Duh iPhone worm", Naked Security, Sophos, 24 Nov. 2009; https://nakedsecurity.sophos.com/2009/11/24/clean-up-iPhone-worm/ [accessed 8/25/2016]
 
-[^102]: C. Dehghanpoor, "Brain Test re-emerges: 13 apps found in Google Play", blog, 6 Jan. 2016; https://blog.lookout.com/blog/2016/01/06/brain-test-re-emerges/ [accessed 8/25/2016]
+[^102]: C. Dehghanpoor, "Brain Test re-emerges: 13 apps found in Google Play", blog, 6 Jan. 2016; https://www.lookout.com/blog/brain-test-re-emerges [accessed 8/25/2016]
 
 [^103]: V. Chebyshev and R. Unuchek, "Mobile Malware Evolution: 2013", blog, 24 Feb. 2014; https://securelist.com/analysis/kaspersky-security-bulletin/58335/mobile-malware-evolution-2013/ [accessed 8/25/2016]
 
@@ -201,7 +201,7 @@
 
 [^105]: A.P. Felt and D. Wagner, Phishing on Mobile Devices, presented at Web 2.0 Security & Privacy 2011, 26 May 2011; http://w2spconf.com/2011/papers/felt-mobilephishing.pdf [accessed 8/25/2016]
 
-[^106]: R. Hassell, Exploiting Androids for Fun and Profit, presented at Hack In The Box Security Conference 2011, 12-13 Oct. 2011; http://conference.hitb.org/hitbsecconf2011kul/materials/D1T1 - Riley Hassell - Exploiting Androids for Fun and Profit.pdf [accessed 8/25/2016]
+[^106]: R. Hassell, Exploiting Androids for Fun and Profit, presented at Hack In The Box Security Conference 2011, 12-13 Oct. 2011;  https://conference.hitb.org/hitbsecconf2011kul/materials/D1T1%20-%20Riley%20Hassell%20-%20Exploiting%20Androids%20for%20Fun%20and%20Profit.pdf [accessed 8/25/2016]
 
 [^107]: W. Zhou et al., "The Latest Android Overlay Malware Spreading via SMS Phishing in Europe", blog, 28 June 2016; www.fireeye.com/blog/threat-research/2016/06/latest-android-overlay-malware-spreading-in-europe.html [accessed 8/25/2016]
 
@@ -217,11 +217,11 @@
 
 [^113]: L. Fair, "Device Squad: The story behind the FTC's first case against a mobile device maker", blog, 22 Feb. 2013; www.ftc.gov/news-events/blogs/business-blog/2013/02/device-squad-story-behind-ftcs-first-case-against-mobile [accessed 8/25/2016]
 
-[^114]: Check Point Security Team, "Certifi-gate: Hundreds of Millions of Android Devices Could Be Pwned", blog, 6 Aug. 2015; http://blog.checkpoint.com/2015/08/06/certifigate/ [accessed 8/25/2016]
+[^114]: Check Point Security Team, "Certifi-gate: Hundreds of Millions of Android Devices Could Be Pwned", blog, 6 Aug. 2015; https://blog.checkpoint.com/2015/08/06/certifigate/ [accessed 8/25/2016]
 
-[^115]: "Samsung Keyboard Security Risk Disclosed", 16 June 2015; www.nowsecure.com/keyboard-vulnerability/ [accessed 8/25/2016]
+[^115]: "Samsung Keyboard Security Risk Disclosed", 16 June 2015; https://threatpost.com/samsungs-swift-keyboard-update-mechanism-exposes-600m-devices/113348/ [accessed 8/25/2016]
 
-[^116]: CBS App & Mobility Website, Wandera Threat Advisory No. 192, Wandera, 23 Mar. 2016; www.wandera.com/resources/dl/TA_CBS.pdf [accessed 8/24/2016]
+[^116]: K. Arya, How malware steals autofill data from browsers, ITProPortal, 23 Apr. 2018; [www.wandera.com/resources/dl/TA_CBS.pdf](https://www.itproportal.com/features/five-ways-mobile-apps-are-putting-your-credentials-at-risk/) [accessed 8/1/2022]
 
 [^117]: The Fork, Wandera Threat Advisory No. 154, Wandera, 14 Jan. 2016; www.wandera.com/resources/dl/TA_The_Fork.pdf [accessed 8/24/2016]
 
@@ -241,7 +241,7 @@
 
 [^126]: T. Simonite, "Black Hat: Google Glass Can Steal Your Passcodes", MIT Technology Review, 7 Aug. 2014; www.technologyreview.com/s/529896/black-hat-google-glass-can-steal-your-passcodes/ [accessed 8/25/2016]
 
-[^127]: L. Tung, "iOS 9 LockScreen Bypass Exposes Photos and Contacts", ZDNet, 24 Sept. 2015; www.zdnet.com/article/ios-9-lockscreen-bypass-exposes-photos-and-contacts/ [accessed 8/25/2016]
+[^127]: L. Tung, "iOS 9 LockScreen Bypass Exposes Photos and Contacts", ZDNet, 24 Sept. 2015; https://www.zdnet.com/google-amp/article/ios-9-lockscreen-bypass-exposes-photos-and-contacts/ [accessed 8/25/2016]
 
 [^128]: S. Hill, "Your Smartphone Isn't As Safe As You'd Think, Techradar, 29 Nov. 2013; www.techradar.com/us/news/phone-and-communications/mobile-phones/your-smartphone-pin-isn-t-as-safe-as-you-d-think-1203510 [accessed 8/25/2016]
 
@@ -253,13 +253,13 @@
 
 [^132]: J. Trader, "Liveness Detection to Fight Biometric Spoofing", blog, 22 July 2014; http://blog.m2sys.com/scanning-and-efficiency/liveness-detection-fight-biometric-spoofing/ [accessed 8/25/2016]
 
-[^133]: M. Rogers "Why I hacked TouchID (again) and still think it's awesome", blog, 23 Sept. 2016; https://blog.lookout.com/blog/2014/09/23/iphone-6-touchid-hack; [accessed 8/25/2016]
+[^133]: M. Rogers "Why I hacked TouchID (again) and still think it's awesome", blog, 23 Sept. 2016; https://www.globalsecuritymag.com/Marc-Rogers-Loockout-Why-I-hacked,20140923,47611.html; [accessed 8/25/2016]
 
-[^134]: D. Richardson, "Using Spoofed Wi-Fi to Attack Mobile Devices", blog, 21 Apr. 2016; https://blog.lookout.com/blog/2016/04/21/spoofed-wi-fi-60-minutes/ [accessed 8/25/2016]
+[^134]: D. Richardson, "Using Spoofed Wi-Fi to Attack Mobile Devices", blog, 21 Apr. 2016; https://www.lookout.com/blog/spoofed-wifi-60-minutes [accessed 8/25/2016]
 
 [^135]: SRLabs, "iPhone 5S Touch ID susceptible to fingerprint spoofs", YouTube video, 25 Sept. 2013; www.youtube.com/watch?v=h1n_tS9zxMc [accessed 8/25/2016]
 
-[^136]: "Man-in-the-Middle Attack", 31 Aug. 2015; www.owasp.org/index.php/Man-in-the-middle_attack [accessed 8/25/2016]
+[^136]: "Man-in-the-Middle Attack", 31 Aug. 2015; https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack [accessed 8/25/2016]
 
 [^137]: Mobile Top 10 2016, Mar. 2016; www.owasp.org/index.php/ Mobile_Top_10_2016-Top_10 - M1 [accessed 8/25/2016]
 
@@ -275,7 +275,7 @@
 
 [^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365.
 
-[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-Slides.pdf [accessed 8/25/2016]
+[^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://dl.acm.org/doi/pdf/10.1145/1920261.1920314?casa_token=5XmsJ5lz06EAAAAA:HavUpmf81lNQ74ooinjWS1BZkQMkfhsbWJwFwa3UEieHGYKTCmv-TSwwaHRQhz-I4XFzdzkDHEOA  [accessed 8/25/2016]
 
 [^145]: M. Brignall, "Sim-Swap Fraud Claims Another Mobile Banking Victim", The Guardian, 16 Apr. 2016; www.theguardian.com/money/2016/apr/16/sim-swap-fraud-mobile-banking-fraudsters  [accessed 8/25/2016]
 
@@ -315,7 +315,7 @@
 
 [^166]: J. Cichonski, J.M. Franklin, and M. Bartock, NIST Special Publication 800-187: Guide to LTE Security, National Institute of Standards and Technology, 2017; https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-187.pdf [Accessed 3/29/2022]
 
-[^167]: R.P. Jover, LTE Security and Protocol Exploits, presented at ShmooCon, 3 Jan. 2016; www.ee.columbia.edu/~roger/ShmooCon_talk_final_01162016.pdf [accessed 8/23/2016]
+[^167]: R.P. Jover, LTE Security and Protocol Exploits, presented at ShmooCon, 3 Jan. 2016; https://arxiv.org/pdf/1607.05171.pdf [accessed 8/23/2016]
 
 [^168]: J. Vijayan, "Researchers Exploit Cellular Tech Flaws to Intercept Phone Calls", ComputerWorld, 1 Aug. 2013; http://www.computerworld.com/article/2484538/cybercrime-hacking/researchers-exploit-cellular-tech-flaws-to-intercept-phone-calls.html [accessed 8/23/2016]
 
@@ -331,7 +331,7 @@
 
 [^174]: P. Langlois, Toward the HLR: Attacking the SS7 & SIGTRAN Applications, presented at H2HC, Dec. 2009; www.h2hc.org.br/repositorio/2009/files/Philippe.en.pdf [accessed 8/23/2016]
 
-[^175]: K. Nohl, Attacking Phone Privacy, presented at Blackhat, 29 July 2010; https://media.blackhat.com/bh-ad-10/Nohl/BlackHat-AD-2010-Nohl-Attacking-Phone-Privacy-wp.pdf [accessed 8/23/2016]
+[^175]: K. Nohl, Attacking Phone Privacy, presented at Blackhat, 29 July 2010;  https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.470.1482&rep=rep1&type=pdf [accessed 8/23/2016]
 
 [^176]: U. Meyer and S. Wetzel, "A Man-in-the-Middle Attack on UMTS", Proceedings of the 3rd ACM workshop on Wireless security, 2004, pp. 90-97; http://dx.doi.org/10.1145/1023646.1023662 [accessed 8/23/2016]
 
@@ -357,7 +357,7 @@
 
 [^187]: M. Smith, "'Dirty USSD' Code Could Automatically Wipe Your Samsung TouchWize Device (Updated)", Engadget, 25 Oct. 2012; https://www.engadget.com/2012/09/25/dirty-ussd-code-samsung-hack-wipe/ [accessed 8/29/2016]
 
-[^188]: "Remote USSD Code Execution on Android Devices", 29 Oct. 2012, https://www.nowsecure.com/blog/2012/09/25/remote-ussd-code-execution-on-android-devices/ [accessed 8/29/2016]
+[^188]: "Remote USSD Code Execution on Android Devices", 29 Oct. 2012, https://www.nowsecure.com/blog/2017/09/24/remote-ussd-code-execution-on-android-devices/ [accessed 8/29/2016]
 
 [^189]: K. Nohn, Mobile Self-Defense, presented at 31st Chaos Communication Congress, 27 Dec. 2014; https://events.ccc.de/congress/2014/Fahrplan/system/attachments/2493/original/Mobile_Self_Defense-Karsten_Nohl-31C3-v1.pdf [accessed 8/29/2016]
 
@@ -367,7 +367,7 @@
 
 [^192]: C. Xiao, "BackStab: Mobile Backup Data Under Attack from Malware", paloalto, 7 Dec. 2015; http://researchcenter.paloaltonetworks.com/2015/12/backstab-mobile-backup-data-under-attack-from-malware/ [accessed 8/29/2016]
 
-[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://www.paloaltonetworks.com/resources/research/unit42-backstab-mobile-backup-data-under-attack-from-malware.html  [accessed 8/29/2016]
+[^193]: BackStab: Mobile Backup Data Under Attack From Malware, 7 Dec. 2015; https://unit42.paloaltonetworks.com/backstab-mobile-backup-data-under-attack-from-malware/  [accessed 8/29/2016]
 
 [^194]: Elcomsoft Phone Breaker; https://www.elcomsoft.com/eppb.html [accessed 8/29/2016]
 
@@ -415,7 +415,7 @@
 
 [^216]: windknown, "iOS 8.4.1 Kernel Vulnerabilities in AppleHDQGasGaugeControl," Pangu, 08 Sept. 2015; http://blog.pangu.io/ios-8-4-1-kernel-vulns/
 
-[^217]: B. Lau et. al. , Injecting Malware into iOS Devices via Maliscious Chargers, presented at BlackHat, 2013. https://media.blackhat.com/us-13/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16]
+[^217]: B. Lau et. al. , Injecting Malware into iOS Devices via Maliscious Chargers, presented at BlackHat, 2013.  https://papers.put.as/papers/ios/2013/US-13-Lau-Mactans-Injecting-Malware-into-iOS-Devices-via-Malicious-Chargers-WP.pdf [accessed 8/23/16]
 
 [^218]: Threat Advisory Semi Jailbreak; https://www.wandera.com/resources/dl/TA_SemiJailbreak.pdf [accessed 8/23/16]
 
@@ -431,7 +431,7 @@
 
 [^224]: P. Paganini, "Hacking Samsung Galaxy via Modem interface exposed via USB", 13 Apr. 2016; http://securityaffairs.co/wordpress/46287/hacking/hacking-samsung-galaxy.html  [accessed 8/24/2016]
 
-[^225]: "Phone Theft in America: What really happens when your phone gets grabbed", blog, 7 May 2014; https://blog.lookout.com/blog/2014/05/07/phone-theft-in-america/ [accessed 8/25/2016]
+[^225]: "Phone Theft in America: What really happens when your phone gets grabbed", blog, 7 May 2014; https://www.lookout.com/blog/phone-theft-in-america [accessed 8/25/2016]
 
 [^226]: C. Deitrick, Smartphone thefts drop as kill switch usage grows, Consumer Reports, 11 June 2015; http://www.consumerreports.org/cro/news/2015/06/smartphone-thefts-on-the-decline/index.htm [accessed 8/30/2016]
 
@@ -449,7 +449,7 @@
 
 [^233]: P. Warren, "Who's Got Your Old Phone's Data?", The Guardian, 23 Sept. 2008; www.theguardian.com/technology/2008/sep/25/news.mobilephones [accessed 8/31/2016]
 
-[^234]: The Current State of Android Security, infographic, Duo Labs, Jan 2016; https://duo.com/assets/infographics/The State of Android Security 72.png [accessed 8/31/2016]
+[^234]: The Current State of Android Security, infographic, Duo Labs, Jan 2016; https://duo.com/resources/infographics/the-state-of-android-security [accessed 8/31/2016]
 
 [^235]: L. Jordaan and B. von Solms, "A Biometrics-Based Solution to Combat SIM Swap Fraud", in Open Research Problems in Network Security, pp. 70-87, 2011
 
@@ -461,7 +461,7 @@
 
 [^239]: C. Xiao, "Update: XcodeGhost Attacker Can Phish Passwords and Open URLs Through Infected Apps", blog, 18 Sep. 2015;http://researchcenter.paloaltonetworks.com/2015/09/update-xcodeghost-attacker-can-phish-passwords-and-open-urls-though-infected-apps/ [accessed 8/31/16]
 
-[^240]: S. Poeplau et al., "Execute This! Analyzing Unsafe and Malicious Dynamic Code Loading in Android Applications", in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; http://www.internetsociety.org/doc/execute-analyzing-unsafe-and-malicious-dynamic-code-loading-android-applications [accessed 8/31/16]
+[^240]: S. Poeplau et al., "Execute This! Analyzing Unsafe and Malicious Dynamic Code Loading in Android Applications", in Proceedings of the 2014 Network and Distributed System Security Symposium, 2014; https://www.ndss-symposium.org/wp-content/uploads/2017/09/10_5_slides.pdf [accessed 8/31/16]
 
 [^241]: J. Xie et al., "Hot or Not? The Benefits and Risks of iOS Remote Hot Patching", blog, 27 Jan. 2016; https://www.fireeye.com/blog/threat-research/2016/01/hot_or_not_the_bene.html [accessed 8/31/16]
 
@@ -483,7 +483,7 @@
 
 [^247]: D. Pauli, "Every LTE call, text, can be intercepted, blacked out, hacker finds", The Register, 23 Oct 2016; http://www.theregister.co.uk/2016/10/23/every_lte_call_text_can_be_intercepted_blacked_out_hacker_finds/ [accessed 10/26/2016]
 
-[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://staff.science.uva.nl/j.j.vanderham/cases/wifi-sd-cards.pdf [accessed 10/24/2016]
+[^S-Konstantaras-1]: S. Konstantaras and C. Dillon, _Exploiting Vulnerabilities of Wi-Fi SD cards_, project report, Universiteit van Amsterdam, 1 June 2014; https://dokumen.tips/documents/exploiting-vulnerabilities-of-wi-fi-sd-cards-os3nl-vulnerabilities-of-wi-fi-sd.html [accessed 10/24/2016]
 
 [^Bunnie-1]: bunnie:studios, "On Hacking MicroSD Cards", blog, Dec. 2013; https://www.bunniestudios.com/blog/?p=3554 [accessed 10/24/2016]
 
@@ -523,7 +523,7 @@
 
 [^Ha-1]: A. Ha, "SilverPush Says It's Using Audio Beacons For An Unusual Approach to Cross-Device Ad Targeting", TechCrunch, 24 July 2014; https://techcrunch.com/2014/07/24/silverpush-audio-beacons/ [accessed 05/05/2017]
 
-[^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf [accessed 05/05/2017]
+[^Arp-1]: D. Arp, et al., "Privacy Threats through Ultrasonic Side Channels on Mobile Devices", [white paper], 2017; https://ieeexplore.ieee.org/document/7961950 [accessed 05/05/2017]
 
 [^Artenstein-1]: N. Artenstein, "Broadpwn: Remotely Compromising Android and IOS Via a Bug in the Broadcom Wi-Fi Chipset", [white paper], 2017; https://www.blackhat.com/docs/us-17/thursday/us-17-Artenstein-Broadpwn-Remotely-Compromising-Android-And-iOS-Via-A-Bug-In-Broadcoms-Wifi-Chipsets-wp.pdf [accessed 08/08/2017]
 
@@ -555,6 +555,7 @@
 
 [^306]: B. Donohue, _Weak Encryption Enables SIM Card Root Attack_, threat post, blog, 1 Aug. 2013; https://threatpost.com/weak-encryption-enables-sim-card-root-attack/101557/ [accessed 12/03/2019]
 
-[^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
+[^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://www.srlabs.de/bites/new-sim-attacks [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
