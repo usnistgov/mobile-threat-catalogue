@@ -385,7 +385,7 @@
 
 [^201]: R. Konoth, V. van der Veen et al., "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016.
 
-[^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://media.blackhat.com/us-13/US-13-Forristal-Android-One-Root-to-Own-Them-All-Slides.pdf [accessed 8/24/2016]
+[^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://www.slideserve.com/debbie/one-root-to-own-them-all [accessed 7/26/2022]
 
 [^203]: J. Timmer, "UAE cellular carrier rolls out spyware as a 3G 'update'", Ars Technica, 23 Jul 2009; http://arstechnica.com/business/2009/07/mobile-carrier-rolls-out-spyware-as-a-3g-update/ [accessed 8/23/2016]
 
@@ -558,3 +558,5 @@
 [^307]: Security Research Labs, _New SIM attacks de-mystified, protection tools now available_, blog; https://srlabs.de/bites/sim_attacks_demystified/ [accessed 12/03/2019]
 
 [^308]: Wikipedia, _Side-channel attack_; https://en.wikipedia.org/wiki/Side-channel_attack [accessed 12/09/2019]
+
+[^309]: Brett Giller, "Implementing Practical Electrical Glitching Attacks", PowerPoint, Nov 2015, https://www.blackhat.com/docs/eu-15/materials/eu-15-Giller-Implementing-Electrical-Glitching-Attacks.pdf [accessed 8/3/2022]
