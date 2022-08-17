@@ -57,7 +57,7 @@
 
 [^30]: L. Carettoni, C. Merloni and S. Zanero, "Studying Bluetooth Malware Propagation: The BlueBag Project", Proceedings of the 2007 IEEE Symposium on Security and Privacy, pp. 17-25, 2007; http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4140986 [accessed 8/24/2016]
 
-[^31]: Z. Wang et al., "Implementation and Analysis of a Practical NFC Relay Attack Example", in Proceedings of the 2012 Second International Conference on Instrumentation, Measurement, Computer, Communication, and Control, 2012, pp 143-146.
+[^31]: Z. Wang et al., "Implementation and Analysis of a Practical NFC Relay Attack Example", in Proceedings of the 2012 Second International Conference on Instrumentation, Measurement, Computer, Communication, and Control, 2012, pp 143-146, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6428872 [accessed 8/1/2022].
 
 [^32]: M. Maass et al., Demo: NFCGate - An NFC Relay Application for Android [Extended Abstract], presented at 8th ACM Conference on Security and Privacy in Wireless and Mobile Networks, 26 June 2015; https://github.com/nfcgate/nfcgate [accessed 8/24/2016]
 
@@ -139,7 +139,7 @@
 
 [^74]: M. Grace et al., "Unsafe Exposure Analysis of Mobile In-App Advertisements", in Proceedings of the Fifth ACM Conference on Security and Privacy in Wireless and Mobile Networks,2012, pp. 101-112; http://dl.acm.org/citation.cfm?id=2185464 [accessed 8/25/2016]
 
-[^75]: S. Guerrero, "eBay for Android Content Provider Injection Vulnerability", blog, 4 Oct. 2013.
+[^75]: J. Rearon et al., "50 Ways to Leak Your Data: An Exploration of Apps’ Circumvention of the Android Permissions System", Federal Trade Commission, https://www.ftc.gov/system/files/documents/public_events/1415032/privacycon2019_serge_egelman.pdf [accessed 8/1/2022]
 
 [^76]: X. Jiang, "Smishing Vulnerability in Multiple Android Platforms (including Gingerbread, Ice Cream Sandwich, and Jelly Bean)", 28 Nov. 2012; www.csc.ncsu.edu/faculty/jiang/smishing.html [accessed 8/25/2016]
 
@@ -209,7 +209,7 @@
 
 [^109]: T. Fox-Brewster, "Hackers Sneak Malware Into Apple App Store 'To Steal iCloud Passwords'", Forbes, 18 Sept. 2015; www.forbes.com/sites/thomasbrewster/2015/09/18/xcodeghost-malware-wants-your-icloud/ [accessed 8/25/2016]
 
-[^110]: Internet Security Threat Report vol. 21, Symantec, 2016.
+[^110]: Internet Security Threat Report vol. 21, Symantec, 2016; https://docs.broadcom.com/doc/istr-16-april-volume-21-en [accessed 8/1/2022]
 
 [^111]: T. Wang et al., "Jekyll on iOS: When Benign Apps Become Evil", in Proceedings of the 22nd USENIX Security Symposium, 2013; www.usenix.org/system/files/conference/usenixsecurity13/sec13-paper_wang_2.pdf [accessed 8/25/2016]
 
@@ -269,11 +269,11 @@
 
 [^140]: A. Wulf, "Stealing Passwords is Easy in Native Mobile Apps Despite OAuth", blog, 12 Jan. 2011; http://welcome.totheinter.net/2011/01/12/stealing-passwords-is-easy-in-native-mobile-apps-despite-oauth/ [accessed 8/25/2016]
 
-[^141]: W. Denniss and J. Bradley, "OAuth 2.0 for Native Apps", IETF Internet Draft, work in progress, July 2016.
+[^141]: W. Denniss and J. Bradley, "OAuth 2.0 for Native Apps", IETF Internet Draft, work in progress, July 2016; https://datatracker.ietf.org/doc/html/draft-wdenniss-oauth-native-apps [accessed 8/1/2022]
 
 [^142]: J.F. Miller, "Supply Chain Attack Framework and Attack Patterns", tech. report, MITRE, Dec. 2013;   www.mitre.org/sites/default/files/publications/supply-chain-attack-framework-14-0228.pdf
 
-[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365.
+[^143]: Z. Wang and A. Stavrou, "Exploiting Smart-Phone USB Connectivity for Fun and Profit", in Proceedings of 26th Annual Computer Security Applications Conference, 2010, pp. 357-365; https://dl.acm.org/doi/pdf/10.1145/1920261.1920314?casa_token=5XmsJ5lz06EAAAAA:HavUpmf81lNQ74ooinjWS1BZkQMkfhsbWJwFwa3UEieHGYKTCmv-TSwwaHRQhz-I4XFzdzkDHEOA [accessed 8/1/2022]
 
 [^144]: A. Stavrou, Z. Wang, Exploiting Smart-Phone USB Connectivity For Fun And Profit, presented at Blackhat, 4 Aug. 2011; https://media.blackhat.com/bh-dc-11/Stavrou-Wang/BlackHat_DC_2011_Stavrou_Zhaohui_USB_exploits-Slides.pdf [accessed 8/25/2016]
 
@@ -319,7 +319,7 @@
 
 [^168]: J. Vijayan, "Researchers Exploit Cellular Tech Flaws to Intercept Phone Calls", ComputerWorld, 1 Aug. 2013; http://www.computerworld.com/article/2484538/cybercrime-hacking/researchers-exploit-cellular-tech-flaws-to-intercept-phone-calls.html [accessed 8/23/2016]
 
-[^169]: J. Kakar et al. "Analysis and Mitigation of Interference to the LTE Physical Control Format Indicator Channel", in Proceedings of 2014 IEEE Military Communications Conference, 2014, pp. 228-234.
+[^169]: J. Kakar et al. "Analysis and Mitigation of Interference to the LTE Physical Control Format Indicator Channel", in Proceedings of 2014 IEEE Military Communications Conference, 2014, pp. 228-234 https://ur.booksc.me/book/41779255/a4e867 [accessed 8/1/2022]
 
 [^170]: C.-Y. Li et al. "Insecurity of Voice Solution VoLTE in LTE Mobile Networks", In Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, 2015, pp. 316-327; http://dx.doi.org/10.1145/2810103.2813618 [accessed 8/23/2016]
 
@@ -339,11 +339,11 @@
 
 [^178]: C. Feest, Protecting Mobile Networks from SS7 Attacks, white paper, Telesoft Technologies Inc., 2015; http://telesoft-technologies.com/document-library/milborne-ss7-firewall-ips/12-telesoft-whitepaper-protecting-mobile-networks-from-ss7-attacks/file [accessed 8/23/2016]
 
-[^179]: H. Hu and N. Wei, "A Study of GPS Jamming and Anti-Jamming", in Proceedings of Power Electronics and Intelligent Transportation System (PEITS), 2009 2nd International Conference on, 2009, pp. 388-391.
+[^179]: H. Hu and N. Wei, "A Study of GPS Jamming and Anti-Jamming", in Proceedings of Power Electronics and Intelligent Transportation System (PEITS), 2009 2nd International Conference on, 2009, pp. 388-391; https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5406988&tag=1 [accessed 8/1/2022]
 
 [^180]: D. DePerry and T. Ritter, I Can Hear You Now: Traffic Interception and Remote Mobile Phone Cloning with a Compromised CDMA Femtocell, presented at DEFCON 21, 2 Aug. 2013; www.defcon.org/images/defcon-21/dc-21-presentations/DePerry-Ritter/DEFCON-21-DePerry-Ritter-Femtocell-Updated.pdf [accessed 8/29/2016]
 
-[^181]: G.-H. Tu et al., "How Voice Call Technology Poses Security Threats in 4G LTE Networks", in Proceedings of 2015 IEEE Conference on Communications and Network Security (CNS), 2015.
+[^181]: G.-H. Tu et al., "How Voice Call Technology Poses Security Threats in 4G LTE Networks", in Proceedings of 2015 IEEE Conference on Communications and Network Security (CNS), 2015; https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7346856 [accessed 8/1/2022]
 
 [^182]: Z. Lackey, Attacking SMS, presented at Blackhat, 30 July 2009; www.blackhat.com/presentations/bh-usa-09/LACKEY/BHUSA09-Lackey-AttackingSMS-SLIDES.pdf [accessed 8/29/2016]
 
@@ -363,7 +363,7 @@
 
 [^190]: "New VMSA-2014-0014 - AirWatch by VMWare Product Update Addresses Information Disclosure Vulnerabilities", 10 Dec. 2014; http://seclists.org/fulldisclosure/2014/Dec/44 [accessed 8/29/2016]
 
-[^191]: G. Lorenz et al., "Securing SS7 Telecommunications Networks", in Workshop on Information Assurance and Security vol. 2, 2001.
+[^191]: G. Lorenz et al., "Securing SS7 Telecommunications Networks", in Workshop on Information Assurance and Security vol. 2, 2001; https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.480.2222&rep=rep1&type=pdf [accessed 8/1/2022]
 
 [^192]: C. Xiao, "BackStab: Mobile Backup Data Under Attack from Malware", paloalto, 7 Dec. 2015; http://researchcenter.paloaltonetworks.com/2015/12/backstab-mobile-backup-data-under-attack-from-malware/ [accessed 8/29/2016]
 
@@ -383,13 +383,13 @@
 
 [^200]: J. Oberheide, "How I Almost Won Pwn2Own via XSS", 07 Mar. 2011; https://jon.oberheide.org/blog/2011/03/07/how-i-almost-won-pwn2own-via-xss/ [accessed 8/25/2016]
 
-[^201]: R. Konoth, V. van der Veen et al., "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016.
+[^201]: R. Konoth, V. van der Veen et al., "How Anywhere Computing Just Killed Your Phone-Based Two-Factor Authentication", in Proceedings of the 20th Conference on Financial Cryptography and Data Security, 2016; https://vvdveen.com/publications/BAndroid.pdf [accessed 8/1/2022]
 
 [^202]: J. Forristal, Android: One Root to Own Them All, presented at Blackhat, 2013; https://media.blackhat.com/us-13/US-13-Forristal-Android-One-Root-to-Own-Them-All-Slides.pdf [accessed 8/24/2016]
 
 [^203]: J. Timmer, "UAE cellular carrier rolls out spyware as a 3G 'update'", Ars Technica, 23 Jul 2009; http://arstechnica.com/business/2009/07/mobile-carrier-rolls-out-spyware-as-a-3g-update/ [accessed 8/23/2016]
 
-[^204]: Government Mobile and Wireless Security Baseline, CIO Council, 23 May 2013
+[^204]: Government Mobile and Wireless Security Baseline, CIO Council, 23 May 2013; https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/1151/downloads/2013/05/Federal-Mobile-Security-Baseline.pdf [accessed 8/1/2022]
 
 [^205]: Y. Amit, "Malicious Profiles - The Sleeping Giant of iOS Security", Skycure Blog, 12 Mar. 2013; https://www.skycure.com/blog/malicious-profiles-the-sleeping-giant-of-ios-security/ [accessed 8/23/2016]
 
@@ -451,7 +451,7 @@
 
 [^234]: The Current State of Android Security, infographic, Duo Labs, Jan 2016; https://duo.com/assets/infographics/The State of Android Security 72.png [accessed 8/31/2016]
 
-[^235]: L. Jordaan and B. von Solms, "A Biometrics-Based Solution to Combat SIM Swap Fraud", in Open Research Problems in Network Security, pp. 70-87, 2011
+[^235]: L. Jordaan and B. von Solms, "A Biometrics-Based Solution to Combat SIM Swap Fraud", in Open Research Problems in Network Security, pp. 70-87, 2011; https://dl.ifip.org/db/conf/ifip11-4/inetsec2010/JordaanS10.pdf [accessed 8/1/2022]
 
 [^236]: Juniper Networks Third Annual Mobile Threats Report, white paper, Juniper Networks; http://www.juniper.net/us/en/local/pdf/additional-resources/jnpr-2012-mobile-threats-report.pdf [accessed 8/31/16]
 
@@ -467,13 +467,13 @@
 
 [^242]: M. Thompson, "Method Swizzling", blog, 17 Feb. 2014; http://nshipster.com/method-swizzling/ [accessed 8/31/16]
 
-[^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016
+[^243]: S. Skorobogatov, "The bumpy road towards iPhone 5c NAND mirroring," University of Cambridge Computer Laboratory, Cambridge, MA, 2016; https://webamooz.com/wp-content/uploads/bot/offsecmag/273.pdf [accessed 8/1/2022]
 
 [^250]: Secure Element Deployment & Host Card Emulation v1.0, white paper, SIMalliance, 2014; http://simalliance.org/wp-content/uploads/2015/03/Secure-Element-Deployment-Host-Card-Emulation-v1.0.pdf [accessed 10/24/2016]
 
 [^251]: Host Card Emulation (HCE) 101, white paper MNFCC-14002, Smart Card Alliance Mobile & NFC Council, 2014; http://www.smartcardalliance.org/downloads/HCE-101-WP-FINAL-081114-clean.pdf [accessed 10/24/2016]
 
-[^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016.
+[^252]: HCE Payment - How it works and best practices for banks, white paper, Mozido, 2016; https://members.nfcw.com/1980/hce-payment-works-best-practices-banks/ [accessed 8/1/2022]
 
 [^244]: "Keychain Services Programming Guide", Apple, 2016; https://developer.apple.com/library/content/documentation/Security/Conceptual/keychainServConcepts/01introduction/introduction.html [accessed 10/14/2016]
 
@@ -493,7 +493,7 @@
 
 [^Symantec-1]: "Android.Lockdown.E", Symantec, 6 Aug. 2016, www.symantec.com/security_response/writeup.jsp?docid=2014-103005-2209-99 [accessed 11/29/2016]
 
-[^251]: M. Vanhoef et al., "Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Netowrk Discovery Mechanisms.", in Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security, 2016, pp. 413-424.
+[^251]: M. Vanhoef et al., "Why MAC Address Randomization is not Enough: An Analysis of Wi-Fi Netowrk Discovery Mechanisms.", in Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security, 2016, pp. 413-424; https://papers.mathyvanhoef.com/asiaccs2016.pdf [accessed 8/1/2022]
 
 [^248]: M. Humphries, "Touchscreen keylogger created using accelerometer movement during typing", PCMag, 9 Dec. 2011; http://www.geek.com/mobile/touchscreen-keylogger-created-using-accelerometer-movement-during-typing-1420485/ [accessed 11/07/2016]
 
