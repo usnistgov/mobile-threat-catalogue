@@ -5,7 +5,7 @@ ID: LPN-13
 Threat: Malicious NFC tags
 ThreatOrigin: NFC Threat Landscape [^33]
 ThreatDescription: Malicious NFC tags can be created that redirect the user to a malicious website or application, which can install malware on the target device.
-ExploitExample: Exploring the NFC Attack Surface [^34]
+ExploitExample: Near field communication (NFC) technology, vulnerabilities and principal attack schema [^34]
 CVEExample: CVE-2016-3761
 PossibleCountermeasures:
     Mobile Device User:
