@@ -18,7 +18,7 @@
 
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/background/mtc-overview/">MTC Overview</a>
 
-            <h4 class="sidebar-nav-item" onclick="toggleNav('nav-links')" style="cursor: pointer;">Threat Categories<span class="down-caret-nav-links"></span></h4>
+            <a class="sidebar-nav-item" onclick="toggleNav('nav-links')" style="cursor: pointer;">Threat Categories<span class="down-caret-nav-links"></span></a>
             <ul id="nav-links">
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/application.html">Application</a></li>
                 <li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/authentication.html">Authentication</a></li>
