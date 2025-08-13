@@ -405,7 +405,7 @@
 
 [^211]: K. Nohl, Rooting SIM cards, presented at BlackHat, 2013. https://infocondb.org/con/black-hat/black-hat-usa-2013/rooting-sim-cards [accessed 7/27/22]
 
-[^212]: H. Ko and R. Caytiles, "A Review of Smartcard Security Issues," Journal of Security Engineering, 8, no. 3 (2011): 6. https://docplayer.net/23347975-A-review-of-smartcard-security-issues.html [accessed 10/11/21]
+[^212]: H. Ko and R. Caytiles, "A Review of Smartcard Security Issues," Journal of Security Engineering, 8, no. 3 (2011): 6. https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10947607 [accessed 08/13/25]
 
 [^213]: zLabs, "Zimperium Applauds Google's Rapid Response to Unpatched Kernel Exploit," Zimperium, 25 Mar. 2016; https://blog.zimperium.com/zimperium-applauds-googles-rapid-response-to-unpatched-kernel-exploit/
 
